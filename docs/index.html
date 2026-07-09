@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sudo-skills — SUDO-AI skill registry</title>
+<meta name="description" content="Community skill registry for SUDO-AI. Browse and install SKILL.md behavior packs.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1d21; --muted: #5c6470; --card: #f6f8fa;
+    --border: #d8dee4; --accent: #0b7285; --chip: #e7f5f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --fg: #e6edf3; --muted: #8b949e; --card: #161b22;
+      --border: #30363d; --accent: #4dd0e1; --chip: #10333a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2rem 1rem 4rem; background: var(--bg); color: var(--fg);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  h1 .lobster { font-size: 1.4rem; }
+  .sub { color: var(--muted); margin: 0 0 1.5rem; }
+  .sub code { background: var(--card); border: 1px solid var(--border); border-radius: 5px; padding: .1em .4em; font-size: .85em; }
+  #search {
+    width: 100%; padding: .6rem .9rem; font-size: 1rem; color: var(--fg);
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 1.25rem;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1rem 1.2rem; margin-bottom: .9rem;
+  }
+  .card h2 { margin: 0; font-size: 1.15rem; }
+  .card h2 a { color: var(--accent); text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: .85rem; margin: .15rem 0 .5rem; }
+  .desc { margin: 0 0 .6rem; }
+  .chips span {
+    display: inline-block; background: var(--chip); color: var(--accent);
+    border-radius: 999px; padding: .08rem .6rem; font-size: .78rem; margin-right: .35rem;
+  }
+  .install {
+    margin-top: .6rem; background: var(--bg); border: 1px dashed var(--border);
+    border-radius: 6px; padding: .45rem .7rem; font-family: ui-monospace, monospace;
+    font-size: .85rem; overflow-x: auto; white-space: nowrap;
+  }
+  .caps { color: var(--muted); font-size: .8rem; margin-top: .45rem; }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; }
+  footer a { color: var(--accent); }
+  #status { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="lobster">🦾</span> sudo-skills</h1>
+  <p class="sub">Community skill registry for <a href="https://github.com/Matrixx0070/sudo-ai" style="color:var(--accent)">SUDO-AI</a>.
+  Machine endpoint: <code>https://sudoapi.shop/index.json</code> · install from chat: <code>install the &lt;name&gt; skill from the registry</code></p>
+  <input id="search" type="search" placeholder="Search skills by name, description, or tag…" autocomplete="off">
+  <div id="list"><p id="status">Loading index…</p></div>
+  <footer>
+    Every install is SHA-256 pinned and passes SUDO-AI's Workshop security gate (injection scan, capability policy, protected paths) before it is written.
+    Add your skill via <a href="https://github.com/Matrixx0070/sudo-skills">pull request</a>.
+  </footer>
+</main>
+<script>
+(async () => {
+  const list = document.getElementById('list');
+  const q = document.getElementById('search');
+  let skills = [];
+  try {
+    const res = await fetch('index.json', { cache: 'no-cache' });
+    const idx = await res.json();
+    skills = idx.skills || [];
+  } catch (e) {
+    document.getElementById('status').textContent = 'Failed to load index.json: ' + e.message;
+    return;
+  }
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const render = (filter) => {
+    const f = (filter || '').trim().toLowerCase();
+    const shown = skills.filter(s => !f ||
+      s.name.toLowerCase().includes(f) ||
+      (s.description || '').toLowerCase().includes(f) ||
+      (s.tags || []).some(t => t.toLowerCase().includes(f)));
+    list.innerHTML = shown.length ? shown.map(s => `
+      <div class="card">
+        <h2><a href="${esc(s.path)}">${esc(s.name)}</a> <span class="meta">v${esc(s.version)}</span></h2>
+        <p class="meta">by ${esc(s.author || 'unknown')}</p>
+        <p class="desc">${esc(s.description || '')}</p>
+        <div class="chips">${(s.tags || []).map(t => `<span>${esc(t)}</span>`).join('')}</div>
+        <div class="install">skill.install { name: "${esc(s.name)}", dryRun: false }</div>
+        <div class="caps">capabilities: ${(s.capabilities && s.capabilities.length) ? esc(s.capabilities.join(', ')) : 'none'} · sha256 ${esc((s.sha256 || '').slice(0, 12))}…</div>
+      </div>`).join('') : '<p id="status">No skills match.</p>';
+  };
+  q.addEventListener('input', () => render(q.value));
+  render('');
+})();
+</script>
+</body>
+</html>

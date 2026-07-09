@@ -1,0 +1,28 @@
+{
+  "registry": "sudo-skills",
+  "schema": 1,
+  "homepage": "https://sudoapi.shop",
+  "updated": "2026-07-09T22:25:00Z",
+  "skills": [
+    {
+      "name": "email-polish",
+      "version": "1.0.0",
+      "description": "Rewrite raw email drafts into a warm, friendly-but-professional tone without changing intent, facts, names, dates, or requests.",
+      "author": "matrixx0070",
+      "path": "skills/email-polish/SKILL.md",
+      "sha256": "c579a80e4f806a130129338b1a64ea13449af2e3b0065cc7bf7ab4cd8ccce36e",
+      "capabilities": ["fs.read"],
+      "tags": ["email", "writing", "tone"]
+    },
+    {
+      "name": "eli5",
+      "version": "1.0.0",
+      "description": "Explain any concept like the listener is five years old - simple words, one concrete analogy, no jargon, without being condescending.",
+      "author": "matrixx0070",
+      "path": "skills/eli5/SKILL.md",
+      "sha256": "39925d0f7295e21390d69c471f19edde1617617d543117ed2901a263bd666b3f",
+      "capabilities": [],
+      "tags": ["writing", "explanation", "teaching"]
+    }
+  ]
+}
