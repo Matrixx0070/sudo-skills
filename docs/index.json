@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-09T22:25:00Z",
+  "updated": "2026-07-10T00:15:00Z",
   "skills": [
     {
       "name": "email-polish",
@@ -23,6 +23,66 @@
       "sha256": "39925d0f7295e21390d69c471f19edde1617617d543117ed2901a263bd666b3f",
       "capabilities": [],
       "tags": ["writing", "explanation", "teaching"]
+    },
+    {
+      "name": "tldr",
+      "version": "1.0.0",
+      "description": "Compress any long text, article, or thread into a one-line takeaway plus the few points that actually matter - without losing caveats that change the meaning.",
+      "author": "matrixx0070",
+      "path": "skills/tldr/SKILL.md",
+      "sha256": "4f1bd942cdd376e96524937a2afb4042526f1d2c7ff1b1a02501ca19e749a00c",
+      "capabilities": [],
+      "tags": ["summarization", "reading", "productivity"]
+    },
+    {
+      "name": "standup-summary",
+      "version": "1.0.0",
+      "description": "Turn raw notes about yesterday's work into a crisp standup update - done / doing / blocked - honest about what actually shipped versus what is in progress.",
+      "author": "matrixx0070",
+      "path": "skills/standup-summary/SKILL.md",
+      "sha256": "115d7a4f694d76aa02065b82336e6a64ca90361646975846bc8b523eac1e02af",
+      "capabilities": [],
+      "tags": ["work", "reporting", "productivity"]
+    },
+    {
+      "name": "meeting-notes",
+      "version": "1.0.0",
+      "description": "Structure a raw meeting transcript into decisions, action items with owners and dates, and open questions - so nothing agreed in the room evaporates afterwards.",
+      "author": "matrixx0070",
+      "path": "skills/meeting-notes/SKILL.md",
+      "sha256": "19070a7378218f913a5ffbc93c7b3ba24687b8b5f63f6731a44cc102a2bbb437",
+      "capabilities": [],
+      "tags": ["meetings", "work", "productivity"]
+    },
+    {
+      "name": "commit-message",
+      "version": "1.0.0",
+      "description": "Write a conventional-commit message from a description or diff summary - honest subject, wrapped body explaining why, no invented scope or claims.",
+      "author": "matrixx0070",
+      "path": "skills/commit-message/SKILL.md",
+      "sha256": "86cbb4d07600eefb3deffa98220be44125a94429e3aab323cb0c473090e845b9",
+      "capabilities": [],
+      "tags": ["git", "developer", "writing"]
+    },
+    {
+      "name": "pros-cons",
+      "version": "1.0.0",
+      "description": "Structure a decision into weighted pros and cons with a recommendation - steelmanning both sides and separating reversible from irreversible consequences.",
+      "author": "matrixx0070",
+      "path": "skills/pros-cons/SKILL.md",
+      "sha256": "e2f4b2a6642a81dd620ec5935f0331c885c77c25ee47c28a91e3e3db3e8bfb1a",
+      "capabilities": [],
+      "tags": ["decisions", "thinking", "productivity"]
+    },
+    {
+      "name": "incident-postmortem",
+      "version": "1.0.0",
+      "description": "Turn raw incident notes and timelines into a blameless postmortem - impact, timeline, root cause chain, what worked, and action items that prevent recurrence.",
+      "author": "matrixx0070",
+      "path": "skills/incident-postmortem/SKILL.md",
+      "sha256": "fff306cbe00eb8815ae57280ebbd2318eaeb224ed995e073f7110d8126894a77",
+      "capabilities": [],
+      "tags": ["incidents", "devops", "writing"]
     }
   ]
 }
