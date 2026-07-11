@@ -1,0 +1,131 @@
+{
+  "registry": "sudo-connectors",
+  "schema": 1,
+  "homepage": "https://sudoapi.shop",
+  "updated": "2026-07-11T17:00:00Z",
+  "connectors": [
+    {
+      "name": "github",
+      "displayName": "GitHub",
+      "description": "GitHub's official MCP server. Repos, issues, PRs, code search, Actions/CI, and more over Streamable HTTP.",
+      "category": "development",
+      "transport": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "authEnvKey": "GITHUB_MCP_PAT",
+      "verified": true,
+      "live": true,
+      "tags": ["git", "code", "ci", "issues", "pull-requests"]
+    },
+    {
+      "name": "playwright",
+      "displayName": "Playwright",
+      "description": "Browser automation MCP server — navigate, click, type, screenshot, and scrape pages via a headless Chromium.",
+      "category": "development",
+      "transport": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"],
+      "verified": true,
+      "live": true,
+      "tags": ["browser", "automation", "scraping", "testing"]
+    },
+    {
+      "name": "filesystem",
+      "displayName": "Filesystem",
+      "description": "Reference MCP server for local filesystem access, scoped to a workspace directory. Read, write, and list files.",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/root/sudo-ai-v4/workspace"],
+      "verified": true,
+      "live": true,
+      "tags": ["files", "local", "workspace"]
+    },
+    {
+      "name": "memory",
+      "displayName": "Knowledge Graph Memory",
+      "description": "Reference MCP server providing a persistent knowledge-graph memory (entities, relations, observations).",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "verified": true,
+      "live": true,
+      "tags": ["memory", "knowledge-graph", "notes"]
+    },
+    {
+      "name": "sequentialthinking",
+      "displayName": "Sequential Thinking",
+      "description": "Reference MCP server for structured step-by-step reasoning and problem decomposition.",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequentialthinking"],
+      "verified": true,
+      "live": true,
+      "tags": ["reasoning", "planning"]
+    },
+    {
+      "name": "gmail",
+      "displayName": "Gmail",
+      "description": "Read, search, and send email in Gmail. Requires Google OAuth — connect interactively rather than via env token.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["email", "google"]
+    },
+    {
+      "name": "google-drive",
+      "displayName": "Google Drive",
+      "description": "Search and read files in Google Drive. Requires Google OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["files", "google", "docs"]
+    },
+    {
+      "name": "slack",
+      "displayName": "Slack",
+      "description": "Read and post messages, list channels, and search a Slack workspace. Requires a Slack app token.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["chat", "team"]
+    },
+    {
+      "name": "notion",
+      "displayName": "Notion",
+      "description": "Read and update Notion pages and databases. Requires a Notion integration token.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["docs", "wiki", "notes"]
+    },
+    {
+      "name": "linear",
+      "displayName": "Linear",
+      "description": "Manage Linear issues, projects, and cycles. Requires a Linear API key / OAuth.",
+      "category": "development",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["issues", "project-management"]
+    },
+    {
+      "name": "sentry",
+      "displayName": "Sentry",
+      "description": "Query Sentry issues and events for error monitoring. Requires a Sentry auth token.",
+      "category": "monitoring",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["errors", "observability"]
+    },
+    {
+      "name": "figma",
+      "displayName": "Figma",
+      "description": "Generate diagrams and read design context from Figma. Requires a Figma access token.",
+      "category": "design",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": ["design", "diagrams"]
+    }
+  ]
+}
