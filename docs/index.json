@@ -2,57 +2,103 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-10T00:15:00Z",
+  "updated": "2026-07-11T18:00:00Z",
   "skills": [
     {
-      "name": "email-polish",
+      "name": "bio-experiment-design",
       "version": "1.0.0",
-      "description": "Rewrite raw email drafts into a warm, friendly-but-professional tone without changing intent, facts, names, dates, or requests.",
+      "description": "Design a rigorous preclinical experiment with hypothesis, controls, power analysis, and pre-registered readouts.",
       "author": "matrixx0070",
-      "path": "skills/email-polish/SKILL.md",
-      "sha256": "c579a80e4f806a130129338b1a64ea13449af2e3b0065cc7bf7ab4cd8ccce36e",
-      "capabilities": ["fs.read"],
-      "tags": ["email", "writing", "tone"]
+      "path": "skills/bio-experiment-design/SKILL.md",
+      "sha256": "9dc4d46657c70251cdbd48fce642f1228caaa15f057fdf2a107ede4bcc62864a",
+      "capabilities": [],
+      "tags": [
+        "experiment-design",
+        "preclinical",
+        "statistics",
+        "power",
+        "controls"
+      ]
     },
     {
-      "name": "eli5",
+      "name": "bio-literature-review",
       "version": "1.0.0",
-      "description": "Explain any concept like the listener is five years old - simple words, one concrete analogy, no jargon, without being condescending.",
+      "description": "Run a structured life-sciences literature search and synthesize findings into a cited, evidence-graded review.",
       "author": "matrixx0070",
-      "path": "skills/eli5/SKILL.md",
-      "sha256": "39925d0f7295e21390d69c471f19edde1617617d543117ed2901a263bd666b3f",
+      "path": "skills/bio-literature-review/SKILL.md",
+      "sha256": "8f87f87fc75fd0ebd72468819b746ab60bd18e6f5a9c34c95f365a9ce7cf0d4e",
       "capabilities": [],
-      "tags": ["writing", "explanation", "teaching"]
+      "tags": [
+        "biology",
+        "literature",
+        "pubmed",
+        "biorxiv",
+        "review"
+      ]
     },
     {
-      "name": "tldr",
+      "name": "bio-pipeline-runner",
       "version": "1.0.0",
-      "description": "Compress any long text, article, or thread into a one-line takeaway plus the few points that actually matter - without losing caveats that change the meaning.",
+      "description": "Plan and execute an nf-core bioinformatics pipeline (rnaseq, sarek, atacseq) with a validated samplesheet and profile.",
       "author": "matrixx0070",
-      "path": "skills/tldr/SKILL.md",
-      "sha256": "4f1bd942cdd376e96524937a2afb4042526f1d2c7ff1b1a02501ca19e749a00c",
+      "path": "skills/bio-pipeline-runner/SKILL.md",
+      "sha256": "408be301ce0164f764a0ec01f2b092e90b8569ba6c4b9fb9fb2f86040585afcf",
       "capabilities": [],
-      "tags": ["summarization", "reading", "productivity"]
+      "tags": [
+        "nf-core",
+        "nextflow",
+        "rnaseq",
+        "sarek",
+        "pipeline"
+      ]
     },
     {
-      "name": "standup-summary",
+      "name": "bio-problem-selection",
       "version": "1.0.0",
-      "description": "Turn raw notes about yesterday's work into a crisp standup update - done / doing / blocked - honest about what actually shipped versus what is in progress.",
+      "description": "Select, ideate, and de-risk life-sciences research problems by importance, tractability, and neglectedness.",
       "author": "matrixx0070",
-      "path": "skills/standup-summary/SKILL.md",
-      "sha256": "115d7a4f694d76aa02065b82336e6a64ca90361646975846bc8b523eac1e02af",
+      "path": "skills/bio-problem-selection/SKILL.md",
+      "sha256": "f968ac2feaba43db6fbcd40dacd393ca413ac8d3c6a1e729865219c22c96ca5d",
       "capabilities": [],
-      "tags": ["work", "reporting", "productivity"]
+      "tags": [
+        "research-strategy",
+        "ideation",
+        "de-risking",
+        "prioritization",
+        "planning"
+      ]
     },
     {
-      "name": "meeting-notes",
+      "name": "bio-single-cell-qc",
       "version": "1.0.0",
-      "description": "Structure a raw meeting transcript into decisions, action items with owners and dates, and open questions - so nothing agreed in the room evaporates afterwards.",
+      "description": "Quality-control single-cell RNA-seq with MAD-based filtering, doublet removal, and diagnostic visualizations.",
       "author": "matrixx0070",
-      "path": "skills/meeting-notes/SKILL.md",
-      "sha256": "19070a7378218f913a5ffbc93c7b3ba24687b8b5f63f6731a44cc102a2bbb437",
+      "path": "skills/bio-single-cell-qc/SKILL.md",
+      "sha256": "4fbd90f46dfd2e96646c37a867e657190fe99f3360657ef533a60b9892174b86",
       "capabilities": [],
-      "tags": ["meetings", "work", "productivity"]
+      "tags": [
+        "single-cell",
+        "scrnaseq",
+        "qc",
+        "doublets",
+        "bioinformatics"
+      ]
+    },
+    {
+      "name": "bio-target-prioritization",
+      "version": "1.0.0",
+      "description": "Rank candidate drug targets by genetic evidence, tractability, safety, and novelty into a scored shortlist.",
+      "author": "matrixx0070",
+      "path": "skills/bio-target-prioritization/SKILL.md",
+      "sha256": "e451f288bf4eb8de074b8454c149c117667ae93775a155a99176850601292dde",
+      "capabilities": [],
+      "tags": [
+        "drug-discovery",
+        "target-id",
+        "tractability",
+        "genetics",
+        "prioritization"
+      ]
     },
     {
       "name": "commit-message",
@@ -62,7 +108,1537 @@
       "path": "skills/commit-message/SKILL.md",
       "sha256": "86cbb4d07600eefb3deffa98220be44125a94429e3aab323cb0c473090e845b9",
       "capabilities": [],
-      "tags": ["git", "developer", "writing"]
+      "tags": []
+    },
+    {
+      "name": "cs-draft-response",
+      "version": "1.0.0",
+      "description": "Draft a professional, empathetic customer-facing response tailored to the situation, sentiment, and desired outcome.",
+      "author": "matrixx0070",
+      "path": "skills/cs-draft-response/SKILL.md",
+      "sha256": "3ca123ef10d9ed126b4abe888e9b8a85223f29707387085924c84eec61677001",
+      "capabilities": [],
+      "tags": [
+        "customer-support",
+        "writing",
+        "empathy",
+        "communication",
+        "tone"
+      ]
+    },
+    {
+      "name": "cs-escalation",
+      "version": "1.0.0",
+      "description": "Package a customer escalation for engineering, product, or leadership with complete, decision-ready context.",
+      "author": "matrixx0070",
+      "path": "skills/cs-escalation/SKILL.md",
+      "sha256": "a580b06763b6de313994463095856fec8004f7f397fb91295df2f74618d35852",
+      "capabilities": [],
+      "tags": [
+        "customer-support",
+        "escalation",
+        "triage",
+        "communication",
+        "handoff"
+      ]
+    },
+    {
+      "name": "cs-kb-article",
+      "version": "1.0.0",
+      "description": "Turn a resolved support issue into a clear, reusable knowledge-base article that deflects future tickets.",
+      "author": "matrixx0070",
+      "path": "skills/cs-kb-article/SKILL.md",
+      "sha256": "d20e15456a73495068e99c47d373f5718f6a19ceafb09cef629a6f3a01e9677e",
+      "capabilities": [],
+      "tags": [
+        "customer-support",
+        "knowledge-base",
+        "documentation",
+        "self-service",
+        "writing"
+      ]
+    },
+    {
+      "name": "cs-research",
+      "version": "1.0.0",
+      "description": "Research a customer question across product docs, past tickets, and release notes, answering with clear source attribution.",
+      "author": "matrixx0070",
+      "path": "skills/cs-research/SKILL.md",
+      "sha256": "a4e734e02e05c450e12035d76a01c5ff70d7fcadc6403bc58cb4dc3089f3220b",
+      "capabilities": [],
+      "tags": [
+        "customer-support",
+        "research",
+        "knowledge-base",
+        "attribution",
+        "accuracy"
+      ]
+    },
+    {
+      "name": "cs-sentiment-scan",
+      "version": "1.0.0",
+      "description": "Scan a batch of tickets or feedback into themes with sentiment, then produce a prioritized \"fix these 3\" list.",
+      "author": "matrixx0070",
+      "path": "skills/cs-sentiment-scan/SKILL.md",
+      "sha256": "9502f64a8ada175b002cc90d310c72086cf48c72d4526a5e6bd465faef44653a",
+      "capabilities": [],
+      "tags": [
+        "customer-support",
+        "sentiment",
+        "feedback",
+        "analytics",
+        "prioritization"
+      ]
+    },
+    {
+      "name": "cs-ticket-triage",
+      "version": "1.0.0",
+      "description": "Triage an incoming support ticket \u2014 assign priority P1-P4, route it, and check for duplicates and known issues.",
+      "author": "matrixx0070",
+      "path": "skills/cs-ticket-triage/SKILL.md",
+      "sha256": "bd570b2392044addbc1916e57eefcaf0053b8a55b8a0fe3b6fc5f01ddf66cb84",
+      "capabilities": [],
+      "tags": [
+        "customer-support",
+        "triage",
+        "prioritization",
+        "routing",
+        "sla"
+      ]
+    },
+    {
+      "name": "data-analyze",
+      "version": "1.0.0",
+      "description": "Answer any data question, scaling effort from a one-number lookup to a full stakeholder-ready analysis.",
+      "author": "matrixx0070",
+      "path": "skills/data-analyze/SKILL.md",
+      "sha256": "ba14a455de047e69007a308b5f6840e24b1db9af0e7e840dc0c6dab019eea296",
+      "capabilities": [],
+      "tags": [
+        "data",
+        "analysis",
+        "reporting",
+        "insights",
+        "decision-support"
+      ]
+    },
+    {
+      "name": "data-build-dashboard",
+      "version": "1.0.0",
+      "description": "Build a self-contained interactive HTML dashboard with KPI cards, charts, and filters that runs from a single file.",
+      "author": "matrixx0070",
+      "path": "skills/data-build-dashboard/SKILL.md",
+      "sha256": "ca9b9a6398740bc6dc73ff2c6c7bd315079b0601303409a2be76869a94dad891",
+      "capabilities": [],
+      "tags": [
+        "dashboard",
+        "html",
+        "visualization",
+        "interactive",
+        "reporting"
+      ]
+    },
+    {
+      "name": "data-context-extractor",
+      "version": "1.0.0",
+      "description": "Bootstrap a company-specific data skill by extracting an analyst's tribal knowledge into a reusable reference.",
+      "author": "matrixx0070",
+      "path": "skills/data-context-extractor/SKILL.md",
+      "sha256": "c619c65653640e06ee3299729ac6c1e76fedec6838667ec25afec74e33cae215",
+      "capabilities": [],
+      "tags": [
+        "onboarding",
+        "metadata",
+        "tribal-knowledge",
+        "documentation",
+        "semantics"
+      ]
+    },
+    {
+      "name": "data-create-viz",
+      "version": "1.0.0",
+      "description": "Produce a publication-quality static visualization in Python with a deliberately chosen chart type.",
+      "author": "matrixx0070",
+      "path": "skills/data-create-viz/SKILL.md",
+      "sha256": "cf36e2cfa7239d1663104287a08eb2abc64d8858840efe7fe1569f23c69867e5",
+      "capabilities": [],
+      "tags": [
+        "visualization",
+        "python",
+        "matplotlib",
+        "charts",
+        "reporting"
+      ]
+    },
+    {
+      "name": "data-explore",
+      "version": "1.0.0",
+      "description": "Profile an unfamiliar dataset \u2014 shape, quality, nulls, distributions, and duplicates \u2014 before any analysis.",
+      "author": "matrixx0070",
+      "path": "skills/data-explore/SKILL.md",
+      "sha256": "49f0a3f207513669d035117ce3cbe911aac93796bb4f8e33ed06b432a5b59982",
+      "capabilities": [],
+      "tags": [
+        "profiling",
+        "eda",
+        "data-quality",
+        "exploration",
+        "validation"
+      ]
+    },
+    {
+      "name": "data-sql-queries",
+      "version": "1.0.0",
+      "description": "Write correct, performant SQL across warehouse dialects and optimize slow queries.",
+      "author": "matrixx0070",
+      "path": "skills/data-sql-queries/SKILL.md",
+      "sha256": "e15293e7b93f67700d829a79a6740c1b585fe899cadc473cc10dbbd22ecae858",
+      "capabilities": [],
+      "tags": [
+        "sql",
+        "warehouse",
+        "optimization",
+        "bigquery",
+        "snowflake"
+      ]
+    },
+    {
+      "name": "data-statistical-analysis",
+      "version": "1.0.0",
+      "description": "Run descriptive stats, trend, outlier, correlation, and hypothesis-testing analysis with correct method selection.",
+      "author": "matrixx0070",
+      "path": "skills/data-statistical-analysis/SKILL.md",
+      "sha256": "b61be739490750c054b7395a389e7ea12df25ea48ef3c818da72c9e8f668a62c",
+      "capabilities": [],
+      "tags": [
+        "statistics",
+        "hypothesis-testing",
+        "correlation",
+        "trend",
+        "outliers"
+      ]
+    },
+    {
+      "name": "data-validate",
+      "version": "1.0.0",
+      "description": "QA a completed analysis for methodology, accuracy, and bias before it is shared with stakeholders.",
+      "author": "matrixx0070",
+      "path": "skills/data-validate/SKILL.md",
+      "sha256": "7ca1dea225b32a2124ce4917b8fedf564b0c7095ad54b52bbfd44f1232b72a35",
+      "capabilities": [],
+      "tags": [
+        "validation",
+        "qa",
+        "accuracy",
+        "bias",
+        "review"
+      ]
+    },
+    {
+      "name": "data-write-query",
+      "version": "1.0.0",
+      "description": "Turn a natural-language data need into optimized, dialect-specific SQL you can run immediately.",
+      "author": "matrixx0070",
+      "path": "skills/data-write-query/SKILL.md",
+      "sha256": "96463a4d7d8dccab49888cdff68afc5dcb7f52078dbf688ee6fa367c77f52385",
+      "capabilities": [],
+      "tags": [
+        "sql",
+        "nl2sql",
+        "query",
+        "warehouse",
+        "optimization"
+      ]
+    },
+    {
+      "name": "do-ci-pipeline",
+      "version": "1.0.0",
+      "description": "Design or repair a CI/CD pipeline with well-ordered stages, caching, quality gates, and artifact promotion.",
+      "author": "matrixx0070",
+      "path": "skills/do-ci-pipeline/SKILL.md",
+      "sha256": "5edc2138f3360ae73261556a6fa047049d87ac29959cb1be3c6039e19604ed41",
+      "capabilities": [],
+      "tags": [
+        "ci",
+        "cd",
+        "devops",
+        "automation",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "do-dockerfile",
+      "version": "1.0.0",
+      "description": "Write or optimize a Dockerfile and compose stack for small, secure, cache-friendly, reproducible images.",
+      "author": "matrixx0070",
+      "path": "skills/do-dockerfile/SKILL.md",
+      "sha256": "458f4241f017e8aa7234971af0ef44e578cfcde9b85e33d7bc81c1b725dfa217",
+      "capabilities": [],
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "security",
+        "build"
+      ]
+    },
+    {
+      "name": "do-incident-runbook",
+      "version": "1.0.0",
+      "description": "Produce a clear on-call runbook mapping symptoms to checks and mitigations so responders act fast.",
+      "author": "matrixx0070",
+      "path": "skills/do-incident-runbook/SKILL.md",
+      "sha256": "424aa4511721d0a98994c7c6fdd59d8d5c034b502cd56284377ce903e75c2ce6",
+      "capabilities": [],
+      "tags": [
+        "incident",
+        "oncall",
+        "runbook",
+        "sre",
+        "reliability"
+      ]
+    },
+    {
+      "name": "do-kubernetes",
+      "version": "1.0.0",
+      "description": "Author or debug Kubernetes manifests with correct probes, resource limits, autoscaling, and safe rollouts.",
+      "author": "matrixx0070",
+      "path": "skills/do-kubernetes/SKILL.md",
+      "sha256": "c83898708e7a939583f9653722400f4a6a290cdd53a65c8e6ed0ef28c5e0bf5c",
+      "capabilities": [],
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "devops",
+        "orchestration",
+        "scaling"
+      ]
+    },
+    {
+      "name": "do-observability",
+      "version": "1.0.0",
+      "description": "Instrument logs, metrics, and traces, then define SLOs and actionable alerts that page on user pain.",
+      "author": "matrixx0070",
+      "path": "skills/do-observability/SKILL.md",
+      "sha256": "b82d1561070eb394839f4d1b0402b2a15b96d53b905f3b59ee4bb8fd8e9201a6",
+      "capabilities": [],
+      "tags": [
+        "observability",
+        "monitoring",
+        "slo",
+        "telemetry",
+        "alerting"
+      ]
+    },
+    {
+      "name": "do-release-checklist",
+      "version": "1.0.0",
+      "description": "Build a production release checklist covering pre-flight, canary rollout, rollback triggers, and comms.",
+      "author": "matrixx0070",
+      "path": "skills/do-release-checklist/SKILL.md",
+      "sha256": "c71ddee1e4f2d91fa24678761c74b7414662bfdb5dd34ab201ad88fc0debe689",
+      "capabilities": [],
+      "tags": [
+        "release",
+        "deployment",
+        "canary",
+        "rollback",
+        "devops"
+      ]
+    },
+    {
+      "name": "do-terraform",
+      "version": "1.0.0",
+      "description": "Write or review Terraform with clean modules, safe state, drift detection, and disciplined plan review.",
+      "author": "matrixx0070",
+      "path": "skills/do-terraform/SKILL.md",
+      "sha256": "eaba1041117cc6137253a762152dc4da8182f21ddc0adf6504ba598af3b0b374",
+      "capabilities": [],
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "cloud",
+        "review"
+      ]
+    },
+    {
+      "name": "dsn-accessibility-review",
+      "version": "1.0.0",
+      "description": "Audit a screen, flow, or component against WCAG 2.1 AA - contrast, keyboard operability, target sizes, and screen-reader semantics - and return prioritized, fixable findings.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-accessibility-review/SKILL.md",
+      "sha256": "837e66e38bc13ac85edfcb195c2cdf7b19cc1717463e51ea76b532da6acb5268",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "accessibility",
+        "wcag",
+        "audit",
+        "a11y"
+      ]
+    },
+    {
+      "name": "dsn-design-critique",
+      "version": "1.0.0",
+      "description": "Give structured, actionable design feedback on a screen or flow - usability, visual hierarchy, and consistency - anchored to goals and heuristics rather than taste.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-design-critique/SKILL.md",
+      "sha256": "3e4fa4e1b6a8b01fa5f01f64add47b167c71fdbcf2ebb50a6aac1ec88cdd9326",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "critique",
+        "usability",
+        "heuristics",
+        "review"
+      ]
+    },
+    {
+      "name": "dsn-design-system",
+      "version": "1.0.0",
+      "description": "Audit, document, or extend a design system - inventory components and tokens, surface inconsistency and drift, and specify new additions that fit the existing architecture.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-design-system/SKILL.md",
+      "sha256": "5f26b34119f5cc6b2287820a8d687b415e9f223a21564df930c992c5014056e4",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "design-system",
+        "tokens",
+        "components",
+        "documentation"
+      ]
+    },
+    {
+      "name": "dsn-handoff",
+      "version": "1.0.0",
+      "description": "Turn a finished design into a developer-ready handoff spec - tokens, every interactive state, responsive breakpoints, and the edge cases mockups never show.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-handoff/SKILL.md",
+      "sha256": "836931507b0a480875e666fbcc49cd916985785e51d6dda58668195a201288d4",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "handoff",
+        "tokens",
+        "states",
+        "engineering"
+      ]
+    },
+    {
+      "name": "dsn-research-synthesis",
+      "version": "1.0.0",
+      "description": "Turn raw user-research data into themes, evidence-backed insights, and prioritized recommendations - without inventing findings the data does not support.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-research-synthesis/SKILL.md",
+      "sha256": "4cc5f7ec21045ea63731374cc4256427fc138d03a79c5093336183de4fcd2e2c",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "research",
+        "synthesis",
+        "insights",
+        "ux"
+      ]
+    },
+    {
+      "name": "dsn-user-research",
+      "version": "1.0.0",
+      "description": "Plan and run user research end to end - sharp questions, the right method, unbiased interview guides and usability tasks, and a path from sessions to synthesis.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-user-research/SKILL.md",
+      "sha256": "924455f840f33d2abbbb86ff125d830959efbee1e1061318f89117ceca8ab0ae",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "research",
+        "interviews",
+        "usability-testing",
+        "ux"
+      ]
+    },
+    {
+      "name": "dsn-ux-copy",
+      "version": "1.0.0",
+      "description": "Write and review interface microcopy - errors, empty states, buttons, labels, and CTAs - that is clear, concise, human, and consistent with the product's voice.",
+      "author": "matrixx0070",
+      "path": "skills/dsn-ux-copy/SKILL.md",
+      "sha256": "78d4bbc19396fbe0d524ac2f1987bdf65850c73625d86ded381d281fc755eeb4",
+      "capabilities": [],
+      "tags": [
+        "design",
+        "ux-writing",
+        "microcopy",
+        "content",
+        "cta"
+      ]
+    },
+    {
+      "name": "eli5",
+      "version": "1.0.0",
+      "description": "Explain any concept like the listener is five years old - simple words, one concrete analogy, no jargon, without being condescending.",
+      "author": "matrixx0070",
+      "path": "skills/eli5/SKILL.md",
+      "sha256": "39925d0f7295e21390d69c471f19edde1617617d543117ed2901a263bd666b3f",
+      "capabilities": [],
+      "tags": []
+    },
+    {
+      "name": "email-polish",
+      "version": "1.0.0",
+      "description": "Rewrite the owner's raw email drafts into a warm, friendly-but-professional tone without changing intent, facts, names, dates, or requests.",
+      "author": "matrixx0070",
+      "path": "skills/email-polish/SKILL.md",
+      "sha256": "c579a80e4f806a130129338b1a64ea13449af2e3b0065cc7bf7ab4cd8ccce36e",
+      "capabilities": [
+        "fs.read"
+      ],
+      "tags": []
+    },
+    {
+      "name": "eng-architecture",
+      "version": "1.0.0",
+      "description": "Create or evaluate an Architecture Decision Record (ADR) that captures context, options, trade-offs, and a defensible decision.",
+      "author": "matrixx0070",
+      "path": "skills/eng-architecture/SKILL.md",
+      "sha256": "4a7c516e5a06d64e636287cc3eda8832b666df7daf68ad1bba1f739699d62c72",
+      "capabilities": [],
+      "tags": [
+        "architecture",
+        "adr",
+        "decisions",
+        "trade-offs",
+        "design"
+      ]
+    },
+    {
+      "name": "eng-code-review",
+      "version": "1.0.0",
+      "description": "Review a diff or pull request for correctness, security, and performance with specific, actionable, severity-ranked findings.",
+      "author": "matrixx0070",
+      "path": "skills/eng-code-review/SKILL.md",
+      "sha256": "2f9c2ba5254c2d6d6446195a5bc0c68c66530ea2a855a718bc3de53f55a67df5",
+      "capabilities": [],
+      "tags": [
+        "code-review",
+        "security",
+        "performance",
+        "correctness",
+        "quality"
+      ]
+    },
+    {
+      "name": "eng-debug",
+      "version": "1.0.0",
+      "description": "Diagnose and fix a bug through a disciplined reproduce, isolate, diagnose, fix, verify loop driven by evidence rather than guesswork.",
+      "author": "matrixx0070",
+      "path": "skills/eng-debug/SKILL.md",
+      "sha256": "40b4168e59a75fa19b282502cc1a5b322254c4fff3495dd2028d0e575957cc4a",
+      "capabilities": [],
+      "tags": [
+        "debugging",
+        "troubleshooting",
+        "root-cause",
+        "stack-trace",
+        "fix"
+      ]
+    },
+    {
+      "name": "eng-deploy-checklist",
+      "version": "1.0.0",
+      "description": "Run a pre-deploy verification covering migrations, feature flags, CI and approvals, monitoring, and rollback triggers before shipping.",
+      "author": "matrixx0070",
+      "path": "skills/eng-deploy-checklist/SKILL.md",
+      "sha256": "07903a47fd299a0d7cc1a997cc740c41123e0070639a1b854cc69ecc013d171c",
+      "capabilities": [],
+      "tags": [
+        "deploy",
+        "release",
+        "rollback",
+        "migrations",
+        "ci"
+      ]
+    },
+    {
+      "name": "eng-system-design",
+      "version": "1.0.0",
+      "description": "Design a service, API, or data model with clear boundaries, explicit interfaces, and a scaling and failure story.",
+      "author": "matrixx0070",
+      "path": "skills/eng-system-design/SKILL.md",
+      "sha256": "85d64d09e174d6becc5c66c133dbb9675494d48f067dd49693cf4c15863ab4f3",
+      "capabilities": [],
+      "tags": [
+        "system-design",
+        "api-design",
+        "data-modeling",
+        "scaling",
+        "architecture"
+      ]
+    },
+    {
+      "name": "eng-tech-debt",
+      "version": "1.0.0",
+      "description": "Identify, categorize, and prioritize technical debt into a defensible backlog that ties remediation to business and engineering impact.",
+      "author": "matrixx0070",
+      "path": "skills/eng-tech-debt/SKILL.md",
+      "sha256": "6b559f0ce100b458cb969a451bb0dfc9ddd22d779abb31aeadc6a9d3aac77d3a",
+      "capabilities": [],
+      "tags": [
+        "tech-debt",
+        "refactoring",
+        "prioritization",
+        "backlog",
+        "maintainability"
+      ]
+    },
+    {
+      "name": "eng-tech-docs",
+      "version": "1.0.0",
+      "description": "Write or maintain technical documentation \u2014 READMEs, runbooks, API references, and architecture docs \u2014 that readers can actually act on.",
+      "author": "matrixx0070",
+      "path": "skills/eng-tech-docs/SKILL.md",
+      "sha256": "52783ffe7fb534a5e919016f9e19a187364625f4658401cd2dca34612fa837f8",
+      "capabilities": [],
+      "tags": [
+        "documentation",
+        "readme",
+        "runbook",
+        "api-docs",
+        "technical-writing"
+      ]
+    },
+    {
+      "name": "eng-testing-strategy",
+      "version": "1.0.0",
+      "description": "Design a test strategy that matches test types to risk, defines meaningful coverage, and keeps the suite fast and trustworthy.",
+      "author": "matrixx0070",
+      "path": "skills/eng-testing-strategy/SKILL.md",
+      "sha256": "7cb804e764f4e19563543c7270ca476e0308b575019e230e1313fcf79a96701b",
+      "capabilities": [],
+      "tags": [
+        "testing",
+        "test-strategy",
+        "coverage",
+        "quality",
+        "ci"
+      ]
+    },
+    {
+      "name": "es-digest",
+      "version": "1.0.0",
+      "description": "Produce a daily or weekly digest of activity across all connected sources \u2014 mentions, action items, and decisions.",
+      "author": "matrixx0070",
+      "path": "skills/es-digest/SKILL.md",
+      "sha256": "619f287c87de4417e6cc7ee8eea263163cd0ce93b8e3d80af1e206947672e055",
+      "capabilities": [],
+      "tags": [
+        "enterprise-search",
+        "digest",
+        "action-items",
+        "decisions",
+        "summary"
+      ]
+    },
+    {
+      "name": "es-knowledge-synthesis",
+      "version": "1.0.0",
+      "description": "Merge results from multiple sources into one deduplicated answer with per-claim attribution and a confidence rating.",
+      "author": "matrixx0070",
+      "path": "skills/es-knowledge-synthesis/SKILL.md",
+      "sha256": "30daa5dc55ca491fa2ac2101e52c78d509df7630dce2edde0b0c73e141099d4e",
+      "capabilities": [],
+      "tags": [
+        "enterprise-search",
+        "synthesis",
+        "attribution",
+        "deduplication",
+        "confidence"
+      ]
+    },
+    {
+      "name": "es-search",
+      "version": "1.0.0",
+      "description": "Search across every connected source in a single query and return one ranked, attributed result set.",
+      "author": "matrixx0070",
+      "path": "skills/es-search/SKILL.md",
+      "sha256": "7f5ccdf0685735bb971c822346214f4c079f8ccc87c8006f3fd0040930540e87",
+      "capabilities": [],
+      "tags": [
+        "enterprise-search",
+        "search",
+        "retrieval",
+        "federated",
+        "cross-source"
+      ]
+    },
+    {
+      "name": "es-search-strategy",
+      "version": "1.0.0",
+      "description": "Decompose a natural-language question into per-source searches, rank the plan, and resolve ambiguity before querying.",
+      "author": "matrixx0070",
+      "path": "skills/es-search-strategy/SKILL.md",
+      "sha256": "a3e3d2271c37ff87f6e4126a1c63c59900177ce9be5d537b121d3e448593e957",
+      "capabilities": [],
+      "tags": [
+        "enterprise-search",
+        "query-planning",
+        "decomposition",
+        "ranking",
+        "ambiguity"
+      ]
+    },
+    {
+      "name": "es-source-management",
+      "version": "1.0.0",
+      "description": "Manage connected search sources \u2014 detect what's connected, guide connecting new ones, and set priority order.",
+      "author": "matrixx0070",
+      "path": "skills/es-source-management/SKILL.md",
+      "sha256": "5a2b321096f6714babcfd60e9b3848919d3c271d2f6cfb47a76d209fe9512cca",
+      "capabilities": [],
+      "tags": [
+        "enterprise-search",
+        "connectors",
+        "sources",
+        "configuration",
+        "onboarding"
+      ]
+    },
+    {
+      "name": "fin-audit-support",
+      "version": "1.0.0",
+      "description": "Plan and execute SOX 404 control testing with defensible sample selection and workpaper documentation.",
+      "author": "matrixx0070",
+      "path": "skills/fin-audit-support/SKILL.md",
+      "sha256": "ba8111593e331af7bb8269d0c1c20847049387298880bd26bf414935f58a2c0a",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "audit",
+        "sox",
+        "internal-controls",
+        "compliance"
+      ]
+    },
+    {
+      "name": "fin-cash-flow",
+      "version": "1.0.0",
+      "description": "Build a 30/60/90-day cash-flow forecast from AR and AP with liquidity risk flags.",
+      "author": "matrixx0070",
+      "path": "skills/fin-cash-flow/SKILL.md",
+      "sha256": "7fda76fe3d4f8852050e9fd8707e2f0dbe208c6ec464599c2a333877352cba3f",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "cash-flow",
+        "forecast",
+        "treasury",
+        "liquidity"
+      ]
+    },
+    {
+      "name": "fin-close-management",
+      "version": "1.0.0",
+      "description": "Run a month-end close with sequenced tasks, dependencies, ownership, and real-time status tracking.",
+      "author": "matrixx0070",
+      "path": "skills/fin-close-management/SKILL.md",
+      "sha256": "3334b39cb3dbc3c75a4541e0300a108f954b9c52af99aff29d567382d1e94cb6",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "close",
+        "accounting",
+        "month-end",
+        "checklist"
+      ]
+    },
+    {
+      "name": "fin-financial-statements",
+      "version": "1.0.0",
+      "description": "Build income statement, balance sheet, and cash flow statement with tie-outs and variance analysis.",
+      "author": "matrixx0070",
+      "path": "skills/fin-financial-statements/SKILL.md",
+      "sha256": "1c7653913cd4adee8d150d49caa6b65c22e03abef3c14a46e4ff366b7c139c68",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "financial-statements",
+        "reporting",
+        "variance",
+        "gaap"
+      ]
+    },
+    {
+      "name": "fin-journal-entry",
+      "version": "1.0.0",
+      "description": "Prepare balanced journal entries for accruals, depreciation, and revenue recognition with support.",
+      "author": "matrixx0070",
+      "path": "skills/fin-journal-entry/SKILL.md",
+      "sha256": "3ed0c10e0cbfd47b1ce2568e27ad270efad1ef8181c797d247b8e1357d491211",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "accounting",
+        "journal-entry",
+        "accruals",
+        "revenue-recognition"
+      ]
+    },
+    {
+      "name": "fin-reconciliation",
+      "version": "1.0.0",
+      "description": "Reconcile GL balances to subledgers, bank statements, or third-party records and clear differences.",
+      "author": "matrixx0070",
+      "path": "skills/fin-reconciliation/SKILL.md",
+      "sha256": "8036572540dfe4305c6d82239f38c99239716beba51ac3ed65fa86e48e520c43",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "reconciliation",
+        "accounting",
+        "gl",
+        "bank-rec"
+      ]
+    },
+    {
+      "name": "fin-sox-testing",
+      "version": "1.0.0",
+      "description": "Design SOX sample selections, build testing workpapers, and document control assessments.",
+      "author": "matrixx0070",
+      "path": "skills/fin-sox-testing/SKILL.md",
+      "sha256": "5b1fbba922cf59472c8504bf09a79f03c666522361ef7194029789fc46f35407",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "sox",
+        "controls",
+        "testing",
+        "workpapers"
+      ]
+    },
+    {
+      "name": "fin-variance-analysis",
+      "version": "1.0.0",
+      "description": "Decompose actual-vs-plan variances into price, volume, mix, and rate drivers with a waterfall and narrative.",
+      "author": "matrixx0070",
+      "path": "skills/fin-variance-analysis/SKILL.md",
+      "sha256": "5cad8228f5627acc178b4616d85ef3c2af7cecec9b512866a95ac578ab75cec5",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "variance",
+        "fpa",
+        "budget",
+        "analysis"
+      ]
+    },
+    {
+      "name": "hr-comp-analysis",
+      "version": "1.0.0",
+      "description": "Benchmark a role's compensation, place it in a pay band, and model base/bonus/equity trade-offs.",
+      "author": "matrixx0070",
+      "path": "skills/hr-comp-analysis/SKILL.md",
+      "sha256": "3a4d34f411cc9285cd3aa9e9d2dc46be71773bec923e8fec63fb6738dce91ad7",
+      "capabilities": [],
+      "tags": [
+        "compensation",
+        "benchmarking",
+        "equity",
+        "pay-bands",
+        "total-rewards"
+      ]
+    },
+    {
+      "name": "hr-draft-offer",
+      "version": "1.0.0",
+      "description": "Draft a clear, complete offer letter with compensation details, terms, and contingencies.",
+      "author": "matrixx0070",
+      "path": "skills/hr-draft-offer/SKILL.md",
+      "sha256": "684dda72a56b2448fd8db051464300c5f6836c197d60256b648483149de935ac",
+      "capabilities": [],
+      "tags": [
+        "offer-letter",
+        "compensation",
+        "hiring",
+        "onboarding",
+        "terms"
+      ]
+    },
+    {
+      "name": "hr-interview-prep",
+      "version": "1.0.0",
+      "description": "Build a structured interview plan with competency-based questions and calibrated scorecards.",
+      "author": "matrixx0070",
+      "path": "skills/hr-interview-prep/SKILL.md",
+      "sha256": "bca8911c4b9723707b43cc54691429b8b6ac855ba0ce88cc794842da8373de2c",
+      "capabilities": [],
+      "tags": [
+        "interviewing",
+        "hiring",
+        "competencies",
+        "scorecards",
+        "structured-interview"
+      ]
+    },
+    {
+      "name": "hr-onboarding",
+      "version": "1.0.0",
+      "description": "Produce an onboarding checklist and a structured first-week plan for a new hire.",
+      "author": "matrixx0070",
+      "path": "skills/hr-onboarding/SKILL.md",
+      "sha256": "f2aae5c8bd45ceac7d4630aa96f59a6ca61648508663cbbeba6467413da93159",
+      "capabilities": [],
+      "tags": [
+        "onboarding",
+        "new-hire",
+        "checklist",
+        "ramp-up",
+        "employee-experience"
+      ]
+    },
+    {
+      "name": "hr-org-planning",
+      "version": "1.0.0",
+      "description": "Plan headcount, design org structure, and shape team topology against goals and budget.",
+      "author": "matrixx0070",
+      "path": "skills/hr-org-planning/SKILL.md",
+      "sha256": "a5f5d88d977a85572f054d1ea3329da73d09d0174f77bba4592b19e2651ccd3a",
+      "capabilities": [],
+      "tags": [
+        "org-design",
+        "headcount",
+        "workforce-planning",
+        "team-structure",
+        "budget"
+      ]
+    },
+    {
+      "name": "hr-people-report",
+      "version": "1.0.0",
+      "description": "Build headcount, attrition, diversity, and org-health reports with clear metrics and insight.",
+      "author": "matrixx0070",
+      "path": "skills/hr-people-report/SKILL.md",
+      "sha256": "185014850a1a070bc1d1d7cb67943dedc04936e0fc4c48af5338ea4301d7b9df",
+      "capabilities": [],
+      "tags": [
+        "people-analytics",
+        "attrition",
+        "diversity",
+        "headcount",
+        "reporting"
+      ]
+    },
+    {
+      "name": "hr-performance-review",
+      "version": "1.0.0",
+      "description": "Structure a performance review \u2014 self-assessment, manager template, and calibration guidance.",
+      "author": "matrixx0070",
+      "path": "skills/hr-performance-review/SKILL.md",
+      "sha256": "6ac0a84b2780bc57763e548b52a7c89acab82e86e98ff3bc284420951c5b4c02",
+      "capabilities": [],
+      "tags": [
+        "performance-review",
+        "feedback",
+        "calibration",
+        "ratings",
+        "development"
+      ]
+    },
+    {
+      "name": "hr-policy-lookup",
+      "version": "1.0.0",
+      "description": "Find the relevant company policy and explain it accurately in plain language.",
+      "author": "matrixx0070",
+      "path": "skills/hr-policy-lookup/SKILL.md",
+      "sha256": "476a1e6fefd6a12df8d83b22be151000a48cf1cfa6f6664efd8d639e3c604bfa",
+      "capabilities": [],
+      "tags": [
+        "policy",
+        "compliance",
+        "handbook",
+        "plain-language",
+        "employee-support"
+      ]
+    },
+    {
+      "name": "hr-recruiting-pipeline",
+      "version": "1.0.0",
+      "description": "Track and manage a recruiting pipeline across stages with conversion metrics and next actions.",
+      "author": "matrixx0070",
+      "path": "skills/hr-recruiting-pipeline/SKILL.md",
+      "sha256": "4734d1b4643772564bf92ac5fdf2453a4c9bc7579ffcc0d72d8c149993794314",
+      "capabilities": [],
+      "tags": [
+        "recruiting",
+        "pipeline",
+        "ats",
+        "funnel-metrics",
+        "talent-acquisition"
+      ]
+    },
+    {
+      "name": "incident-postmortem",
+      "version": "1.0.0",
+      "description": "Turn raw incident notes and timelines into a blameless postmortem - impact, timeline, root cause chain, what worked, and action items that would actually prevent recurrence.",
+      "author": "matrixx0070",
+      "path": "skills/incident-postmortem/SKILL.md",
+      "sha256": "fff306cbe00eb8815ae57280ebbd2318eaeb224ed995e073f7110d8126894a77",
+      "capabilities": [],
+      "tags": []
+    },
+    {
+      "name": "legal-brief",
+      "version": "1.0.0",
+      "description": "Produce a contextual legal briefing \u2014 daily summary, topic research, or incident write-up \u2014 scoped to what a non-lawyer stakeholder needs to decide or act.",
+      "author": "matrixx0070",
+      "path": "skills/legal-brief/SKILL.md",
+      "sha256": "e9b2ff0818fb50eb577cc0626155d9013272923e03cc2d34c46e179da835cb40",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "briefing",
+        "research",
+        "summary",
+        "risk"
+      ]
+    },
+    {
+      "name": "legal-compliance-check",
+      "version": "1.0.0",
+      "description": "Check a proposed action against applicable laws, regulations, and internal policies, and return required approvals plus a risk verdict.",
+      "author": "matrixx0070",
+      "path": "skills/legal-compliance-check/SKILL.md",
+      "sha256": "2b204c6251ed0d535008aaac1466b415885196c6955976d3c67ad795ae6514b2",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "compliance",
+        "regulatory",
+        "approvals",
+        "risk"
+      ]
+    },
+    {
+      "name": "legal-meeting-briefing",
+      "version": "1.0.0",
+      "description": "Prepare a briefing for a legally-relevant meeting and track the action items and commitments that come out of it.",
+      "author": "matrixx0070",
+      "path": "skills/legal-meeting-briefing/SKILL.md",
+      "sha256": "2a3de7d732e1e5db6a19acc0c40888419662adbbbde94536947a9583642b90da",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "meeting",
+        "briefing",
+        "action-items",
+        "preparation"
+      ]
+    },
+    {
+      "name": "legal-response",
+      "version": "1.0.0",
+      "description": "Draft a response to a common legal inquiry using an approved template, with built-in escalation checks so novel or high-risk questions reach counsel.",
+      "author": "matrixx0070",
+      "path": "skills/legal-response/SKILL.md",
+      "sha256": "d1df122a331bcd79d5c0ec6955eb657d5b9c1ed4931e135c56a10e7008842ea2",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "response",
+        "templates",
+        "intake",
+        "escalation"
+      ]
+    },
+    {
+      "name": "legal-review-contract",
+      "version": "1.0.0",
+      "description": "Review a contract against a negotiation playbook, flag deviations from preferred and fallback positions, and produce redline-ready comments.",
+      "author": "matrixx0070",
+      "path": "skills/legal-review-contract/SKILL.md",
+      "sha256": "6e37bb523e41027c6830cdfe2f863ebc1dfe08585793a66615e7af27f7349ba1",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "contract",
+        "review",
+        "redline",
+        "playbook"
+      ]
+    },
+    {
+      "name": "legal-risk-assessment",
+      "version": "1.0.0",
+      "description": "Classify a legal risk by severity and likelihood, place it on a matrix, and apply clear escalation criteria.",
+      "author": "matrixx0070",
+      "path": "skills/legal-risk-assessment/SKILL.md",
+      "sha256": "35da3365b5dab1946afa9dd291c17ed0a898085b213c2aa4abd7046a2e391327",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "risk",
+        "assessment",
+        "matrix",
+        "escalation"
+      ]
+    },
+    {
+      "name": "legal-signature-request",
+      "version": "1.0.0",
+      "description": "Prepare and route a finalized document for e-signature with a pre-send checklist, correct signer order, and post-signature follow-through.",
+      "author": "matrixx0070",
+      "path": "skills/legal-signature-request/SKILL.md",
+      "sha256": "9dc2b4ddc23ab09fedb4c2f5144023c068b506c1303106debff58fccbdcee3e2",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "e-signature",
+        "workflow",
+        "routing",
+        "execution"
+      ]
+    },
+    {
+      "name": "legal-triage-nda",
+      "version": "1.0.0",
+      "description": "Triage an incoming NDA against standard terms and classify it GREEN, YELLOW, or RED with a recommended action.",
+      "author": "matrixx0070",
+      "path": "skills/legal-triage-nda/SKILL.md",
+      "sha256": "0870c9d6240df1012c6e42e55dfe9df9cc65df4a1761642b454499f13e83ee02",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "nda",
+        "triage",
+        "confidentiality",
+        "review"
+      ]
+    },
+    {
+      "name": "legal-vendor-check",
+      "version": "1.0.0",
+      "description": "Check the contractual status of a vendor relationship across systems and produce a gap analysis of missing or expiring agreements.",
+      "author": "matrixx0070",
+      "path": "skills/legal-vendor-check/SKILL.md",
+      "sha256": "8c3575f492c1ee9741ce8df357b77ace0d0e078e28f62a12912d3a32c2cc9ced",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "vendor",
+        "contracts",
+        "gap-analysis",
+        "compliance"
+      ]
+    },
+    {
+      "name": "meeting-notes",
+      "version": "1.0.0",
+      "description": "Structure a raw meeting transcript or scribble into decisions, action items with owners and dates, and open questions - so nothing agreed in the room evaporates afterwards.",
+      "author": "matrixx0070",
+      "path": "skills/meeting-notes/SKILL.md",
+      "sha256": "19070a7378218f913a5ffbc93c7b3ba24687b8b5f63f6731a44cc102a2bbb437",
+      "capabilities": [],
+      "tags": []
+    },
+    {
+      "name": "mkt-brand-review",
+      "version": "1.0.0",
+      "description": "Review marketing content against a brand voice and style guide, flagging deviations by severity with concrete fixes.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-brand-review/SKILL.md",
+      "sha256": "742f34813748ffbadd47bb2fa39a7e5ca8f866026e9d3d9d7e30021a93552efa",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "brand",
+        "review",
+        "copyediting",
+        "quality"
+      ]
+    },
+    {
+      "name": "mkt-campaign-plan",
+      "version": "1.0.0",
+      "description": "Produce a complete marketing campaign brief covering objectives, audience, channels, calendar, and success metrics.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-campaign-plan/SKILL.md",
+      "sha256": "c11a433cfc71d94db67ab49a53ed6b0ba3d3fda57a2eab19c8b3d667594e9283",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "campaign",
+        "strategy",
+        "planning",
+        "brief"
+      ]
+    },
+    {
+      "name": "mkt-competitive-brief",
+      "version": "1.0.0",
+      "description": "Compare competitor positioning and messaging against your own and surface actionable content and differentiation gaps.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-competitive-brief/SKILL.md",
+      "sha256": "127372038d7fb6c5a7bcf497317bc88acc445b410c1c19129267a18eb9e3a91e",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "competitive",
+        "positioning",
+        "research",
+        "strategy"
+      ]
+    },
+    {
+      "name": "mkt-content-calendar",
+      "version": "1.0.0",
+      "description": "Build a 30-day content calendar mapped to marketing goals, channels, themes, and cadence.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-content-calendar/SKILL.md",
+      "sha256": "1bd8b67110f1c1ead4d21b09540f9f1bc1c70e0f9ffbf4ddfd156e94596d6797",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "content",
+        "calendar",
+        "planning",
+        "editorial"
+      ]
+    },
+    {
+      "name": "mkt-draft-content",
+      "version": "1.0.0",
+      "description": "Draft channel-ready marketing content (blog, social, email, landing, press) with correct formatting and SEO best practices.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-draft-content/SKILL.md",
+      "sha256": "efc22780de45d3d37b07e2f960e094af40848f26619f1f98555b45ead8c13fa3",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "copywriting",
+        "content",
+        "seo",
+        "drafting"
+      ]
+    },
+    {
+      "name": "mkt-email-sequence",
+      "version": "1.0.0",
+      "description": "Design a multi-email nurture or lifecycle sequence with copy, timing, branching logic, exit conditions, and benchmarks.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-email-sequence/SKILL.md",
+      "sha256": "8a3ac213cb739a8f90977642867e4ce8a0600b6e6a27809844786a240c2b9620",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "email",
+        "lifecycle",
+        "automation",
+        "nurture"
+      ]
+    },
+    {
+      "name": "mkt-performance-report",
+      "version": "1.0.0",
+      "description": "Turn marketing metrics into a clear performance report with trends, wins, misses, and prioritized optimizations.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-performance-report/SKILL.md",
+      "sha256": "e29f92eb22ec61f19b089003f845029cada4f37034075d15b49d3798e717dbab",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "analytics",
+        "reporting",
+        "metrics",
+        "optimization"
+      ]
+    },
+    {
+      "name": "mkt-seo-audit",
+      "version": "1.0.0",
+      "description": "Audit a page or site for SEO across keywords, on-page, content gaps, and technical health with a prioritized action list.",
+      "author": "matrixx0070",
+      "path": "skills/mkt-seo-audit/SKILL.md",
+      "sha256": "5a9573b1b1de0d065a437723c80681f2182dda2d2436f80302bc4e4c81349306",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "seo",
+        "audit",
+        "content",
+        "technical"
+      ]
+    },
+    {
+      "name": "ops-capacity-plan",
+      "version": "1.0.0",
+      "description": "Build a resource capacity plan from workload analysis and a utilization forecast.",
+      "author": "matrixx0070",
+      "path": "skills/ops-capacity-plan/SKILL.md",
+      "sha256": "853a4d80d074ff8cfdb61c0d059e498be577d4e4ea402370982bdea5f0d3b25c",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "capacity",
+        "forecasting",
+        "planning",
+        "resources"
+      ]
+    },
+    {
+      "name": "ops-change-request",
+      "version": "1.0.0",
+      "description": "Draft a change management request with impact analysis and a rollback plan.",
+      "author": "matrixx0070",
+      "path": "skills/ops-change-request/SKILL.md",
+      "sha256": "b7561ddb56089aa484a83a49cc1dd5b7262c348d2d00f69be3b99a6ddf54def0",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "change-management",
+        "risk",
+        "rollback",
+        "itil"
+      ]
+    },
+    {
+      "name": "ops-compliance-tracking",
+      "version": "1.0.0",
+      "description": "Track compliance and audit readiness against SOC 2, ISO 27001, or GDPR.",
+      "author": "matrixx0070",
+      "path": "skills/ops-compliance-tracking/SKILL.md",
+      "sha256": "afa121ba8129836df0fe2270d382b7ff0951657fd065f358f5cce245a65da245",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "compliance",
+        "audit",
+        "soc2",
+        "gdpr"
+      ]
+    },
+    {
+      "name": "ops-process-doc",
+      "version": "1.0.0",
+      "description": "Document a process with a flowchart, a RACI matrix, and a standard operating procedure.",
+      "author": "matrixx0070",
+      "path": "skills/ops-process-doc/SKILL.md",
+      "sha256": "b9cab6b2c33509b2491dc20f28a31d3dd5af8bc57c1fc3b0c64f262d6700686e",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "process",
+        "sop",
+        "raci",
+        "documentation"
+      ]
+    },
+    {
+      "name": "ops-process-optimization",
+      "version": "1.0.0",
+      "description": "Analyze a slow or bottlenecked process and propose measurable improvements.",
+      "author": "matrixx0070",
+      "path": "skills/ops-process-optimization/SKILL.md",
+      "sha256": "e35ad8485ff0046efa7a52582aef7d384cab3fe522d2a0f8c178cb2a18f7a470",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "process",
+        "optimization",
+        "lean",
+        "bottleneck"
+      ]
+    },
+    {
+      "name": "ops-risk-assessment",
+      "version": "1.0.0",
+      "description": "Identify, assess, and mitigate operational risks in a structured risk register.",
+      "author": "matrixx0070",
+      "path": "skills/ops-risk-assessment/SKILL.md",
+      "sha256": "5f1b56b227d01cf006694b47cd209b0d66da5d897a7e4544871ecf9a1df297c1",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "risk",
+        "mitigation",
+        "register",
+        "resilience"
+      ]
+    },
+    {
+      "name": "ops-runbook",
+      "version": "1.0.0",
+      "description": "Create or update an operational runbook for a recurring or on-call task.",
+      "author": "matrixx0070",
+      "path": "skills/ops-runbook/SKILL.md",
+      "sha256": "5ecd2eb7c2edc0aade8ea9c210d5314f35253be065dc57b62dff0de970b8035d",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "runbook",
+        "on-call",
+        "procedure",
+        "incident"
+      ]
+    },
+    {
+      "name": "ops-status-report",
+      "version": "1.0.0",
+      "description": "Produce an operational status report with KPIs, risks, action items, and R/Y/G health.",
+      "author": "matrixx0070",
+      "path": "skills/ops-status-report/SKILL.md",
+      "sha256": "74a21bd3ec6a6377ad8de30c51b92bd413e1babc16ee8148d732a823f90e2ff6",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "status",
+        "reporting",
+        "kpi",
+        "health"
+      ]
+    },
+    {
+      "name": "ops-vendor-review",
+      "version": "1.0.0",
+      "description": "Evaluate a vendor on cost, risk, and total cost of ownership with a clear recommendation.",
+      "author": "matrixx0070",
+      "path": "skills/ops-vendor-review/SKILL.md",
+      "sha256": "fc403e70cc0c845c956cd9c77b0d253830dac10bd556cc68610a509b9f077a50",
+      "capabilities": [],
+      "tags": [
+        "operations",
+        "vendor",
+        "procurement",
+        "tco",
+        "risk"
+      ]
+    },
+    {
+      "name": "pm-brainstorming",
+      "version": "1.0.0",
+      "description": "Brainstorm and stress-test product ideas as a sharp, candid thinking partner.",
+      "author": "matrixx0070",
+      "path": "skills/pm-brainstorming/SKILL.md",
+      "sha256": "56e9d47cac329d7205bee7f7527209e003ff6efedef69f20544f7268ead1da36",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "ideation",
+        "strategy",
+        "critique",
+        "discovery"
+      ]
+    },
+    {
+      "name": "pm-competitive-brief",
+      "version": "1.0.0",
+      "description": "Produce a competitive analysis brief with battlecards and a sharp differentiation narrative.",
+      "author": "matrixx0070",
+      "path": "skills/pm-competitive-brief/SKILL.md",
+      "sha256": "baadec6426a5745a00790115025fae8812cd84db711eaf61708c6084d1e77176",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "competitive",
+        "strategy",
+        "battlecards",
+        "positioning"
+      ]
+    },
+    {
+      "name": "pm-metrics-review",
+      "version": "1.0.0",
+      "description": "Analyze product metrics with trend analysis and turn the numbers into actionable insights.",
+      "author": "matrixx0070",
+      "path": "skills/pm-metrics-review/SKILL.md",
+      "sha256": "c4da59f3e1bcc456766e4c32c289711dc8f1b79751e1d05bf5021a6f7b704422",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "metrics",
+        "analytics",
+        "growth",
+        "insights"
+      ]
+    },
+    {
+      "name": "pm-roadmap-update",
+      "version": "1.0.0",
+      "description": "Update and reprioritize a Now/Next/Later roadmap against goals, capacity, and new signals.",
+      "author": "matrixx0070",
+      "path": "skills/pm-roadmap-update/SKILL.md",
+      "sha256": "ee10fc4b9df4c08f904a35dfd496ccd2cf939a054fe23d95acee2b12c7b7135b",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "roadmap",
+        "prioritization",
+        "planning",
+        "strategy"
+      ]
+    },
+    {
+      "name": "pm-sprint-planning",
+      "version": "1.0.0",
+      "description": "Plan a sprint with a clear goal, realistic capacity, P0 commitments, stretch items, and carryover.",
+      "author": "matrixx0070",
+      "path": "skills/pm-sprint-planning/SKILL.md",
+      "sha256": "52a766bcfa0435e595cd28bfcae3006b054bb356b098a9084496756198ab084e",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "sprint",
+        "planning",
+        "agile",
+        "execution"
+      ]
+    },
+    {
+      "name": "pm-stakeholder-update",
+      "version": "1.0.0",
+      "description": "Write an audience-tailored stakeholder update for executives, engineering, or customers.",
+      "author": "matrixx0070",
+      "path": "skills/pm-stakeholder-update/SKILL.md",
+      "sha256": "a3c575621e67c48525613063d2510bd1559da1e958af48ce457282b32235902d",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "communication",
+        "stakeholders",
+        "reporting",
+        "updates"
+      ]
+    },
+    {
+      "name": "pm-synthesize-research",
+      "version": "1.0.0",
+      "description": "Synthesize interviews, surveys, and support tickets into ranked, evidence-backed themes.",
+      "author": "matrixx0070",
+      "path": "skills/pm-synthesize-research/SKILL.md",
+      "sha256": "7b77d03bd3ef503b109c850c58c393fb2a4a9f6544c763b4b51c2aac5e04dd78",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "research",
+        "synthesis",
+        "discovery",
+        "insights"
+      ]
+    },
+    {
+      "name": "pm-write-spec",
+      "version": "1.0.0",
+      "description": "Write a PRD or feature spec with clear goals, non-goals, metrics, and acceptance criteria.",
+      "author": "matrixx0070",
+      "path": "skills/pm-write-spec/SKILL.md",
+      "sha256": "c22babab3207c346ed5d28cd185cd9d4becfff1fc7e1d46119cdca760fc96084",
+      "capabilities": [],
+      "tags": [
+        "product",
+        "spec",
+        "prd",
+        "requirements",
+        "planning"
+      ]
     },
     {
       "name": "pros-cons",
@@ -72,17 +1648,467 @@
       "path": "skills/pros-cons/SKILL.md",
       "sha256": "e2f4b2a6642a81dd620ec5935f0331c885c77c25ee47c28a91e3e3db3e8bfb1a",
       "capabilities": [],
-      "tags": ["decisions", "thinking", "productivity"]
+      "tags": []
     },
     {
-      "name": "incident-postmortem",
+      "name": "sales-account-research",
       "version": "1.0.0",
-      "description": "Turn raw incident notes and timelines into a blameless postmortem - impact, timeline, root cause chain, what worked, and action items that prevent recurrence.",
+      "description": "Research a company or person and produce actionable sales intelligence a rep can act on today.",
       "author": "matrixx0070",
-      "path": "skills/incident-postmortem/SKILL.md",
-      "sha256": "fff306cbe00eb8815ae57280ebbd2318eaeb224ed995e073f7110d8126894a77",
+      "path": "skills/sales-account-research/SKILL.md",
+      "sha256": "50adb5f6f38e2d71125b61b64c7053dc66b56200eba0b246f7702a2f9f518c37",
       "capabilities": [],
-      "tags": ["incidents", "devops", "writing"]
+      "tags": [
+        "sales",
+        "research",
+        "account-intel",
+        "prospecting"
+      ]
+    },
+    {
+      "name": "sales-call-prep",
+      "version": "1.0.0",
+      "description": "Prepare for a sales call with account context, attendee research, and a tight agenda.",
+      "author": "matrixx0070",
+      "path": "skills/sales-call-prep/SKILL.md",
+      "sha256": "7db805396d305b22cec1087057f52715fd177b369b8d47a57c551cd1177109f6",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "call-prep",
+        "meetings",
+        "discovery"
+      ]
+    },
+    {
+      "name": "sales-call-summary",
+      "version": "1.0.0",
+      "description": "Turn raw call notes or a transcript into structured action items and a ready-to-send follow-up email.",
+      "author": "matrixx0070",
+      "path": "skills/sales-call-summary/SKILL.md",
+      "sha256": "088a176ee303e5c807f8c3a2d0b503a2da1666087fbd613b9c6d1868d0b2e49c",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "call-notes",
+        "follow-up",
+        "crm"
+      ]
+    },
+    {
+      "name": "sales-competitive-intel",
+      "version": "1.0.0",
+      "description": "Research competitors and build a battlecard with a side-by-side comparison matrix and objection handling.",
+      "author": "matrixx0070",
+      "path": "skills/sales-competitive-intel/SKILL.md",
+      "sha256": "434b73a81490632f553dc27cc4729375a477c9681ec82552cee4cf21f4acb0fb",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "competitive-intel",
+        "battlecard",
+        "positioning"
+      ]
+    },
+    {
+      "name": "sales-create-asset",
+      "version": "1.0.0",
+      "description": "Generate tailored sales assets \u2014 one-pagers, decks, ROI summaries \u2014 from specific deal context.",
+      "author": "matrixx0070",
+      "path": "skills/sales-create-asset/SKILL.md",
+      "sha256": "20ac65c91b8a7db08fc134265d55a89a698771e6d0b3b8bb20aa1c91fd036790",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "assets",
+        "one-pager",
+        "deck",
+        "enablement"
+      ]
+    },
+    {
+      "name": "sales-daily-briefing",
+      "version": "1.0.0",
+      "description": "Produce a prioritized daily sales briefing that tells a rep exactly what to do first.",
+      "author": "matrixx0070",
+      "path": "skills/sales-daily-briefing/SKILL.md",
+      "sha256": "b917cd1297d13ce1c952b76ea38e3c655075c68a93d56296a62a5ba66e388442",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "briefing",
+        "productivity",
+        "prioritization"
+      ]
+    },
+    {
+      "name": "sales-draft-outreach",
+      "version": "1.0.0",
+      "description": "Research a prospect then draft personalized, non-generic outreach that earns a reply.",
+      "author": "matrixx0070",
+      "path": "skills/sales-draft-outreach/SKILL.md",
+      "sha256": "fdf9f44ecb6de276bdf5bf5b11f728f65c7a07d7d4a87c8b0c40c59e407008ee",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "outreach",
+        "prospecting",
+        "cold-email"
+      ]
+    },
+    {
+      "name": "sales-forecast",
+      "version": "1.0.0",
+      "description": "Build a weighted sales forecast with best/likely/worst cases, commit vs. upside, and gap-to-target.",
+      "author": "matrixx0070",
+      "path": "skills/sales-forecast/SKILL.md",
+      "sha256": "dc07bfe6da35788f3f9c63497f8a01e73a37da5a97c9107634986a0d62682b86",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "forecast",
+        "pipeline",
+        "revenue"
+      ]
+    },
+    {
+      "name": "sales-pipeline-review",
+      "version": "1.0.0",
+      "description": "Analyze pipeline health, prioritize deals, and flag risks with specific corrective actions.",
+      "author": "matrixx0070",
+      "path": "skills/sales-pipeline-review/SKILL.md",
+      "sha256": "a57a50e3d17ab0773f7321b35a1f9974f214ef66b20d811305faa4177a870311",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "pipeline",
+        "deal-review",
+        "coaching"
+      ]
+    },
+    {
+      "name": "sec-access-review",
+      "version": "1.0.0",
+      "description": "Run a periodic access review for least-privilege, stale accounts, and role drift.",
+      "author": "matrixx0070",
+      "path": "skills/sec-access-review/SKILL.md",
+      "sha256": "ff0ec0fd86f77dc101657a9a0d3cc653c832e23553c4a1d120348397b76cec77",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "iam",
+        "access-review",
+        "least-privilege",
+        "governance"
+      ]
+    },
+    {
+      "name": "sec-code-audit",
+      "version": "1.0.0",
+      "description": "Perform a security-focused code audit covering injection, authorization, secrets, and unsafe deserialization.",
+      "author": "matrixx0070",
+      "path": "skills/sec-code-audit/SKILL.md",
+      "sha256": "91eac9484962425a029dadd355feca6db7a0068861edeff1eb1eb86ae3a63f26",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "code-audit",
+        "appsec",
+        "injection",
+        "authorization"
+      ]
+    },
+    {
+      "name": "sec-dependency-audit",
+      "version": "1.0.0",
+      "description": "Audit project dependencies for known CVEs and produce a prioritized remediation plan.",
+      "author": "matrixx0070",
+      "path": "skills/sec-dependency-audit/SKILL.md",
+      "sha256": "9752f8ac1f512352d9202656e6ce8f6aae0234fe1404c7477d335c8c6f85238e",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "dependencies",
+        "cve",
+        "sca",
+        "supply-chain"
+      ]
+    },
+    {
+      "name": "sec-hardening-checklist",
+      "version": "1.0.0",
+      "description": "Produce a CIS-style server and application hardening checklist with prioritized fixes.",
+      "author": "matrixx0070",
+      "path": "skills/sec-hardening-checklist/SKILL.md",
+      "sha256": "a8a7671d812e38471a95ae86db2647864468ad7eb0b37d6ab9e7531b9ba92b19",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "hardening",
+        "cis",
+        "baseline",
+        "configuration"
+      ]
+    },
+    {
+      "name": "sec-incident-response",
+      "version": "1.0.0",
+      "description": "Drive a security incident through contain, eradicate, recover, and postmortem phases.",
+      "author": "matrixx0070",
+      "path": "skills/sec-incident-response/SKILL.md",
+      "sha256": "60b4ceb794b9ad531e6b50c3da1d191065dbda875442618a82c779d6f57f3de7",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "incident-response",
+        "forensics",
+        "postmortem",
+        "containment"
+      ]
+    },
+    {
+      "name": "sec-secrets-scan",
+      "version": "1.0.0",
+      "description": "Scan a repository and logs for leaked secrets and produce a credential rotation runbook.",
+      "author": "matrixx0070",
+      "path": "skills/sec-secrets-scan/SKILL.md",
+      "sha256": "04e2b15c89ac71c24ab45f87020e554354e03db5f58c61ebdd1bf9cf5db0f3a1",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "secrets",
+        "credentials",
+        "rotation",
+        "dlp"
+      ]
+    },
+    {
+      "name": "sec-threat-model",
+      "version": "1.0.0",
+      "description": "Build a STRIDE-based threat model and attack-surface map for a feature or system.",
+      "author": "matrixx0070",
+      "path": "skills/sec-threat-model/SKILL.md",
+      "sha256": "3cc297799b80d08cc58427d0e3c8df83796f24090f3a985f8684249e0a1d7d00",
+      "capabilities": [],
+      "tags": [
+        "security",
+        "threat-modeling",
+        "stride",
+        "architecture",
+        "risk"
+      ]
+    },
+    {
+      "name": "smb-business-pulse",
+      "version": "1.0.0",
+      "description": "Build a one-page cross-functional snapshot of cash, sales, pipeline, and the watch-list for a small business.",
+      "author": "matrixx0070",
+      "path": "skills/smb-business-pulse/SKILL.md",
+      "sha256": "f5601e5572b06d5cab5c42441e479b3c8c0063ce260b19220d78997f822da9c0",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "dashboard",
+        "cash",
+        "sales",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "smb-cash-flow",
+      "version": "1.0.0",
+      "description": "Produce a 30/60/90-day cash-flow forecast from AR and AP with confidence bands.",
+      "author": "matrixx0070",
+      "path": "skills/smb-cash-flow/SKILL.md",
+      "sha256": "dfbfcf7a3e29a4373cdbb74897e80ac01a879e70c569c6bb50ad967e0197dfa6",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "cash-flow",
+        "forecast",
+        "ar",
+        "ap"
+      ]
+    },
+    {
+      "name": "smb-close-month",
+      "version": "1.0.0",
+      "description": "Run a small-business month-end close, reconciling books against processors and producing a P&L narrative.",
+      "author": "matrixx0070",
+      "path": "skills/smb-close-month/SKILL.md",
+      "sha256": "5333d482be94df95bc177058bdafb576604ccf33e02691ef1c34d1c72c0dd54c",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "month-end",
+        "close",
+        "reconciliation",
+        "p&l"
+      ]
+    },
+    {
+      "name": "smb-customer-pulse",
+      "version": "1.0.0",
+      "description": "Aggregate disputes, tickets, and reviews into themes with three concrete actions.",
+      "author": "matrixx0070",
+      "path": "skills/smb-customer-pulse/SKILL.md",
+      "sha256": "47290e1793132e21b09805b88ac4d68855ed6bc07591bb78ee367277393db5ec",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "customers",
+        "feedback",
+        "reviews",
+        "support"
+      ]
+    },
+    {
+      "name": "smb-handle-complaint",
+      "version": "1.0.0",
+      "description": "Handle a customer complaint end-to-end \u2014 context, a drafted response, and an operational fix.",
+      "author": "matrixx0070",
+      "path": "skills/smb-handle-complaint/SKILL.md",
+      "sha256": "f97a48cb0f16afbee071b93498bce33d77fdb3b53de6e5dbb31c77ad832283bb",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "complaints",
+        "customer-service",
+        "retention",
+        "operations"
+      ]
+    },
+    {
+      "name": "smb-invoice-chase",
+      "version": "1.0.0",
+      "description": "Draft overdue-invoice reminders matched to each customer's payment history and the right tone.",
+      "author": "matrixx0070",
+      "path": "skills/smb-invoice-chase/SKILL.md",
+      "sha256": "c32b6a1a1ae2c0e05705a6478a51b0a50a33a6bb1af1b94ef56286b29ce16790",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "ar",
+        "collections",
+        "invoicing",
+        "customers"
+      ]
+    },
+    {
+      "name": "smb-lead-triage",
+      "version": "1.0.0",
+      "description": "Score inbound leads into a \"call these 5 today\" list with tailored follow-ups.",
+      "author": "matrixx0070",
+      "path": "skills/smb-lead-triage/SKILL.md",
+      "sha256": "5066f4d5f919b116ceff5499be4642da7e22f579599b574f0047b4337979f660",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "sales",
+        "leads",
+        "triage",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "smb-margin-analyzer",
+      "version": "1.0.0",
+      "description": "Break down unit economics by product or service and model pricing scenarios.",
+      "author": "matrixx0070",
+      "path": "skills/smb-margin-analyzer/SKILL.md",
+      "sha256": "3269b59d586406c0217fb3a9defb327712049a15a431df101abfec27b62b7265",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "margin",
+        "pricing",
+        "unit-economics",
+        "profitability"
+      ]
+    },
+    {
+      "name": "smb-monday-brief",
+      "version": "1.0.0",
+      "description": "Produce a Monday one-page briefing covering cash, sales, pipeline, and the top three to-dos.",
+      "author": "matrixx0070",
+      "path": "skills/smb-monday-brief/SKILL.md",
+      "sha256": "d07a41c73768618fd837bfe2505551f928661154a459f9395acd775a679630d3",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "briefing",
+        "weekly",
+        "cash",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "smb-plan-payroll",
+      "version": "1.0.0",
+      "description": "Forecast cash to the next payroll date and rank overdue invoices so payroll can run confidently.",
+      "author": "matrixx0070",
+      "path": "skills/smb-plan-payroll/SKILL.md",
+      "sha256": "c97291ea47d9bec9b4a6e74ad6f270ffd1dbc28626a051c73b8d0dbe726b0c38",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "payroll",
+        "cash",
+        "collections",
+        "planning"
+      ]
+    },
+    {
+      "name": "smb-quarterly-review",
+      "version": "1.0.0",
+      "description": "Build a quarterly business review narrative on revenue, margin, and customer trends as a deck.",
+      "author": "matrixx0070",
+      "path": "skills/smb-quarterly-review/SKILL.md",
+      "sha256": "ac34ecd130950428841c81526c1e2b2e6159db02545028e164c2f199b9477d4b",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "qbr",
+        "review",
+        "quarterly",
+        "deck"
+      ]
+    },
+    {
+      "name": "smb-tax-prep",
+      "version": "1.0.0",
+      "description": "Assemble tax-season materials \u2014 quarterly estimates or year-end 1099s \u2014 and an accountant packet.",
+      "author": "matrixx0070",
+      "path": "skills/smb-tax-prep/SKILL.md",
+      "sha256": "1f4015a3d61d5012bd702501d88172784895525708867143fe85e39d04366c64",
+      "capabilities": [],
+      "tags": [
+        "small-business",
+        "tax",
+        "quarterly",
+        1099,
+        "accountant"
+      ]
+    },
+    {
+      "name": "standup-summary",
+      "version": "1.0.0",
+      "description": "Turn raw notes about yesterday's work into a crisp standup update - done / doing / blocked - honest about what actually shipped versus what is in progress.",
+      "author": "matrixx0070",
+      "path": "skills/standup-summary/SKILL.md",
+      "sha256": "115d7a4f694d76aa02065b82336e6a64ca90361646975846bc8b523eac1e02af",
+      "capabilities": [],
+      "tags": []
+    },
+    {
+      "name": "tldr",
+      "version": "1.0.0",
+      "description": "Compress any long text, article, or thread into a one-line takeaway plus the few points that actually matter - without losing caveats that change the meaning.",
+      "author": "matrixx0070",
+      "path": "skills/tldr/SKILL.md",
+      "sha256": "4f1bd942cdd376e96524937a2afb4042526f1d2c7ff1b1a02501ca19e749a00c",
+      "capabilities": [],
+      "tags": []
     }
   ]
 }

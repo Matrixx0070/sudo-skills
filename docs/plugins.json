@@ -2,61 +2,140 @@
   "registry": "sudo-plugins",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T17:00:00Z",
+  "updated": "2026-07-11T18:00:00Z",
   "plugins": [
     {
-      "name": "engineering",
-      "displayName": "Engineering",
-      "description": "Role bundle for software engineering — commit hygiene, incident postmortems, plus GitHub and browser-automation connectors.",
-      "category": "development",
-      "skills": ["commit-message", "incident-postmortem"],
-      "connectors": ["github", "playwright"],
-      "tags": ["dev", "code", "git"]
+      "name": "engineering", "displayName": "Engineering", "category": "development",
+      "description": "Ship software with rigor — ADRs, code review, debugging, deploys, docs, system design, tech debt, testing, standups, incidents.",
+      "skills": ["eng-architecture", "eng-code-review", "eng-debug", "eng-deploy-checklist", "eng-tech-docs", "eng-system-design", "eng-tech-debt", "eng-testing-strategy", "commit-message", "incident-postmortem", "standup-summary"],
+      "connectors": ["github", "playwright", "git", "linear", "sentry"],
+      "tags": ["dev", "code", "git", "ci"]
     },
     {
-      "name": "productivity",
-      "displayName": "Productivity",
-      "description": "Plan your day and capture work — meeting notes, standups, TL;DRs, with local filesystem and knowledge-graph memory.",
-      "category": "productivity",
-      "skills": ["meeting-notes", "standup-summary", "tldr"],
-      "connectors": ["filesystem", "memory"],
-      "tags": ["notes", "planning"]
+      "name": "data", "displayName": "Data & Analytics", "category": "data",
+      "description": "Turn raw data into decisions — SQL across dialects, exploration, stats, dashboards, publication-quality viz, and QA before you ship a number.",
+      "skills": ["data-analyze", "data-write-query", "data-sql-queries", "data-explore", "data-statistical-analysis", "data-create-viz", "data-build-dashboard", "data-validate", "data-context-extractor", "tldr"],
+      "connectors": ["snowflake", "bigquery", "databricks", "amplitude"],
+      "tags": ["data", "sql", "analytics", "viz"]
     },
     {
-      "name": "writing",
-      "displayName": "Writing & Comms",
-      "description": "Sharpen written communication — polish emails, explain simply (ELI5), and summarize long text.",
-      "category": "communication",
+      "name": "product-management", "displayName": "Product Management", "category": "productivity",
+      "description": "Run product end-to-end — specs/PRDs, roadmaps, sprint planning, metrics review, research synthesis, competitive briefs, stakeholder updates.",
+      "skills": ["pm-write-spec", "pm-roadmap-update", "pm-sprint-planning", "pm-metrics-review", "pm-synthesize-research", "pm-competitive-brief", "pm-stakeholder-update", "pm-brainstorming", "pros-cons", "meeting-notes"],
+      "connectors": ["linear", "notion", "figma", "amplitude"],
+      "tags": ["product", "roadmap", "specs"]
+    },
+    {
+      "name": "design", "displayName": "Design", "category": "design",
+      "description": "From exploration to pixel-perfect specs — critique, design systems, dev handoff, accessibility audits, UX copy, and research.",
+      "skills": ["dsn-design-critique", "dsn-design-system", "dsn-handoff", "dsn-accessibility-review", "dsn-ux-copy", "dsn-user-research", "dsn-research-synthesis"],
+      "connectors": ["figma", "canva", "miro", "notion"],
+      "tags": ["design", "ux", "a11y"]
+    },
+    {
+      "name": "marketing", "displayName": "Marketing", "category": "communication",
+      "description": "Plan, create, and measure — campaign briefs, multi-channel content, email sequences, SEO audits, brand review, and performance reporting.",
+      "skills": ["mkt-campaign-plan", "mkt-draft-content", "mkt-email-sequence", "mkt-seo-audit", "mkt-brand-review", "mkt-competitive-brief", "mkt-performance-report", "mkt-content-calendar"],
+      "connectors": ["canva", "figma", "hubspot", "notion"],
+      "tags": ["marketing", "content", "seo"]
+    },
+    {
+      "name": "operations", "displayName": "Operations", "category": "productivity",
+      "description": "Keep the org running — process docs (RACI/flowcharts), runbooks, capacity + risk, change management, compliance, vendor review, status reports.",
+      "skills": ["ops-process-doc", "ops-process-optimization", "ops-runbook", "ops-capacity-plan", "ops-risk-assessment", "ops-change-request", "ops-compliance-tracking", "ops-vendor-review", "ops-status-report"],
+      "connectors": ["slack", "notion", "atlassian", "asana"],
+      "tags": ["ops", "process", "compliance"]
+    },
+    {
+      "name": "sales", "displayName": "Sales", "category": "sales",
+      "description": "Move deals forward — account research, call prep + summaries, personalized outreach, battlecards, forecasts, and pipeline reviews.",
+      "skills": ["sales-account-research", "sales-call-prep", "sales-call-summary", "sales-draft-outreach", "sales-competitive-intel", "sales-create-asset", "sales-daily-briefing", "sales-forecast", "sales-pipeline-review"],
+      "connectors": ["hubspot", "salesforce", "apollo", "zoominfo"],
+      "tags": ["sales", "crm", "outreach"]
+    },
+    {
+      "name": "customer-support", "displayName": "Customer Support", "category": "communication",
+      "description": "Resolve faster — ticket triage, customer research, on-brand responses, escalations, KB articles, and sentiment scans.",
+      "skills": ["cs-ticket-triage", "cs-research", "cs-draft-response", "cs-escalation", "cs-kb-article", "cs-sentiment-scan"],
+      "connectors": ["intercom", "zendesk", "hubspot", "guru"],
+      "tags": ["support", "tickets", "cx"]
+    },
+    {
+      "name": "finance", "displayName": "Finance & Accounting", "category": "finance",
+      "description": "Close clean and analyze — journal entries, reconciliation, statements, variance bridges, cash-flow forecasts, SOX testing, audit support.",
+      "skills": ["fin-journal-entry", "fin-reconciliation", "fin-close-management", "fin-financial-statements", "fin-variance-analysis", "fin-cash-flow", "fin-sox-testing", "fin-audit-support"],
+      "connectors": ["quickbooks", "stripe", "bigquery"],
+      "tags": ["finance", "accounting", "close"]
+    },
+    {
+      "name": "legal", "displayName": "Legal", "category": "legal",
+      "description": "Speed in-house legal — contract review + redlines, NDA triage, compliance checks, risk assessment, e-signature routing, vendor checks.",
+      "skills": ["legal-review-contract", "legal-triage-nda", "legal-compliance-check", "legal-risk-assessment", "legal-response", "legal-brief", "legal-meeting-briefing", "legal-signature-request", "legal-vendor-check"],
+      "connectors": ["docusign", "box"],
+      "tags": ["legal", "contracts", "compliance"]
+    },
+    {
+      "name": "human-resources", "displayName": "Human Resources", "category": "productivity",
+      "description": "Run people ops — recruiting pipeline, interview prep, offers, onboarding, performance reviews, comp analysis, org planning, policy lookup, reports.",
+      "skills": ["hr-recruiting-pipeline", "hr-interview-prep", "hr-draft-offer", "hr-onboarding", "hr-performance-review", "hr-comp-analysis", "hr-org-planning", "hr-policy-lookup", "hr-people-report"],
+      "connectors": ["notion", "atlassian", "slack"],
+      "tags": ["hr", "people", "recruiting"]
+    },
+    {
+      "name": "bio-research", "displayName": "Bio Research", "category": "learning",
+      "description": "Accelerate early-stage life-science R&D — literature review, target prioritization, experiment design, single-cell QC, pipeline runs.",
+      "skills": ["bio-literature-review", "bio-target-prioritization", "bio-experiment-design", "bio-single-cell-qc", "bio-pipeline-runner", "bio-problem-selection"],
+      "connectors": ["pubmed"],
+      "tags": ["bio", "research", "genomics"]
+    },
+    {
+      "name": "enterprise-search", "displayName": "Enterprise Search", "category": "productivity",
+      "description": "Find anything across your tools — one-query search, query-decomposition strategy, cross-source synthesis, digests, and source management.",
+      "skills": ["es-search", "es-search-strategy", "es-knowledge-synthesis", "es-digest", "es-source-management"],
+      "connectors": ["slack", "notion", "guru", "atlassian"],
+      "tags": ["search", "knowledge"]
+    },
+    {
+      "name": "productivity", "displayName": "Productivity", "category": "productivity",
+      "description": "Plan your day and capture work — meeting notes, standups, summaries, and pros/cons decisions, with local memory + calendar.",
+      "skills": ["meeting-notes", "standup-summary", "tldr", "pros-cons"],
+      "connectors": ["filesystem", "memory", "sequentialthinking", "google-calendar"],
+      "tags": ["productivity", "notes", "planning"]
+    },
+    {
+      "name": "writing", "displayName": "Writing & Comms", "category": "communication",
+      "description": "Sharpen written communication — polish emails, explain simply (ELI5), and summarize long text. A SUDO role Claude has no first-party bundle for.",
       "skills": ["email-polish", "eli5", "tldr"],
       "connectors": [],
       "tags": ["writing", "email", "summary"]
     },
     {
-      "name": "product-management",
-      "displayName": "Product Management",
-      "description": "PM workflows — weigh trade-offs, run meetings, keep stakeholders updated, tied to GitHub and Linear.",
-      "category": "productivity",
-      "skills": ["pros-cons", "meeting-notes", "standup-summary"],
-      "connectors": ["github", "linear"],
-      "tags": ["product", "roadmap"]
+      "name": "small-business", "displayName": "Small Business", "category": "finance",
+      "description": "Owner-in-the-loop SMB workflows — cash-flow, month-end close, invoice chasing, payroll planning, lead triage, customer pulse, tax prep, QBR.",
+      "skills": ["smb-business-pulse", "smb-cash-flow", "smb-close-month", "smb-invoice-chase", "smb-plan-payroll", "smb-lead-triage", "smb-customer-pulse", "smb-margin-analyzer", "smb-monday-brief", "smb-tax-prep", "smb-quarterly-review", "smb-handle-complaint"],
+      "connectors": ["quickbooks", "stripe", "paypal", "square", "hubspot", "docusign"],
+      "tags": ["smb", "owner", "finance"]
     },
     {
-      "name": "support",
-      "displayName": "Customer Support",
-      "description": "Triage and resolve — incident postmortems and crisp summaries, wired to Sentry for error context.",
-      "category": "communication",
-      "skills": ["incident-postmortem", "tldr"],
-      "connectors": ["sentry"],
-      "tags": ["support", "tickets"]
+      "name": "pdf-viewer", "displayName": "PDF Viewer", "category": "productivity",
+      "description": "View, annotate, fill, and sign PDFs in an interactive viewer via the live PDF MCP connector.",
+      "skills": [],
+      "connectors": ["pdf"],
+      "tags": ["pdf", "documents", "signature"]
     },
     {
-      "name": "research",
-      "displayName": "Research",
-      "description": "Structured investigation — step-by-step reasoning and knowledge-graph memory with summarize + pros/cons skills.",
-      "category": "learning",
-      "skills": ["tldr", "pros-cons"],
-      "connectors": ["sequentialthinking", "memory"],
-      "tags": ["research", "analysis"]
+      "name": "security", "displayName": "Security", "category": "security",
+      "description": "Defensive security depth Claude has no first-party bundle for — threat modeling, code audits, secrets scans, dependency CVEs, IR, hardening, access review.",
+      "skills": ["sec-threat-model", "sec-code-audit", "sec-secrets-scan", "sec-dependency-audit", "sec-incident-response", "sec-hardening-checklist", "sec-access-review"],
+      "connectors": ["sentry", "vanta", "datadog"],
+      "tags": ["security", "audit", "defensive"]
+    },
+    {
+      "name": "devops", "displayName": "DevOps & Platform", "category": "development",
+      "description": "Platform engineering Claude has no first-party bundle for — CI/CD, Dockerfiles, Kubernetes, Terraform, observability, runbooks, release checklists.",
+      "skills": ["do-ci-pipeline", "do-dockerfile", "do-kubernetes", "do-terraform", "do-observability", "do-incident-runbook", "do-release-checklist"],
+      "connectors": ["github", "datadog", "pagerduty", "sentry"],
+      "tags": ["devops", "platform", "infra"]
     }
   ]
 }
