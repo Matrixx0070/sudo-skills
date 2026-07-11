@@ -53,3 +53,53 @@ CASH vs FINANCE: APR [x]% vs safe yield [x]% -> [pay cash | finance]
 RECOMMENDATION: [buy/rent/defer] — deciding factor: [x]
 Confirm large loans with a licensed professional before signing.
 ```
+
+## Reference
+
+Educational frameworks below — general working knowledge, not individualized financial advice. Figures are illustrative anchors that vary by market, rate environment, and time.
+
+### Total cost of ownership (TCO), not sticker price
+
+Compare options over the **same holding period** using full cost, not the headline price:
+
+- **Buying:** purchase price + financing interest + maintenance/repairs + insurance + property tax/registration/fees + transaction costs (closing costs, sales tax) − resale/residual value + **opportunity cost** of the down payment (what that cash could have earned).
+- **Renting/leasing:** rent or lease payment + expected increases + renter's insurance + any fees, over the same period.
+
+The comparison is only fair when both cover identical years and include every recurring cost.
+
+### Rent vs buy — the horizon rule
+
+Buying carries large upfront and exit costs (often ~2-5% to buy, ~6-10% to sell a home). You typically need to hold long enough to spread those costs — a commonly taught **breakeven is roughly 3-5+ years** for a home. Shorter horizons or a need for mobility usually favor renting; longer horizons plus stability favor buying. The "price-to-rent ratio" (home price ÷ annual rent for a comparable place) is a rough screen: very high ratios lean toward renting, low ratios toward buying.
+
+### Affordability guidelines
+
+- **Housing:** a common ceiling is total housing cost ≤ ~28% of gross income; total debt payments ≤ ~36% (the "28/36 rule" lenders use). **Approval ≠ affordability** — lenders qualify you at the max, not the comfortable, number.
+- **Cars:** one widely taught guideline is **20/4/10** — at least 20% down, finance no longer than 4 years, and keep total transport costs under ~10% of gross income.
+- **Universal gate:** the payment must fit *without* cutting savings below target or breaching the emergency fund.
+
+### Cash vs finance
+
+Compare the **loan APR** against what the cash could **safely earn** (and after-tax where relevant):
+
+- APR clearly **above** safe yield → paying cash or a larger down payment usually wins (you "earn" the avoided interest, guaranteed).
+- APR **below** safe yield (e.g., a 0% or subsidized promo) → keeping cash invested *can* win — but only with the discipline to not spend it and the reserve to cover the payments.
+- **0% promos:** verify it's truly 0% (not deferred interest that back-charges if unpaid) and that you'll clear it before expiry.
+
+Interest cost on a loan rises with both rate and term: a longer term lowers the monthly payment but raises total interest and the time spent "underwater" (owing more than the item is worth), especially on fast-depreciating goods like cars.
+
+### Depreciation and reserves
+
+- New cars commonly lose a large share of value in the first few years; used can cut that depreciation hit.
+- **Never** drain the emergency fund for a down payment — one shock afterward forces high-interest borrowing, erasing the savings.
+- Budget an ongoing maintenance/repair reserve for anything owned (homes: a rough teaching figure is ~1% of home value per year for upkeep).
+
+### Decision checklist
+
+1. Same-period TCO for each option computed?
+2. Horizon long enough to clear transaction costs?
+3. Payment fits budget with savings target intact?
+4. Emergency fund untouched after the down payment?
+5. Cash-vs-finance settled on APR vs safe yield?
+6. Recommendation states the single deciding factor.
+
+Large loans and mortgages are irreversible commitments — confirm terms with a licensed professional before signing.

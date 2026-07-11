@@ -41,3 +41,47 @@ Articulation: NI→equity [pass/fail] | ending cash = BS cash [pass/fail]
 Variances (material): | line | $var | %var | driver |
 Commentary: <...>
 ```
+
+## Reference
+
+### The three statements and how they articulate
+The statements are one interlocking system. If any tie below fails, the package is wrong — do not issue it.
+
+| Tie-out | Rule |
+|---|---|
+| **Net income → equity** | Beginning retained earnings + net income − dividends = ending retained earnings |
+| **Cash flow → balance sheet** | Ending cash on the cash-flow statement = cash line on the balance sheet |
+| **Balance sheet identity** | Assets = Liabilities + Equity (every period) |
+| **Depreciation** | On P&L (expense), added back on CFS (non-cash), and accumulated on BS (contra-asset) — same number in all three |
+| **PP&E roll-forward** | Beginning PP&E + capex − disposals − depreciation = ending PP&E |
+| **Debt roll-forward** | Beginning debt + draws − repayments = ending debt; interest on P&L, principal in financing |
+| **AR/AP → CFS** | Increase in AR = cash use (subtract); increase in AP = cash source (add) |
+
+### Indirect-method cash flow (operating section)
+`Net income + non-cash items (depreciation, amortization, stock comp, deferred tax, impairments) ± changes in working capital + gains/losses reversed = cash from operations.` Working-capital sign rule: an **increase in an asset** (AR, inventory, prepaids) *uses* cash (subtract); an **increase in a liability** (AP, accrued, deferred revenue) *provides* cash (add). Investing = capex, acquisitions, asset sales, investments. Financing = debt draws/repayments, equity issuance/buybacks, dividends.
+
+### Key ratios and formulas
+| Ratio | Formula | Reads |
+|---|---|---|
+| Current ratio | Current assets ÷ current liabilities | Short-term liquidity (>1.0 healthy) |
+| Quick ratio | (Current assets − inventory) ÷ current liabilities | Liquidity excluding inventory |
+| Gross margin | Gross profit ÷ revenue | Unit economics |
+| Operating margin | Operating income ÷ revenue | Core profitability |
+| Net margin | Net income ÷ revenue | Bottom-line profitability |
+| Return on equity | Net income ÷ average equity | Return to owners |
+| Return on assets | Net income ÷ average total assets | Asset efficiency |
+| Debt-to-equity | Total debt ÷ total equity | Leverage |
+| Interest coverage | EBIT ÷ interest expense | Ability to service debt |
+| DSO | (Average AR ÷ revenue) × days | Collection speed |
+| DPO | (Average AP ÷ COGS) × days | Payment speed |
+| DIO | (Average inventory ÷ COGS) × days | Inventory turns |
+| Cash conversion cycle | DSO + DIO − DPO | Days cash is tied up |
+| Working capital | Current assets − current liabilities | Operating liquidity buffer |
+
+### Statement structure checklist
+- **Income statement:** Revenue → COGS → gross profit → operating expenses → operating income (EBIT) → other income/expense, interest → pre-tax income → tax → net income. Compute margins at each level.
+- **Balance sheet:** current assets, non-current assets | current liabilities, non-current liabilities, equity. Order current items by liquidity.
+- **Cash flow:** operating + investing + financing = net change in cash; + beginning cash = ending cash (which must match the BS).
+
+### Materiality and commentary
+Set a materiality threshold before flux review (common: ≥5% and ≥ a dollar floor). Flag only lines past it; below-threshold noise buries the real story. Every flagged variance needs a named driver derived from *this* period's data — a material variance with no explainable driver is a suspected error; re-check the ledger rather than invent a narrative. Never force-balance with a plug; a "rounding" line hiding a real gap is a booking error waiting to be found. GAAP vs IFRS differences that affect statements: inventory (IFRS bans LIFO), development costs (IFRS may capitalize), asset revaluation (IFRS permits), and lease/impairment mechanics — state the basis up front.

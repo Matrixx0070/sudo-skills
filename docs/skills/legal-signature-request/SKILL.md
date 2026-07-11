@@ -42,3 +42,45 @@ Reminders & expiry:
 Post-execution actions:
   | Action | Owner | Date |
 ```
+
+## Pre-send checklist reference
+Run every row before the document leaves your hands. Any "Fail" is a hard stop — do not send a document you have to re-sign.
+
+| Check | What good looks like | Fail = stop |
+|-------|---------------------|-------------|
+| Version match | Matches the final approved redline exactly | Any tracked changes or open comments remain |
+| Approvals recorded | All internal sign-offs logged and traceable | A required approver has not signed off |
+| Entity names | Exact legal names + entity type (e.g. "Acme, Inc.", a Delaware corporation) | Wrong, informal, or inconsistent entity names |
+| Dates | Effective date set, or intentionally left blank to complete on execution | Placeholder or accidentally wrong date |
+| Dollar amounts & numbers | Every figure matches the body and all exhibits | Any mismatch between clauses, exhibits, or schedules |
+| Exhibits / schedules / attachments | All present, attached, and referenced correctly | A referenced exhibit is missing or misnumbered |
+| Placeholders resolved | No [BRACKETS], TBDs, or highlight markers | Any unresolved placeholder anywhere in the doc |
+| Defined terms | Consistent capitalization and usage throughout | A defined term used before/outside its definition |
+| Signature blocks | Correct name, title, entity, and authority per signer | Wrong signatory, title, or missing block |
+| Counterpart / e-sign clause | Present and permits electronic execution | No counterpart or e-signature authorization |
+
+## Signer & routing reference
+- **Authority to sign.** Confirm each signer can actually bind the entity — an officer, someone with delegated signing authority, or, where the deal or bylaws require it, a board resolution. A signature from someone without authority can void the agreement.
+- **Signing order.** Use **sequential** order when routing is counterparty-first or gated by an approval step (each signer waits for the prior). Use **parallel** only when the signatures are genuinely independent of each other.
+- **Witness / notary requirements.** Some instruments need more than a signature: deeds, certain real-estate and IP assignments, and documents in some jurisdictions may require witnessing, notarization, or an apostille for cross-border use. Confirm before sending.
+- **CC recipients.** Identify who should receive the executed copy (deal owner, finance, contract repository) and add them so distribution is automatic.
+
+## E-signature workflow reference
+| Setting | Recommended default |
+|---------|--------------------|
+| Reminder cadence | Every 2-3 days |
+| Expiry | 7-14 days |
+| Field placement | Signature, date, initials, and title placed per signer |
+| Authentication level | Email for routine docs; SMS or KBA (knowledge-based) for high-value or high-risk |
+| Audit trail / certificate | Retained with the executed copy in the system of record |
+
+## Post-execution
+Once every party has signed, close the loop:
+
+- [ ] Store the executed copy in the system of record (contract repository / CLM), not an inbox
+- [ ] Distribute the fully executed copy to all parties
+- [ ] Extract key dates into a calendar or CLM — effective date, term end, renewal-notice deadline, milestones
+- [ ] Notify the obligation owners who must act on those dates
+- [ ] Confirm the audit trail / signature certificate is filed with the document
+
+**E-signature legal validity:** in the US, ESIGN and UETA make electronic signatures valid for most commercial documents; in the EU, eIDAS governs (with tiers of e-signature). Some documents — wills, certain family-law or court filings, some statutory notices, and specific real-estate instruments — may require wet-ink signatures or notarization. Confirm with counsel for any exception before relying on e-signature.

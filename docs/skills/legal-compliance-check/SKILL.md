@@ -40,3 +40,39 @@ Required approvals: <role> (order N)
 Residual risk:
 Escalation flags:
 ```
+
+## Regime reference
+Map the action to every domain it touches, then to the specific regimes in play. Use this table as a checklist — most actions hit more than one row.
+
+| Domain | Key regimes | Core requirement | Typical trigger |
+|--------|-------------|------------------|-----------------|
+| Data privacy | GDPR, UK GDPR, CCPA/CPRA, ePrivacy/PECR | Lawful basis, consent, DPIA, DSAR handling, records | Any EU personal data processing → GDPR lawful basis + records; CA resident data → CCPA notice + opt-out |
+| Marketing / comms | CAN-SPAM, ePrivacy, TCPA | Opt-in/opt-out, sender identification, prior consent for SMS/calls | Marketing email to consumers → CAN-SPAM unsubscribe + physical address; EU → prior opt-in; US SMS marketing → TCPA prior express written consent |
+| Consumer protection | FTC Act, EU UCPD, ASA (UK), UWG (DE) | No deceptive/unfair practices; clear, non-misleading disclosures | Public claims, pricing, or promotions → substantiation + clear disclosure |
+| Employment | FLSA, at-will vs. works-council regimes, worker-classification tests | Wage/hour compliance, correct classification, consultation duties | Hiring/engaging workers abroad → local classification + council consultation |
+| Export control | EAR, OFAC sanctions, ITAR | Denied-party and destination screening; classification | Shipping tech abroad → EAR classification + OFAC screen |
+| IP | Trademark clearance, copyright license, open-source license compliance | Clearance before use; honor license terms | New brand/name → trademark clearance; shipping code → OSS license review |
+| Financial / sector | KYC/AML, PCI-DSS, HIPAA, SOX, GLBA | Identity/transaction controls, card-data and PHI safeguards, financial reporting integrity | Handling cards → PCI-DSS; handling health data → HIPAA |
+| Accessibility | ADA, WCAG, EAA | Accessible digital products and services | Public web/app or EU digital product → WCAG conformance |
+
+## Approval routing
+Sign-offs are sequential, not parallel — the earlier gate can kill the request before the later one spends time on it.
+
+| Trigger | Required sign-offs (in order) |
+|---------|-------------------------------|
+| Personal data involved | Privacy/DPO → Legal |
+| New market entry | Legal → Finance |
+| Marketing campaign | Legal/Brand → Marketing lead |
+| Security-relevant change | Security → Legal |
+| Financial commitment over threshold | Finance → Executive |
+
+## Verdict rubric
+
+| Verdict | When |
+|---------|------|
+| Proceed | Every applicable regime is compliant; no open conditions or approvals |
+| Proceed-with-conditions | Only conditional items remain, each with an owned, dated condition |
+| Hold | Any non-compliant item, or any condition without an owner |
+| Escalate | Anything unclear or novel, a contested regime, or a missing required approval |
+
+The controlling rule stands: **unclear is a hold, never a pass.** An item you cannot confidently mark compliant is treated as non-compliant until counsel clarifies it. Do not upgrade a verdict to clear the path faster — the point of the check is to catch exposure before it ships.

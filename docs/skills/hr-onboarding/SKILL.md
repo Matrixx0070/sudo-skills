@@ -42,3 +42,94 @@ First-week plan: day → focus → activity
 30/60/90 ramp: milestone → goal → success signal
 Check-in schedule: week-1 + day-30 (owner)
 ```
+
+## Reference
+
+### Pre-boarding checklist (owner in parens)
+
+Fire these the moment the offer is signed; the goal is a hire who logs in on day 1 to a working setup, not a ticket queue.
+
+- Equipment ordered to arrive **day −3** with time to set up (IT)
+- Accounts/SSO, email, MFA, and role-based access provisioned and tested (IT)
+- I-9 / right-to-work, tax, and payroll forms sent and tracked (HR)
+- Benefits enrollment link + deadline sent (HR)
+- Welcome email: start time, first-day agenda, dress/logistics, point of contact (Manager)
+- Buddy/mentor assigned and briefed (Manager)
+- Team notified; calendar holds for day-1 1:1s and intros created (Manager)
+- Workspace/desk or remote-kit confirmed; first-week reading list compiled (Manager)
+
+### Day-1 agenda (timed template)
+
+| Time | Activity | Owner |
+|---|---|---|
+| 9:00 | Welcome + manager 1:1 (context, expectations, how we work) | Manager |
+| 10:00 | IT/tooling verification, access check, security basics | IT / New hire |
+| 11:00 | HR orientation: policies, payroll, benefits, where-to-get-help map | HR |
+| 12:00 | Lunch with buddy or team | Buddy |
+| 13:30 | Team intro / standup; meet immediate collaborators | Manager |
+| 15:00 | Environment/tooling setup + first small orientation task | New hire / Buddy |
+| 16:30 | End-of-day check-in: questions, tomorrow's plan | Manager |
+
+Keep day 1 light on paperwork (send it pre-boarding) and heavy on people and context. Isolation on day 1 is the #1 avoidable regret driver for new hires.
+
+### 30 / 60 / 90 plan template — milestones and success signals
+
+Write every milestone as an **outcome with an observable success signal**, never an activity. "Attend meetings" is not a milestone; "can explain the team's top 3 priorities and how your work maps to them" is.
+
+**First 30 days — Learn (systems + relationships)**
+- Complete all onboarding/compliance training; environment fully working.
+- Meet every direct collaborator and key stakeholder (1:1s done).
+- Understand the team's mission, current priorities, and where your role fits.
+- Ship one small, low-risk starter task end-to-end (the "first win").
+- *Success signal:* completes a scoped task with light supervision; can describe the team's goals unprompted.
+
+**First 60 days — Contribute (own a piece of work)**
+- Take ownership of a recurring responsibility or a defined project component.
+- Deliver meaningful work with normal (not heavy) oversight.
+- Give and receive feedback in the team's cadence; know the quality bar.
+- *Success signal:* owns a deliverable others depend on; needs help only on genuinely novel problems.
+
+**First 90 days — Perform (fully productive)**
+- Operate at the level's expectations with standard autonomy.
+- Have measurable goals set for the next period.
+- Contribute an improvement, idea, or process suggestion.
+- *Success signal:* fully ramped; manager and peers treat them as a self-sufficient team member.
+
+Adjust the curve to level and complexity: senior/complex roles may push "fully productive" toward 120–180 days; simple operational roles may hit it well before 90. State the adjustment as an assumption.
+
+### Check-in cadence
+
+| When | Who | Purpose |
+|---|---|---|
+| Day 1 (EOD) | Manager | Settle in, surface blockers |
+| Day 3 | Buddy | Informal, "how's it going really" |
+| Week 1 | Manager | Expectations aligned? Access/tools working? |
+| Day 14 | Buddy + Manager | Momentum on starter task; social integration |
+| Day 30 | Manager | Formal: on track vs. 30-day milestone; adjust 60/90 if blocked |
+| Day 60 | Manager | Ownership check; early performance signal |
+| Day 90 | Manager | Ramp complete? Set forward goals; probation decision if applicable |
+
+If the day-30 check-in surfaces blockers, revise the 60/90 milestones rather than letting the hire quietly fall behind — silent drift is how a good hire becomes a "bad fit" narrative by day 90.
+
+### Remote / distributed adjustments
+
+- Ship equipment earlier (day −5) to absorb delivery risk; have a same-day backup plan.
+- Over-schedule human contact: a video buddy, virtual team lunch, and explicit "who to ping for what" map compensate for no hallway.
+- Document everything the office would convey by osmosis (norms, unwritten rules, comms channels).
+- Watch for isolation signals in check-ins; remote hires under-report struggle.
+
+### Common ramp roles
+
+- **Manager** — owns expectations, milestones, feedback, and the ramp curve.
+- **Buddy/mentor** — peer-level "safe" questions, social integration, unwritten norms; distinct from the manager.
+- **IT** — equipment and access, provisioned and tested before day 1.
+- **HR** — paperwork, benefits, policy orientation, compliance.
+- **Onboarding cohort** (if used) — shared sessions build cross-team belonging.
+
+### Anti-patterns to catch
+
+- All logistics, no belonging → hire feels like a ticket, not a teammate.
+- Milestones as activities, not outcomes → nobody can tell if ramp is working.
+- No owner per item → equipment/access slips and day 1 stalls.
+- First win never scoped → weeks of reading with no sense of progress.
+- No early check-in → blockers surface at review time, far too late.

@@ -48,3 +48,52 @@ Support: <invoice / contract / schedule refs>
 Reversal: <date + mechanism, or N/A>
 Reviewer notes: <...>
 ```
+
+## Reference
+
+### Standard entry patterns
+Every entry below balances (debits = credits). Signs assume normal balances: assets/expenses rise with debits, liabilities/equity/revenue rise with credits.
+
+| Situation | Debit | Credit | Driver / note |
+|---|---|---|---|
+| **Expense accrual** (service used, no invoice) | Expense | Accrued liabilities | Matching principle; reverse next period |
+| **Revenue accrual** (earned, not billed) | Unbilled AR (contract asset) | Revenue | ASC 606; becomes AR when invoiced |
+| **Prepaid — initial** | Prepaid asset | Cash / AP | Pay now, consume later |
+| **Prepaid — amortization** | Expense | Prepaid asset | Monthly = total ÷ term |
+| **Depreciation** | Depreciation expense | Accumulated depreciation | Contra-asset; never credit the asset directly |
+| **Deferred revenue — cash in** | Cash | Deferred revenue (liability) | Obligation not yet satisfied |
+| **Deferred revenue — recognition** | Deferred revenue | Revenue | As performance obligation is met |
+| **Payroll — gross** | Salary/wage expense | Cash, taxes payable, benefits payable | Gross wage splits into net pay + withholdings |
+| **Employer payroll tax** | Payroll tax expense | Payroll taxes payable | Employer FICA/FUTA/SUTA — separate from withheld |
+| **Bad debt (allowance method)** | Bad debt expense | Allowance for doubtful accounts | Contra-AR; write-off later hits allowance vs AR |
+| **Inventory purchase (perpetual)** | Inventory | AP | |
+| **COGS at sale (perpetual)** | COGS | Inventory | Two-line sale: also Dr AR / Cr Revenue |
+| **Accrued interest** | Interest expense | Interest payable | Principal × rate × days/360 (or /365) |
+| **FX remeasurement (monetary)** | FX loss (or Cr FX gain) | Payable/receivable | Reprice monetary balances at period-end rate |
+
+### Key calculations
+- **Straight-line depreciation:** (Cost − Salvage) ÷ Useful life (years). Monthly = annual ÷ 12; pro-rate the acquisition month.
+- **Double-declining balance:** Net book value × (2 ÷ useful life); switch to straight-line when it yields a larger deduction; never depreciate below salvage.
+- **Prepaid amortization:** Total prepaid ÷ coverage months; partial first month = daily rate × days remaining.
+- **Accrued interest:** Principal × annual rate × (days ÷ 360). Confirm day-count convention (30/360 vs actual/365) from the note.
+- **Units-of-production depreciation:** (Cost − Salvage) ÷ total estimated units × units this period.
+
+### ASC 606 five-step (revenue recognition)
+1. Identify the contract with the customer.
+2. Identify the distinct performance obligations (POs).
+3. Determine the transaction price (include variable consideration, capped at the amount not likely to reverse).
+4. Allocate the price to POs by relative standalone selling price (SSP).
+5. Recognize revenue as each PO is satisfied — point-in-time (control transfers) or over-time (customer consumes / you have an enforceable right to payment for work done).
+
+Common 606 shapes: a SaaS subscription is over-time (ratable); a perpetual license is point-in-time; a bundled license + support splits by SSP and recognizes each leg on its own pattern. Unbilled earned revenue = **contract asset**; cash collected ahead of delivery = **contract liability (deferred revenue)**.
+
+### Reversal discipline
+Auto-reverse accruals and deferrals on day 1 of the next period so the actual invoice/payment posts cleanly against the reversed accrual with no double count. Non-reversing entries: depreciation, amortization of a multi-period prepaid (only the consumed slice each month), and true one-time reclasses. A quick test: if the entry estimates something the real transaction will later record, it reverses.
+
+### Review checklist
+- Debits = credits, to the cent.
+- Correct period and posting date (cutoff respected).
+- Accounts active and valid; expense vs. capitalize decision defensible.
+- Support attached and traceable to the amount.
+- Reversal set (or explicitly N/A).
+- Estimate flagged with a true-up plan.

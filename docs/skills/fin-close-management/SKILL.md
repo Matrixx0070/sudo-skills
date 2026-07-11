@@ -42,3 +42,40 @@ Blockers: | task | owner | cause | needed action |
 Sign-off gate: reconciliations <n/n> | material variances explained: y/n
 Retro: <what slipped → fix>
 ```
+
+## Reference
+
+### Standard close timeline (business days, "BD")
+A tight monthly close lands BD5; a stretched one runs BD8–10. Map every task to a business day and to its upstream dependency.
+
+| BD | Workstream | Key tasks |
+|---|---|---|
+| BD0 (last day) | Cutoff | Freeze sales, receiving, and time entry; communicate cutoff to all subledger owners |
+| BD1 | Subledgers | Close AR billing, AP invoice entry, payroll; capture cutoff accruals |
+| BD1–2 | Accruals/deferrals | Book recurring accruals, prepaid amortization, deferred-revenue release, depreciation |
+| BD2 | Inventory / COGS | Post inventory movements, standard-cost variances, reserves |
+| BD2–3 | Intercompany | Match and eliminate IC balances; resolve mismatches before consolidation |
+| BD3 | Reconciliations | Cash, key balance-sheet accounts; roll-forwards |
+| BD3–4 | FX / consolidation | Revalue monetary balances, translate subsidiaries, consolidate |
+| BD4 | Flux / variance | P&L and BS flux review vs prior/budget; investigate outliers |
+| BD4–5 | Reporting | Draft statements, tie-outs, management package, commentary |
+| BD5 | Sign-off | Controller/CFO review and lock the period |
+
+### Dependency chain (what feeds what)
+`Subledger cutoff → accruals/deferrals → reconciliations → flux review → consolidation → reporting → sign-off.` Reporting can never start before reconciliations sign off; consolidation can never start before intercompany matches. Tasks that share no dependency (e.g., AP cutoff and payroll accrual) run in parallel — that parallelism is what compresses the calendar.
+
+### Critical path
+The critical path is the longest chain of dependent tasks; it sets the earliest possible close date. Shortening any non-critical task does nothing; only shortening or parallelizing critical-path tasks moves the close in. Recompute the critical path whenever a task is added or a dependency changes.
+
+### Close metrics to track
+- **Days-to-close:** business days from period-end to sign-off. Benchmarks: top-quartile ≈ 3–5 BD, median ≈ 5–7 BD, laggards 8–10+.
+- **On-time task %:** tasks completed by their target BD ÷ total.
+- **Manual JE count / value:** high manual volume signals automation opportunity and error risk.
+- **Post-close adjustments:** entries booked after "close"; trend toward zero.
+- **Reconciliation completion rate at gate:** should be 100% before reporting opens.
+
+### RACI and controls
+Every task has exactly one **Responsible** owner and one **Accountable** approver (they must differ for anything requiring sign-off). Consulted/Informed parties are named so blockers escalate to a person, not "the team." Close checklists are themselves a SOX control area — completeness, timeliness, and evidence of review are testable.
+
+### Accelerators
+Continuous/soft close (book throughout the month, not just at period-end); pre-close subledger validation; automated recurring JEs and bank feeds; standardized reconciliation templates with auto-tie-outs; a "no-surprises" flux threshold agreed before close so review focuses only on material movements; a standing retro that converts each late task into a concrete process fix next cycle.

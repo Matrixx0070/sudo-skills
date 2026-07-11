@@ -56,3 +56,55 @@ KEY DATES: file by [date]; estimated payments [dates]
 
 Not a filed return. Confirm with a licensed tax professional before filing.
 ```
+
+## Reference
+
+Educational overview below — general concepts, not individualized tax advice. Tax law varies by country and state and changes every year; treat all names and mechanics as prompts to verify with a professional, not as filing instructions. Terminology below leans US as an illustrative example.
+
+### Deductions vs credits (the core distinction)
+
+- **Deduction** reduces *taxable income*. Its value = deduction × your marginal tax rate. A $1,000 deduction in a 22% bracket saves ~$220.
+- **Credit** reduces *tax owed* dollar-for-dollar. A $1,000 credit saves $1,000 — credits are usually more valuable per dollar.
+- **Refundable** credits can pay you beyond zero tax owed; **non-refundable** credits only reduce liability to zero.
+
+### Standard deduction vs itemizing
+
+You take the **larger** of the two. Itemizing only helps when your itemizable expenses exceed the standard deduction, so **sum the candidates first**. Common itemizable categories: mortgage interest, state/local taxes (often capped), large charitable gifts, and medical expenses above a percentage-of-income floor. Many filers with a paid-off or no mortgage find the standard deduction wins — check every year, since the standard amount is inflation-adjusted annually.
+
+### Commonly missed deductions and credits (categories to raise)
+
+- **Retirement contributions** (traditional IRA/401(k) may be pre-tax or deductible).
+- **HSA contributions** (see accounts below).
+- **Student-loan interest** (an "above-the-line" adjustment in many cases — available even without itemizing).
+- **Education credits/deductions** (tuition, lifetime-learning-type credits).
+- **Childcare / dependent-care** credits and dependent credits.
+- **Charitable giving** (cash and non-cash donations; keep receipts).
+- **Self-employed / home-office**: portion of home used exclusively for business, mileage, equipment, health-insurance premiums, half of self-employment tax.
+- **Saver's credit** for lower-income retirement savers.
+- **Energy / home-improvement** credits where they exist.
+
+### Tax-advantaged account concepts
+
+| Account | Contribution | Growth | Withdrawal | Typical use |
+|---------|-------------|--------|-----------|-------------|
+| **Traditional 401(k)/IRA** | Pre-tax (deductible) | Tax-deferred | Taxed as income in retirement | Lower your taxable income now |
+| **Roth 401(k)/IRA** | After-tax | Tax-free | Tax-free in retirement (rules apply) | Tax-free growth; useful if you expect higher future rates |
+| **HSA** (with a qualifying high-deductible plan) | Pre-tax | Tax-free | Tax-free for medical | "Triple tax advantage"; unused funds roll over |
+| **FSA** | Pre-tax | — | Tax-free for medical/dependent care | Often use-it-or-lose-it within the year |
+| **529** | After-tax (some state breaks) | Tax-free | Tax-free for education | Education savings |
+
+**Employer match** on a 401(k) is an immediate return — capturing it first is the standard teaching point before optimizing anything else.
+
+### Filing status and life changes
+
+Filing status (single, married filing jointly/separately, head of household) shifts brackets, the standard deduction, and credit eligibility. Life events that materially change a return: marriage/divorce, a new child or dependent, buying/selling a home, starting self-employment, a large capital gain, moving states, or inheritance.
+
+### Self-employed essentials
+
+- **Quarterly estimated payments** are usually required on income without withholding; missing them triggers penalties.
+- Track deductible business expenses contemporaneously — undocumented deductions aren't defensible in an audit.
+- Set aside a percentage of each payment for taxes so the bill isn't a surprise.
+
+### Recordkeeping and deadlines
+
+Keep income documents (wage/contractor statements, interest/dividend forms, brokerage sale records), deduction receipts, and prior returns. Note the annual filing deadline, any extension mechanics (an extension to *file* is usually not an extension to *pay*), and estimated-payment dates. Organize by category folder so nothing is missing at filing time.

@@ -43,3 +43,49 @@ Exceptions: | desc | severity | isolated/systemic | root cause |
 Conclusion: effective / deficient | compensating controls: <...>
 Open items: <...>
 ```
+
+## Reference
+
+### Financial-statement assertions (what a control must cover)
+Every key control maps to one or more assertions. Name the assertion when scoping so the test targets the right risk.
+
+| Assertion | Question it answers | Typical control |
+|---|---|---|
+| **Existence / occurrence** | Did the recorded item really happen / exist? | Approval, three-way match, physical count |
+| **Completeness** | Is everything that happened recorded? | Sequence checks, cutoff, GRNI review |
+| **Accuracy / valuation** | Is the amount right and properly valued? | Recalculation, reconciliation, reserve review |
+| **Cutoff** | Is it in the correct period? | Period-end cutoff testing |
+| **Rights & obligations** | Do we own the asset / owe the liability? | Title/contract review, confirmations |
+| **Presentation & disclosure** | Correctly classified and disclosed? | Disclosure checklist, financial-statement review |
+
+### Testing approaches and when to use them
+| Approach | Strength | Use when |
+|---|---|---|
+| **Inquiry** | Weakest — corroborating only | Never alone; always paired with another |
+| **Observation** | Point-in-time only | Confirming a process is performed |
+| **Inspection** | Strong for documented controls | Approvals, sign-offs, reconciliations |
+| **Re-performance** | Strongest | High-risk key controls; independent recompute |
+
+Inquiry alone can never support a conclusion. For a system-generated report used in a control, test the **IPE (information produced by the entity)** — completeness and accuracy of that report — before relying on it.
+
+### Sample size by frequency (attribute testing)
+| Frequency | Population | Sample |
+|---|---|---|
+| Many times daily | thousands | 25–40 |
+| Daily | ~250 | 25 |
+| Weekly | ~52 | 5 |
+| Monthly | 12 | 2 |
+| Quarterly | 4 | 2 |
+| Annual | 1 | 1 |
+| Automated | one config | 1 (+ GITCs) |
+
+Increase and split the sample for high-risk controls, prior-year exceptions, or a mid-period control change (test before and after separately).
+
+### Workpaper standard (auditor can re-perform unaided)
+A defensible workpaper states: control ID and description; assertion and risk; population source, total count, and completeness tie-out to a system total; selection method, seed/interval, and the exact items pulled; attributes defined *before* selection; per-item evidence inspected and pass/fail with a specific reason; exceptions with severity and root cause; conclusion on operating effectiveness; and any compensating controls. Tickmarks and cross-references must let a reviewer trace every number back to source. The test: an auditor re-derives your sample and your conclusion without asking you a single question.
+
+### Exception evaluation
+Classify each exception as **deficiency / significant deficiency / material weakness** by likelihood × magnitude and by root cause — not by count. Judge **isolated vs. systemic**: one exception inside a control-change window, or one tied to a process gap, is systemic. Quantify dollar impact where relevant, but note that a control can be deficient even with no dollar misstatement (the control failed to operate). Look for a **compensating control** that mitigates before concluding, and log remediation with an owner and date.
+
+### GITCs (IT general controls) — the foundation
+Automated-control reliance depends on effective GITCs: **access to programs and data** (provisioning, periodic access reviews, segregation of duties), **program changes** (change management, testing, approval), **program development**, and **computer operations** (job scheduling, backup, incident management). If GITCs are ineffective, automated application controls cannot be relied upon and must be tested manually or supplemented with substantive procedures.

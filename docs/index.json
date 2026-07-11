@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T20:30:00Z",
+  "updated": "2026-07-11T21:00:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -1596,7 +1596,7 @@
       "description": "Support ICFR audits by scoping a key control, selecting a defensible sample, and producing workpapers an auditor can re-perform unaided.",
       "author": "matrixx0070",
       "path": "skills/fin-audit-support/SKILL.md",
-      "sha256": "983b8787fdd90e18ab628fb7e64d395632e147eb6febb863e71f4d1f3b70c85e",
+      "sha256": "f306854e40f48470946ec2205d385ecd338a25e2cf03d67c3c785edd65c67fb4",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1614,7 +1614,7 @@
       "description": "Build a rolling 30/60/90-day cash forecast from AR/AP aging and fixed outflows, flag floor breaches, and model liquidity levers.",
       "author": "matrixx0070",
       "path": "skills/fin-cash-flow/SKILL.md",
-      "sha256": "bdeefd2bfeb598579f15e3f44126172ea82e076e9fd7dd9b6011880332775743",
+      "sha256": "f15cfbb13bacb54ba7670e01f0b322609cad656851d85249e9d800ee1c2a4c87",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1631,7 +1631,7 @@
       "description": "Run a sequenced period-end close with dependencies, single-owner tasks, a critical path, and live status to shorten days-to-close.",
       "author": "matrixx0070",
       "path": "skills/fin-close-management/SKILL.md",
-      "sha256": "ec9c7079c3fa3770d23d6684acf62034fe76a187bc5b6b8dc58b03f4dcecf8c7",
+      "sha256": "9fba16c046c44d965d072ec1bb36170127fb5e0578f8407361aa7841f406ab8e",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1648,7 +1648,7 @@
       "description": "Build and tie out the three primary statements (P&L, balance sheet, cash flow) with articulation checks and variance commentary.",
       "author": "matrixx0070",
       "path": "skills/fin-financial-statements/SKILL.md",
-      "sha256": "ff46dae9abde045ec832f205367d01dbf358f4c82d6529f216eaebf329fa07a6",
+      "sha256": "f0ccd98c560c708dfc574ad73325e4b8be209680e956cc175933a1c055bb844a",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1666,7 +1666,7 @@
       "description": "Draft balanced, review-ready journal entries (accruals, depreciation, rev-rec, reclasses) with calculation, support, and reversal.",
       "author": "matrixx0070",
       "path": "skills/fin-journal-entry/SKILL.md",
-      "sha256": "5ef368c2be701953aacaeb2d8ad718f79fb6e0459bb54073f638df0748a1717a",
+      "sha256": "e44f4fce091fb9e6530bd242590a1d0ae9cac06f163d6a03ca7651352f1c4541",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1683,7 +1683,7 @@
       "description": "Reconcile a GL account to a bank statement, subledger, or third-party source, prove the tie-out bridge, and clear differences.",
       "author": "matrixx0070",
       "path": "skills/fin-reconciliation/SKILL.md",
-      "sha256": "c656342356c91e55ef9156f161d95366edc1b42c4a8f04345f3d83e4f72f22d2",
+      "sha256": "7cbe3e3ea469b9280555d0366785c24d3f635ecdc776d3911d7f39a71e4d5120",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1700,7 +1700,7 @@
       "description": "Execute a SOX control test end to end \u2014 document design, prove population completeness, pull a reproducible sample, and conclude on effectiveness.",
       "author": "matrixx0070",
       "path": "skills/fin-sox-testing/SKILL.md",
-      "sha256": "0babd6965b1d38a7046c10095b615a0912ba77900f5242a1aac3e757d19ce4a9",
+      "sha256": "4372177b5d95567476d0a16e6990705386a4ebd79633a1193bbe6b1c0dbe66c1",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1717,7 +1717,7 @@
       "description": "Decompose an actual-vs-plan gap into price, volume, mix, and rate drivers that sum to the total, with a waterfall and action-oriented narrative.",
       "author": "matrixx0070",
       "path": "skills/fin-variance-analysis/SKILL.md",
-      "sha256": "20b4f21bcf1344cc8390ebd7c350fca17c4a9cc0cc0b1eee9b301d501027731d",
+      "sha256": "e510ed48dbb60db0e7d8dec74f5f4522bd2fdffa73bfe56117fd5440439768ae",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1846,7 +1846,7 @@
       "description": "Benchmark a role's pay, place it in a band by level/geo/function, and model base/bonus/equity trade-offs with sourced numbers.",
       "author": "matrixx0070",
       "path": "skills/hr-comp-analysis/SKILL.md",
-      "sha256": "12ee26bbe19e05e384526eba70f5f31c23d8e67ee9c752d78b4ffd4e28b27245",
+      "sha256": "1b3d03d3e2704cda09ac887da8c2d42ee9f9d0d12095178fa865ff6dfa8bf408",
       "capabilities": [],
       "tags": [
         "compensation",
@@ -1863,7 +1863,7 @@
       "description": "Draft a clear, complete, ready-to-send offer letter with compensation, terms, and contingencies \u2014 flagging every unconfirmed figure.",
       "author": "matrixx0070",
       "path": "skills/hr-draft-offer/SKILL.md",
-      "sha256": "41c7020acc37054434439b35831d69445aeadecdfcf946355e79b7d139bac2f7",
+      "sha256": "be6551c27489ec4fe7aea27f044f4c693d8c5358ac3b754676466aa45f55baa9",
       "capabilities": [],
       "tags": [
         "offer-letter",
@@ -1880,7 +1880,7 @@
       "description": "Build a structured, bias-resistant interview loop \u2014 competencies mapped to interviewers, calibrated questions, and 1/3/5 scorecards.",
       "author": "matrixx0070",
       "path": "skills/hr-interview-prep/SKILL.md",
-      "sha256": "8c9816705c711c74600ec9edde5d293b37036cae627233d714a6b9582ad6dcc6",
+      "sha256": "d9173491752b8b547deb977e2a89a9ede8186b2e4f86afe5a10d6022e852fae2",
       "capabilities": [],
       "tags": [
         "interviewing",
@@ -1897,7 +1897,7 @@
       "description": "Produce a ready-to-run onboarding plan \u2014 pre-boarding checklist, day-1 agenda, first-week plan, and 30/60/90 ramp milestones with owners.",
       "author": "matrixx0070",
       "path": "skills/hr-onboarding/SKILL.md",
-      "sha256": "e3821b426b62cd232d0c2153fd688d6b68683cf346013e3257f50eb31c4e019f",
+      "sha256": "725cafec89881502f6240da7d7eda4d866233e3aced3185a45ec43e8a6b61851",
       "capabilities": [],
       "tags": [
         "onboarding",
@@ -1914,7 +1914,7 @@
       "description": "Plan headcount, design org structure, and shape team topology against goals and budget \u2014 every role tied to an outcome and a cost.",
       "author": "matrixx0070",
       "path": "skills/hr-org-planning/SKILL.md",
-      "sha256": "c19336d0b7d5b298a6529ab0a28f839b0d6b878c76a86588a6c623a8db8394d2",
+      "sha256": "2bbe7909b6aca2d4d34c623008f3b03e2883149faa168b5dcf08c5e42894c088",
       "capabilities": [],
       "tags": [
         "org-design",
@@ -1931,7 +1931,7 @@
       "description": "Build headcount, attrition, diversity, and org-health reports \u2014 every metric defined, small-n protected, insight before data dump.",
       "author": "matrixx0070",
       "path": "skills/hr-people-report/SKILL.md",
-      "sha256": "51ce2860cd5d9f96ee02ff227df46f0c3283abd5790cbc0cc7ac62ced65d0ec6",
+      "sha256": "e2f5113d3e6dd89227450d9c76b8e986c76c399092533b83e11050af0a05bf70",
       "capabilities": [],
       "tags": [
         "people-analytics",
@@ -1948,7 +1948,7 @@
       "description": "Structure a fair performance review \u2014 self-assessment, evidence-based manager template, and calibration guidance tied to level expectations.",
       "author": "matrixx0070",
       "path": "skills/hr-performance-review/SKILL.md",
-      "sha256": "878f4a7fbb5714d6f0dc2f6056db766477005b558fd00f414535b6bf3b88d203",
+      "sha256": "9f6444b8f4edecefd994ac4ba97f54d36da36c6e90114d720fd5fc128275c021",
       "capabilities": [],
       "tags": [
         "performance-review",
@@ -1965,7 +1965,7 @@
       "description": "Find the governing company policy and explain it accurately in plain language \u2014 cite the source, never fabricate, flag when to escalate.",
       "author": "matrixx0070",
       "path": "skills/hr-policy-lookup/SKILL.md",
-      "sha256": "d0c67e8cd40c8d03e3a09c8b350bc044b3b1276371c45e6d4b936bf4d6ea5b36",
+      "sha256": "f97d5131274fe90ca433c5e2620582e247309a04c320e6856e7cc5ca2e7df344",
       "capabilities": [],
       "tags": [
         "policy",
@@ -1982,7 +1982,7 @@
       "description": "Track a recruiting funnel across stages with conversion metrics, bottleneck diagnosis, and a next action for every candidate.",
       "author": "matrixx0070",
       "path": "skills/hr-recruiting-pipeline/SKILL.md",
-      "sha256": "22c5073a33f920d3707aeb8abdd38c092a9826cf6d0cd50772722a2fbdb72c17",
+      "sha256": "6c5b49d5c2e26f4034330aafe80aff6de062b504aaaf7547c8641e71fa4c7bc9",
       "capabilities": [],
       "tags": [
         "recruiting",
@@ -2164,7 +2164,7 @@
       "description": "Produce a decision-ready legal briefing \u2014 daily digest, topic research, or incident write-up \u2014 scoped to what a non-lawyer stakeholder needs to decide or act on.",
       "author": "matrixx0070",
       "path": "skills/legal-brief/SKILL.md",
-      "sha256": "af47d88a02373c070f92bab4f1d17c722f57c42123ae8c33a9f30cc4ac4d7bde",
+      "sha256": "1c2098ca601b8e5afadc6c8729116e8906fc8de0e1b436a2733e566fd99c1a31",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2181,7 +2181,7 @@
       "description": "Check a proposed action against applicable laws, regulations, and internal policies, then return required approvals and a proceed/hold/escalate verdict.",
       "author": "matrixx0070",
       "path": "skills/legal-compliance-check/SKILL.md",
-      "sha256": "d8aacc9e959fc7eae66aa8626d958096171dbd35d9e50d05b4b2a553c919a374",
+      "sha256": "9688e5cf50c72da03224c2f9d595013fcdd03a9398b572ecb777311d891cdd16",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2198,7 +2198,7 @@
       "description": "Prepare an attendee for a legally-relevant meeting and capture the decisions, commitments, and action items that come out of it.",
       "author": "matrixx0070",
       "path": "skills/legal-meeting-briefing/SKILL.md",
-      "sha256": "9bea481983493ff86eccb56bf1fa2370e0818f735d4a7dd32d7c212bdff10ed8",
+      "sha256": "587ec9730c7344e1500d5ae0a89ec3fbd5a332a1c864270e882e16f0b9e8c68c",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2215,7 +2215,7 @@
       "description": "Draft a response to a routine legal inquiry from an approved template, with escalation checks that route novel or high-risk questions to counsel before any answer goes out.",
       "author": "matrixx0070",
       "path": "skills/legal-response/SKILL.md",
-      "sha256": "0c5061d18042d65aad3fb62b1f93ed9608ef10b2c75959aa732daf82d33fba6e",
+      "sha256": "f0f0c8de85bcd9dbdf6519181152ea16ebb58667452d08bd5a19e5f73241df45",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2231,7 +2231,7 @@
       "description": "Review a contract against a negotiation playbook, flag deviations from preferred and fallback positions, and produce redline-ready comments with a sign/negotiate/reject verdict.",
       "author": "matrixx0070",
       "path": "skills/legal-review-contract/SKILL.md",
-      "sha256": "3a78e27f1a10b0f4bab9b414c0076424699a5cb6acf5409eb8265b92cabab9ea",
+      "sha256": "c552279f067c436a93bfca49af5753d9ad092891e3ca68952d82659b1c775fac",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2248,7 +2248,7 @@
       "description": "Size one legal risk by severity and likelihood, place it on a matrix, apply escalation criteria, and assign owned mitigations.",
       "author": "matrixx0070",
       "path": "skills/legal-risk-assessment/SKILL.md",
-      "sha256": "93f883ccc4a8fcf169be88653534f3d5f3ca340323d6fe5210191da1b531dcd5",
+      "sha256": "d86ddc4d48f64f0e074bff0a52abeeb3d3f256b2e30bbe848035eaea04659f6d",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2265,7 +2265,7 @@
       "description": "Prepare and route a finalized document for e-signature with a pre-send checklist, correct signer order, and post-signature follow-through.",
       "author": "matrixx0070",
       "path": "skills/legal-signature-request/SKILL.md",
-      "sha256": "5c325b93e7f487e4f32e5d8bf793a7024acb975633ca3d2fb43b263dc34d3b32",
+      "sha256": "9bc5d7338a542c20a98a85a0a83fa9ee7e1e096e3668eed9a67a4c7e66ef9739",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2281,7 +2281,7 @@
       "description": "Triage an incoming NDA against standard terms and classify it GREEN, YELLOW, or RED with a recommended action and specific edits.",
       "author": "matrixx0070",
       "path": "skills/legal-triage-nda/SKILL.md",
-      "sha256": "401dbd24c2dba623568e7cbdd65ac07ec0e2480312381cb92b763cef5192527f",
+      "sha256": "6e7c3944a6528ec4b9341ac0aa35b0957a1bbd8ed617eb6cecccb7ae64eea1a4",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2298,7 +2298,7 @@
       "description": "Reconcile the agreements that should exist for a vendor against what actually does across systems, and produce a gap analysis with a coverage verdict.",
       "author": "matrixx0070",
       "path": "skills/legal-vendor-check/SKILL.md",
-      "sha256": "219cbddc618fdd0d8255ce7ef484c97b388092390921d4b808cf53f493001d9a",
+      "sha256": "980ed4f8e1684347a66bc743ad070f45dc6db0eea5f9b5fe5248ccb26c94472b",
       "capabilities": [],
       "tags": [
         "legal",
@@ -2835,7 +2835,7 @@
       "description": "Decide on a big purchase (rent vs buy, cash vs finance) using a structured cost-and-fit framework.",
       "author": "matrixx0070",
       "path": "skills/pf-big-purchase/SKILL.md",
-      "sha256": "a0302e4c7fb699974a4a69d081f441240280c81fe2577c494fd2d8cb3ded36ed",
+      "sha256": "b6f6e259cceb8ca15fc09829701b9e98d94c39319c0b2a32b82afc3534075b09",
       "capabilities": [],
       "tags": [
         "big-purchase",
@@ -2851,7 +2851,7 @@
       "description": "Build a personal budget from income and expenses using the 50/30/20 rule or a zero-based plan.",
       "author": "matrixx0070",
       "path": "skills/pf-budget/SKILL.md",
-      "sha256": "2a043f547bf2c8fe4a2f46539934b5c1a8565a2518669b064d22c8ff3c967bc8",
+      "sha256": "15a1eecc5438af30033f2792b5ee178f89228e3fe731a9e08ef6fca98cb85c70",
       "capabilities": [],
       "tags": [
         "budget",
@@ -2867,7 +2867,7 @@
       "description": "Plan a debt payoff using the avalanche or snowball method and produce a month-by-month schedule.",
       "author": "matrixx0070",
       "path": "skills/pf-debt-payoff/SKILL.md",
-      "sha256": "6df71af84d8de3b554cd57fdb24e58368af1b77f7af2b3ea28886508cc651dc9",
+      "sha256": "3d231286d89799d4b0784e6ac88ef2c2b4dfaf6f15d138c6bfa70537422ccc89",
       "capabilities": [],
       "tags": [
         "debt",
@@ -2883,7 +2883,7 @@
       "description": "Explain a diversified asset-allocation framework tailored to risk tolerance and time horizon (educational).",
       "author": "matrixx0070",
       "path": "skills/pf-investment-allocation/SKILL.md",
-      "sha256": "4291063db5f0a0234ced89722edb8cc09e8452d304a310e3a13109d98c392f36",
+      "sha256": "799079b494b3ecf30a96e8d09cae0ce4dccad0ffd2c7e3dee78e5136bee2fa4b",
       "capabilities": [],
       "tags": [
         "investing",
@@ -2899,7 +2899,7 @@
       "description": "Build a personal retirement savings plan and projection from age, savings rate, and target (educational).",
       "author": "matrixx0070",
       "path": "skills/pf-retirement-plan/SKILL.md",
-      "sha256": "9fa07c6ee691cd13745b1bfec051dfac82e0d7d5dc530487f0cd1b9c36b636a6",
+      "sha256": "a918b7d1a0fc63f5de7cd03674aa50cc719e2488c27c2957bfcdd0d2ca2e27d1",
       "capabilities": [],
       "tags": [
         "retirement",
@@ -2915,7 +2915,7 @@
       "description": "Organize personal tax preparation and surface commonly missed deductions and credits (educational).",
       "author": "matrixx0070",
       "path": "skills/pf-tax-personal/SKILL.md",
-      "sha256": "1c7a827eb28abe5102e37844c39683190ff38bf2203dc9821a62ea20a19e47f2",
+      "sha256": "aebb9c42c578c3b18729b481003610c8af0716cfa27415d852d855dc5759a439",
       "capabilities": [],
       "tags": [
         "taxes",

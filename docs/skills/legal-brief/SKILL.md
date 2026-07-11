@@ -41,3 +41,41 @@ Risks (ranked): <risk> — exposure: <impact>
 Escalate to counsel: <items needing attorney review>
 Sources: <source — as of DATE>
 ```
+
+## Mode reference
+Pick the mode before you write a word. Each mode has a different job, a different must-include set, and a different length ceiling. Overrunning the ceiling is a signal you have drifted from decision-scoped into memo territory.
+
+| Mode | Purpose | Must include | Length target |
+|------|---------|--------------|---------------|
+| Daily digest | Keep a stakeholder current on the portfolio of active matters | Active matters (one line each), deadlines this week, new developments since last digest, explicit "nothing to action" flag when a matter is quiet | Scannable single page |
+| Topic brief | Answer one focused legal question well enough to act | Bottom-line decision up top, the 3-5 load-bearing legal points (each tagged), a jurisdiction map where scope is multi-country, open questions | ~1 page |
+| Incident write-up | Give responders a shared factual picture and the clocks that are running | Timeline of facts, what is known vs. unknown (kept separate), preservation / legal-hold status, notification obligations and their clocks, immediate actions, escalation path | As long as the facts require; keep the summary front-loaded |
+
+For a daily digest, the "nothing to action" flag matters as much as the alerts — silence is ambiguous, an explicit "no action needed on X this week" is not. For an incident, never let a guess sit in the "known" column; unconfirmed facts live under "unknown" until verified.
+
+## Tagging discipline
+Every legal point you surface gets exactly one tag so the reader can tell settled law from your read of it:
+
+- **[requirement]** — settled, black-letter obligation. *Example:* "[requirement] GDPR Art. 33 requires notice to the supervisory authority within 72 hours of becoming aware of a personal-data breach."
+- **[interpretation]** — a judgment call where reasonable lawyers could differ, or where applying the rule to these facts is not obvious. *Example:* "[interpretation] The referral reward likely counts as a 'material connection' requiring disclosure, but the guidance predates this promo structure."
+- **[open]** — unresolved; you do not yet know the answer. *Example:* "[open] Whether the French regulator treats this as a lottery is unconfirmed."
+
+The rule: **any decision that hinges on an [interpretation] or [open] item routes to counsel before the reader acts.** A [requirement] the reader can generally act on directly; the other two tags are stop-and-ask signals, not footnotes. Never leave a point untagged — an untagged interpretation reads as fact and gets acted on as one.
+
+## Breach / incident clocks
+Incident write-ups almost always trigger a notification clock, and the clocks start early — usually on "awareness," not on confirmation or remediation. Use this as a general orientation table, then confirm the specific applicable law and its exact triggers with counsel; deadlines and thresholds vary by jurisdiction, sector, and the facts.
+
+| Regime | Notification trigger | Deadline |
+|--------|---------------------|----------|
+| GDPR | Personal-data breach → supervisory authority | 72 hours from awareness; affected data subjects "without undue delay" if high risk to their rights |
+| US state breach laws | Breach of defined personal information (varies by state) | "Most expedient time / without unreasonable delay"; some states cap at 30-60 days |
+| HIPAA | Breach of unsecured protected health information | Individuals within 60 days; HHS within 60 days (large breaches) or annually (smaller); media for large breaches |
+| SEC cyber disclosure | Determination that a cybersecurity incident is material | Form 8-K within 4 business days of the materiality determination |
+| PCI DSS | Suspected/confirmed cardholder-data compromise | Notify your acquirer/card brands immediately |
+
+These are reference points, not legal advice. Overlapping regimes can apply to a single incident, contractual notice duties may be shorter, and "awareness" is itself a legal determination — surface the clock, name the owner, and escalate the trigger question to counsel.
+
+## Reference
+- **Date every source.** Write "as of DATE" beside each authority. Law changes; a summary with no date silently rots and the stale-law trap is how confidently-wrong briefs happen. If you cannot date a source, say so.
+- **Bottom line first.** Lead with the decision or answer, then the support. A reader who stops after the first paragraph should still have the actionable takeaway. Structure descends from conclusion → load-bearing points → detail, never the reverse.
+- **Stay decision-scoped.** This is a briefing, not a memo. Include what the reader needs to decide or act; cut the background, the survey of every edge case, and the second lawyer's footnotes. If the reader is another lawyer who needs the full analysis, that is a different deliverable — escalate rather than expand.

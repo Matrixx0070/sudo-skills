@@ -42,3 +42,55 @@ Risk flags: | period | shortfall $ | date floor breached |
 Levers: | action | cash impact | timing |
 Recommended actions (prioritized): <...>
 ```
+
+## Reference
+
+### The 13-week cash-flow model (layout)
+The 13-week direct-method forecast is the treasury standard for short-term liquidity. Columns = 13 weeks (a rolling quarter); rows = receipt and disbursement categories. Every week computes net flow and a running ending balance carried into the next week.
+
+| Row | Detail |
+|---|---|
+| **Beginning cash** | = prior week ending cash (week 1 = today's actual balance) |
+| **Receipts** | |
+| AR collections | From AR aging, scheduled by expected pay date × collection probability |
+| Other inflows | Financing draws, tax refunds, asset sales, customer deposits |
+| **Total receipts** | Sum of inflows |
+| **Disbursements** | |
+| AP / vendor payments | From AP aging + terms, by due date |
+| Payroll | Every pay cycle (semi-monthly/bi-weekly) — largest recurring outflow |
+| Rent / lease | Monthly, on due date |
+| Debt service | Principal + interest per amortization schedule |
+| Taxes | Payroll, sales, income estimated payments on statutory dates |
+| Capex / other | Planned equipment, one-offs |
+| **Total disbursements** | Sum of outflows |
+| **Net cash flow** | Receipts − disbursements |
+| **Ending cash** | Beginning + net flow |
+| **Minimum floor** | Covenant or comfort floor (constant line) |
+| **Headroom** | Ending cash − floor (flag if negative) |
+
+Weeks 1–4 should use near-actual, known items (high confidence); weeks 5–13 rely more on modeled patterns. Roll the model forward each week: drop the completed week, add a new week 13, and reconcile last week's forecast vs. actual to calibrate.
+
+### Collection-probability haircuts (AR by aging bucket)
+Never forecast overdue AR at face value. Typical assumptions (tune to your own collection history):
+
+| Bucket | Collection probability | Expected timing |
+|---|---|---|
+| Current (not yet due) | ~95% | On terms |
+| 1–30 days past due | ~85% | +1–2 weeks |
+| 31–60 days | ~75% | +3–4 weeks |
+| 61–90 days | ~50% | Uncertain |
+| 90+ days | ~25% or write-off review | Uncertain |
+
+### What AP aging misses
+Fixed, non-invoice outflows never appear in AP aging — add them explicitly: **payroll, payroll taxes, rent, debt service, income/sales tax remittances, insurance, benefits.** These are often the largest and most rigid disbursements; missing one is the top cause of a "surprise" shortfall.
+
+### Liquidity levers (in order of least disruption)
+1. **Accelerate collections** — early-pay discounts, pull large current-bucket invoices forward, factor receivables.
+2. **Delay non-critical payables** — stretch to the terms limit (not past — protect vendor relationships and discounts).
+3. **Draw the revolver / line of credit** — fast but adds interest and uses covenant headroom.
+4. **Defer discretionary capex.**
+5. **Equity / term debt** — slowest, for structural (not timing) gaps.
+Model the lever *before* the breach date; a lever applied after the floor is breached is a fire drill.
+
+### Timing trap and floor discipline
+A period that nets positive can still go negative mid-period if a large outflow (payroll) lands before an inflow. Track the running weekly/daily balance, not just the bucket total. Flag the exact date and dollar size of any floor breach. Minimum-cash covenants are often the binding constraint before insolvency — treat the floor, not zero, as the trigger line. Always run a downside scenario (collections slip one bucket, a large customer delays) alongside the base case.

@@ -41,3 +41,63 @@ Mitigations: <action> — owner: <name> — by: <date>
 Residual risk (post-mitigation):
 Review trigger:
 ```
+
+## Severity × likelihood matrix
+Score every risk on two independent axes, then read the tier off the matrix. Anchor each score to a concrete threshold so two reviewers land in the same place.
+
+**Severity scale**
+
+| Score | Label | Financial | Regulatory / legal | Reputational / operational |
+|-------|-------|-----------|--------------------|-----------------------------|
+| 1 | Negligible | < $10k | None | No external notice; internal only |
+| 2 | Minor | $10k–$100k | None | Internal only; no press |
+| 3 | Moderate | $100k–$1M | Contained regulatory inquiry | Limited press; recoverable |
+| 4 | Major | $1M–$10M | Regulatory penalty; litigation likely | Notable reputational hit |
+| 5 | Severe | > $10M | Criminal/regulatory sanction; license loss | Existential; class action |
+
+**Likelihood scale**
+
+| Score | Label | Probability | Basis |
+|-------|-------|-------------|-------|
+| 1 | Rare | < 5% | No precedent; hypothetical |
+| 2 | Unlikely | 5–25% | Conceivable, weak signal |
+| 3 | Possible | 25–50% | Plausible; some indicators |
+| 4 | Likely | 50–80% | Precedent exists; conditions present |
+| 5 | Almost certain | > 80% | Already occurring or inevitable |
+
+**Matrix (rows = severity 5→1, cols = likelihood 1→5)**
+
+| Sev \ Like | 1 Rare | 2 Unlikely | 3 Possible | 4 Likely | 5 Almost certain |
+|-----------|--------|-----------|-----------|----------|------------------|
+| **5 Severe** | High | High | Critical | Critical | Critical |
+| **4 Major** | Medium | High | High | Critical | Critical |
+| **3 Moderate** | Low | Medium | Medium | High | High |
+| **2 Minor** | Low | Low | Medium | Medium | High |
+| **1 Negligible** | Low | Low | Low | Medium | Medium |
+
+Reading rule: high severity **or** a high severity×likelihood product pushes the tier up. Any Severity-5 risk is **at least High**; Sev5 combined with Likelihood 3 or above is **Critical**.
+
+## Escalation tiers
+
+| Tier | Criteria | Action | SLA | Owner |
+|------|----------|--------|-----|-------|
+| Critical | Sev5×Like3+, or any cell marked Critical | Immediate counsel + leadership notification | Same day | Counsel + risk owner |
+| High | High-tier cell; any Severity-5 | Counsel review; logged and tracked | Within the week | Risk owner + counsel |
+| Medium | Medium-tier cell | Owner assigned; tracked in register | Monthly review | Risk owner |
+| Low | Low-tier cell | Monitor only | Quarterly review | Register maintainer |
+
+**Worked placements**
+
+| Scenario | Severity | Likelihood | Tier |
+|----------|----------|-----------|------|
+| Auto-renewal lock-in, no reminder | 4 | 3 | High |
+| Missing DPA with active PII flow | 5 | 4 | Critical |
+| Ambiguous trademark similarity, no complaint | 3 | 2 | Medium |
+| Expired insurance COI | 4 | 2 | Medium/High |
+
+## Reference
+**Mitigation levers.** Every mitigation should target one axis. To *reduce severity*: liability caps, indemnity carve-outs, insurance, data segregation, staged rollouts. To *reduce likelihood*: process controls, calendar reminders, monitoring/alerting, training, dual sign-off.
+
+**Residual re-scoring.** After a mitigation is in place, re-score both axes and re-read the matrix — the residual tier, not the inherent tier, drives the escalation SLA. Only a mitigation that is actually owned and dated counts toward the residual score; a planned-but-unowned control leaves the inherent score standing.
+
+**Review triggers.** Every rated risk carries a re-assessment trigger: a date (renewal, filing deadline), an event (new complaint, regulation change, incident), or a threshold breach. Without a trigger the rating silently goes stale. When the trigger fires, re-run severity and likelihood from scratch rather than nudging the old numbers.

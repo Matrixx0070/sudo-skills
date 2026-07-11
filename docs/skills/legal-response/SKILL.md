@@ -38,3 +38,37 @@ Assumptions & scope limits:
 Attorney review: required | not required
 Suggested next step for requester:
 ```
+
+## Template categories
+Match the inquiry to a category, then give the standard answer shape and check the auto-escalate trigger. If none fits, escalate — do not improvise a template.
+
+| Category | Typical question | Standard answer shape | Auto-escalate if |
+|----------|------------------|-----------------------|------------------|
+| IP / brand use | "Can we use this logo/name?" | Conditional yes: requires signed reference clause or written consent + adherence to brand guidelines | Press, paid ad, or endorsement implication |
+| Data handling / retention | "How long do we keep X? Can we store it?" | State the policy retention period and the lawful basis/purpose limit | Litigation hold possible, or regulated data (PHI, financial, biometric) |
+| Contract clause standard-ness | "Is this term normal?" | Confirm whether it matches our standard fallback; flag deviations | Non-standard term, or counterparty edits to liability/indemnity/IP |
+| Third-party sharing / disclosure | "Can I share this doc/data?" | Yes if recipient is covered by an NDA and data is non-sensitive; state the limit | Personal or regulated data, or no NDA in place |
+| Employment basics | "Can I give a reference / confirm employment?" | Provide neutral verification (dates, title) only; direct rest to HR | Anything beyond dates/title, or performance/discipline detail |
+| Confidentiality / NDA existence | "Do we have an NDA with X?" | State whether one is on file and its scope/term | No NDA and disclosure is imminent |
+| Marketing / claims | "Can we say X?" | Yes if substantiated and non-misleading; add required disclosures | Comparative, superlative, health/financial, or unsubstantiated claim |
+
+## Mandatory escalation triggers
+Never template these. Route to a licensed attorney **before any answer goes out**:
+
+- Active or threatened litigation
+- Any regulator or government inquiry, or a subpoena
+- Personal legal advice to an individual
+- Dollar exposure above your defined threshold
+- A novel fact pattern with no matching template
+- Non-standard or foreign jurisdiction
+- Anything touching criminal liability
+- Employment termination or discipline specifics
+- Securities or insider matters
+- IP infringement allegations — whether incoming or outgoing
+
+## Reference
+**Caveat discipline.** State your assumptions explicitly, scope-limit the answer to exactly what was asked ("this covers X, not Y"), and add "this is not legal advice — confirm with counsel for your specifics" wherever the requester might over-rely on the answer. A tight scope is what keeps a templated response safe.
+
+**Template version hygiene.** Confirm you are using the current template version before sending. Retention periods, clause language, and disclosure requirements drift over time; a stale template quietly misstates the position. When in doubt about currency, treat the answer as unverified and check the source of truth.
+
+**Your role.** You resolve the common case fast and route everything else. Volume lives in the templated categories; risk lives in the exceptions. When a question sits on the boundary, escalate — the cost of an unnecessary escalation is minutes, the cost of a wrong templated answer is the whole point of this gate.

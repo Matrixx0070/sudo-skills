@@ -42,3 +42,46 @@ Correcting entries proposed: <...>
 Aged / unexplained flags: <...>
 Conclusion: reconciled / not | residual: <$> | sign-off: <who/date>
 ```
+
+## Reference
+
+### The bank reconciliation bridge (two-column proof)
+Adjust each side for the items the *other* side already knows about, then both must equal the true cash balance.
+
+| Book (GL) side | Bank side |
+|---|---|
+| Balance per books | Balance per bank |
+| + Interest / credits earned not booked | + Deposits in transit (recorded, not yet cleared) |
+| − Bank fees / NSF charges not booked | − Outstanding checks (issued, not yet cleared) |
+| ± Book errors | ± Bank errors |
+| = **Adjusted book balance** | = **Adjusted bank balance** |
+
+The two adjusted balances must be identical. Only book-side items generate a journal entry (fees, interest, NSF, book errors); bank-side items are timing and self-clear next period. Rule of thumb: **checks reduce the bank side, deposits add to it; unbooked fees reduce the book side, unbooked credits add to it.**
+
+### Reconciling-item taxonomy
+- **Timing:** outstanding checks, deposits in transit, unposted receipts, in-transit intercompany. Self-clears; monitor aging.
+- **Errors:** transposition (difference divisible by 9 — e.g., 540 vs 450 = 90), wrong account, duplicate, sign flip.
+- **Omissions:** fee, interest, NSF, auto-debit, wire never booked.
+- **Unidentified:** treat as a potential error/fraud until named; never sign off on it.
+
+Diagnostic tricks: a difference divisible by **9** signals a transposition; a difference that is exactly **2×** a known item signals a sign flip (you added what you should have subtracted); an even, round difference often points to a duplicated or omitted whole entry.
+
+### Reconciliation types and their source of truth
+| Account | Reconcile GL to | Typical items |
+|---|---|---|
+| Cash | Bank statement | Outstanding checks, DIT, fees |
+| AR | AR aging / subledger | Unapplied cash, credit memos, timing of billing |
+| AP | AP aging / vendor statements | Received-not-invoiced (GRNI), disputes, timing |
+| Inventory | Perpetual system / count | Shrinkage, in-transit, costing differences |
+| Fixed assets | FA subledger / roll-forward | Additions, disposals, depreciation posting |
+| Debt | Amortization schedule / lender statement | Interest split, principal paydown |
+| Intercompany | Counterparty balance | In-transit, FX, mismatched postings |
+
+### Roll-forward format (balance-sheet recs)
+`Beginning balance + additions − reductions ± adjustments = ending balance`, and ending must equal the GL. This is the standard for FA, debt, allowance, accrual, and prepaid accounts — the movement, not just the point balance, is what an auditor tests.
+
+### Aging thresholds and rigor
+Classify reconciling items by age: **current** (this period, expected to clear), **30–60 days** (investigate), **60–90+** (presumed error, book or escalate). A stale timing item is almost always a missed entry. Match reconciliation rigor to account risk: high-risk / high-volume (cash, revenue-linked AR) get detailed line-level recs and independent review; low-risk stable accounts can use a review-type rec (analytic reasonableness) at lower frequency.
+
+### Sign-off standard
+"Reconciled" means residual = $0 **or** every residual dollar is a named, categorized, aged item with an owner and clearing plan. "Reconciled except $X" with no name is *not reconciled*. Segregate: the preparer and the reviewer/approver must be different people.
