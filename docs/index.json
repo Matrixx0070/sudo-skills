@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T18:00:00Z",
+  "updated": "2026-07-11T18:30:00Z",
   "skills": [
     {
       "name": "bio-experiment-design",
@@ -1915,6 +1915,38 @@
       ]
     },
     {
+      "name": "smb-call-list",
+      "version": "1.0.0",
+      "description": "Rank the top-5 leads worth calling today with tailored talking points and blocked calendar time.",
+      "author": "matrixx0070",
+      "path": "skills/smb-call-list/SKILL.md",
+      "sha256": "5b7356776e0e0b42982d945df689e8a824b7c7a41e0dae60862f082271a88ed3",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "crm",
+        "leads",
+        "outreach",
+        "productivity"
+      ]
+    },
+    {
+      "name": "smb-canva-creator",
+      "version": "1.0.0",
+      "description": "Execute an approved content brief into a posting calendar plus Canva social designs and captions, one approved step at a time.",
+      "author": "matrixx0070",
+      "path": "skills/smb-canva-creator/SKILL.md",
+      "sha256": "f1f8e3fce4d749e4076dcb69604a24aac3c5271d8a73d2d02a38b10aca7eb18b",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "canva",
+        "social-media",
+        "content",
+        "design"
+      ]
+    },
+    {
       "name": "smb-cash-flow",
       "version": "1.0.0",
       "description": "Produce a 30/60/90-day cash-flow forecast from AR and AP with confidence bands.",
@@ -1947,6 +1979,70 @@
       ]
     },
     {
+      "name": "smb-content-strategy",
+      "version": "1.0.0",
+      "description": "Analyze sales for top performers, slow movers, and seasonality, then produce a prioritized 30-day content brief.",
+      "author": "matrixx0070",
+      "path": "skills/smb-content-strategy/SKILL.md",
+      "sha256": "65a377ce8471405bc8d220e7c3ac7d72ae56298ddc91d918d19dea5dd914e432",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "analytics",
+        "strategy",
+        "content",
+        "planning"
+      ]
+    },
+    {
+      "name": "smb-contract-review",
+      "version": "1.0.0",
+      "description": "Lightweight NDA, MSA, and vendor contract review that flags non-standard terms in plain English and outputs a redline.",
+      "author": "matrixx0070",
+      "path": "skills/smb-contract-review/SKILL.md",
+      "sha256": "1f383098f3553a19abb593e5ffed99c27765ae665f6a55bb104de6c936890a20",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "contracts",
+        "review",
+        "risk",
+        "operations"
+      ]
+    },
+    {
+      "name": "smb-crm-cleanup",
+      "version": "1.0.0",
+      "description": "Scan the CRM for stale deals, duplicate contacts, and missing fields, then fix only what the owner approves.",
+      "author": "matrixx0070",
+      "path": "skills/smb-crm-cleanup/SKILL.md",
+      "sha256": "20531a82ee47e7053ee6b3993993e4bdbd431e92f43123880c5d71f36924f1de",
+      "capabilities": [],
+      "tags": [
+        "crm",
+        "data-quality",
+        "operations",
+        "cleanup",
+        "sales"
+      ]
+    },
+    {
+      "name": "smb-crm-maintenance",
+      "version": "1.0.0",
+      "description": "Keep the CRM current from email and calendar context \u2014 create and update contacts and deals, log notes, and flag stale records.",
+      "author": "matrixx0070",
+      "path": "skills/smb-crm-maintenance/SKILL.md",
+      "sha256": "cdc80ba778f910f7e7d983bb6b745e668b5ff11c3858cfcab08afde73eea5e15",
+      "capabilities": [],
+      "tags": [
+        "crm",
+        "automation",
+        "sales",
+        "productivity",
+        "operations"
+      ]
+    },
+    {
       "name": "smb-customer-pulse",
       "version": "1.0.0",
       "description": "Aggregate disputes, tickets, and reviews into themes with three concrete actions.",
@@ -1960,6 +2056,38 @@
         "feedback",
         "reviews",
         "support"
+      ]
+    },
+    {
+      "name": "smb-customer-pulse-check",
+      "version": "1.0.0",
+      "description": "Synthesize disputes, tickets, and reviews into a top-3 fixable-issues list with drafted response templates.",
+      "author": "matrixx0070",
+      "path": "skills/smb-customer-pulse-check/SKILL.md",
+      "sha256": "07efe3ab04d364ec4d6de6591ad367136f075bf1db9a506ae8db745e08ea38b9",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "support",
+        "reviews",
+        "analytics",
+        "retention"
+      ]
+    },
+    {
+      "name": "smb-friday-brief",
+      "version": "1.0.0",
+      "description": "A Friday end-of-week pulse \u2014 revenue versus prior week, top sellers, and the wins and watches that need attention.",
+      "author": "matrixx0070",
+      "path": "skills/smb-friday-brief/SKILL.md",
+      "sha256": "0152e74a7d48c8893be0ea7908aca97087e7fdf6130c08cd9b3d5748d6f8e1d5",
+      "capabilities": [],
+      "tags": [
+        "reporting",
+        "analytics",
+        "revenue",
+        "weekly",
+        "operations"
       ]
     },
     {
@@ -1992,6 +2120,22 @@
         "collections",
         "invoicing",
         "customers"
+      ]
+    },
+    {
+      "name": "smb-job-post-builder",
+      "version": "1.0.0",
+      "description": "Build a hiring packet \u2014 a job post, a structured interview guide with a scoring rubric, and an offer letter template.",
+      "author": "matrixx0070",
+      "path": "skills/smb-job-post-builder/SKILL.md",
+      "sha256": "d9d21c4ff785d1145eb9978ee1f0e691b5cc81793c28ad79c734ab7c4431686d",
+      "capabilities": [],
+      "tags": [
+        "hiring",
+        "hr",
+        "recruiting",
+        "templates",
+        "operations"
       ]
     },
     {
@@ -2043,6 +2187,54 @@
       ]
     },
     {
+      "name": "smb-month-end-prep",
+      "version": "1.0.0",
+      "description": "Walk the owner through month-end close \u2014 reconcile books against processors, flag issues, and export a review packet.",
+      "author": "matrixx0070",
+      "path": "skills/smb-month-end-prep/SKILL.md",
+      "sha256": "da86b76ac4f2aff25e8e845c104fa05a3bde0112cab1acfe5957bdd2abd0f255",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "bookkeeping",
+        "reconciliation",
+        "month-end",
+        "accounting"
+      ]
+    },
+    {
+      "name": "smb-month-heads-up",
+      "version": "1.0.0",
+      "description": "On the 25th, produce a next-30-day cash-flow outlook that flags the items needing owner attention before month-end.",
+      "author": "matrixx0070",
+      "path": "skills/smb-month-heads-up/SKILL.md",
+      "sha256": "2370c8f406cb87398305de8cd3c01c6307070e55d6835b6c2191e289805b5796",
+      "capabilities": [],
+      "tags": [
+        "cash-flow",
+        "forecast",
+        "monthly",
+        "finance",
+        "planning"
+      ]
+    },
+    {
+      "name": "smb-onboard",
+      "version": "1.0.0",
+      "description": "Onboard a new small-business owner \u2014 connect their first two tools, run one recipe, interview them, store context, and set a weekly check-in.",
+      "author": "matrixx0070",
+      "path": "skills/smb-onboard/SKILL.md",
+      "sha256": "748824a1007ce8967b5cb21783d6e72a4add5e0702ced9b4e53f9c5618449a68",
+      "capabilities": [],
+      "tags": [
+        "onboarding",
+        "setup",
+        "interview",
+        "context",
+        "check-in"
+      ]
+    },
+    {
       "name": "smb-plan-payroll",
       "version": "1.0.0",
       "description": "Forecast cash to the next payroll date and rank overdue invoices so payroll can run confidently.",
@@ -2056,6 +2248,22 @@
         "cash",
         "collections",
         "planning"
+      ]
+    },
+    {
+      "name": "smb-price-check",
+      "version": "1.0.0",
+      "description": "Build a margin-by-product table plus three pricing-scenario views to support a pricing decision.",
+      "author": "matrixx0070",
+      "path": "skills/smb-price-check/SKILL.md",
+      "sha256": "ee757105074e2155094cea1b149b124076171139fbcc7d97e0bb24ffadbac718",
+      "capabilities": [],
+      "tags": [
+        "pricing",
+        "margin",
+        "scenarios",
+        "finance",
+        "strategy"
       ]
     },
     {
@@ -2075,6 +2283,70 @@
       ]
     },
     {
+      "name": "smb-review-contract",
+      "version": "1.0.0",
+      "description": "Review a contract in plain English, list red flags by severity, and return a marked-up redline.",
+      "author": "matrixx0070",
+      "path": "skills/smb-review-contract/SKILL.md",
+      "sha256": "9eb96755429f7924cb2c9a185015f028dcda8de4e0aa89f83e2578505e2d61ea",
+      "capabilities": [],
+      "tags": [
+        "contract",
+        "legal",
+        "review",
+        "redline",
+        "risk"
+      ]
+    },
+    {
+      "name": "smb-router",
+      "version": "1.0.0",
+      "description": "Front door to the small-business toolkit \u2014 routes a vague or specific request to the best skill and explains what's available.",
+      "author": "matrixx0070",
+      "path": "skills/smb-router/SKILL.md",
+      "sha256": "71c3a4e84635a65d1ea65a005f7bbec63cee303edea69a1d591c7b690a34739d",
+      "capabilities": [],
+      "tags": [
+        "router",
+        "navigation",
+        "triage",
+        "toolkit",
+        "help"
+      ]
+    },
+    {
+      "name": "smb-run-campaign",
+      "version": "1.0.0",
+      "description": "Run an end-to-end marketing campaign from sales analysis to content brief to assets to CRM send, with owner approval at each step.",
+      "author": "matrixx0070",
+      "path": "skills/smb-run-campaign/SKILL.md",
+      "sha256": "6f50bf2fd72b69427c38334450dde1703bab965b0e8ff23189f16339dc83138d",
+      "capabilities": [],
+      "tags": [
+        "marketing",
+        "campaign",
+        "crm",
+        "content",
+        "sales"
+      ]
+    },
+    {
+      "name": "smb-sales-brief",
+      "version": "1.0.0",
+      "description": "Surface top and bottom sellers plus seasonality, then produce a two-week content brief.",
+      "author": "matrixx0070",
+      "path": "skills/smb-sales-brief/SKILL.md",
+      "sha256": "31da0eca3ae33eb9531130f7258d7d121b41245490badf49eebc8ae19a4f4ac6",
+      "capabilities": [],
+      "tags": [
+        "sales",
+        "analysis",
+        "content",
+        "seasonality",
+        "marketing"
+      ]
+    },
+    {
       "name": "smb-tax-prep",
       "version": "1.0.0",
       "description": "Assemble tax-season materials \u2014 quarterly estimates or year-end 1099s \u2014 and an accountant packet.",
@@ -2088,6 +2360,38 @@
         "quarterly",
         1099,
         "accountant"
+      ]
+    },
+    {
+      "name": "smb-tax-season-organizer",
+      "version": "1.0.0",
+      "description": "Organize tax-season materials for a quarterly estimate or year-end 1099 and produce an accountant handoff packet.",
+      "author": "matrixx0070",
+      "path": "skills/smb-tax-season-organizer/SKILL.md",
+      "sha256": "13f14a498543a893c0ee70c27c7396ff039f4a1a4bb19977fb6144eb05a38d54",
+      "capabilities": [],
+      "tags": [
+        "tax",
+        "organization",
+        "quarterly",
+        1099,
+        "accountant"
+      ]
+    },
+    {
+      "name": "smb-ticket-deflector",
+      "version": "1.0.0",
+      "description": "Read a forwarded customer email or ticket, pull order, refund, and history, and draft a tone-matched reply \u2014 refunds only with owner approval.",
+      "author": "matrixx0070",
+      "path": "skills/smb-ticket-deflector/SKILL.md",
+      "sha256": "404e2dce0e9842dc4970152dbe504309c745d6c4dfcf629d7d620b0aca73a81b",
+      "capabilities": [],
+      "tags": [
+        "support",
+        "customer",
+        "tickets",
+        "refund",
+        "replies"
       ]
     },
     {
