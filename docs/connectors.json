@@ -2,7 +2,7 @@
   "registry": "sudo-connectors",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T20:30:00Z",
+  "updated": "2026-07-11T23:30:00Z",
   "connectors": [
     {
       "name": "github",
@@ -766,6 +766,267 @@
       "tags": [
         "career",
         "network"
+      ]
+    },
+    {
+      "name": "twilio-docs",
+      "displayName": "Twilio Docs",
+      "description": "Twilio's hosted docs MCP \u2014 search/read Twilio & SendGrid API documentation.",
+      "category": "development",
+      "transport": "http",
+      "url": "https://mcp.twilio.com/docs",
+      "verified": true,
+      "live": true,
+      "tags": [
+        "twilio",
+        "docs",
+        "messaging",
+        "voice"
+      ]
+    },
+    {
+      "name": "qt-docs",
+      "displayName": "Qt Documentation",
+      "description": "Qt's hosted docs MCP \u2014 live Qt API lookups across latest + LTS.",
+      "category": "development",
+      "transport": "http",
+      "url": "https://qt-docs-mcp.qt.io/mcp",
+      "verified": true,
+      "live": true,
+      "tags": [
+        "qt",
+        "docs",
+        "cpp",
+        "qml"
+      ]
+    },
+    {
+      "name": "ironclad",
+      "displayName": "Ironclad",
+      "description": "Contract lifecycle management. Requires Ironclad auth.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "clm",
+        "contracts"
+      ]
+    },
+    {
+      "name": "imanage",
+      "displayName": "iManage",
+      "description": "Legal document & email management. Requires iManage auth.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "dms",
+        "legal"
+      ]
+    },
+    {
+      "name": "courtlistener",
+      "displayName": "CourtListener",
+      "description": "US case law and dockets (Free Law Project). Requires API token.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "caselaw",
+        "legal"
+      ]
+    },
+    {
+      "name": "everlaw",
+      "displayName": "Everlaw",
+      "description": "Ediscovery and litigation. Requires Everlaw auth.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "ediscovery",
+        "litigation"
+      ]
+    },
+    {
+      "name": "trellis",
+      "displayName": "Trellis",
+      "description": "State trial court records/analytics. Requires Trellis auth.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "litigation",
+        "records"
+      ]
+    },
+    {
+      "name": "definely",
+      "displayName": "Definely",
+      "description": "In-document contract drafting/review assistance.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "contracts",
+        "drafting"
+      ]
+    },
+    {
+      "name": "solve-intelligence",
+      "displayName": "Solve Intelligence",
+      "description": "IP/patent drafting and prosecution assistant.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "ip",
+        "patents"
+      ]
+    },
+    {
+      "name": "topcounsel",
+      "displayName": "TopCounsel",
+      "description": "Legal matter/workflow management.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "matter",
+        "legal"
+      ]
+    },
+    {
+      "name": "descrybe",
+      "displayName": "Descrybe.ai",
+      "description": "Legal research / case summaries.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "research",
+        "caselaw"
+      ]
+    },
+    {
+      "name": "cocounsel",
+      "displayName": "CoCounsel",
+      "description": "Thomson Reuters legal AI (deep research).",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "research",
+        "legal"
+      ]
+    },
+    {
+      "name": "daloopa",
+      "displayName": "Daloopa",
+      "description": "Deep fundamental financial data from filings. Requires Daloopa auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "fundamentals",
+        "data"
+      ]
+    },
+    {
+      "name": "morningstar",
+      "displayName": "Morningstar",
+      "description": "Investment research and fund/equity data. Requires auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "research",
+        "funds"
+      ]
+    },
+    {
+      "name": "factset",
+      "displayName": "FactSet",
+      "description": "Financial data & analytics. Requires FactSet auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "data",
+        "analytics"
+      ]
+    },
+    {
+      "name": "moodys",
+      "displayName": "Moody's",
+      "description": "Credit ratings, research, risk data. Requires auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "credit",
+        "risk"
+      ]
+    },
+    {
+      "name": "pitchbook",
+      "displayName": "PitchBook",
+      "description": "Private capital, M&A, VC/PE data. Requires auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "pe",
+        "vc",
+        "deals"
+      ]
+    },
+    {
+      "name": "kensho",
+      "displayName": "S&P Global / Kensho",
+      "description": "S&P Global Kensho financial data (kfinance). Requires auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "data",
+        "sp-global"
+      ]
+    },
+    {
+      "name": "lseg",
+      "displayName": "LSEG",
+      "description": "London Stock Exchange Group financial analytics. Requires auth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "markets",
+        "analytics"
+      ]
+    },
+    {
+      "name": "chronograph",
+      "displayName": "Chronograph",
+      "description": "Private-equity portfolio monitoring/data.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "pe",
+        "portfolio"
+      ]
+    },
+    {
+      "name": "aiera",
+      "displayName": "Aiera",
+      "description": "Earnings-call transcripts and event intelligence.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "earnings",
+        "transcripts"
       ]
     }
   ]

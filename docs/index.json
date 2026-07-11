@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T22:30:00Z",
+  "updated": "2026-07-12T00:05:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -114,6 +114,176 @@
         "embeddings",
         "reranking",
         "eval"
+      ]
+    },
+    {
+      "name": "aigov-ai-inventory",
+      "version": "1.0.0",
+      "description": "Build and maintain a defensible inventory of every AI system in use across an organization \u2014 in-house models, vendor AI, embedded features, and shadow AI \u2014 tagged by owner, purpose, data, and risk tier.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-ai-inventory/SKILL.md",
+      "sha256": "f1c536cd7e0ab996f82dbb2076462dc0af654b2e6cd1085d64821d751b502d2c",
+      "capabilities": [],
+      "tags": [
+        "ai-inventory",
+        "ai-register",
+        "governance",
+        "risk-tiering",
+        "nist-ai-rmf",
+        "eu-ai-act"
+      ]
+    },
+    {
+      "name": "aigov-aia-generation",
+      "version": "1.0.0",
+      "description": "Generate a structured Algorithmic Impact Assessment for a specific AI use case \u2014 purpose, stakeholders, data provenance, harm taxonomy, mitigations, residual risk, and a go/mitigate/stop recommendation.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-aia-generation/SKILL.md",
+      "sha256": "555cc05c98d649855a56b1c3c6f6d9bedc3f2b11b0df77bf0d0902c7bd3cb532",
+      "capabilities": [],
+      "tags": [
+        "algorithmic-impact-assessment",
+        "fria",
+        "harm-analysis",
+        "residual-risk",
+        "nist-ai-rmf",
+        "eu-ai-act"
+      ]
+    },
+    {
+      "name": "aigov-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured intake interview to capture the facts about a new AI use case from zero, producing a clean fact pack for downstream triage and assessment.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-cold-start-interview/SKILL.md",
+      "sha256": "b4f403c4db36fabc98634adc7b826588388ca77881e655c2a27d21ded6bc93fb",
+      "capabilities": [],
+      "tags": [
+        "ai-governance",
+        "intake",
+        "interview",
+        "use-case",
+        "nist-ai-rmf",
+        "eu-ai-act"
+      ]
+    },
+    {
+      "name": "aigov-customize",
+      "version": "1.0.0",
+      "description": "Tailor generic AI-governance templates \u2014 policies, AIA forms, triage rubrics, vendor checklists \u2014 to a specific organization's sector, jurisdictions, risk appetite, and roles.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-customize/SKILL.md",
+      "sha256": "c8cf8c07f51794f9f276033fbc02e113034b63ce04d90f3e406f49bcdee9e2d8",
+      "capabilities": [],
+      "tags": [
+        "ai-governance",
+        "customization",
+        "templates",
+        "iso-42001",
+        "nist-ai-rmf",
+        "eu-ai-act"
+      ]
+    },
+    {
+      "name": "aigov-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up and organize a governance/legal matter workspace for a single AI system review \u2014 a structured, defensible record that ties intake, triage, AIA, vendor terms, gap analysis, decisions, and sign-offs into one auditable container.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-matter-workspace/SKILL.md",
+      "sha256": "6854c51afd3b2d9862450f85152f2532999784fae2efc6a8fd0705f6f82e8476",
+      "capabilities": [],
+      "tags": [
+        "ai-governance",
+        "matter-management",
+        "audit-trail",
+        "recordkeeping",
+        "compliance",
+        "sign-off"
+      ]
+    },
+    {
+      "name": "aigov-policy-monitor",
+      "version": "1.0.0",
+      "description": "Run a horizon-scanning cadence over the external AI regulatory and standards landscape and translate each change into a so-what impact and a concrete action for your organization.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-policy-monitor/SKILL.md",
+      "sha256": "76c49ee36a30acc83c50c51228da9105bd2a3d5579d3090ba985f3e1afefd9b0",
+      "capabilities": [],
+      "tags": [
+        "ai-governance",
+        "horizon-scanning",
+        "regulatory-monitoring",
+        "eu-ai-act",
+        "standards-tracking",
+        "compliance"
+      ]
+    },
+    {
+      "name": "aigov-policy-starter",
+      "version": "1.0.0",
+      "description": "Draft a first-pass internal AI-use policy from scratch \u2014 acceptable use, an approval workflow for new use cases, data-handling rules, human-oversight duties, prohibited uses, vendor/tool approval, disclosure obligations, and roles/accountability.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-policy-starter/SKILL.md",
+      "sha256": "3278eb1cb0b05f9ed2fa699f6a12ca9caa55ce964f2a972333e90b528d586080",
+      "capabilities": [],
+      "tags": [
+        "ai-policy",
+        "acceptable-use",
+        "governance",
+        "nist-ai-rmf",
+        "eu-ai-act",
+        "accountability"
+      ]
+    },
+    {
+      "name": "aigov-reg-gap-analysis",
+      "version": "1.0.0",
+      "description": "Compare an organization's current AI governance practices against an applicable framework (EU AI Act, NIST AI RMF, ISO 42001) and produce a prioritized gap list scored by severity and effort with concrete remediation actions.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-reg-gap-analysis/SKILL.md",
+      "sha256": "a89f9a4bb013825c3fb0d7ad8ab901fd76a2aa06e2776f47986c2f4c9899dca4",
+      "capabilities": [],
+      "tags": [
+        "gap-analysis",
+        "eu-ai-act",
+        "nist-ai-rmf",
+        "iso-42001",
+        "compliance",
+        "remediation"
+      ]
+    },
+    {
+      "name": "aigov-use-case-triage",
+      "version": "1.0.0",
+      "description": "Rapidly triage a proposed AI use case into a risk tier and a route (approve / conditions / assess further / prohibit) so teams know how much scrutiny it needs.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-use-case-triage/SKILL.md",
+      "sha256": "1b0575ec4bdefa46e4ca8624bc27b7413dadfa68733d11a6b60e3687acabf4c9",
+      "capabilities": [],
+      "tags": [
+        "ai-governance",
+        "risk-triage",
+        "eu-ai-act",
+        "nist-ai-rmf",
+        "compliance",
+        "intake"
+      ]
+    },
+    {
+      "name": "aigov-vendor-ai-review",
+      "version": "1.0.0",
+      "description": "Review a third-party AI product's contract, DPA, and documentation for governance and liability risk before procurement or renewal.",
+      "author": "matrixx0070",
+      "path": "skills/aigov-vendor-ai-review/SKILL.md",
+      "sha256": "bc65c0388b96a3549f0b0d48d9a4910b0344c8291ab9bcea6cc273cc3818811a",
+      "capabilities": [],
+      "tags": [
+        "ai-governance",
+        "vendor-review",
+        "contracts",
+        "liability",
+        "dpa",
+        "supply-chain"
       ]
     },
     {
@@ -448,6 +618,443 @@
       ]
     },
     {
+      "name": "clinic-build-guide",
+      "version": "1.0.0",
+      "description": "Build a reusable, supervisor-approved runbook that standardizes a recurring legal-clinic task or matter type for other students to follow.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-build-guide/SKILL.md",
+      "sha256": "4663d4ca079e6f0e6368e9f89858dec87e456f9aa5c0b32e2c627058cdf7354e",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "runbook",
+        "template",
+        "supervision",
+        "workflow",
+        "standardization"
+      ]
+    },
+    {
+      "name": "clinic-client-comms-log",
+      "version": "1.0.0",
+      "description": "Maintain a dated, factual log of every client communication in a clinic matter file \u2014 who, when, what, and follow-ups, with no unreviewed legal conclusions.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-client-comms-log/SKILL.md",
+      "sha256": "823bd8bf63a6d98303d082e2755cafddd76438a0977640d3c1cca7e6fce6a469",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "communication-log",
+        "matter-file",
+        "recordkeeping",
+        "follow-up",
+        "confidentiality"
+      ]
+    },
+    {
+      "name": "clinic-client-intake",
+      "version": "1.0.0",
+      "description": "Run and document a new-client intake for a legal clinic \u2014 eligibility, conflicts, and scope \u2014 forming no attorney-client relationship until the supervisor approves.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-client-intake/SKILL.md",
+      "sha256": "8d17ec8765ea33d0ba004b5b8cae3a8d1880c133f3f76412c1b998a711ab0a10",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "intake",
+        "eligibility",
+        "conflicts-check",
+        "scope",
+        "engagement"
+      ]
+    },
+    {
+      "name": "clinic-client-letter",
+      "version": "1.0.0",
+      "description": "Draft plain-but-accurate correspondence to a clinic client \u2014 advice, status, or closing letters \u2014 for supervising-attorney review before anything is sent.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-client-letter/SKILL.md",
+      "sha256": "b14048bdb1da4fe0d59ea1c2e14bfb9a6bd6ca4b247c598d80e3718b32626c7d",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "client-letter",
+        "correspondence",
+        "plain-language",
+        "supervision",
+        "scope"
+      ]
+    },
+    {
+      "name": "clinic-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Prepare for and conduct a first client interview with little prior information, gathering facts without drawing premature legal conclusions.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-cold-start-interview/SKILL.md",
+      "sha256": "967a6f305bea0e81471aa1d51b339eaf39bf2449739c660d29f16d63c518bac9",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "client-interview",
+        "intake",
+        "fact-gathering",
+        "supervision",
+        "professional-conduct"
+      ]
+    },
+    {
+      "name": "clinic-customize",
+      "version": "1.0.0",
+      "description": "Adapt a clinic template, precedent, or form to a specific client matter while tracking every change and the reason for it.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-customize/SKILL.md",
+      "sha256": "750f9f165430bded64bda26cae6e1ba78e9a8d05969cfb04e11ad00373695787",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "template",
+        "precedent",
+        "customization",
+        "jurisdiction",
+        "supervision"
+      ]
+    },
+    {
+      "name": "clinic-deadlines",
+      "version": "1.0.0",
+      "description": "Build and track a docketing calendar for a matter \u2014 limitations periods, filing and response deadlines, and hearing dates \u2014 with double-calendaring and supervisor confirmation.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-deadlines/SKILL.md",
+      "sha256": "044c7ebd7bdcda30aa9c0997e10781373c64662f33612746cfb5d380d7ed5885",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "docketing",
+        "deadlines",
+        "statute-of-limitations",
+        "malpractice",
+        "supervision"
+      ]
+    },
+    {
+      "name": "clinic-draft",
+      "version": "1.0.0",
+      "description": "Draft a legal document \u2014 a pleading, motion, brief section, or contract clause \u2014 with verified citations, flagged assumptions, and mandatory supervisor review before filing.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-draft/SKILL.md",
+      "sha256": "a1df56e6d2a538fb366f470bc937387cc8a44abf1b3f2947ed33e0f2f6a7b376",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "drafting",
+        "pleading",
+        "motion",
+        "citation-check",
+        "supervision"
+      ]
+    },
+    {
+      "name": "clinic-form-generation",
+      "version": "1.0.0",
+      "description": "Fill official court or agency forms accurately from verified matter facts for supervising-attorney review before filing.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-form-generation/SKILL.md",
+      "sha256": "11ec833f4b0523f06162be3c569bc148a2c94d8004d07f653f4907812083208c",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "court-forms",
+        "filing",
+        "immigration",
+        "fee-waiver",
+        "accuracy"
+      ]
+    },
+    {
+      "name": "clinic-memo",
+      "version": "1.0.0",
+      "description": "Draft an internal legal research memo for the supervising attorney with verified authority and flagged open questions.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-memo/SKILL.md",
+      "sha256": "4942c4849bbc4f56de8015319be6f9cb924266164c127ddbec89853c4be315af",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "research-memo",
+        "work-product",
+        "analysis",
+        "citations",
+        "supervision"
+      ]
+    },
+    {
+      "name": "clinic-plain-language-letters",
+      "version": "1.0.0",
+      "description": "Rewrite legal content into clear plain-language client letters while preserving legal accuracy for supervisor sign-off.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-plain-language-letters/SKILL.md",
+      "sha256": "6d036b3060361aef18b5cdbb499a55436e17d95aa40b6e609d6856219d198e92",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "plain-language",
+        "client-communication",
+        "readability",
+        "accuracy",
+        "letters"
+      ]
+    },
+    {
+      "name": "clinic-ramp",
+      "version": "1.0.0",
+      "description": "Onboard a new clinic student onto a matter and the clinic's systems fast, with supervision and confidentiality from day one.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-ramp/SKILL.md",
+      "sha256": "4de376b838bf4831e89451e65fd63d616e343eab4a5f9a7da7d5e78bc582b82e",
+      "capabilities": [],
+      "tags": [
+        "legal-clinic",
+        "onboarding",
+        "supervision",
+        "confidentiality",
+        "docketing",
+        "first-tasks"
+      ]
+    },
+    {
+      "name": "clinic-research-start",
+      "version": "1.0.0",
+      "description": "Kick off legal research on a new clinic issue by framing the question, prioritizing primary sources, and verifying every citation before it is relied on.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-research-start/SKILL.md",
+      "sha256": "cd9c30541afbbbfad42cc426ec40e4eaf8f96bcd6bc69cfdfb4cf57a03aed70a",
+      "capabilities": [],
+      "tags": [
+        "legal-research",
+        "clinic",
+        "primary-sources",
+        "citation-check",
+        "shepardize",
+        "competence"
+      ]
+    },
+    {
+      "name": "clinic-semester-handoff",
+      "version": "1.0.0",
+      "description": "Transfer live clinic matters between student cohorts at semester end so status, deadlines, and client expectations carry over with nothing dropped.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-semester-handoff/SKILL.md",
+      "sha256": "53dee8810a945140c6fcf860991685d7011308b5ab883a581806aaec44b3c9df",
+      "capabilities": [],
+      "tags": [
+        "handoff",
+        "clinic",
+        "continuity",
+        "deadlines",
+        "confidentiality",
+        "supervision"
+      ]
+    },
+    {
+      "name": "clinic-status",
+      "version": "1.0.0",
+      "description": "Produce a concise matter status update for the supervising attorney or case rounds, separating settled facts from open questions.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-status/SKILL.md",
+      "sha256": "ce813a6834cc0438eb20f20c3ac5fed49278bcc86b1d66bfecb964cc2641c5bc",
+      "capabilities": [],
+      "tags": [
+        "status",
+        "clinic",
+        "case-rounds",
+        "deadlines",
+        "blockers",
+        "supervision"
+      ]
+    },
+    {
+      "name": "clinic-supervisor-review-queue",
+      "version": "1.0.0",
+      "description": "Assemble and prioritize student work items awaiting supervising-attorney review so nothing goes to a client or court unreviewed.",
+      "author": "matrixx0070",
+      "path": "skills/clinic-supervisor-review-queue/SKILL.md",
+      "sha256": "fbdc02218c0ac2f20e923903caf97ef0741fb0e855b2930399700f1167575dd3",
+      "capabilities": [],
+      "tags": [
+        "review-queue",
+        "clinic",
+        "supervision",
+        "prioritization",
+        "deadlines",
+        "work-product"
+      ]
+    },
+    {
+      "name": "coml-amendment-history",
+      "version": "1.0.0",
+      "description": "Build and maintain the amendment and version history of a contract \u2014 what changed, when, why, and the current effective terms across the base agreement and all amendments.",
+      "author": "matrixx0070",
+      "path": "skills/coml-amendment-history/SKILL.md",
+      "sha256": "2501ad654d4eb0fcf0693fc9b5212a9ceca34fdad5180d6798fa30a8df4dbbcd",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "amendments",
+        "versioning",
+        "tracking",
+        "terms"
+      ]
+    },
+    {
+      "name": "coml-escalation-flagger",
+      "version": "1.0.0",
+      "description": "Scan a contract or review output for terms that must go to an attorney before agreement, and produce a routed escalation packet with facts, the ask, and a deadline.",
+      "author": "matrixx0070",
+      "path": "skills/coml-escalation-flagger/SKILL.md",
+      "sha256": "a53b960e9ef24ea7d45a0be28cf5e9915eb877398a403ba01476b1d0bd9bd929",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "escalation",
+        "counsel",
+        "risk",
+        "routing"
+      ]
+    },
+    {
+      "name": "coml-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up and maintain a tracking workspace for a single contract matter \u2014 parties, key dates, documents, review status, and open items with owners.",
+      "author": "matrixx0070",
+      "path": "skills/coml-matter-workspace/SKILL.md",
+      "sha256": "81e1a577b9158c157890e67c0e30407b0ae1d6a85931d882c39239c007f17dd2",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "matter",
+        "workspace",
+        "tracking",
+        "organization"
+      ]
+    },
+    {
+      "name": "coml-nda-review",
+      "version": "1.0.0",
+      "description": "Review an NDA against the confidentiality playbook, flag every deviation from preferred and fallback positions, and return a sign / negotiate / reject verdict with specific edits.",
+      "author": "matrixx0070",
+      "path": "skills/coml-nda-review/SKILL.md",
+      "sha256": "78aee66eb866e0fccad8dc97bfb3c29ded55c9cd1d0a9ef98fb354c5e5d5cf20",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "nda",
+        "confidentiality",
+        "review",
+        "redline",
+        "escalation"
+      ]
+    },
+    {
+      "name": "coml-renewal-tracker",
+      "version": "1.0.0",
+      "description": "Track contract renewal and notice windows so termination and renegotiation deadlines are never missed \u2014 calculate the notice deadline, set reminders, and flag decisions due.",
+      "author": "matrixx0070",
+      "path": "skills/coml-renewal-tracker/SKILL.md",
+      "sha256": "159eff79d0130130d60f02dbdc45b92ff0442cdb5096429a132f5b41cfe2b217",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "renewal",
+        "notice",
+        "deadlines",
+        "tracking"
+      ]
+    },
+    {
+      "name": "coml-review",
+      "version": "1.0.0",
+      "description": "Triage an incoming commercial document, route it to the right review skill, run a first-pass red-flag scan, and produce a consolidated verdict.",
+      "author": "matrixx0070",
+      "path": "skills/coml-review/SKILL.md",
+      "sha256": "3fa52a23164b87832aa9c3e2af7c841b9e10a35e85e928bf8041b489a8c4c9db",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "triage",
+        "routing",
+        "review",
+        "escalation"
+      ]
+    },
+    {
+      "name": "coml-review-proposals",
+      "version": "1.0.0",
+      "description": "Review a vendor proposal, quote, SOW, or order form for commercial and legal traps before it converts into a binding order.",
+      "author": "matrixx0070",
+      "path": "skills/coml-review-proposals/SKILL.md",
+      "sha256": "83466d1d2a11313cc41f78d263c9510544ae1ae595fffe3b62cbd6b687678f08",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "proposal",
+        "sow",
+        "order-form",
+        "review",
+        "escalation"
+      ]
+    },
+    {
+      "name": "coml-saas-msa-review",
+      "version": "1.0.0",
+      "description": "Review a SaaS agreement or master services agreement against the playbook \u2014 liability, indemnity, data, security, SLA, renewal, and termination \u2014 and return a redline-ready verdict.",
+      "author": "matrixx0070",
+      "path": "skills/coml-saas-msa-review/SKILL.md",
+      "sha256": "0b7dcb663194fe7ac900e6bbafb85db433847457a0eb839a1bc687bd295beae6",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "saas",
+        "msa",
+        "review",
+        "liability",
+        "data",
+        "escalation"
+      ]
+    },
+    {
+      "name": "coml-stakeholder-summary",
+      "version": "1.0.0",
+      "description": "Translate a contract review into a plain-language summary for a business stakeholder \u2014 key risks, the recommendation, and the exact decision they need to make.",
+      "author": "matrixx0070",
+      "path": "skills/coml-stakeholder-summary/SKILL.md",
+      "sha256": "64d193404b00eb63ce2408cb8b8935c22ed387e8001525dda132d4aa620b54b0",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "summary",
+        "communication",
+        "stakeholder",
+        "decision"
+      ]
+    },
+    {
+      "name": "coml-vendor-agreement-review",
+      "version": "1.0.0",
+      "description": "Review a vendor or services agreement against the playbook \u2014 payment, IP in deliverables, insurance, termination, and audit rights \u2014 and return a redline-ready verdict.",
+      "author": "matrixx0070",
+      "path": "skills/coml-vendor-agreement-review/SKILL.md",
+      "sha256": "61d27d801b9be0a637ef6f58b687a244ede9888bc98840cac16d219558f3c3dc",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "vendor",
+        "services",
+        "review",
+        "ip",
+        "escalation"
+      ]
+    },
+    {
       "name": "commit-message",
       "version": "1.0.0",
       "description": "Turn a diff or plain description into a conventional-commit message - honest type and scope, a why-focused body, breaking changes flagged, nothing invented.",
@@ -456,6 +1063,227 @@
       "sha256": "75bdd6a3ce30e9253f9763d96fd9ab66acfaf12abdc9078612704adb90c0a3c5",
       "capabilities": [],
       "tags": []
+    },
+    {
+      "name": "corpl-ai-tool-handoff",
+      "version": "1.0.0",
+      "description": "Package AI-generated corporate/M&A work product for a licensed attorney's review, with a clear provenance trail and an escalation gate.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-ai-tool-handoff/SKILL.md",
+      "sha256": "4689a5909a7d41818d59193686e6bc264678606b07b40f80bb4daaeb2faec7c3",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "handoff",
+        "review",
+        "provenance",
+        "escalation",
+        "diligence"
+      ]
+    },
+    {
+      "name": "corpl-board-minutes",
+      "version": "1.0.0",
+      "description": "Draft accurate, defensible board (or committee) meeting minutes that record process and decisions without over-documenting deliberation.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-board-minutes/SKILL.md",
+      "sha256": "69dfb3fc4fa2aada82e6a447cd3f0ff5f537a0ab030f7d099cbd62f22c98f9df",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "governance",
+        "board",
+        "minutes",
+        "fiduciary",
+        "records"
+      ]
+    },
+    {
+      "name": "corpl-closing-checklist",
+      "version": "1.0.0",
+      "description": "Build and drive an M&A closing checklist that tracks every deliverable, signature, and condition from signing to closing with owners and status.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-closing-checklist/SKILL.md",
+      "sha256": "cd0dc00d7ec1f302b1ffb59d0ebef998e52d3f93616be7d99ba5f86f1ef2e85e",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "m&a",
+        "closing",
+        "checklist",
+        "conditions",
+        "deal-management"
+      ]
+    },
+    {
+      "name": "corpl-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured intake interview at the start of a corporate/M&A matter to capture the facts, parties, scope, and constraints before any work begins.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-cold-start-interview/SKILL.md",
+      "sha256": "dbebab65f266cbf08f5033cfe42b3ab6ab5abecee475469a18d31f604b3cc1d7",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "intake",
+        "interview",
+        "scoping",
+        "matter",
+        "onboarding"
+      ]
+    },
+    {
+      "name": "corpl-customize",
+      "version": "1.0.0",
+      "description": "Adapt the corporate-legal skill set to a specific firm, deal, or jurisdiction \u2014 house style, templates, thresholds, and escalation routing.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-customize/SKILL.md",
+      "sha256": "ebddc37b96adc05f1a46b4a71663331c86902c29f166c7eb8ac8bd7cfdbafc71",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "customization",
+        "templates",
+        "house-style",
+        "configuration",
+        "escalation"
+      ]
+    },
+    {
+      "name": "corpl-deal-team-summary",
+      "version": "1.0.0",
+      "description": "Produce a concise deal-team status summary \u2014 where the transaction stands, open issues, decisions needed, and next steps \u2014 for internal circulation.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-deal-team-summary/SKILL.md",
+      "sha256": "afd376a4b099246f903ecb66ea0bcdc1c254ce4a953b9c2e13340235c1e53ead",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "m&a",
+        "status",
+        "deal-team",
+        "summary",
+        "communication"
+      ]
+    },
+    {
+      "name": "corpl-diligence-issue-extraction",
+      "version": "1.0.0",
+      "description": "Read diligence documents and extract material issues \u2014 risks, liabilities, and red flags \u2014 into a prioritized, sourced issues list for counsel.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-diligence-issue-extraction/SKILL.md",
+      "sha256": "3071840c11380ac520ac598c3bd3f7bb7fb7d1038c46efee47a6062c527d4ca0",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "m&a",
+        "diligence",
+        "issues",
+        "risk",
+        "red-flags"
+      ]
+    },
+    {
+      "name": "corpl-entity-compliance",
+      "version": "1.0.0",
+      "description": "Track and maintain an entity's corporate housekeeping \u2014 good standing, annual reports, registered agent, franchise tax, and minute-book currency.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-entity-compliance/SKILL.md",
+      "sha256": "9cdc50624fb5bb4afd1cf959240ea119f42009f6958c8bdd3fbb67fe10ffde05",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "entity",
+        "compliance",
+        "good-standing",
+        "annual-report",
+        "records"
+      ]
+    },
+    {
+      "name": "corpl-integration-management",
+      "version": "1.0.0",
+      "description": "Organize post-closing legal integration \u2014 entity consolidation, contract assignment, governance alignment, and the covenants that survive the deal.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-integration-management/SKILL.md",
+      "sha256": "31a98c9ed4ed77a1cd9553c6ad79e9cf6622d5b1c196aa2916bd439e87b8e512",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "m&a",
+        "integration",
+        "post-closing",
+        "entity",
+        "governance"
+      ]
+    },
+    {
+      "name": "corpl-material-contract-schedule",
+      "version": "1.0.0",
+      "description": "Build the material-contract schedule for a disclosure schedule or diligence deliverable \u2014 every in-scope agreement with the terms that matter.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-material-contract-schedule/SKILL.md",
+      "sha256": "c8ff5bb5e4b2bb3aeafc52e063f0bb7b86a0013ddd81f5704bab969b1a8c4b5f",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "m&a",
+        "disclosure-schedule",
+        "contracts",
+        "materiality",
+        "diligence"
+      ]
+    },
+    {
+      "name": "corpl-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up an organized workspace for a corporate/M&A matter \u2014 folder structure, document index, key-dates register, and the contacts and privilege markers.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-matter-workspace/SKILL.md",
+      "sha256": "43e3c6ad695eb4df289fa6f6a2f5cb428fe11a4c71504392583f45fcd6c7bc6c",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "matter",
+        "workspace",
+        "organization",
+        "index",
+        "privilege"
+      ]
+    },
+    {
+      "name": "corpl-tabular-review",
+      "version": "1.0.0",
+      "description": "Review a set of similar documents in a consistent tabular format \u2014 one row per document, one column per attribute \u2014 for fast, comparable diligence.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-tabular-review/SKILL.md",
+      "sha256": "f93d87c52760f5b43391795af1afc78222cbcecfa40e2afcb3e8c895ae86371f",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "diligence",
+        "review",
+        "tabular",
+        "contracts",
+        "comparison"
+      ]
+    },
+    {
+      "name": "corpl-written-consent",
+      "version": "1.0.0",
+      "description": "Draft an action by written consent in lieu of a meeting \u2014 board or stockholder \u2014 with correct authority, recitals, resolutions, and signature formalities.",
+      "author": "matrixx0070",
+      "path": "skills/corpl-written-consent/SKILL.md",
+      "sha256": "313ff61ea7d794fc5ea9a86aa80d6973b60b14db357a5ce1c57e0f1d0c41c9fe",
+      "capabilities": [],
+      "tags": [
+        "corporate-legal",
+        "governance",
+        "written-consent",
+        "resolutions",
+        "board",
+        "stockholder"
+      ]
     },
     {
       "name": "cs-draft-response",
@@ -1371,6 +2199,326 @@
       "tags": []
     },
     {
+      "name": "emplaw-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured onboarding interview that captures an organization's profile so the employment-legal plugin can map which statutes and thresholds apply.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-cold-start-interview/SKILL.md",
+      "sha256": "e90d21fbdd824382121a07f9e006fd467e5f96b77fe42ecf8503c58ff350498e",
+      "capabilities": [],
+      "tags": [
+        "onboarding",
+        "intake",
+        "compliance",
+        "configuration",
+        "employment-law"
+      ]
+    },
+    {
+      "name": "emplaw-customize",
+      "version": "1.0.0",
+      "description": "Tailor the employment-legal plugin's outputs to a firm's house style, default jurisdiction, template library, and reviewer sign-off chain.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-customize/SKILL.md",
+      "sha256": "5fd97cee66e010d808009b28f2ea821820f1cc87e6dff5e43c25e9d1f26ca9e2",
+      "capabilities": [],
+      "tags": [
+        "configuration",
+        "house-style",
+        "templates",
+        "jurisdiction",
+        "formatting"
+      ]
+    },
+    {
+      "name": "emplaw-expansion-kickoff",
+      "version": "1.0.0",
+      "description": "Kick off employment-law setup when the org first hires into a new US state \u2014 register as a foreign employer, map the new-state statutes, and stand up required policies and postings.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-expansion-kickoff/SKILL.md",
+      "sha256": "a145208070b7fac7fe5a4ada8a99e1487ac76c684ec54829d3ecb44b39009f6f",
+      "capabilities": [],
+      "tags": [
+        "expansion",
+        "multi-state",
+        "compliance",
+        "registration",
+        "postings"
+      ]
+    },
+    {
+      "name": "emplaw-expansion-update",
+      "version": "1.0.0",
+      "description": "Update an existing state's employment-law record when a law changes or headcount crosses a threshold in a US state you already operate in.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-expansion-update/SKILL.md",
+      "sha256": "c4f3ec3df3b1307f8e10e2630f1cabd944ce17a38fd2e38b4d0f6a44fed8b3c5",
+      "capabilities": [],
+      "tags": [
+        "expansion",
+        "multi-state",
+        "threshold",
+        "compliance",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "emplaw-handbook-updates",
+      "version": "1.0.0",
+      "description": "Review an existing employee handbook for legal compliance and drift, flagging gaps against current federal and state requirements.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-handbook-updates/SKILL.md",
+      "sha256": "b8a540e66af2101a001cc6fb0704668d4ec2533d610dab595eccafdffa354aa9",
+      "capabilities": [],
+      "tags": [
+        "handbook",
+        "compliance-review",
+        "drift",
+        "audit",
+        "employment-law"
+      ]
+    },
+    {
+      "name": "emplaw-hiring-review",
+      "version": "1.0.0",
+      "description": "Review a hiring process, job posting, or offer for employment-law compliance risk before it goes live.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-hiring-review/SKILL.md",
+      "sha256": "40e7e2412b19ed54e122c76ff36af44f7206f3bff7e2832a54fb88b66a8685a7",
+      "capabilities": [],
+      "tags": [
+        "employment-law",
+        "hiring",
+        "compliance",
+        "fcra",
+        "discrimination"
+      ]
+    },
+    {
+      "name": "emplaw-internal-investigation",
+      "version": "1.0.0",
+      "description": "Run a workplace internal investigation end-to-end, from complaint intake through interviews, evidence, findings, and remediation.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-internal-investigation/SKILL.md",
+      "sha256": "670d18b64a9ee57ffa3ceb97351d8e4ddd5414c742d6260b6b9ea4e4756e6085",
+      "capabilities": [],
+      "tags": [
+        "employment",
+        "investigation",
+        "hr",
+        "compliance",
+        "workplace"
+      ]
+    },
+    {
+      "name": "emplaw-international-expansion",
+      "version": "1.0.0",
+      "description": "Scope the employment-law considerations for hiring in a new country \u2014 local counsel, EOR vs entity, mandatory benefits, and termination rules.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-international-expansion/SKILL.md",
+      "sha256": "1e4949ad5ddb50091a9c3a8a9388d44b452c0df1634132fa39b249ed30e0f12d",
+      "capabilities": [],
+      "tags": [
+        "international",
+        "global-hiring",
+        "eor",
+        "entity",
+        "compliance"
+      ]
+    },
+    {
+      "name": "emplaw-investigation-add",
+      "version": "1.0.0",
+      "description": "Add a new piece of evidence, interview, or note to an existing open investigation record while preserving chain of custody.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-investigation-add/SKILL.md",
+      "sha256": "a8805a53524fa57d040be96574ed3dbe5e6827dca5cd1fda04eadd90f829cd6b",
+      "capabilities": [],
+      "tags": [
+        "employment",
+        "investigation",
+        "evidence",
+        "chain-of-custody",
+        "hr"
+      ]
+    },
+    {
+      "name": "emplaw-investigation-memo",
+      "version": "1.0.0",
+      "description": "Draft the formal investigation memorandum with findings and credibility analysis from a completed investigation record.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-investigation-memo/SKILL.md",
+      "sha256": "7998b4ba7eb61a23d94e04e2dd865d4403c3941e1d34a5a0e2ae006a4799198d",
+      "capabilities": [],
+      "tags": [
+        "employment",
+        "investigation",
+        "memo",
+        "findings",
+        "credibility"
+      ]
+    },
+    {
+      "name": "emplaw-investigation-open",
+      "version": "1.0.0",
+      "description": "Open and initialize a new investigation record with complaint intake, allegation framing, scope, interim measures, and privilege setup.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-investigation-open/SKILL.md",
+      "sha256": "5d7cd9bd6f607a401c66d3b6b45648492132e471e34b209d81366e6bf47567ca",
+      "capabilities": [],
+      "tags": [
+        "employment",
+        "investigation",
+        "intake",
+        "hr",
+        "privilege"
+      ]
+    },
+    {
+      "name": "emplaw-investigation-query",
+      "version": "1.0.0",
+      "description": "Query an existing investigation record for who was interviewed, outstanding items, and timeline gaps.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-investigation-query/SKILL.md",
+      "sha256": "569b4a4ee9a203c410f3b81d049f02b9022ddd62bfd065e6ddd4c4af78f5e87b",
+      "capabilities": [],
+      "tags": [
+        "employment",
+        "investigation",
+        "query",
+        "status",
+        "hr"
+      ]
+    },
+    {
+      "name": "emplaw-investigation-summary",
+      "version": "1.0.0",
+      "description": "Produce a concise closure summary or status roll-up of an investigation for leadership.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-investigation-summary/SKILL.md",
+      "sha256": "b3bac5591f99f8e9cdc73fa975e1c7cdb6fa807df95d41703108d9209afb8cb1",
+      "capabilities": [],
+      "tags": [
+        "employment",
+        "investigation",
+        "summary",
+        "leadership",
+        "reporting"
+      ]
+    },
+    {
+      "name": "emplaw-leave-tracker",
+      "version": "1.0.0",
+      "description": "Stand up and maintain an ongoing leave-of-absence tracker that computes FMLA/ADA/state-leave eligibility, entitlements, and deadlines across all employees.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-leave-tracker/SKILL.md",
+      "sha256": "b8e9d2610dd20fe7af284e60df5d38110091668269d11ef44b6950c0fc3b6621",
+      "capabilities": [],
+      "tags": [
+        "leave",
+        "fmla",
+        "ada",
+        "compliance",
+        "hr"
+      ]
+    },
+    {
+      "name": "emplaw-log-leave",
+      "version": "1.0.0",
+      "description": "Append a single new leave event or request into the leave tracker with dates, type, eligibility flag, and the required notices it triggers.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-log-leave/SKILL.md",
+      "sha256": "a4b01450a5efffa4ac60d8df73db730c14ff1af3870c427af1ed60bc8666187d",
+      "capabilities": [],
+      "tags": [
+        "leave",
+        "fmla",
+        "intake",
+        "record",
+        "hr"
+      ]
+    },
+    {
+      "name": "emplaw-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up a tracked, privilege-aware matter folder with a matter ID, parties, key dates, and status tracking for a specific employment-legal issue.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-matter-workspace/SKILL.md",
+      "sha256": "23677c5a971ede4577030da290dbb76d98a521c86280999554d70f3c750821be",
+      "capabilities": [],
+      "tags": [
+        "matter-management",
+        "privilege",
+        "intake",
+        "tracking",
+        "workspace"
+      ]
+    },
+    {
+      "name": "emplaw-policy-drafting",
+      "version": "1.0.0",
+      "description": "Draft a single workplace policy from scratch, tailored to the organization's jurisdiction and headcount-triggered legal requirements.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-policy-drafting/SKILL.md",
+      "sha256": "ad4990dc2e498c1b8a2a2b84903b3d5738e4acfce7a75e27e5f750b6ac8613eb",
+      "capabilities": [],
+      "tags": [
+        "drafting",
+        "policy",
+        "jurisdiction",
+        "compliance",
+        "employment-law"
+      ]
+    },
+    {
+      "name": "emplaw-termination-review",
+      "version": "1.0.0",
+      "description": "Review a proposed termination for legal risk before it happens, covering documentation, protected activity, WARN, final pay, and releases.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-termination-review/SKILL.md",
+      "sha256": "9b0b4a42e1d743092e9a386a363b80de9a13930c687ffdd8aec8e0129a0d8290",
+      "capabilities": [],
+      "tags": [
+        "employment-law",
+        "termination",
+        "warn-act",
+        "severance",
+        "compliance"
+      ]
+    },
+    {
+      "name": "emplaw-wage-hour-qa",
+      "version": "1.0.0",
+      "description": "Answer a specific wage-and-hour question on overtime, minimum wage, meal and rest breaks, off-the-clock work, or tips.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-wage-hour-qa/SKILL.md",
+      "sha256": "e1af2003eca8aa7fc589b6ca80d87f21172818773d6f65365e4370b47fd4aa50",
+      "capabilities": [],
+      "tags": [
+        "employment-law",
+        "wage-and-hour",
+        "overtime",
+        "flsa",
+        "breaks"
+      ]
+    },
+    {
+      "name": "emplaw-worker-classification",
+      "version": "1.0.0",
+      "description": "Determine whether a worker is an employee or independent contractor, and whether an employee is exempt or non-exempt.",
+      "author": "matrixx0070",
+      "path": "skills/emplaw-worker-classification/SKILL.md",
+      "sha256": "b10ff9d21c8e0d5cb4fa50ce9dbe77a8b6aedc7ee182dc2fbce0b1c64d2473e8",
+      "capabilities": [],
+      "tags": [
+        "employment-law",
+        "classification",
+        "flsa",
+        "contractor",
+        "exempt"
+      ]
+    },
+    {
       "name": "eng-architecture",
       "version": "1.0.0",
       "description": "Author or evaluate an Architecture Decision Record (ADR) that captures context, real options, honest trade-offs, and a defensible, reversible-when-wrong decision.",
@@ -2160,6 +3308,591 @@
       "tags": []
     },
     {
+      "name": "ipl-cease-desist",
+      "version": "1.0.0",
+      "description": "Assess and draft a cease-and-desist demand letter for IP infringement while avoiding overclaiming, declaratory-judgment exposure, and misrepresentation risk.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-cease-desist/SKILL.md",
+      "sha256": "b971b3cc99f04b37f9b79ef0d0f7f70f5d6f9f7dfd0dac2bf636094a0a35b7a4",
+      "capabilities": [],
+      "tags": [
+        "ip",
+        "cease-and-desist",
+        "trademark",
+        "copyright",
+        "infringement",
+        "demand-letter",
+        "escalation"
+      ]
+    },
+    {
+      "name": "ipl-clearance",
+      "version": "1.0.0",
+      "description": "Run a trademark clearance search before adopting a new brand name, mark, or logo and risk-rate it clear, caution, or high-risk with a proceed/modify/abandon recommendation.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-clearance/SKILL.md",
+      "sha256": "d4fd4d77f6350d0a419371ae23fbda35d72744e671450797b6e418840d849df1",
+      "capabilities": [],
+      "tags": [
+        "trademark",
+        "clearance",
+        "brand",
+        "likelihood-of-confusion",
+        "search",
+        "risk",
+        "ip"
+      ]
+    },
+    {
+      "name": "ipl-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured intake interview on a new IP matter to capture the minimum facts and route it to the right sibling skill.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-cold-start-interview/SKILL.md",
+      "sha256": "dcdcfec3458b854da77849790fd5e9b34f1d8ac64895c74b36f518097f26aaec",
+      "capabilities": [],
+      "tags": [
+        "intake",
+        "routing",
+        "triage",
+        "ip",
+        "interview",
+        "escalation",
+        "front-door"
+      ]
+    },
+    {
+      "name": "ipl-customize",
+      "version": "1.0.0",
+      "description": "Tailor the IP-LEGAL sub-plugin to one organization by capturing its risk tolerance, jurisdictions, and default playbook positions.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-customize/SKILL.md",
+      "sha256": "8ed6a2a0386d45927823604fb76451a330b056756f89b65320aeb97c9c6de008",
+      "capabilities": [],
+      "tags": [
+        "customize",
+        "configuration",
+        "playbook",
+        "house-rules",
+        "risk-tolerance",
+        "policy",
+        "escalation"
+      ]
+    },
+    {
+      "name": "ipl-fto-triage",
+      "version": "1.0.0",
+      "description": "Triage freedom-to-operate risk before a product or feature launches by charting live patent claims element-by-element and recommending proceed, design-around, license, or opinion.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-fto-triage/SKILL.md",
+      "sha256": "ad2ac15ad4e2009b7cf896fd440d1e0f10490bf27f954b306b1a6c6fc1c01993",
+      "capabilities": [],
+      "tags": [
+        "ip",
+        "patent",
+        "freedom-to-operate",
+        "infringement",
+        "claim-chart",
+        "risk",
+        "escalation"
+      ]
+    },
+    {
+      "name": "ipl-infringement-triage",
+      "version": "1.0.0",
+      "description": "Triage an IP infringement matter by direction and IP type, assess merits and urgency, and route it to monitoring, cease-desist, takedown, or an attorney.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-infringement-triage/SKILL.md",
+      "sha256": "db3348a8d8bc2af7c2afe223276857eb7930762cf8ae03636903cca8ff15c7c3",
+      "capabilities": [],
+      "tags": [
+        "infringement",
+        "triage",
+        "trademark",
+        "copyright",
+        "patent",
+        "dmca",
+        "escalation"
+      ]
+    },
+    {
+      "name": "ipl-invention-intake",
+      "version": "1.0.0",
+      "description": "Capture an invention disclosure and run a fast patentability screen to recommend filing, trade-secret protection, or defensive publication before any statutory bar closes.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-invention-intake/SKILL.md",
+      "sha256": "8aec0a69fca0718f3db6e2be04ef8767e67f65501bca17981c02a44b54ec75b2",
+      "capabilities": [],
+      "tags": [
+        "ip",
+        "patent",
+        "invention-disclosure",
+        "patentability",
+        "trade-secret",
+        "statutory-bar",
+        "intake"
+      ]
+    },
+    {
+      "name": "ipl-ip-clause-review",
+      "version": "1.0.0",
+      "description": "Review the IP-related clauses in a contract to flag ownership traps, overbroad grants, and missing assignments, then propose a redline.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-ip-clause-review/SKILL.md",
+      "sha256": "fd5b112688de54e8ebda56b78ae87383dbb258738319f2a588d4b1eb83724a49",
+      "capabilities": [],
+      "tags": [
+        "contracts",
+        "ip-ownership",
+        "assignment",
+        "license-grant",
+        "work-for-hire",
+        "redline",
+        "review"
+      ]
+    },
+    {
+      "name": "ipl-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up an auditable workspace for a single IP matter with a docket, folder structure, deadline calendar, and correspondence log.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-matter-workspace/SKILL.md",
+      "sha256": "da3a9a77d75382b4d7514be3957743463fc258b57da93fe31fa9cdc9a5922a61",
+      "capabilities": [],
+      "tags": [
+        "workspace",
+        "docket",
+        "deadlines",
+        "organization",
+        "evidence",
+        "correspondence",
+        "matter-management"
+      ]
+    },
+    {
+      "name": "ipl-oss-review",
+      "version": "1.0.0",
+      "description": "Review a codebase or dependency set for open-source license compliance and flag copyleft contamination risk against your distribution model.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-oss-review/SKILL.md",
+      "sha256": "bf3f101b0b78d0fb4b4febaae74cdee8bd52cc350c251cd53925b416c878bc5a",
+      "capabilities": [],
+      "tags": [
+        "open-source",
+        "license",
+        "compliance",
+        "copyleft",
+        "sbom",
+        "dependencies",
+        "ip"
+      ]
+    },
+    {
+      "name": "ipl-portfolio",
+      "version": "1.0.0",
+      "description": "Review and manage an IP portfolio across trademarks, patents, copyrights, and domains \u2014 docketing assets, deadlines, coverage gaps, and prune-vs-maintain decisions.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-portfolio/SKILL.md",
+      "sha256": "9ec0d4bef83d91afae42e46dbad93c0b3bf074ff6b9753624691307356234d3e",
+      "capabilities": [],
+      "tags": [
+        "portfolio",
+        "trademark",
+        "patent",
+        "docket",
+        "maintenance",
+        "deadlines",
+        "ip"
+      ]
+    },
+    {
+      "name": "ipl-takedown",
+      "version": "1.0.0",
+      "description": "Prepare a DMCA 512(c) takedown notice or a 512(g) counter-notice for online copyright infringement with all statutory elements.",
+      "author": "matrixx0070",
+      "path": "skills/ipl-takedown/SKILL.md",
+      "sha256": "378151ab2cf08ac37e2c0ba6353dcc8461f8c697b9ce578678c91e482bfb4ac4",
+      "capabilities": [],
+      "tags": [
+        "dmca",
+        "takedown",
+        "copyright",
+        "counter-notice",
+        "safe-harbor",
+        "infringement",
+        "notice"
+      ]
+    },
+    {
+      "name": "lawstu-bar-prep-questions",
+      "version": "1.0.0",
+      "description": "Drill bar-style questions \u2014 MBE multiple choice and essay prompts with structured feedback on why each distractor is wrong.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-bar-prep-questions/SKILL.md",
+      "sha256": "d0f9efe4307876773a773986aac60667dccc7155e7b3bf6166a0f25ea388d3eb",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "bar-exam",
+        "mbe",
+        "essays",
+        "practice-questions"
+      ]
+    },
+    {
+      "name": "lawstu-case-brief",
+      "version": "1.0.0",
+      "description": "Brief a judicial opinion yourself \u2014 extract facts, issue, holding, and reasoning into a tight case brief you can defend in class.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-case-brief/SKILL.md",
+      "sha256": "409bf279d8889100eb77dfae7e7afa4452aef7e23d6ff0bde213e505bed9f139",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "case-brief",
+        "irac",
+        "reading",
+        "socratic"
+      ]
+    },
+    {
+      "name": "lawstu-cold-call-prep",
+      "version": "1.0.0",
+      "description": "Prepare for a Socratic cold call \u2014 anticipate the professor's chain of questions on assigned cases and rehearse crisp answers.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-cold-call-prep/SKILL.md",
+      "sha256": "d7f640dc20630f1e0daf8f8dcbf6e89d6764f18eaeeb988d34f0049596634a38",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "cold-call",
+        "socratic",
+        "class-prep",
+        "oral"
+      ]
+    },
+    {
+      "name": "lawstu-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Onboarding interview for a new law student \u2014 capture school, year, courses, professors, and goals to tailor every other lawstu skill.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-cold-start-interview/SKILL.md",
+      "sha256": "0128461850b74d6a8604ca5c7beb7345c9cc046c73543c59b5a82cce4b372757",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "onboarding",
+        "intake",
+        "personalization",
+        "setup"
+      ]
+    },
+    {
+      "name": "lawstu-customize",
+      "version": "1.0.0",
+      "description": "Tune how the lawstu skills behave \u2014 Socratic intensity, feedback depth, jurisdiction, and output format \u2014 without editing the skills.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-customize/SKILL.md",
+      "sha256": "31302abc727f81a6b8ebe35607401599c59c66ba6e146d31f425a2a55aeaaf15",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "customization",
+        "preferences",
+        "configuration",
+        "tuning"
+      ]
+    },
+    {
+      "name": "lawstu-exam-forecast",
+      "version": "1.0.0",
+      "description": "Forecast likely exam issues from the syllabus, professor emphasis, and past exams \u2014 then build a timed self-simulation plan.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-exam-forecast/SKILL.md",
+      "sha256": "b73726d02d24292bee97be19d2aba6f1edf0ce9dcfda2aa16725e1e9c5cbb866",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "exam-prep",
+        "forecasting",
+        "issue-spotting",
+        "simulation"
+      ]
+    },
+    {
+      "name": "lawstu-flashcards",
+      "version": "1.0.0",
+      "description": "Build active-recall flashcards for rules, elements, and case holdings \u2014 atomic cards with clean prompts for spaced repetition.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-flashcards/SKILL.md",
+      "sha256": "598e6a4c2c0d2ee521c687b1075f04ebd81cedb7d412d4c90b4582f230817150",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "flashcards",
+        "active-recall",
+        "spaced-repetition",
+        "memorization"
+      ]
+    },
+    {
+      "name": "lawstu-irac-practice",
+      "version": "1.0.0",
+      "description": "Drill IRAC on hypotheticals \u2014 you write each element, the skill critiques structure, rule accuracy, and application depth.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-irac-practice/SKILL.md",
+      "sha256": "507f366ff64e89abc229bfb1bdf1b765e9d701d15b922ae94fbe9d3c42ce2d28",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "irac",
+        "exam-writing",
+        "hypotheticals",
+        "feedback"
+      ]
+    },
+    {
+      "name": "lawstu-legal-writing",
+      "version": "1.0.0",
+      "description": "Coach your legal writing \u2014 memos and briefs \u2014 on CREAC structure, rule synthesis, and citation, critiquing your draft without rewriting it.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-legal-writing/SKILL.md",
+      "sha256": "4b77ac91c4eda353817f388cd91c7ac7723d1d223971faae6f1ee82a38799aac",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "legal-writing",
+        "creac",
+        "memo",
+        "brief"
+      ]
+    },
+    {
+      "name": "lawstu-outline-builder",
+      "version": "1.0.0",
+      "description": "Build your own course outline \u2014 the skill scaffolds structure and quizzes you so the outline captures your understanding, not a download.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-outline-builder/SKILL.md",
+      "sha256": "f3e653af3f5396dfbcb962e531c9d09d7c35b348e2d58d9cdec2262432016b63",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "outline",
+        "synthesis",
+        "exam-prep",
+        "structure"
+      ]
+    },
+    {
+      "name": "lawstu-session",
+      "version": "1.0.0",
+      "description": "Run a focused study session \u2014 set a goal, pick the right drill, work in timed blocks, and close with a recall check and next step.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-session/SKILL.md",
+      "sha256": "beef6e6e7c201d2bc41305ec850a04cb33f1f1d4796281cd86517172a74427fd",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "study-session",
+        "focus",
+        "orchestration",
+        "active-recall"
+      ]
+    },
+    {
+      "name": "lawstu-socratic-drill",
+      "version": "1.0.0",
+      "description": "Run a live Socratic drill \u2014 the skill questions you relentlessly on a doctrine until you find the rule's edges yourself.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-socratic-drill/SKILL.md",
+      "sha256": "bcfab41d5924b0086ae0bb37a1fed621460e1198dbf755a5970d9a98fe827965",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "socratic",
+        "active-recall",
+        "doctrine",
+        "drill"
+      ]
+    },
+    {
+      "name": "lawstu-study-plan",
+      "version": "1.0.0",
+      "description": "Build a realistic semester or bar-review study plan \u2014 backward-planned from exams, balanced across courses, with spaced review baked in.",
+      "author": "matrixx0070",
+      "path": "skills/lawstu-study-plan/SKILL.md",
+      "sha256": "0663b9b0a003f54d930a488f769a8630bb3fe754e18c9fdb7ee5409b839b5562",
+      "capabilities": [],
+      "tags": [
+        "law-student",
+        "study-plan",
+        "scheduling",
+        "time-management",
+        "spaced-repetition"
+      ]
+    },
+    {
+      "name": "lbh-auto-updater",
+      "version": "1.0.0",
+      "description": "Update an installed legal skill to a newer version safely \u2014 re-run the security gate on the new version, diff behavior, and keep a rollback point.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-auto-updater/SKILL.md",
+      "sha256": "bdfa114823bea7651b4b648433f4e36a7cae3af0ff23754f54163cac97c6d7fb",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "update",
+        "versioning",
+        "rollback",
+        "security"
+      ]
+    },
+    {
+      "name": "lbh-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Interview a first-time Legal Builder Hub user to turn a vague legal goal into a concrete capability, jurisdiction, and risk profile for skill discovery.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-cold-start-interview/SKILL.md",
+      "sha256": "3ad6bac8fa9902a03ba98c9e1e29dd5e9d00555851ebb8c6380f74ba83980f4c",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "onboarding",
+        "intake",
+        "interview",
+        "requirements"
+      ]
+    },
+    {
+      "name": "lbh-customize",
+      "version": "1.0.0",
+      "description": "Customize an installed legal skill's settings \u2014 jurisdiction defaults, tone, autonomy, and enforced conditions \u2014 without weakening its security posture.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-customize/SKILL.md",
+      "sha256": "b7c99293562f4e22960ceeb6e2889acd948f5d05fd3a87aad63c629db8769079",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "customization",
+        "configuration",
+        "tuning",
+        "autonomy"
+      ]
+    },
+    {
+      "name": "lbh-disable",
+      "version": "1.0.0",
+      "description": "Disable an installed legal skill without uninstalling it \u2014 make it inert and unfireable while preserving its version, config, and provenance.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-disable/SKILL.md",
+      "sha256": "618013b37bf0fcaa17b93409c130d229aef3595df78b6feb823cfb3d7d74e9ff",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "disable",
+        "toggle",
+        "containment",
+        "reversible"
+      ]
+    },
+    {
+      "name": "lbh-registry-browser",
+      "version": "1.0.0",
+      "description": "Browse the community legal-skills registry \u2014 search, filter, and shortlist candidate skills before any evaluation or install.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-registry-browser/SKILL.md",
+      "sha256": "5c9a93021e4be33a1133757d33da0c4496b7f4464bff139bc7a3e08c92f88fba",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "registry",
+        "discovery",
+        "search",
+        "catalog"
+      ]
+    },
+    {
+      "name": "lbh-related-skills-surfacer",
+      "version": "1.0.0",
+      "description": "Surface legal skills related to what a user already installed or is viewing \u2014 complements, prerequisites, and safer alternatives \u2014 as a vetting-first shortlist.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-related-skills-surfacer/SKILL.md",
+      "sha256": "92829be05dbb27a257bce04651b2e945f190fe5bbf38f44811895427f3803028",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "recommendation",
+        "discovery",
+        "complements",
+        "alternatives"
+      ]
+    },
+    {
+      "name": "lbh-skill-installer",
+      "version": "1.0.0",
+      "description": "Install a legal skill that has cleared the security gate \u2014 verify the pinned version, confirm integrity, record provenance, and enable it safely.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-skill-installer/SKILL.md",
+      "sha256": "14675b96358b6ab7aabf7be7699275465d0bef0741c91674a4217cfafeec1c99",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "install",
+        "provenance",
+        "integrity",
+        "enable"
+      ]
+    },
+    {
+      "name": "lbh-skill-manager",
+      "version": "1.0.0",
+      "description": "Manage the installed set of legal skills \u2014 list, inspect status, resolve conflicts, and route to enable/disable/update/uninstall actions.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-skill-manager/SKILL.md",
+      "sha256": "0d5360536294728337a07ce329bc84490fa806fbef939be1a60dd141d6be06ab",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "management",
+        "inventory",
+        "status",
+        "orchestration"
+      ]
+    },
+    {
+      "name": "lbh-skills-qa",
+      "version": "1.0.0",
+      "description": "Run the Legal Builder Hub security-review gate on a candidate legal skill \u2014 inspect its manifest and body for unsafe behavior before any install is allowed.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-skills-qa/SKILL.md",
+      "sha256": "9552b136c6bed981a6b440a3d97d4a5d7d9828871392b7c417bc74cf226cd6c3",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "security",
+        "review",
+        "vetting",
+        "gate",
+        "audit"
+      ]
+    },
+    {
+      "name": "lbh-uninstall",
+      "version": "1.0.0",
+      "description": "Remove an installed legal skill cleanly \u2014 check dependents, purge artifact and config, and preserve an audit record plus reinstall coordinates.",
+      "author": "matrixx0070",
+      "path": "skills/lbh-uninstall/SKILL.md",
+      "sha256": "5e069deedbe43224b8d3f19adeabec473c9d0dd4ad4729444ea9f2fe872e4762",
+      "capabilities": [],
+      "tags": [
+        "legal",
+        "uninstall",
+        "removal",
+        "cleanup",
+        "audit"
+      ]
+    },
+    {
       "name": "legal-brief",
       "version": "1.0.0",
       "description": "Produce a decision-ready legal briefing \u2014 daily digest, topic research, or incident write-up \u2014 scoped to what a non-lawyer stakeholder needs to decide or act on.",
@@ -2307,6 +4040,310 @@
         "contracts",
         "gap-analysis",
         "compliance"
+      ]
+    },
+    {
+      "name": "litig-brief-section-drafter",
+      "version": "1.0.0",
+      "description": "Draft a section of a legal brief \u2014 statement of facts, argument, or standard of review \u2014 with proper structure and disciplined citation.",
+      "author": "matrixx0070",
+      "path": "skills/litig-brief-section-drafter/SKILL.md",
+      "sha256": "4d23262aebdb9874f673c6a7bba27cec7b63f8eebc4f619f12228dc1d3dc0c3d",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "brief-writing",
+        "motions",
+        "citation",
+        "appellate"
+      ]
+    },
+    {
+      "name": "litig-chronology",
+      "version": "1.0.0",
+      "description": "Build a case chronology or timeline of events with a source and evidentiary support cited for every entry.",
+      "author": "matrixx0070",
+      "path": "skills/litig-chronology/SKILL.md",
+      "sha256": "c2918d90b7637a74cca7b2fa5b8c9d6cd2424c74dfeeb7f5f328259db591236b",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "chronology",
+        "case-analysis",
+        "evidence",
+        "fact-development"
+      ]
+    },
+    {
+      "name": "litig-claim-chart",
+      "version": "1.0.0",
+      "description": "Build an element-by-element proof matrix mapping each cause-of-action element to supporting facts and evidence.",
+      "author": "matrixx0070",
+      "path": "skills/litig-claim-chart/SKILL.md",
+      "sha256": "f0e73cbeea59232271362f30fded7f616345c838d013f2647d936415348cbf12",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "evidence",
+        "claims",
+        "proof",
+        "discovery"
+      ]
+    },
+    {
+      "name": "litig-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run an initial client interview from a cold start to elicit the story, issues, timeline, documents, and goals.",
+      "author": "matrixx0070",
+      "path": "skills/litig-cold-start-interview/SKILL.md",
+      "sha256": "aacc16637acb43874dae17d4c18b0ef4994396fb8dc5c12de1e3fca367ca071b",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "client-interview",
+        "intake",
+        "fact-gathering",
+        "timeline"
+      ]
+    },
+    {
+      "name": "litig-customize",
+      "version": "1.0.0",
+      "description": "Configure the litigation plugin to a specific firm, practice area, and jurisdiction with default rules, deadline calendars, templates, and escalation contacts.",
+      "author": "matrixx0070",
+      "path": "skills/litig-customize/SKILL.md",
+      "sha256": "ad921db434788d0db6d18563200eae694ce300a156bd6ab9ca868018d9d6bec8",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "configuration",
+        "jurisdiction",
+        "deadlines",
+        "templates"
+      ]
+    },
+    {
+      "name": "litig-demand-draft",
+      "version": "1.0.0",
+      "description": "Draft a demand letter with a statement of facts, legal basis, specific demand, deadline, and stated consequences.",
+      "author": "matrixx0070",
+      "path": "skills/litig-demand-draft/SKILL.md",
+      "sha256": "b7447b12385848c3a53eeb371cdd035b8b91068331e4b4e07eb4d414b9d700b8",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "demand-letter",
+        "drafting",
+        "pre-suit",
+        "negotiation"
+      ]
+    },
+    {
+      "name": "litig-demand-intake",
+      "version": "1.0.0",
+      "description": "Intake a matter where your client wants to send a demand letter by gathering facts, damages, legal basis, leverage, and desired outcome.",
+      "author": "matrixx0070",
+      "path": "skills/litig-demand-intake/SKILL.md",
+      "sha256": "60495571621732d8385b571ddd7d6984b927c4e0c6d86ed16ae6e9e5656dafcc",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "demand-letter",
+        "intake",
+        "damages",
+        "pre-suit"
+      ]
+    },
+    {
+      "name": "litig-demand-received",
+      "version": "1.0.0",
+      "description": "Handle a demand letter your client received by assessing exposure, deadlines, response strategy, and preservation duties.",
+      "author": "matrixx0070",
+      "path": "skills/litig-demand-received/SKILL.md",
+      "sha256": "37a2a795737fa87e60079e53466b43a7fe65c8fb2b08375d6f54b4ebfece059e",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "demand-letter",
+        "defense",
+        "exposure",
+        "preservation"
+      ]
+    },
+    {
+      "name": "litig-deposition-prep",
+      "version": "1.0.0",
+      "description": "Prepare for a deposition by building an examination outline, key-topic map, exhibit set, and either witness prep or a taking-the-depo strategy.",
+      "author": "matrixx0070",
+      "path": "skills/litig-deposition-prep/SKILL.md",
+      "sha256": "4e281d445cdbce46a466a6d8f99a96581a90cc0d4eaa30d771861986a1c68000",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "discovery",
+        "depositions",
+        "witness-prep",
+        "trial"
+      ]
+    },
+    {
+      "name": "litig-legal-hold",
+      "version": "1.0.0",
+      "description": "Issue and manage a litigation hold or preservation notice to prevent spoliation of relevant evidence.",
+      "author": "matrixx0070",
+      "path": "skills/litig-legal-hold/SKILL.md",
+      "sha256": "30485fba291a29027b176904bf9ec74ccdb3beb2b0e4bc3a5a80cf2f1f3b7400",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "legal-hold",
+        "preservation",
+        "ediscovery",
+        "spoliation"
+      ]
+    },
+    {
+      "name": "litig-matter-briefing",
+      "version": "1.0.0",
+      "description": "Produce a briefing that brings a colleague or new attorney up to speed on a litigation matter quickly.",
+      "author": "matrixx0070",
+      "path": "skills/litig-matter-briefing/SKILL.md",
+      "sha256": "a69a12674860de8c095fc0f4bf5299b53b4e7453cb3052d0c0cf9d1542108910",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "briefing",
+        "handoff",
+        "case-management",
+        "strategy"
+      ]
+    },
+    {
+      "name": "litig-matter-close",
+      "version": "1.0.0",
+      "description": "Close out a concluded litigation matter \u2014 final disposition, file retention, client wrap-up, and litigation-hold release.",
+      "author": "matrixx0070",
+      "path": "skills/litig-matter-close/SKILL.md",
+      "sha256": "486e22bc238afabd61fe6eb85d8c3abd294e2e36e95557bb4d68da60c5d8c44a",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "closeout",
+        "retention",
+        "litigation-hold",
+        "case-management"
+      ]
+    },
+    {
+      "name": "litig-matter-intake",
+      "version": "1.0.0",
+      "description": "Open a new litigation matter by capturing parties, claims, jurisdiction, key dates, running a conflicts check, and setting up the file.",
+      "author": "matrixx0070",
+      "path": "skills/litig-matter-intake/SKILL.md",
+      "sha256": "7ef5ff1d443b00326e2fb14337357c9c5d89dd1139f13546c458c6b98f4b0c8c",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "intake",
+        "conflicts",
+        "docketing",
+        "case-management"
+      ]
+    },
+    {
+      "name": "litig-matter-update",
+      "version": "1.0.0",
+      "description": "Log a structured status update to an existing litigation matter, recording what happened, deadline changes, and next actions.",
+      "author": "matrixx0070",
+      "path": "skills/litig-matter-update/SKILL.md",
+      "sha256": "771dc717493dc7c251f704c517a3ff09f20a220599117f25e7649d4ca4875550",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "docketing",
+        "status-update",
+        "deadlines",
+        "case-management"
+      ]
+    },
+    {
+      "name": "litig-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up the folder and document workspace structure for a litigation matter \u2014 pleadings, discovery, correspondence, and research.",
+      "author": "matrixx0070",
+      "path": "skills/litig-matter-workspace/SKILL.md",
+      "sha256": "137324436989261d109861e8ae756631018ff7a9f4ae83d8c19afd52fe6b969c",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "workspace",
+        "file-organization",
+        "discovery",
+        "case-management"
+      ]
+    },
+    {
+      "name": "litig-oc-status",
+      "version": "1.0.0",
+      "description": "Track opposing-counsel contacts, outstanding items, meet-and-confer obligations, negotiation posture, and pending correspondence.",
+      "author": "matrixx0070",
+      "path": "skills/litig-oc-status/SKILL.md",
+      "sha256": "a8f5e4bd64fe6c583290f97dd4c8f205273a6f813e112c210c42223732fd1968",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "opposing-counsel",
+        "meet-and-confer",
+        "negotiation",
+        "discovery"
+      ]
+    },
+    {
+      "name": "litig-portfolio-status",
+      "version": "1.0.0",
+      "description": "Produce a portfolio-wide status across all active matters covering at-risk deadlines, next actions, resourcing, and escalations.",
+      "author": "matrixx0070",
+      "path": "skills/litig-portfolio-status/SKILL.md",
+      "sha256": "a711e41c303409f674470394fd45fe7734859fee5c829ec7b6992ec7799d886d",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "portfolio",
+        "deadlines",
+        "resourcing",
+        "escalation"
+      ]
+    },
+    {
+      "name": "litig-privilege-log-review",
+      "version": "1.0.0",
+      "description": "Build or review a privilege log with defensible entries, a stated privilege basis, adequate descriptions, and a waiver-risk assessment.",
+      "author": "matrixx0070",
+      "path": "skills/litig-privilege-log-review/SKILL.md",
+      "sha256": "daea556c0d701275cf4c4bb3981933d8ce966951047dc8a869216e56a74597fd",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "discovery",
+        "privilege",
+        "work-product",
+        "waiver"
+      ]
+    },
+    {
+      "name": "litig-subpoena-triage",
+      "version": "1.0.0",
+      "description": "Triage a subpoena your client received \u2014 check validity, scope, and deadlines, then plan objections, meet-and-confer, and compliance versus a motion to quash.",
+      "author": "matrixx0070",
+      "path": "skills/litig-subpoena-triage/SKILL.md",
+      "sha256": "3c4670bfb370f2ce03d941ca51c08b4e92ab7208cbf009e6e00915970a88fa73",
+      "capabilities": [],
+      "tags": [
+        "litigation",
+        "subpoena",
+        "discovery",
+        "objections",
+        "motion-to-quash"
       ]
     },
     {
@@ -3063,6 +5100,284 @@
       ]
     },
     {
+      "name": "privl-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured intake interview to build a first data-processing picture for an org with no privacy program \u2014 surface data flows, systems, vendors, and legal bases from zero.",
+      "author": "matrixx0070",
+      "path": "skills/privl-cold-start-interview/SKILL.md",
+      "sha256": "d5584ec4231aa1f7c3b5c32b57653b502b336d9a4448a23e5923b26b8d88364b",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "intake",
+        "interview",
+        "data-mapping",
+        "ropa",
+        "discovery"
+      ]
+    },
+    {
+      "name": "privl-customize",
+      "version": "1.0.0",
+      "description": "Tailor the privacy-legal skill set to a specific organization \u2014 capture its regimes, roles, risk appetite, and escalation rules so every privl- skill runs against the right context.",
+      "author": "matrixx0070",
+      "path": "skills/privl-customize/SKILL.md",
+      "sha256": "85e83461cdcc46dea8661a437811da2dcdcf7f0a289e35e88acd9f41f12364fc",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "configuration",
+        "customization",
+        "context",
+        "escalation"
+      ]
+    },
+    {
+      "name": "privl-dpa-review",
+      "version": "1.0.0",
+      "description": "Review a Data Processing Agreement for the mandatory controller-processor clauses, transfer mechanisms, sub-processor terms, and liability gaps before signature.",
+      "author": "matrixx0070",
+      "path": "skills/privl-dpa-review/SKILL.md",
+      "sha256": "92ad736c74d59942f9602f6ec5ff995c56828c1c388461287df3073777ac2979",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "dpa",
+        "contract",
+        "processor",
+        "gdpr-art28",
+        "sccs"
+      ]
+    },
+    {
+      "name": "privl-dsar-response",
+      "version": "1.0.0",
+      "description": "Handle a data-subject / consumer rights request end to end \u2014 verify identity, scope the right, apply exemptions, meet the statutory clock, and draft the response.",
+      "author": "matrixx0070",
+      "path": "skills/privl-dsar-response/SKILL.md",
+      "sha256": "24cba78dd7d5bd9649665aa9f5fb6cce59908a36fbdeb8073c994798e5ae3b7c",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "dsar",
+        "data-subject-rights",
+        "gdpr",
+        "ccpa",
+        "deadlines"
+      ]
+    },
+    {
+      "name": "privl-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up and run a privacy matter workspace \u2014 organize intake, artifacts, deadlines, and decision log for a discrete privacy matter so nothing is lost or missed.",
+      "author": "matrixx0070",
+      "path": "skills/privl-matter-workspace/SKILL.md",
+      "sha256": "d7cde4b19d989951295f0f1263ea330c6e73806284b53388a50203b157d504af",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "workspace",
+        "matter-management",
+        "deadlines",
+        "recordkeeping"
+      ]
+    },
+    {
+      "name": "privl-pia-generation",
+      "version": "1.0.0",
+      "description": "Generate a Privacy/Data Protection Impact Assessment \u2014 describe the processing, test necessity and proportionality, assess risks to individuals, and specify mitigations.",
+      "author": "matrixx0070",
+      "path": "skills/privl-pia-generation/SKILL.md",
+      "sha256": "298129383abf21200b136d6c323d759183813800216ff419f49a4184121f2b64",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "pia",
+        "dpia",
+        "risk-assessment",
+        "gdpr",
+        "mitigation"
+      ]
+    },
+    {
+      "name": "privl-policy-monitor",
+      "version": "1.0.0",
+      "description": "Detect policy drift \u2014 compare a published privacy policy against actual data practices and regulatory changes, and flag the divergences that create exposure.",
+      "author": "matrixx0070",
+      "path": "skills/privl-policy-monitor/SKILL.md",
+      "sha256": "6c21a6fb2cf1d12c807e9a12775a1e45d1a0149d679364a5dd683bc6fdedb2b0",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "policy-drift",
+        "monitoring",
+        "privacy-notice",
+        "compliance"
+      ]
+    },
+    {
+      "name": "privl-reg-gap-analysis",
+      "version": "1.0.0",
+      "description": "Assess an existing privacy program against applicable regulations \u2014 map obligations to current controls, rate each gap by risk, and produce a prioritized remediation plan.",
+      "author": "matrixx0070",
+      "path": "skills/privl-reg-gap-analysis/SKILL.md",
+      "sha256": "8f2cf7810e90541b9baa26429c0267811df0e74a5f88220dc5ad539a2c348454",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "gap-analysis",
+        "compliance",
+        "gdpr",
+        "ccpa",
+        "remediation"
+      ]
+    },
+    {
+      "name": "privl-use-case-triage",
+      "version": "1.0.0",
+      "description": "Triage a proposed data-processing use case \u2014 classify the data, name a lawful basis, flag high-risk signals, and decide whether a full PIA or attorney review is required.",
+      "author": "matrixx0070",
+      "path": "skills/privl-use-case-triage/SKILL.md",
+      "sha256": "6d3367336681906ad256e11ab2cfb05670da5e2b64cbe59ca1db6af2a36c8307",
+      "capabilities": [],
+      "tags": [
+        "privacy",
+        "legal",
+        "triage",
+        "lawful-basis",
+        "gdpr",
+        "ccpa",
+        "dpia"
+      ]
+    },
+    {
+      "name": "prodl-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured intake interview to surface a launch's legal-risk surface before any review starts, capturing facts, claims, and open questions.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-cold-start-interview/SKILL.md",
+      "sha256": "6ccd68d4bc407e0f1c05b539d71eafba704e7f22e52bf39ae22a56fd7ed4c9af",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "launch",
+        "intake",
+        "interview",
+        "risk",
+        "discovery"
+      ]
+    },
+    {
+      "name": "prodl-customize",
+      "version": "1.0.0",
+      "description": "Tune the product-legal review skills to your company's risk tolerance, jurisdictions, product type, and escalation chain before running them.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-customize/SKILL.md",
+      "sha256": "1b1824646ec07f9b67239b8489ef73cf324ded26be07d87193de8992840a70d0",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "configuration",
+        "risk-tolerance",
+        "jurisdiction",
+        "escalation",
+        "policy"
+      ]
+    },
+    {
+      "name": "prodl-feature-risk-assessment",
+      "version": "1.0.0",
+      "description": "Assess the legal and regulatory risk of a single product feature by severity and likelihood, then assign owned mitigations and an escalation path.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-feature-risk-assessment/SKILL.md",
+      "sha256": "e933540b306b689ffd2b62502b08855413af99dbef55470623b08081673e77a2",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "feature",
+        "risk",
+        "assessment",
+        "mitigation",
+        "escalation"
+      ]
+    },
+    {
+      "name": "prodl-is-this-a-problem",
+      "version": "1.0.0",
+      "description": "Give a fast, structured triage verdict on whether a product or marketing question raises a real legal concern and what to do next.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-is-this-a-problem/SKILL.md",
+      "sha256": "e603424933bac545f3531d7359fc6cf78d8bc8ac01d08ada24a606ebb92fa49e",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "triage",
+        "spot-check",
+        "verdict",
+        "escalation",
+        "fast"
+      ]
+    },
+    {
+      "name": "prodl-launch-review",
+      "version": "1.0.0",
+      "description": "Run a full go/no-go legal review of a product launch across claims, data, commitments, and audience, producing a tiered verdict with conditions.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-launch-review/SKILL.md",
+      "sha256": "f04d7a6be64fc06f3bce630c23cc3eeea17801e14920829bcc5f2997a47b96b4",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "launch",
+        "review",
+        "go-no-go",
+        "compliance",
+        "verdict"
+      ]
+    },
+    {
+      "name": "prodl-marketing-claims-review",
+      "version": "1.0.0",
+      "description": "Vet marketing claims for substantiation and truthfulness under FTC standards, flagging each as supported, needs-proof, or unlawful with a fix.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-marketing-claims-review/SKILL.md",
+      "sha256": "068769ebd1dae5db10b438a9cc86bbed2f5a92eeee60e64c740182a7bc3f5a8b",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "marketing",
+        "claims",
+        "ftc",
+        "substantiation",
+        "advertising"
+      ]
+    },
+    {
+      "name": "prodl-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up and maintain a single organized workspace for one launch-review matter, tracking facts, findings, conditions, and the escalation trail.",
+      "author": "matrixx0070",
+      "path": "skills/prodl-matter-workspace/SKILL.md",
+      "sha256": "a31279ac9fa11453786637245e309699ea1c11ee6583ebaeeeec0678832901d9",
+      "capabilities": [],
+      "tags": [
+        "product-legal",
+        "matter",
+        "workspace",
+        "tracking",
+        "organization",
+        "audit-trail"
+      ]
+    },
+    {
       "name": "proj-change-control",
       "version": "1.0.0",
       "description": "Run change control on a scope, schedule, or budget change \u2014 assess impact, decide, and re-baseline.",
@@ -3278,6 +5593,159 @@
         "risk",
         "coverage",
         "criteria"
+      ]
+    },
+    {
+      "name": "regl-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Run a structured intake interview to map a new user's regulatory exposure from scratch, so the watch/diff/comment pipeline starts on real obligations.",
+      "author": "matrixx0070",
+      "path": "skills/regl-cold-start-interview/SKILL.md",
+      "sha256": "02bf028935e7edb077ad0043b66d6440127aeab858adaf49535246c3460dd313",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "intake",
+        "onboarding",
+        "scoping",
+        "exposure-mapping"
+      ]
+    },
+    {
+      "name": "regl-comments",
+      "version": "1.0.0",
+      "description": "Track open comment periods and draft a substantive, on-the-record comment that argues your position within the docket's rules and deadline.",
+      "author": "matrixx0070",
+      "path": "skills/regl-comments/SKILL.md",
+      "sha256": "2742cbb74ae63dff5cdea280de4e97ab2ea3b4ca6729b65a0eaa1a34490c6c06",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "public-comment",
+        "rulemaking",
+        "deadlines",
+        "advocacy"
+      ]
+    },
+    {
+      "name": "regl-customize",
+      "version": "1.0.0",
+      "description": "Tune an existing regulatory-monitoring setup \u2014 adjust watchlists, cadence, digest scope, and escalation thresholds as the business and its exposure change.",
+      "author": "matrixx0070",
+      "path": "skills/regl-customize/SKILL.md",
+      "sha256": "67ae2da5294fccbbc7a14cabfb5a969218476fe1e54872fa473abbe7a0536728",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "configuration",
+        "tuning",
+        "monitoring",
+        "personalization"
+      ]
+    },
+    {
+      "name": "regl-gap-surfacer",
+      "version": "1.0.0",
+      "description": "Proactively hunt for latent compliance gaps \u2014 obligations you already carry but do not yet meet \u2014 before a regulator or auditor finds them.",
+      "author": "matrixx0070",
+      "path": "skills/regl-gap-surfacer/SKILL.md",
+      "sha256": "7adc0545e13d98596b3726ef77fda02d57d0c37cd422fbbc4e1d2ad717605b2c",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "gap-analysis",
+        "compliance",
+        "audit",
+        "risk"
+      ]
+    },
+    {
+      "name": "regl-gaps",
+      "version": "1.0.0",
+      "description": "Produce the weekly regulatory digest \u2014 a prioritized rollup of new rules, open comment deadlines, and compliance gaps across every tracked matter.",
+      "author": "matrixx0070",
+      "path": "skills/regl-gaps/SKILL.md",
+      "sha256": "7e88a42fbb5e654fc14ccd38ed8e9cac3b76bdfd8abd1dad12b004c82a71be1e",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "digest",
+        "weekly",
+        "deadlines",
+        "prioritization"
+      ]
+    },
+    {
+      "name": "regl-matter-workspace",
+      "version": "1.0.0",
+      "description": "Set up and maintain a single regulatory-matter workspace that keeps rules, diffs, comments, deadlines, and decisions organized and audit-ready.",
+      "author": "matrixx0070",
+      "path": "skills/regl-matter-workspace/SKILL.md",
+      "sha256": "59de1115eedf5ac510e5244401030b70c7e70e438086e5bb70c64001511cf140",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "matter-management",
+        "organization",
+        "audit-trail",
+        "workspace"
+      ]
+    },
+    {
+      "name": "regl-policy-diff",
+      "version": "1.0.0",
+      "description": "Diff a new or proposed rule against your current internal policy to surface exactly what changed, what it obligates, and where you are now out of step.",
+      "author": "matrixx0070",
+      "path": "skills/regl-policy-diff/SKILL.md",
+      "sha256": "21a7826d4958ad903ee1e5091b3102559e4ce0f338fa2c1f7887f6c2a926ff44",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "policy-diff",
+        "gap-analysis",
+        "compliance",
+        "rulemaking"
+      ]
+    },
+    {
+      "name": "regl-policy-redraft",
+      "version": "1.0.0",
+      "description": "Redraft an internal policy to close identified gaps and align it with a new rule \u2014 precise, traceable edits with rationale, not a wholesale rewrite.",
+      "author": "matrixx0070",
+      "path": "skills/regl-policy-redraft/SKILL.md",
+      "sha256": "2c9e0f53b29f6724d9c8fe49e8a7ee96fc9612eab913afbf1fca2db5705cfc82",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "policy-drafting",
+        "remediation",
+        "compliance",
+        "redline"
+      ]
+    },
+    {
+      "name": "regl-reg-feed-watcher",
+      "version": "1.0.0",
+      "description": "Stand up a monitored watchlist of regulatory feeds so new rules, notices, and guidance surface the day they publish instead of weeks later.",
+      "author": "matrixx0070",
+      "path": "skills/regl-reg-feed-watcher/SKILL.md",
+      "sha256": "e1df16d855273534d45a05da5f6286846beb264591a0f11ec125421da25f723b",
+      "capabilities": [],
+      "tags": [
+        "regulatory",
+        "legal",
+        "monitoring",
+        "rulemaking",
+        "feeds",
+        "compliance"
       ]
     },
     {

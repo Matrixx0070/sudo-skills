@@ -2,7 +2,7 @@
   "registry": "sudo-plugins",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T20:30:00Z",
+  "updated": "2026-07-12T00:00:00Z",
   "plugins": [
     {
       "name": "engineering",
@@ -880,6 +880,352 @@
         "career",
         "job-search",
         "resume"
+      ]
+    },
+    {
+      "name": "employment-legal",
+      "displayName": "Employment Legal",
+      "category": "legal",
+      "description": "Hiring/termination risk, worker classification, leave tracking, internal investigations, policy drafting. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "emplaw-cold-start-interview",
+        "emplaw-customize",
+        "emplaw-expansion-kickoff",
+        "emplaw-expansion-update",
+        "emplaw-handbook-updates",
+        "emplaw-hiring-review",
+        "emplaw-internal-investigation",
+        "emplaw-international-expansion",
+        "emplaw-investigation-add",
+        "emplaw-investigation-memo",
+        "emplaw-investigation-open",
+        "emplaw-investigation-query",
+        "emplaw-investigation-summary",
+        "emplaw-leave-tracker",
+        "emplaw-log-leave",
+        "emplaw-matter-workspace",
+        "emplaw-policy-drafting",
+        "emplaw-termination-review",
+        "emplaw-wage-hour-qa",
+        "emplaw-worker-classification"
+      ],
+      "connectors": [
+        "slack",
+        "google-drive"
+      ],
+      "tags": [
+        "legal",
+        "emplaw"
+      ]
+    },
+    {
+      "name": "litigation-legal",
+      "displayName": "Litigation Legal",
+      "category": "legal",
+      "description": "Litigation portfolio + work product \u2014 claim charts, chronologies, depo prep, privilege logs, briefs. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "litig-brief-section-drafter",
+        "litig-chronology",
+        "litig-claim-chart",
+        "litig-cold-start-interview",
+        "litig-customize",
+        "litig-demand-draft",
+        "litig-demand-intake",
+        "litig-demand-received",
+        "litig-deposition-prep",
+        "litig-legal-hold",
+        "litig-matter-briefing",
+        "litig-matter-close",
+        "litig-matter-intake",
+        "litig-matter-update",
+        "litig-matter-workspace",
+        "litig-oc-status",
+        "litig-portfolio-status",
+        "litig-privilege-log-review",
+        "litig-subpoena-triage"
+      ],
+      "connectors": [
+        "everlaw",
+        "courtlistener",
+        "trellis",
+        "topcounsel"
+      ],
+      "tags": [
+        "legal",
+        "litig"
+      ]
+    },
+    {
+      "name": "legal-clinic",
+      "displayName": "Legal Clinic",
+      "category": "legal",
+      "description": "Law-school clinic ops \u2014 intake, deadlines, drafting, semester handoff (ABA Op. 512-aware). SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "clinic-build-guide",
+        "clinic-client-comms-log",
+        "clinic-client-intake",
+        "clinic-client-letter",
+        "clinic-cold-start-interview",
+        "clinic-customize",
+        "clinic-deadlines",
+        "clinic-draft",
+        "clinic-form-generation",
+        "clinic-memo",
+        "clinic-plain-language-letters",
+        "clinic-ramp",
+        "clinic-research-start",
+        "clinic-semester-handoff",
+        "clinic-status",
+        "clinic-supervisor-review-queue"
+      ],
+      "connectors": [
+        "courtlistener",
+        "descrybe"
+      ],
+      "tags": [
+        "legal",
+        "clinic"
+      ]
+    },
+    {
+      "name": "corporate-legal",
+      "displayName": "Corporate Legal",
+      "category": "legal",
+      "description": "M&A diligence at scale, disclosure schedules, board consents/minutes, entity compliance. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "corpl-ai-tool-handoff",
+        "corpl-board-minutes",
+        "corpl-closing-checklist",
+        "corpl-cold-start-interview",
+        "corpl-customize",
+        "corpl-deal-team-summary",
+        "corpl-diligence-issue-extraction",
+        "corpl-entity-compliance",
+        "corpl-integration-management",
+        "corpl-material-contract-schedule",
+        "corpl-matter-workspace",
+        "corpl-tabular-review",
+        "corpl-written-consent"
+      ],
+      "connectors": [
+        "box",
+        "imanage",
+        "solve-intelligence"
+      ],
+      "tags": [
+        "legal",
+        "corpl"
+      ]
+    },
+    {
+      "name": "law-student",
+      "displayName": "Law Student",
+      "category": "legal",
+      "description": "Socratic study aid \u2014 case briefs, outlines, IRAC practice, bar prep. Guides, never ghostwrites. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "lawstu-bar-prep-questions",
+        "lawstu-case-brief",
+        "lawstu-cold-call-prep",
+        "lawstu-cold-start-interview",
+        "lawstu-customize",
+        "lawstu-exam-forecast",
+        "lawstu-flashcards",
+        "lawstu-irac-practice",
+        "lawstu-legal-writing",
+        "lawstu-outline-builder",
+        "lawstu-session",
+        "lawstu-socratic-drill",
+        "lawstu-study-plan"
+      ],
+      "connectors": [
+        "courtlistener",
+        "descrybe"
+      ],
+      "tags": [
+        "legal",
+        "lawstu"
+      ]
+    },
+    {
+      "name": "ip-legal",
+      "displayName": "IP Legal",
+      "category": "legal",
+      "description": "Trademark clearance, FTO/patent triage, C&D/DMCA, OSS compliance, IP clause review. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "ipl-cease-desist",
+        "ipl-clearance",
+        "ipl-cold-start-interview",
+        "ipl-customize",
+        "ipl-fto-triage",
+        "ipl-infringement-triage",
+        "ipl-invention-intake",
+        "ipl-ip-clause-review",
+        "ipl-matter-workspace",
+        "ipl-oss-review",
+        "ipl-portfolio",
+        "ipl-takedown"
+      ],
+      "connectors": [
+        "solve-intelligence",
+        "courtlistener",
+        "descrybe"
+      ],
+      "tags": [
+        "legal",
+        "ipl"
+      ]
+    },
+    {
+      "name": "commercial-legal",
+      "displayName": "Commercial Legal",
+      "category": "legal",
+      "description": "Vendor/NDA/SaaS review vs playbook, renewal tracking, escalations, stakeholder summaries. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "coml-amendment-history",
+        "coml-escalation-flagger",
+        "coml-nda-review",
+        "coml-renewal-tracker",
+        "coml-review",
+        "coml-review-proposals",
+        "coml-saas-msa-review",
+        "coml-stakeholder-summary",
+        "coml-vendor-agreement-review"
+      ],
+      "connectors": [
+        "ironclad",
+        "docusign",
+        "imanage",
+        "definely"
+      ],
+      "tags": [
+        "legal",
+        "coml"
+      ]
+    },
+    {
+      "name": "ai-governance-legal",
+      "displayName": "AI Governance Legal",
+      "category": "legal",
+      "description": "AI use-case triage, impact assessments, vendor-AI terms, AI policy (EU AI Act / NIST AI RMF). SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "aigov-ai-inventory",
+        "aigov-aia-generation",
+        "aigov-cold-start-interview",
+        "aigov-customize",
+        "aigov-matter-workspace",
+        "aigov-policy-monitor",
+        "aigov-policy-starter",
+        "aigov-reg-gap-analysis",
+        "aigov-use-case-triage",
+        "aigov-vendor-ai-review"
+      ],
+      "connectors": [
+        "slack",
+        "google-drive"
+      ],
+      "tags": [
+        "legal",
+        "aigov"
+      ]
+    },
+    {
+      "name": "legal-builder-hub",
+      "displayName": "Legal Builder Hub",
+      "category": "legal",
+      "description": "Find, vet, and install community legal skills through a security-review gate. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "lbh-auto-updater",
+        "lbh-cold-start-interview",
+        "lbh-customize",
+        "lbh-disable",
+        "lbh-registry-browser",
+        "lbh-related-skills-surfacer",
+        "lbh-skill-installer",
+        "lbh-skill-manager",
+        "lbh-skills-qa",
+        "lbh-uninstall"
+      ],
+      "connectors": [
+        "slack",
+        "google-drive"
+      ],
+      "tags": [
+        "legal",
+        "lbh"
+      ]
+    },
+    {
+      "name": "regulatory-legal",
+      "displayName": "Regulatory Legal",
+      "category": "legal",
+      "description": "Watch reg feeds, diff rules vs policy, track comment deadlines, weekly digest. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "regl-cold-start-interview",
+        "regl-comments",
+        "regl-customize",
+        "regl-gap-surfacer",
+        "regl-gaps",
+        "regl-matter-workspace",
+        "regl-policy-diff",
+        "regl-policy-redraft",
+        "regl-reg-feed-watcher"
+      ],
+      "connectors": [
+        "slack",
+        "google-drive"
+      ],
+      "tags": [
+        "legal",
+        "regl"
+      ]
+    },
+    {
+      "name": "privacy-legal",
+      "displayName": "Privacy Legal",
+      "category": "legal",
+      "description": "Processing triage, PIAs/DPIAs, DPA review, DSAR responses within statutory timelines. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "privl-cold-start-interview",
+        "privl-customize",
+        "privl-dpa-review",
+        "privl-dsar-response",
+        "privl-matter-workspace",
+        "privl-pia-generation",
+        "privl-policy-monitor",
+        "privl-reg-gap-analysis",
+        "privl-use-case-triage"
+      ],
+      "connectors": [
+        "slack",
+        "google-drive"
+      ],
+      "tags": [
+        "legal",
+        "privl"
+      ]
+    },
+    {
+      "name": "product-legal",
+      "displayName": "Product Legal",
+      "category": "legal",
+      "description": "Launch review, 'is this a problem?', marketing-claims substantiation, launch flagging. SUDO replica of the Anthropic legal marketplace.",
+      "skills": [
+        "prodl-cold-start-interview",
+        "prodl-customize",
+        "prodl-feature-risk-assessment",
+        "prodl-is-this-a-problem",
+        "prodl-launch-review",
+        "prodl-marketing-claims-review",
+        "prodl-matter-workspace"
+      ],
+      "connectors": [
+        "linear",
+        "atlassian",
+        "asana"
+      ],
+      "tags": [
+        "legal",
+        "prodl"
       ]
     }
   ]
