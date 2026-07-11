@@ -37,3 +37,54 @@ Year-end 1099 mode. Contractors over threshold: Jordan Lee $8,400 (W-9 complete)
 - **"Missing or needs your attention"** list.
 - **Handoff packet outline** + document checklist.
 - **Disclaimer:** figures are for accountant review, not filed advice; owner approves any external send.
+
+## Reference
+
+### Key dates at a glance
+| Date | What |
+|------|------|
+| Jan 15 | Q4 prior-year estimated payment due |
+| Jan 31 | 1099-NEC to contractors **and** IRS; W-2s to employees + SSA; Form 940 |
+| Mar 15 | S-corp (1120-S) and partnership (1065) returns due |
+| Apr 15 | Sole prop (Schedule C) + C-corp returns; Q1 estimate due |
+| Jun 15 / Sep 15 / Jan 15 | Q2 / Q3 / Q4 estimates |
+Confirm state deadlines separately; several differ.
+
+### Document-gathering checklist (what to pull before handoff)
+**Income:** sales reports by channel, merchant/payment-processor statements, 1099-Ks received, other income.
+**Expenses (by tax bucket):** advertising, contract labor, supplies, rent, utilities, insurance, software/subscriptions, professional fees, travel, meals, vehicle/mileage, bank + merchant fees, home office.
+**Accounts:** all bank + credit-card statements reconciled; loan statements (interest vs principal split).
+**Assets:** equipment/asset purchases with dates + amounts (depreciation / Section 179).
+**Payroll:** 941s, W-2/W-3, retirement contributions.
+**Contractors:** W-9 on file + total paid per payee.
+**Reference:** prior-year return, record of estimated payments already made.
+
+### Tax-bucket mapping cheatsheet (categorize into these, not vague labels)
+- "Facebook/Google ads" → **Advertising**
+- "Freelancer / subcontractor" → **Contract labor** (and 1099 check)
+- "Zoom, Adobe, QuickBooks" → **Software/subscriptions** (often under Office/Other)
+- "Client lunch" → **Meals** (generally 50% deductible)
+- "Gas / mileage" → **Car & truck** (standard mileage vs actual — flag for accountant)
+- "Home internet, portion of rent" → **Home office** (needs sq-ft + business-use %)
+Miscategorization forces the accountant to unwind it — flag uncertainties instead of guessing.
+
+### Quarterly-estimate range (label as estimate only)
+Rough taxable income = period income − deductible expenses. Apply the owner's effective rate (or safe harbor: 100% of last year's tax, 110% if AGI > $150k, split across remaining quarters). Present as a **range**, clearly marked "confirm with accountant." Remember self-employed owners also owe **15.3% SE tax** on net earnings — surface it so the estimate isn't understated.
+
+### 1099 threshold + W-9 rules
+- File **1099-NEC** for each unincorporated contractor paid **$600+** for services during the year.
+- **Aggregate** multiple small payments to the same payee — three $250 payments cross the threshold.
+- No 1099 for corporations (except legal fees) or for goods.
+- **W-9 required fields:** legal name, business name (if any), TIN/EIN, address, tax classification. Missing any → flag for collection; never file partial data.
+- Recipient + IRS copies both due **Jan 31**.
+
+### Handoff packet outline
+1. Cover summary (business, entity type, period).
+2. Categorized income/expense summary (or contractor table in 1099 mode).
+3. Reconciliation status per account.
+4. "Missing or needs your attention" list.
+5. Supporting-document index.
+6. Open questions for the accountant.
+
+### Boundary
+This organizes; it does not advise or file. Deliver to the **owner first**; the owner approves any external send to the accountant. All figures are for professional review, not filed advice.

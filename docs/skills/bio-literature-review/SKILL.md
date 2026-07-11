@@ -53,3 +53,48 @@ Executive summary: <one paragraph>
 1. Author, Year. Title. PMID/DOI. [preprint if applicable]
 ```
 Never invent a citation. If a claim is unsupported, say so and mark it UNVERIFIED.
+
+## Reference
+
+### Evidence hierarchy (adapted from GRADE and OCEBM)
+
+GRADE grades a body of evidence, not a single paper, and rates *certainty* in four levels. Start high for RCT-type designs and low for observational, then move up or down.
+
+| Certainty | Meaning | Typical basis |
+|-----------|---------|---------------|
+| High ⊕⊕⊕⊕ | Further research very unlikely to change the estimate | Consistent, low-bias RCTs or large Mendelian-randomization + replicated GWAS |
+| Moderate ⊕⊕⊕ | Further research may change the estimate | Single good RCT, or downgraded observational with large effect |
+| Low ⊕⊕ | Estimate is uncertain | Observational, small n, indirect model |
+| Very low ⊕ | Any estimate is very uncertain | Case reports, mechanistic-only, contested preprints |
+
+GRADE downgrades for: (1) **risk of bias**, (2) **inconsistency** (heterogeneity, I² high), (3) **indirectness** (surrogate endpoint, wrong population/species), (4) **imprecision** (wide CI crossing null), (5) **publication bias** (funnel asymmetry). GRADE upgrades observational data for: large effect (RR >2 or <0.5), dose-response gradient, and plausible confounding that would only strengthen the effect. For a preclinical mechanism review, map "human genetics + in-vivo replication" → high; "single in-vitro" → low.
+
+Classic OCEBM levels for orientation: 1 = systematic review of RCTs; 2 = individual RCT; 3 = non-randomized cohort/case-control; 4 = case series; 5 = mechanism-based reasoning. Preprints inherit the design's level but carry a standing "risk of bias: not peer reviewed" flag until published.
+
+### PubMed / PMC search syntax
+
+Field tags (append in `[...]`):
+
+| Tag | Field | Example |
+|-----|-------|---------|
+| `[mesh]` | MeSH term (exploded by default) | `alzheimer disease[mesh]` |
+| `[majr]` | MeSH major topic | `neoplasms[majr]` |
+| `[mesh:noexp]` | MeSH, no explosion | `dementia[mesh:noexp]` |
+| `[tiab]` | Title/abstract free text | `TREM2[tiab]` |
+| `[ti]` | Title only | `microglia[ti]` |
+| `[tw]` | Text word (broad) | `amyloid[tw]` |
+| `[au]` | Author | `Karran E[au]` |
+| `[dp]` | Date of publication | `2018:2024[dp]` |
+| `[pt]` | Publication type | `randomized controlled trial[pt]` |
+| `[la]` | Language | `english[la]` |
+| `[sb]` | Subset filter | `medline[sb]` |
+
+Boolean operators are **uppercase** `AND` / `OR` / `NOT`; parentheses nest; double-quotes force phrase search; `*` truncates (min 4 leading chars, e.g. `inflamm*`). MeSH auto-explodes to narrower terms unless you use `:noexp`. "Automatic Term Mapping" silently expands untagged words — tag terms explicitly for reproducible queries. Use the `#1 AND #2` History syntax to combine numbered searches. PMC full-text adds `[body]` and `[fulltext]`. bioRxiv/medRxiv have no MeSH — rely on `[tiab]`/keyword and their category facets, and always resrecord the version (v1/v2) since preprints mutate.
+
+### Reporting standards to cite by study type
+
+PRISMA (systematic reviews, 27-item checklist + flow diagram of identified→screened→included), CONSORT (RCTs), STROBE (observational), ARRIVE 2.0 (in-vivo animal studies — the "essential 10" incl. sample size, randomization, blinding), MIAME/MINSEQE (array/seq data), STARD (diagnostic accuracy). Note which standard a paper claims to follow; deviation is a bias signal.
+
+### Identifier hygiene
+
+PMID = integer, resolves at `pubmed.ncbi.nlm.nih.gov/<id>`. PMCID = `PMC` + digits (full text). DOI = `10.xxxx/...`, resolves at `doi.org/<doi>`. Preprint DOIs from bioRxiv are `10.1101/<date>.<id>`. Verify every identifier resolves to the title you cite — a plausible-looking but wrong PMID is the single most common confabulation failure. Gene symbols: reconcile against HGNC (`genenames.org`) and record aliases/prior symbols so historical papers aren't missed.

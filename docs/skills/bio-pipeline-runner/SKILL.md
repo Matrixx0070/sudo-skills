@@ -55,3 +55,45 @@ nextflow run nf-core/<pipeline> -r <ver> \
 MultiQC sections to check | common failure modes | where results land
 ```
 The run executes on the user's compute — report commands, never fabricate results.
+
+## Reference
+
+### Pipeline selection
+
+| Assay / question | nf-core pipeline | Core output |
+|------------------|-----------------|-------------|
+| Bulk gene expression / DGE | `rnaseq` | Gene & transcript counts, QC |
+| Germline / somatic variants (WGS/WES/panel) | `sarek` | VCFs (SNV/indel/CNV/SV), annotation |
+| Chromatin accessibility | `atacseq` | Peaks, consensus set, QC |
+| ChIP / TF binding | `chipseq` | Peaks, coverage |
+| Differential exon/isoform | `rnasplice` | Splicing events |
+| Amplicon / metagenomics | `ampliseq` / `mag` | ASVs / MAGs |
+| scRNA-seq (alignment→matrix) | `scrnaseq` | Count matrix (feeds bio-single-cell-qc) |
+
+### nf-core/rnaseq (v3.14+) key params
+
+- `--input` samplesheet: `sample,fastq_1,fastq_2,strandedness` — strandedness ∈ `forward` (e.g. some Ligation kits), `reverse` (Illumina TruSeq stranded / dUTP — most common), `unstranded`, `auto`. Set it explicitly when the kit is known; `auto` (salmon inference) is a fallback, not a default.
+- Aligner: `--aligner star_salmon` (default, recommended — gives gene + transcript quant), `star_rsem`, or `--pseudo_aligner salmon`/`kallisto` (alignment-free, fast).
+- Reference: `--genome GRCh38` (iGenomes) **or** explicit `--fasta`/`--gtf` (iGenomes GTFs are dated — a current GENCODE/Ensembl GTF is often better).
+- Useful: `--extra_salmon_quant_args`, `--skip_biotype_qc`, `--remove_ribo_rna` (+ `--ribo_database_manifest`), `--umitools_*` for UMI protocols.
+- QC bundled: FastQC, trimming (Trim Galore/fastp), STAR logs, RSeQC, Qualimap, dupRadar, Preseq, DESeq2 sample-similarity PCA, all rolled into MultiQC. Sanity check: STAR uniquely-mapped ≥ ~80–90%, assigned reads high, and the strandedness bar plot matches your declared setting.
+
+### nf-core/sarek (v3.4+) key params
+
+- `--input`: `patient,sample,lane,fastq_1,fastq_2` (or `bam`/`cram` + `.crai`). Group tumor/normal by shared `patient`, set `status` (0=normal,1=tumor) for somatic.
+- `--wes` for exome/panel (add `--intervals target.bed` — critical for runtime & correctness); omit for WGS.
+- `--tools`: callers e.g. `strelka,mutect2,manta,cnvkit,ascat,deepvariant,haplotypecaller,freebayes,vep,snpeff`. Germline → `haplotypecaller`/`deepvariant`; somatic → `mutect2`/`strelka`; SV → `manta`; CNV → `cnvkit`/`ascat`.
+- `--genome GATK.GRCh38` (bundles known-sites for BQSR); `--joint_germline` for cohort GVCF joint calling. `--step` can resume at `mapping|markduplicates|prepare_recalibration|recalibrate|variant_calling|annotate`.
+
+### nf-core/atacseq (v2.1+) key params
+
+- `--input`: `sample,fastq_1,fastq_2,replicate` (replicate integer groups technical/biological reps for consensus peaks).
+- `--read_length` (drives MACS2 effective genome size), `--narrow_peak` (default; omit → broad), `--macs_gsize` (or auto from genome). Blacklist filtering is applied for supported genomes.
+- QC: TSS enrichment, FRiP, fragment-length periodicity (nucleosome laddering), library complexity — inspect in MultiQC.
+
+### Reproducibility & profiles
+
+- **Always** pin `-r <release>` (e.g. `-r 3.14.0`); an unpinned run tracks the default branch and drifts.
+- Container/env profile: `-profile docker` (personal box, root), `singularity`/`apptainer` (shared HPC, no root — most common), `conda` (last resort), plus executor via a `-c custom.config` (`process.executor = 'slurm'`, queue, `withName`/`withLabel` resource overrides). nf-core resource labels: `process_low` (~2 CPU/12 GB), `process_medium` (~6 CPU/36 GB), `process_high` (~12 CPU/72 GB), `process_high_memory` (~200 GB, e.g. STAR index for large genomes). Never request more than a node offers or jobs pend forever.
+- Rough guidance: human WGS sarek ≈ 100–300 GB scratch + tens of core-hours/sample; STAR RNA index needs ~30–40 GB RAM; use `-resume` to reuse cached tasks; set `-work-dir` on fast scratch and clean it after.
+- **Dry run first:** `-profile test,<container>` (tiny bundled data) or `-stub` catches samplesheet/schema errors before burning real compute. `--outdir` is required; results land under it with `pipeline_info/` (execution_report.html, timeline, trace) and `multiqc/`.

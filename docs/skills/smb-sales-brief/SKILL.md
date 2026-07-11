@@ -36,3 +36,54 @@ Last 30 days: top by revenue = leather wallets ($4,200), top by units = keychain
 - **Seasonality note** (2-4 sentences).
 - **Two-week calendar:** date | channel | hook | supporting product.
 - **Handoff line** pointing to smb-run-campaign when the owner is ready to execute.
+
+## Reference
+
+### Ranking framework (rank on more than one axis)
+- **By revenue** — what pays the bills; your headline sellers.
+- **By units** — reach and popularity; a low-price high-unit item is a great content and acquisition hook even if it's not top revenue.
+- **By margin contribution** — margin$ × units; the item that actually funds growth (pull from smb-price-check if available).
+- **By trend** — % change vs. prior period; where momentum is, up or down.
+Feature the intersection: a product that's high-units *and* rising is your best content bet this fortnight.
+
+### Trend vs. noise: separation rules
+- A single large order is **not** a trend — strip outliers before ranking.
+- Require a pattern across **at least 2-3 periods** (or same period last year) before calling something "rising" or "fading."
+- Watch **week-of-month and day-of-week** effects; compare like-to-like (last 4 Mondays, not Monday vs. Saturday).
+- Distinguish **seasonal** (repeats yearly), **trend** (sustained direction), and **spike** (one-off promotion or event).
+
+### Seasonality quick-reference (common SMB patterns)
+| Window | Pattern | Content angle |
+|--------|---------|---------------|
+| Jan | Post-holiday slump; "new year/reset" intent | Restock, resolutions, clearance |
+| Feb | Valentine's | Gifting, bundles |
+| Mar-Apr | Spring pickup; tax refunds hit | New arrivals, treat-yourself |
+| May-Jun | Mother's/Father's Day, grads, weddings | Occasion gifting |
+| Jul-Aug | Summer slowdown (many retail) | Re-engagement, cold-brew/seasonal SKUs |
+| Sep | Back-to-school; fall reset | Routine, replenishment |
+| Nov-Dec | BFCM + holiday peak — bulk of many SMBs' year | Gift guides, urgency, VIP early access |
+Note: service and B2B businesses often invert this (busy summer, slow December).
+
+### From findings to content angles
+- **Amplify winners** — feature the top rising seller with a fresh hook (gifting, use-case, UGC).
+- **Clear slow movers** — bundle a stale item with a winner, or a limited clearance (check margin before discounting).
+- **Tell the data's story** — "customers who buy X also buy Y" → cross-sell post.
+- **Reach play** — feature the high-unit low-price item to pull new eyeballs.
+
+### Two-week content calendar template
+| Date | Channel | Hook | Supporting product/angle | Goal |
+|------|---------|------|--------------------------|------|
+| Mon | IG | benefit-led | top rising seller | awareness |
+| Wed | Email | offer/bundle | winner + slow-mover | conversion |
+| Fri | IG | UGC / social proof | high-unit item | reach |
+| (repeat wk 2 with fresh hooks) | | | | |
+Cadence rule of thumb: 3-4 touches/week is sustainable for a solo owner; every post ties to a product or angle or it's cut.
+
+### Channel fit
+- **Email** — best for conversion and existing customers; offers, bundles.
+- **Instagram/TikTok** — awareness, visual products, UGC and behind-the-scenes.
+- **Google Business / local** — discovery for brick-and-mortar; hours, new arrivals.
+Match the product to where its buyers already are, not to every channel at once.
+
+### Boundary
+This skill plans content and publishes nothing. It commits no spend and sends nothing to customers. When the owner is ready to execute, hand off to smb-run-campaign, which gates every customer-facing and money step.

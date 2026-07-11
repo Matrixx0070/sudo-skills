@@ -52,3 +52,53 @@ violin counts/genes/mito (pre vs post); counts-vs-genes scatter (mito-colored); 
 <scanpy or Seurat block>
 ```
 Note tissue-specific mito/count expectations. State tool versions.
+
+## Reference
+
+### MAD-based filtering
+
+Median absolute deviation is robust to outliers where mean±SD is not. MAD = median(|xᵢ − median(x)|); scaled MAD = 1.4826·MAD approximates a standard deviation for normal data. Flag an outlier when |xᵢ − median| > k·MAD on the **log** scale for counts and genes (log stabilizes the right skew). Common k: **3 MAD** = moderately strict, **5 MAD** = permissive (keeps rare tail populations). Apply lower+upper bounds on log counts/log genes (upper catches doublets/multiplets, lower catches empty/dying), and an upper-only bound on percent-mito. This is the `scater::isOutlier` / sc-best-practices default.
+
+### Standard QC thresholds by tissue
+
+Starting points, not laws — always confirm against your own pre-filter distributions. "%mito high" = a legitimately high-metabolism tissue where a flat 5–10% cutoff would delete real cells.
+
+| Tissue / prep | %mito cutoff (upper) | Min genes/cell | Notes |
+|---------------|:-:|:-:|-------|
+| PBMC / immune (10x) | 5–10% | 200–500 | Clean; platelets/RBC contaminate — filter HBB/PPBP |
+| Solid tumor (dissociated) | 15–20% | 200 | Dissociation stress raises mito; high heterogeneity → use 5 MAD |
+| Brain (whole-cell) | 5–10% | 500 | Neurons larger; ambient from lysed neurons |
+| Heart / cardiomyocytes | 20–30% | 200 | Legitimately mito-rich; low flat cutoffs are wrong |
+| Liver / hepatocytes | 20–40% | 200 | High mito + high ambient albumin |
+| Kidney | 10–50% (segment-dependent) | 200 | Proximal tubule mito-rich |
+| **snRNA-seq (nuclei, any tissue)** | **< 1–5%** | 200–500 | Nuclei should be nearly mito-free; high %mito = cytoplasmic/ambient contamination |
+| Cell line (clean) | 5% (3 MAD ok) | 1000+ | Homogeneous → tight cutoffs fine |
+
+Ribosomal % and hemoglobin % (HBA/HBB) are secondary flags: very high ribo can mark low-complexity cells; high hemoglobin marks RBC contamination.
+
+### Doublet rate by loaded cells (10x Chromium)
+
+Multiplet rate scales ~linearly with cells loaded, ≈ **0.8% per 1,000 cells recovered** (10x guidance).
+
+| Cells recovered | ~Expected multiplet rate |
+|:-:|:-:|
+| 500 | ~0.4% |
+| 1,000 | ~0.8% |
+| 3,000 | ~2.3% |
+| 5,000 | ~3.9% |
+| 10,000 | ~7.6% |
+| 20,000 | ~15% |
+
+Set the detector's `expected_doublet_rate` from this table. Scrublet: threshold on the bimodal gap in the simulated-doublet score histogram (default ~0.25, but *inspect*, don't trust the default). scDblFinder and DoubletFinder are alternatives; scDblFinder handles multi-sample and is generally the current recommendation. Homotypic doublets (same type) are near-invisible to these tools — computational detection catches heterotypic ones.
+
+### Ambient RNA
+
+Empty-droplet "soup" contaminates real cells. **SoupX** estimates the contamination fraction (`rho`) from top ambient genes and subtracts it; typical rho 2–10%, > 20% signals a degraded sample. **CellBender** `remove-background` learns ambient + empty droplets with a deep model (run on raw, unfiltered matrix). Correct only when the empty-droplet profile shows real contamination; nuclei preps usually have low ambient. Always report the estimated fraction so downstream users can judge residual signal.
+
+### Gene filtering & typical pipeline order
+
+Keep genes detected in ≥ 3 cells (Scanpy `sc.pp.filter_genes(min_cells=3)`); for large atlases raise to ≥ 10. Canonical order: load raw → per-cell metrics → ambient correction (CellBender/SoupX on raw) → cell filtering (MAD) → doublet detection → gene filtering → normalize. Re-plot violins pre/post; if a whole cluster disappeared you over-filtered — relax and rerun.
+
+### Tooling
+
+Scanpy (`sc.pp.calculate_qc_metrics`, `pp.scrublet`), Seurat (`PercentageFeatureSet`, `subset`), scater/scran (`perCellQCMetrics`, `isOutlier`), scDblFinder, SoupX, CellBender. Reference workflow: *Single-cell best practices* (Heumos et al., Nat Rev Genet 2023). Always pin and report tool versions.

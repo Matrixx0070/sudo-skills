@@ -3,7 +3,8 @@ name: smb-cash-flow
 version: 1.0.0
 description: Produce a 30/60/90-day cash-flow forecast from AR and AP with base/low/high confidence bands and shortfall alerts.
 author: matrixx0070
-tags: [small-business, cash-flow, forecast, ar, ap, runway]
+tags: [small-business, cash-flow, forecast, ar, ap, runway, 13-week]
+capabilities: []
 ---
 
 # Cash Flow Forecast
@@ -42,3 +43,63 @@ Shortfall alerts: week __ — gap $__ — driver ___
 Assumptions: days-to-pay used, items excluded
 Recommended actions (owner approval required):
 ```
+
+## Reference
+
+### The 13-week direct cash-flow model (row layout)
+The 13-week rolling forecast is the SMB and turnaround standard because it's short enough to be accurate and long enough to see trouble coming. Build columns as Week 1…Week 13 (dated Monday-start), plus an "Actual" column you fill each Friday to compare against forecast. Use this exact row order:
+
+```
+BEGINNING CASH (= prior week's ending)
+  CASH INFLOWS
+    + Customer collections (AR by expected pay date)
+    + Cash/point-of-sale sales
+    + Deposits / retainers received
+    + Other (loan draw, tax refund, owner injection)
+  = Total inflows
+  CASH OUTFLOWS
+    − Payroll & contractor pay
+    − Payroll taxes & benefits
+    − Rent / lease
+    − Inventory / COGS / supplier payments (AP)
+    − Loan & interest payments
+    − Sales tax remittance
+    − Estimated income tax
+    − Insurance
+    − Software / subscriptions
+    − Marketing / ad spend
+    − Owner draw / distributions
+    − Other / one-off
+  = Total outflows
+NET CASH FLOW (inflows − outflows)
+ENDING CASH (beginning + net)
+  Minimum buffer line
+  Surplus / (shortfall) vs buffer
+```
+The ending-cash row is the whole point — walk it left to right and mark any week where it crosses below the buffer line.
+
+### Collection-probability haircuts by AR age
+Don't book overdue receivables at face value. Discount expected collections by aging bucket, and slide the expected pay date by each customer's real days-to-pay:
+
+| AR age bucket | Collect probability (haircut) | Timing assumption |
+|---|---|---|
+| Current (not yet due) | 95-100% | On the customer's historical avg days-to-pay |
+| 1-30 days past due | 90% | Within 2-3 weeks |
+| 31-60 days past due | 75% | Needs a reminder; slip to week 4-6 |
+| 61-90 days past due | 50% | Active follow-up required |
+| 90+ days past due | 20-30% | Treat as doubtful; base case excludes most of it |
+
+In the **low case**, add ~10-14 days to every payer and drop each bucket one row (current behaves like 1-30, etc.). In the **high case**, everyone pays on term. Reality lands between low and base most quarters.
+
+### Buffer thresholds and the shortfall response ladder
+Set the minimum buffer at the larger of one month's fixed operating expense or 6 weeks of total burn. When a week breaches it, escalate cheapest-and-most-reversible first:
+1. **Pull inflows forward** — call the top 2-3 overdue customers, offer a small early-pay discount, invoice work-in-progress now.
+2. **Push outflows back** — negotiate supplier terms (net-30 → net-45), time discretionary spend (ad spend, owner draw) after the tight week.
+3. **Trim** — pause non-essential subscriptions and postpone the non-urgent purchase.
+4. **Bridge** — only if 1-3 don't close the gap: draw on a line of credit or arrange short-term financing. This is the owner's call and the last resort, not the first.
+
+### Lumpy-outflow calendar (the killers)
+Pre-load these into the right weeks or they'll blindside an otherwise healthy month: quarterly estimated income tax (mid-Apr/Jun/Sep/Jan), sales-tax remittance (monthly or quarterly), annual insurance renewals, equipment/lease balloons, year-end bonuses, and any annual software renewal. A month that looks fine on averages can go negative the week two of these land together.
+
+### Owner-approval gate
+This forecast is decision support, not an action. Drawing on credit, delaying a supplier payment, offering an early-pay discount, cutting spend, or making a hire are all owner decisions. Present the shortfall, the driver, and the ranked options — then wait for the owner to choose. Never move money or change a payment date on your own.

@@ -3,7 +3,7 @@ name: smb-crm-maintenance
 version: 1.0.0
 description: Keep the CRM current from email and calendar context — propose new contacts, deal updates, activity notes, and stale flags for owner approval before writing.
 author: matrixx0070
-tags: [crm, automation, sales, productivity, operations]
+tags: [crm, automation, sales, productivity, operations, hygiene]
 capabilities: []
 ---
 
@@ -43,3 +43,47 @@ Stale flags:
 "Approve these updates and I'll sync them to the CRM."
 [after approval] Synced: <concise confirmation>
 ```
+
+## Reference
+
+### Pipeline stages and exit criteria
+Stage changes should be evidence-based, not vibes. Propose a move only when the exit criterion is met by something in the source:
+
+| Stage | Definition | Exit criterion (evidence to advance) |
+|---|---|---|
+| New / Lead | Made contact, unqualified | Confirmed a real need/interest |
+| Qualified | Fit + need + rough budget confirmed | Agreed to a next step (call/demo/site visit) |
+| Proposal / Quote | Quote or proposal sent | Prospect acknowledged/reviewed it |
+| Negotiation | Discussing terms/price/scope | Verbal agreement or open points narrowed |
+| Won | Signed / paid | Contract signed or deposit received |
+| Lost | Declined or gone cold | Explicit no, or past stale threshold with no response |
+
+When email/calendar shows the exit criterion (e.g., "site visit held" → agreed next step done), propose the advance *with the evidence quoted*. Never skip stages silently.
+
+### Activity-note taxonomy
+Log activities in consistent types so history is searchable and reports work. Each note: type + date + one factual line + source.
+- **Call** — "Call 6/12: discussed 12-mo plan; wants pricing by Fri." 
+- **Email** — "Email 6/12: replied asking about install timeline."
+- **Meeting** — "Site visit 6/12: measured space, confirmed scope."
+- **Task/next step** — "Follow-up due 6/15: send revised quote."
+- **Note** — factual context only.
+Record what happened and what was said — not inferred feelings. "Asked about pricing" is a fact; "seems ready to buy" is a guess (only log it if the message literally says so).
+
+### New-contact dedupe check (before proposing)
+Never propose a contact that already exists. Before adding, check by: exact email match first, then phone, then name+company. If a probable match exists, propose an **update to the existing record** instead of a new contact. Capture on creation: name, email, phone, company, source, and the linked deal if any.
+
+### Stale thresholds by stage (flag, don't act)
+Flag deals with no activity past these windows so the owner can re-engage:
+- New/Lead: 7 days • Qualified: 14 days • Proposal: 10 days • Negotiation: 14 days.
+A stale flag is a prompt for owner attention, not an auto-status-change — that's smb-crm-cleanup's job with approval.
+
+### Suggested cadence
+Run daily for an active sales team (catch same-day meetings and replies while fresh), or weekly (e.g., Monday morning) for a lighter pipeline. Each run covers only activity since the last run to avoid re-proposing the same updates. Keeping the CRM current daily is what makes the pipeline forecast, the call list, and the business pulse trustworthy downstream.
+
+### Data-quality guardrails
+- One source of truth per field — don't create parallel notes when a field exists (use the Stage field, not a note that says "now in proposal").
+- Every proposed change carries its **source** (which email/event) so the owner can verify.
+- Keep notes short and factual; long editorializing rots.
+
+### Owner-approval gate
+This skill drafts and proposes only. Nothing writes to the CRM until the owner approves, and it never emails, messages, or contacts a customer under any circumstance. After approval, sync only the approved items and return a concise confirmation of what was written.

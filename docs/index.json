@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T21:00:00Z",
+  "updated": "2026-07-11T21:30:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -122,7 +122,7 @@
       "description": "Design a rigorous preclinical experiment with a falsifiable hypothesis, controls, power analysis, and a pre-registered analysis plan.",
       "author": "matrixx0070",
       "path": "skills/bio-experiment-design/SKILL.md",
-      "sha256": "5cab639c2fc54908fbd55a1a8accbd6fee98a8d1cbb777b72837baf5fe37f6ff",
+      "sha256": "fe2caf35d2667c332ab3c5fa89f9199ac1266e0d5374065a0460ab0d9a5a8926",
       "capabilities": [],
       "tags": [
         "experiment-design",
@@ -139,7 +139,7 @@
       "description": "Run a structured life-sciences literature search and synthesize findings into a cited, evidence-graded review.",
       "author": "matrixx0070",
       "path": "skills/bio-literature-review/SKILL.md",
-      "sha256": "cc6996fcdfd0d60ad96692a5e52f0ba2082d2f7c59c3a7fe6ce6306434f44b15",
+      "sha256": "d5033920d02113aed41f973264976cc95604f8d6c0cdb22593ed1f2698640a3b",
       "capabilities": [],
       "tags": [
         "biology",
@@ -156,7 +156,7 @@
       "description": "Plan and assemble an nf-core bioinformatics run (rnaseq, sarek, atacseq) with a schema-validated samplesheet, pinned version, and correct profile.",
       "author": "matrixx0070",
       "path": "skills/bio-pipeline-runner/SKILL.md",
-      "sha256": "055b59d09293bcb7486685c4855928628d6ae69b3ebef6fe4d594b2bcb4c3ca3",
+      "sha256": "16991b72912dea6bb59a99f74468f84eb537be5cc21bc748828c57dbda636465",
       "capabilities": [],
       "tags": [
         "nf-core",
@@ -173,7 +173,7 @@
       "description": "Select, ideate, and de-risk life-sciences research problems by importance, tractability, and neglectedness, ending in a pursue/park/kill call with kill criteria.",
       "author": "matrixx0070",
       "path": "skills/bio-problem-selection/SKILL.md",
-      "sha256": "cecc093fe350cdcd8ebc8a462039782e3d53453c005cc99fa01db45edc0ac4ee",
+      "sha256": "aa9831cfb58bcebf47110ac37906c96baf616e6a42e98c950277ece37c473ea7",
       "capabilities": [],
       "tags": [
         "research-strategy",
@@ -190,7 +190,7 @@
       "description": "Quality-control single-cell RNA-seq with MAD-based filtering, ambient-RNA correction, doublet removal, and pre/post diagnostics.",
       "author": "matrixx0070",
       "path": "skills/bio-single-cell-qc/SKILL.md",
-      "sha256": "943cdff32e6316b2f8f2d1daa1969b110f4f6c1b80cbb956c712b40cd946a85e",
+      "sha256": "faff7c800e13dbd4b6a0841569e4a748e66a8e5c70d142ffca6f10dc66d1506b",
       "capabilities": [],
       "tags": [
         "single-cell",
@@ -207,7 +207,7 @@
       "description": "Rank candidate drug targets by genetic evidence, tractability, safety, and novelty into a transparent, weighted, sensitivity-tested shortlist.",
       "author": "matrixx0070",
       "path": "skills/bio-target-prioritization/SKILL.md",
-      "sha256": "e6f98aa6743a2e56f6994eb1cd438ef89eb83d6cc007c859dc79569faafd9b65",
+      "sha256": "953c3ae7c20360101cf3011e8891e8766c6e50e7528c44fbf2ac91efaeb6eaf7",
       "capabilities": [],
       "tags": [
         "drug-discovery",
@@ -3645,7 +3645,7 @@
       "description": "Build a one-page cross-functional snapshot of cash, sales, pipeline, and the watch-list so an owner can read the whole business at a glance.",
       "author": "matrixx0070",
       "path": "skills/smb-business-pulse/SKILL.md",
-      "sha256": "923364d020a687b142c9e0fe6c7b256c3a492af85ba0875d1656cc25b0ab3a75",
+      "sha256": "911cf301c7f2d6e206083cef88b35d3f335a69711a7383bc07901cd5878d7864",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -3653,7 +3653,8 @@
         "cash",
         "sales",
         "pipeline",
-        "owner-report"
+        "owner-report",
+        "kpi"
       ]
     },
     {
@@ -3662,14 +3663,15 @@
       "description": "Rank the top-5 leads worth calling today with tailored, history-grounded talking points and proposed calendar blocks \u2014 no auto-send.",
       "author": "matrixx0070",
       "path": "skills/smb-call-list/SKILL.md",
-      "sha256": "df54e2c15a5fd93ed89eb97919de03ccbe8ac39fa64859cc7af7f732655ad332",
+      "sha256": "56535e0969587ef4e8c54e0dd56e5d32c0a63b5744a3b6865071a1257f7f0ca3",
       "capabilities": [],
       "tags": [
         "sales",
         "crm",
         "leads",
         "outreach",
-        "productivity"
+        "productivity",
+        "prioritization"
       ]
     },
     {
@@ -3678,14 +3680,15 @@
       "description": "Turn an approved content brief into a posting calendar plus Canva social designs and captions, pausing for owner sign-off at each stage.",
       "author": "matrixx0070",
       "path": "skills/smb-canva-creator/SKILL.md",
-      "sha256": "5c0fdcd0d9a618bf2c59ffce4de3cc286da4518ecf54b9828f55cb14708effd0",
+      "sha256": "e53b4ed2aa02603b4715edab154e3572dc1dc0f50a507345a87453153ae06f7e",
       "capabilities": [],
       "tags": [
         "marketing",
         "canva",
         "social-media",
         "content",
-        "design"
+        "design",
+        "captions"
       ]
     },
     {
@@ -3694,7 +3697,7 @@
       "description": "Produce a 30/60/90-day cash-flow forecast from AR and AP with base/low/high confidence bands and shortfall alerts.",
       "author": "matrixx0070",
       "path": "skills/smb-cash-flow/SKILL.md",
-      "sha256": "472fdee82eacde95680e6422f8df9096ab8244f88d0eefa253d32efbcd00ad5e",
+      "sha256": "74bfd664e1fe680b7282d22105ac5f0a1393bc79a468fa0858a659362394f656",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -3702,7 +3705,8 @@
         "forecast",
         "ar",
         "ap",
-        "runway"
+        "runway",
+        "13-week"
       ]
     },
     {
@@ -3711,14 +3715,15 @@
       "description": "Run a small-business month-end close \u2014 reconcile books against processors and bank, propose adjustments, and produce a plain-English P&L narrative.",
       "author": "matrixx0070",
       "path": "skills/smb-close-month/SKILL.md",
-      "sha256": "df4580ac4cd0d55e2fb490d389fe5573d0dc044d4875dea468f19b7dfb20a36f",
+      "sha256": "42040449048fcb1ed7c97c75e8499b1070d4cc38498c4594442276ba9fc27b2e",
       "capabilities": [],
       "tags": [
         "small-business",
         "month-end",
         "close",
         "reconciliation",
-        "p&l"
+        "p&l",
+        "bookkeeping"
       ]
     },
     {
@@ -3727,14 +3732,15 @@
       "description": "Analyze sales history for top performers, slow movers, and seasonality, then produce a prioritized 30-day content brief tied to the numbers.",
       "author": "matrixx0070",
       "path": "skills/smb-content-strategy/SKILL.md",
-      "sha256": "802bb0b864b841a4413b06a9939ea48405aeaf2104272db8966aa8486a80b1ac",
+      "sha256": "b636d979227745b47839693c25e143852ff1ae3bb67c7065cfd23295ffabd196",
       "capabilities": [],
       "tags": [
         "marketing",
         "analytics",
         "strategy",
         "content",
-        "planning"
+        "planning",
+        "seasonality"
       ]
     },
     {
@@ -3743,14 +3749,15 @@
       "description": "Lightweight NDA, MSA, and vendor-contract first pass that flags non-standard terms in plain English and outputs a redline \u2014 not legal advice.",
       "author": "matrixx0070",
       "path": "skills/smb-contract-review/SKILL.md",
-      "sha256": "fe9ca0f5db87dca60fec73a0bd281a10451b7b6c2d003a7e2b8329354e33a8e9",
+      "sha256": "a8c92579a9c3e751edf3130fc6536b73136d7974f80287ac86bf7fdb0935708f",
       "capabilities": [],
       "tags": [
         "legal",
         "contracts",
         "review",
         "risk",
-        "operations"
+        "operations",
+        "redline"
       ]
     },
     {
@@ -3759,14 +3766,15 @@
       "description": "Scan the CRM for stale deals, duplicate contacts, and missing fields, propose fixes, and apply only what the owner approves.",
       "author": "matrixx0070",
       "path": "skills/smb-crm-cleanup/SKILL.md",
-      "sha256": "13366834d8d4212741bc48e33d24e6135926f522d93c480b5bcdafad498ff3b3",
+      "sha256": "424d649b20c215fab799ed633386c7c85c35e9dbca482d41b61b9d88bdd71c02",
       "capabilities": [],
       "tags": [
         "crm",
         "data-quality",
         "operations",
         "cleanup",
-        "sales"
+        "sales",
+        "dedupe"
       ]
     },
     {
@@ -3775,14 +3783,15 @@
       "description": "Keep the CRM current from email and calendar context \u2014 propose new contacts, deal updates, activity notes, and stale flags for owner approval before writing.",
       "author": "matrixx0070",
       "path": "skills/smb-crm-maintenance/SKILL.md",
-      "sha256": "4049c548a8780e20c6e32b6c18f541b39f91dceacb8e9875026409f9793af92c",
+      "sha256": "bffe3f6763118664d7084999e8096cc857010f31be9c91732487e94c907a7961",
       "capabilities": [],
       "tags": [
         "crm",
         "automation",
         "sales",
         "productivity",
-        "operations"
+        "operations",
+        "hygiene"
       ]
     },
     {
@@ -3791,14 +3800,15 @@
       "description": "Aggregate disputes, tickets, and reviews into weighted themes with trend and revenue-at-risk, then recommend the three highest-leverage fixes.",
       "author": "matrixx0070",
       "path": "skills/smb-customer-pulse/SKILL.md",
-      "sha256": "d6544a146939d8c6ecd30a6727eef186e5d4712e0a165fd1e6c4e4637ea59677",
+      "sha256": "420d514dc5d6b9e73f80d28f887848413efeba755fe6b005d97b31c572504462",
       "capabilities": [],
       "tags": [
         "small-business",
         "customers",
         "feedback",
         "reviews",
-        "support"
+        "support",
+        "voice-of-customer"
       ]
     },
     {
@@ -3807,7 +3817,7 @@
       "description": "Synthesize disputes, tickets, and reviews into a top-3 fixable-issues list, each with root cause and a ready-to-edit response template \u2014 never auto-sent.",
       "author": "matrixx0070",
       "path": "skills/smb-customer-pulse-check/SKILL.md",
-      "sha256": "1e192151abb5425702537aa31356ad9e2bbffd74a79335186d9fb39e338cc41e",
+      "sha256": "5ce849abe60dac012fcf8e57b931aa4ac2f0926259b4b4bafe0b766bd97209c9",
       "capabilities": [],
       "tags": [
         "customer-success",
@@ -3823,7 +3833,7 @@
       "description": "A read-only Friday end-of-week pulse \u2014 revenue vs prior week, top sellers, and the wins and watches to carry into next week.",
       "author": "matrixx0070",
       "path": "skills/smb-friday-brief/SKILL.md",
-      "sha256": "58cafb126dfb69904afa8286f38e3cbb84f6c0bd46069c83f67c25cafc680da5",
+      "sha256": "ce48ad5b3640b14ae2d49a009dfc11dbb13f4b02726d9f2556a2ba8386b595ab",
       "capabilities": [],
       "tags": [
         "reporting",
@@ -3839,13 +3849,14 @@
       "description": "Handle a single customer complaint end-to-end \u2014 context, root cause, an owner-approved remedy, a drafted response, and an operational fix.",
       "author": "matrixx0070",
       "path": "skills/smb-handle-complaint/SKILL.md",
-      "sha256": "d50b8ca632d7140b9a756a815942452392b524d7f5fc2c63cebd75bcc2ec40c9",
+      "sha256": "2af67ae23041e3437e4dd6bde4b2e00185f49a1956c4dec3ac6ebc7a0e4d3c3f",
       "capabilities": [],
       "tags": [
         "small-business",
         "complaints",
         "customer-service",
         "retention",
+        "service-recovery",
         "operations"
       ]
     },
@@ -3855,12 +3866,13 @@
       "description": "Draft overdue-invoice reminders tuned to each customer's payment history and the right tone, with a cadence plan \u2014 every message owner-approved before send.",
       "author": "matrixx0070",
       "path": "skills/smb-invoice-chase/SKILL.md",
-      "sha256": "2b56f7b8537c22843d3a31136453730b8843a16b103704920b98b03a7acc6319",
+      "sha256": "4bcecc5de61d198c2cf0e3f2b5c5e06eb75ca784df312ffad2eecaa1f46d2e8c",
       "capabilities": [],
       "tags": [
         "small-business",
         "ar",
         "collections",
+        "dunning",
         "invoicing",
         "customers"
       ]
@@ -3871,7 +3883,7 @@
       "description": "Build a hiring packet \u2014 an inclusive job post, a structured interview guide with a 1-5 scoring rubric, and an offer-letter template flagged for legal review.",
       "author": "matrixx0070",
       "path": "skills/smb-job-post-builder/SKILL.md",
-      "sha256": "c3259ecc2f3760ce0963961922363ae7685a321078fd216bcd9e02ecb57a3dcb",
+      "sha256": "2c11a3b7a4006af577f4358bfcfd70a49fb5fec78f948604f2036ddbe2ac7cee",
       "capabilities": [],
       "tags": [
         "hiring",
@@ -3887,13 +3899,14 @@
       "description": "Score raw inbound leads into a \"call these 5 today\" list on fit/intent/value/freshness, with tailored openings and follow-up timing \u2014 outreach owner-approved.",
       "author": "matrixx0070",
       "path": "skills/smb-lead-triage/SKILL.md",
-      "sha256": "b9f89e010625f203d352680adb5054eb9e352d6a73a1d8f8df8b17af1c4599d3",
+      "sha256": "ecfb1d9bb4e9ba017b74be447eb93378ab18bef9cfb614722a71e25e7ca25f0e",
       "capabilities": [],
       "tags": [
         "small-business",
         "sales",
         "leads",
         "triage",
+        "lead-scoring",
         "pipeline"
       ]
     },
@@ -3903,7 +3916,7 @@
       "description": "Break down unit economics per product or service, rank by contribution, and model pricing scenarios before the owner commits.",
       "author": "matrixx0070",
       "path": "skills/smb-margin-analyzer/SKILL.md",
-      "sha256": "7dbf581a20ee0e388ee9424f4fd520a006fdae5a58f62e338f23a5884a8dd778",
+      "sha256": "4dfd768930510d6a26e1107f6a49f3a95f91083e2b0bd2c7f67b54380a208ae3",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -3920,7 +3933,7 @@
       "description": "Produce a one-page Monday briefing covering cash, sales, pipeline, risks, and the top three to-dos for the week.",
       "author": "matrixx0070",
       "path": "skills/smb-monday-brief/SKILL.md",
-      "sha256": "ba90a1af1036af0595d9a38d9f7dcbcfcc0bf43c9304a9647d5b4fa4087697d2",
+      "sha256": "adfb49b4513278a59afb271b9a569f732f46f4e4d2daff4f8b884a59df674f0f",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -3937,7 +3950,7 @@
       "description": "Walk the owner through month-end close \u2014 reconcile books against processor payouts, flag discrepancies, and export a review packet.",
       "author": "matrixx0070",
       "path": "skills/smb-month-end-prep/SKILL.md",
-      "sha256": "837c5db9723dfb56d2903e5b10854b8a1bbd7520edf61ed66b061f43accba00f",
+      "sha256": "84872f0fd8e5bb0897c907461c5e5fd5a6bd8e84872f646b642abad78e719b51",
       "capabilities": [],
       "tags": [
         "finance",
@@ -3954,7 +3967,7 @@
       "description": "On the 25th, produce a next-30-day cash-flow outlook that flags the items needing owner attention before month-end.",
       "author": "matrixx0070",
       "path": "skills/smb-month-heads-up/SKILL.md",
-      "sha256": "1269bebcdf59f5bdf6a1b7d57f3b23d0afb7ddb15adb89923442b8695bf6c716",
+      "sha256": "3a3d139aecbd176fe400374c9d01dccf1bc46dd5f551d1bdab32751bd9cf77ee",
       "capabilities": [],
       "tags": [
         "cash-flow",
@@ -3971,7 +3984,7 @@
       "description": "Onboard a new small-business owner \u2014 connect their first two tools, run one recipe, interview them, store context, and set a weekly check-in.",
       "author": "matrixx0070",
       "path": "skills/smb-onboard/SKILL.md",
-      "sha256": "f6bdbe3f241fa1ca0511831b25eb438c056ff89014a0b5c53a725d329186d8d2",
+      "sha256": "9849f4fa2d2c1022324262ca1bcfeacb9b3e442aee6aa2e18851c0e209a01445",
       "capabilities": [],
       "tags": [
         "onboarding",
@@ -3988,7 +4001,7 @@
       "description": "Forecast cash to the next payroll date, judge coverage, and rank collectible invoices so payroll can run with confidence.",
       "author": "matrixx0070",
       "path": "skills/smb-plan-payroll/SKILL.md",
-      "sha256": "b288c09b082e0a2adddb13aed47c96537c2903b47b377a95595a924dd00cabbe",
+      "sha256": "6e958e3bf43a328e8847058f9817c475543b5824348dae5ef413df0f0ea72614",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -4005,7 +4018,7 @@
       "description": "Build a margin-by-product table plus three pricing-scenario views (hold, raise, reprice losers) to support a pricing decision.",
       "author": "matrixx0070",
       "path": "skills/smb-price-check/SKILL.md",
-      "sha256": "5b19a8ff9f28a12d8a1ad8861f1ce4b69f778334c2d94698abaa255b4de1106c",
+      "sha256": "8686deb1a1e60f65e5953863a5a3cb2384b5d34427ecc44627d2f5a92c432f80",
       "capabilities": [],
       "tags": [
         "pricing",
@@ -4022,7 +4035,7 @@
       "description": "Build a quarterly business review as a presentable deck \u2014 revenue, margin, and customer trends, with next-quarter priorities.",
       "author": "matrixx0070",
       "path": "skills/smb-quarterly-review/SKILL.md",
-      "sha256": "aebfa3bd3aeece03b74c80409199d43497fac63072100e4ec247e8feb5e09d40",
+      "sha256": "692f2d21d2787ae03bf857c889ede9a9bfcfccf4d41a31cbc2fac9a7656fd01d",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -4039,7 +4052,7 @@
       "description": "Review a contract in plain English, flag red flags by severity, and return a marked-up redline with suggested edits.",
       "author": "matrixx0070",
       "path": "skills/smb-review-contract/SKILL.md",
-      "sha256": "963391e438c9f639f86a07e29de3ed3dd772465786b15518aef66c0badbfde5d",
+      "sha256": "a95d2344256907f8ced4041b4f40ca52df04b8e0b9a6ce019b3693e69abfd905",
       "capabilities": [],
       "tags": [
         "contract",
@@ -4056,7 +4069,7 @@
       "description": "Front door to the small-business toolkit \u2014 routes a vague or specific request to the best skill and explains what's available.",
       "author": "matrixx0070",
       "path": "skills/smb-router/SKILL.md",
-      "sha256": "335bb494127deb3348998f25d1bb1e68367c39132cc3f1df79c904dccc1a26ba",
+      "sha256": "e01517b7a4f94566e6683001e6d68bb3623448a1ba5312d80b3010a472ea7dfe",
       "capabilities": [],
       "tags": [
         "router",
@@ -4073,7 +4086,7 @@
       "description": "Run an end-to-end marketing campaign \u2014 sales analysis to content brief to assets to CRM send \u2014 with an owner-approval gate at every step.",
       "author": "matrixx0070",
       "path": "skills/smb-run-campaign/SKILL.md",
-      "sha256": "0bc4d1c776f855d93e57798ba07a0a71ff7d539ece7d24d5722eb548d4f919fa",
+      "sha256": "eacbc3b7802f1bdfc28a6c1e01070d34bc3fb3335f0f27f66cfdd21d27e11e72",
       "capabilities": [],
       "tags": [
         "marketing",
@@ -4090,7 +4103,7 @@
       "description": "Surface top and bottom sellers plus seasonality, then produce a two-week content brief mapped to channels.",
       "author": "matrixx0070",
       "path": "skills/smb-sales-brief/SKILL.md",
-      "sha256": "7dddab20580da4d2ed7b60c8ce691c5c44acba59c5d97ff8b40692b774249446",
+      "sha256": "b48ec0506b7331692161ea79c4e85be96a80f2df6ab6a0cfefa03c5352e2b48b",
       "capabilities": [],
       "tags": [
         "sales",
@@ -4107,7 +4120,7 @@
       "description": "Assemble tax-season materials \u2014 quarterly estimates or year-end 1099s \u2014 plus an organized accountant packet.",
       "author": "matrixx0070",
       "path": "skills/smb-tax-prep/SKILL.md",
-      "sha256": "c650c2884f86372b7075b0a3bd3dc90a696e7d8af244bcd7a2a082572edc480d",
+      "sha256": "0b738fd6f26b448ae10e5278746c6f873ff503927f085af5c73b320d6dac9e30",
       "capabilities": [],
       "tags": [
         "small-business",
@@ -4124,7 +4137,7 @@
       "description": "Organize tax-season materials for a quarterly estimate or year-end 1099 and produce an accountant handoff packet.",
       "author": "matrixx0070",
       "path": "skills/smb-tax-season-organizer/SKILL.md",
-      "sha256": "44226a3296dac8ecf4b2c7cc4079f1925a23c8a6d3d4ef0d39c843fb7b797a0e",
+      "sha256": "e91f7643be650a51a03eb525d0b2cd6d7aa65efd32b6392a3b00aca3880fa192",
       "capabilities": [],
       "tags": [
         "tax",
@@ -4141,7 +4154,7 @@
       "description": "Read a forwarded customer email or ticket, pull order/refund/history context, and draft a tone-matched reply \u2014 refunds only with owner approval.",
       "author": "matrixx0070",
       "path": "skills/smb-ticket-deflector/SKILL.md",
-      "sha256": "0c39c26dc3494cde487f9a5a7f49303b99184b97bb3fb5b383123dd07e0e7e4d",
+      "sha256": "65ac1c61857ffcbac01f2c04a959c084a99c03403192969c5534c63fe44b1da1",
       "capabilities": [],
       "tags": [
         "support",
