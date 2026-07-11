@@ -1,80 +1,92 @@
 ---
 name: fin-variance-analysis
-version: 1.0.0
-description: Decompose an actual-vs-plan gap into price, volume, mix, and rate drivers that sum to the total, with a waterfall and action-oriented narrative.
+version: 1.1.0
+description: Decompose an actual-vs-plan gap into price, volume, mix, and rate drivers that tie to the total EXACTLY, solving for any unknown so the bridge closes with zero residual, plus a waterfall and action-oriented narrative.
 author: matrixx0070
-tags: [finance, variance, fpa, budget, bridge, waterfall]
+tags: [finance, variance, fpa, budget, bridge, waterfall, pvm]
 ---
 
 # Variance Analysis
 
 ## When to use
-Use this to explain why actuals differ from budget, forecast, or prior period — for a P&L line, a department, or a KPI — turning a raw dollar gap into named, quantified drivers leadership can act on.
+Use this to explain why actuals differ from budget, forecast, or prior period — for a P&L line, a department, or a KPI — turning a raw dollar gap into named, quantified drivers that **tie exactly** to the total.
 
-**Not for:** the statement-level "material line changed" flagging inside a reporting package (fin-financial-statements does that lightly), or reconciling GL to a source (fin-reconciliation). This is the *why* behind one variance, decomposed.
+**Not for:** the statement-level "material line changed" flagging inside a reporting package (fin-financial-statements), or reconciling GL to a source (fin-reconciliation). This is the *why* behind one variance, decomposed to closure.
 
 ## Method
-1. **Frame the comparison.** State the metric, actual, baseline (budget / forecast / prior), and total variance in $ and %; note favorable (F) or unfavorable (U).
-2. **Set materiality.** Define the $ and/or % threshold below which you do not decompose.
-3. **Decompose into drivers.** Use the right bridge: price × volume for revenue, rate × hours for labor, volume × mix for product lines, plus one-time/timing items. Decision point: the drivers *must* sum back to the total variance — if they don't, a driver is missing or double-counted.
-4. **Quantify each driver.** Compute each in isolation, holding the others constant.
-5. **Attribute causes.** Give each driver a business reason (new pricing, demand shift, headcount ramp, timing of spend).
-6. **Build the waterfall.** Bridge baseline → each driver (up/down bars) → actual so the decomposition is visible and ties.
-7. **Write the narrative and flag risk.** Decision point: label each driver persistent vs one-time — persistent drivers change the forecast; one-time do not.
+1. **Frame the comparison.** Metric, actual, baseline (budget/forecast/prior), total variance in $ and %; favorable (F) or unfavorable (U).
+2. **Set materiality.** The $ and/or % threshold below which you do not decompose.
+3. **Decompose into drivers.** Price × volume for revenue, rate × hours for labor, volume × mix for product lines, plus one-time/timing. Isolate each in turn holding the others constant. Decision point: revenue → PVM; margin/rate → rate/mix + interaction; cost → rate + efficiency.
+4. **CLOSE THE BRIDGE TO AN EXACT TIE.** The drivers must sum to the total variance with **zero residual**. If a driver depends on an unknown (e.g. what share of COGS saw the input-cost rise), **solve for that unknown so the bridge ties**, then state it as a falsifiable hypothesis to confirm ("input exposure ≈ 36% of COGS — verify"). An open bridge with a plug is a defect, not an analysis.
+5. **Show the interaction term.** When two effects compound (a price cut *and* a cost rise), show the standalone price effect, the standalone cost effect, AND their interaction — don't bury the cross-term inside one bar.
+6. **Attribute causes and judge the quality of the beat.** Give each driver a business reason, and state whether a favorable result is volume-driven (durable) or price-/one-time-inflated (fragile) — the first question a CFO asks next.
+7. **Build the waterfall** (baseline → bars → actual, ties) and **write the narrative**, tagging each driver persistent vs one-time and flagging timing reversals (see FIFO caveat).
 
 ## Example
-Revenue: actual $4.6M vs budget $4.0M, +$600k (+15%, F). Decompose price × volume: volume +8,000 units × $50 budget price = +$400k; price +$2.50 × 84,000 actual units = +$210k; mix shift to lower-price SKU = −$10k. Sum: +$600k — ties. Causes: volume from a new enterprise deal (persistent), price from the January list increase (persistent), mix from SMB promo (one-time). Narrative: raise the forward forecast for volume and price; do not extrapolate the promo mix.
+Revenue: actual $4.6M vs budget $4.0M, +$600k (+15%, F). Volume +8,000 units × $50 budget price = +$400k; price +$2.50 × 84,000 actual units = +$210k; mix to a lower-price SKU = −$10k. Sum = +$600k — **ties exactly**. Quality of the beat: mix is *unfavorable* (−$10k), so the beat is volume+price driven (durable), not mix. Causes: volume from a new enterprise deal (persistent), price from the January list increase (persistent), mix from an SMB promo (one-time). Action: raise the forward forecast for volume and price; do not extrapolate the promo mix.
 
 ## Pitfalls
-- **Drivers that don't sum to the total.** A bridge that leaves an unexplained plug is not a decomposition — find the missing driver.
-- **Double-counting price and volume.** Applying both at actual quantities overstates; hold one constant per driver.
-- **Naming a number, not a cause.** "Volume +$400k" without the enterprise deal behind it gives leadership nothing to act on.
-- **Treating one-time items as run-rate.** Extrapolating a promo or true-up corrupts the next forecast.
+- **Leaving a residual / plug.** If the drivers don't sum to the total, solve for the unknown that closes it — never assert "ties ✓" over an approximate sum.
+- **Burying the interaction.** Computing cost sequentially on the cut price hides the price×cost cross-term; show it explicitly.
+- **Double-counting price and volume** by applying both at actual quantities — hold one constant per driver.
+- **Naming a number, not a cause** — and not judging whether a favorable variance is durable or fragile.
+- **Treating one-time or timing items as run-rate** — corrupts the next forecast.
 
 ## Output format
 ```
 Metric: <...> | Actual: <...> | Baseline: <budget/fcst/prior> | Total var: <$> (<%>) [F/U]
 Materiality: <$ / %>
 Drivers:
-  | driver | $ impact | % of total | cause | persistent? |
-  Sum of drivers = total variance? [yes/no]
-Waterfall: baseline → <driver bars> → actual  (ties: [yes/no])
-Narrative: <plain language>
-Risks / watch items: <...> | recommended actions: <...>
+  | driver | $/pp impact | % of total | cause | persistent? |
+  Residual after all drivers = 0? [MUST be yes — if not, solve for the unknown]
+  Solved-for assumption (if any): <e.g. input exposure ≈ 36% of COGS — verify>
+Interaction term (if compounding effects): <price-only | cost-only | interaction>
+Quality of the beat: <volume-driven/durable | price-or-one-time/fragile>
+Waterfall: baseline → <bars> → actual  (ties exactly: yes)
+Narrative + risks + recommended actions: <...>
 ```
 
 ## Reference
 
 ### The price / volume / mix bridge (revenue)
-Total revenue variance decomposes into three drivers that **must sum to the total**. Let subscript `b` = budget/base, `a` = actual.
+Let `b`=budget, `a`=actual. Drivers **must sum to the total**:
+- **Volume** = (Units_a − Units_b) × Budget avg price_b
+- **Price** = Σ (Price_a − Price_b) × Units_a, per product
+- **Mix** = Σ [ (mix%_a − mix%_b) × (Budget product price − Budget avg price) ] × Units_a
 
-- **Volume variance** = (Total units_a − Total units_b) × Budget avg price_b
-- **Price variance** = (Price_a − Price_b) × Actual units_a, summed per product
-- **Mix variance** = Σ [ (Actual mix% − Budget mix%) × (Budget product price − Budget avg price) ] × Total units_a
+Isolate volume at the *budget* price and price at the *actual* quantity so the price×volume interaction is attributed once. **Joint-variance convention:** some FP&A shops break out the price×volume interaction as a separate fourth bar instead of folding it into price — state which convention you use.
 
-Check: Volume + Price + Mix = Actual revenue − Budget revenue. If it doesn't tie, a driver is missing or double-counted. The classic error is applying **both** price and volume at actual quantities — that double-counts the price×volume interaction. Standard convention isolates volume at the *budget* price and price at the *actual* quantity so each interaction is attributed once.
+Worked: Budget 10,000 @ $50 = $500,000; Actual 11,000 @ $52 = $572,000; total +$72,000. Volume = 1,000×$50 = +$50,000; Price = $2×11,000 = +$22,000; sum +$72,000 ✓ (single product → mix 0).
 
-Worked example: Budget 10,000 units @ $50 = $500,000. Actual 11,000 units @ $52 = $572,000. Total var = +$72,000.
-- Volume = (11,000 − 10,000) × $50 = **+$50,000**
-- Price = ($52 − $50) × 11,000 = **+$22,000**
-- Sum = +$72,000 ✓ (single product, so mix = 0).
+### Closing the bridge when a driver is unknown (solve-for-the-tie)
+Often you know the total and all-but-one driver; the missing piece is a *share* or *exposure*. Solve for it so the bridge ties, then flag it to confirm.
 
-### Mix vs. volume (multi-product)
-When product proportions shift, split "quantity" into pure volume and mix:
-- **Pure volume** = change in *total* units, holding budget mix and budget prices constant.
-- **Mix** = same total actual units, but reweighted to actual proportions, priced at budget prices, versus budget mix. Selling more of a high-price SKU = favorable mix; shifting to cheap SKUs = unfavorable mix even if total units are flat.
+Example — gross margin 35% actual vs 40% budget, after a 5% price cut and an 8% input-cost rise. Budget price 100, COGS 60. Post-cut price = 95. Let `x` = share of COGS exposed to the 8% rise: COGS_a = 60 × (1 + 0.08x). Set (95 − COGS_a)/95 = 0.35 → COGS_a = 61.75 → 60(1+0.08x)=61.75 → x = **0.365**. So ~36.5% of COGS saw the increase. Report: "margin fell 5pp = price cut (≈ −3.2pp standalone) + input-cost rise on ~36% of COGS (≈ −4.8pp standalone), with a small interaction; verify the exposed share." The bridge now ties to 35.0% exactly.
+
+### Interaction / compounding decomposition (margin)
+When price and cost both move, report three parts, not a sequential blend:
+- **Price-only effect** = margin at new price, old cost.
+- **Cost-only effect** = margin at old price, new cost.
+- **Interaction** = the residual so the three reconcile to the total margin change. Showing it prevents silently burying the cross-term in the cost bar.
+
+### Break-even volume for a price change
+To hold **gross-profit dollars** flat after a price cut of fraction `c` at gross margin `m`:
+required volume multiplier = **m / (m − c)**, i.e. Δvolume = c / (m − c).
+Worked: m = 40%, c = 5% → 0.40/0.35 = 1.1428 → **+14.3% volume** just to break even on GP dollars. (GP/unit falls from price×0.40 to price×0.35, so 0.40/0.35 − 1 = 14.3%.) A price cut is value-destructive unless it buys at least this much incremental volume — always quantify it.
 
 ### Cost / spend variances
-- **Rate (price) variance** (labor/materials) = (Actual rate − Standard rate) × Actual quantity.
-- **Efficiency (usage/volume) variance** = (Actual quantity − Standard quantity for actual output) × Standard rate.
-- **Labor:** Rate var = (Act wage − Std wage) × Act hours; Efficiency var = (Act hrs − Std hrs allowed) × Std wage.
-- **Materials:** Price var = (Act price − Std price) × Act qty purchased; Usage var = (Act qty used − Std qty allowed) × Std price.
-- **Overhead:** Spending variance (actual vs. budgeted at actual activity) and volume variance (budgeted vs. applied). Total = spending + volume.
+- **Rate** = (Actual rate − Standard rate) × Actual qty. **Efficiency** = (Actual qty − Standard qty for actual output) × Standard rate.
+- **Labor:** Rate = (Act wage − Std wage) × Act hrs; Efficiency = (Act hrs − Std hrs allowed) × Std wage.
+- **Materials:** Price = (Act price − Std price) × Act qty; Usage = (Act qty − Std qty allowed) × Std price.
+- **Overhead:** Spending (actual vs budgeted at actual activity) + Volume (budgeted vs applied).
 
-### Sign and labeling conventions
-- **Revenue / margin:** Actual > Budget = **Favorable (F)**; Actual < Budget = **Unfavorable (U)**.
-- **Cost / expense:** Actual < Budget = **Favorable**; Actual > Budget = **Unfavorable**. (A negative dollar variance is *not* automatically bad — direction depends on whether the line is revenue or cost.)
-- Always tag each driver **persistent** (changes the forward forecast — new pricing, structural demand, headcount ramp) vs **one-time** (does not — a promo, a true-up, a timing shift). Extrapolating a one-time item corrupts the next forecast.
+### Timing / FIFO caveat (don't call a deferral a save)
+If a favorable cost variance comes from **inventory layers** (FIFO), the margin relief is *deferred, not avoided* — older, cheaper cost is flowing through the P&L while replacement cost has already risen. It **reverses** as newer layers sell. Flag any offset that is a timing artifact (FIFO layers, capitalized-vs-expensed timing, accrual true-ups) as one-time and warn that it unwinds next period.
 
-### Waterfall (bridge) construction
-Order bars: Baseline → volume → price → mix → rate → efficiency → one-time/timing → Actual. Each bar is signed; the running total after the last bar must equal Actual. The waterfall is the visual proof that the decomposition is complete and ties. Common thresholds for decomposing: only bridge lines exceeding materiality (e.g., ≥5% and ≥ a dollar floor) — decompose the two or three drivers leadership can act on, not every line.
+### New / discontinued products, gross vs net
+- **New or discontinued SKUs** have no budget/actual counterpart — treat as **pure mix** or break out as a separate portfolio bar; do not let them distort the price bar.
+- Decide the **revenue basis up front** — gross vs net of returns, rebates, and allowances — and decompose consistently; a basis mismatch is a hidden residual.
+
+### Sign / labeling and materiality
+- Revenue/margin: Actual > Budget = **F**; Cost/expense: Actual < Budget = **F**. A negative dollar variance is not automatically bad — direction depends on the line.
+- Waterfall order: Baseline → volume → mix → price → rate → efficiency → one-time/timing → Actual. Only decompose lines above materiality (e.g. ≥5% and ≥ a dollar floor) — surface the two or three drivers leadership can act on.

@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T21:30:00Z",
+  "updated": "2026-07-11T22:00:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -1713,11 +1713,11 @@
     },
     {
       "name": "fin-variance-analysis",
-      "version": "1.0.0",
-      "description": "Decompose an actual-vs-plan gap into price, volume, mix, and rate drivers that sum to the total, with a waterfall and action-oriented narrative.",
+      "version": "1.1.0",
+      "description": "Decompose an actual-vs-plan gap into price, volume, mix, and rate drivers that tie to the total EXACTLY, solving for any unknown so the bridge closes with zero residual, plus a waterfall and action-oriented narrative.",
       "author": "matrixx0070",
       "path": "skills/fin-variance-analysis/SKILL.md",
-      "sha256": "e510ed48dbb60db0e7d8dec74f5f4522bd2fdffa73bfe56117fd5440439768ae",
+      "sha256": "4b29011de5de3484ad23fb998a5d84d5cdf796fc2f4bfd3b7188ae55e7dbbef9",
       "capabilities": [],
       "tags": [
         "finance",
@@ -1725,7 +1725,8 @@
         "fpa",
         "budget",
         "bridge",
-        "waterfall"
+        "waterfall",
+        "pvm"
       ]
     },
     {
