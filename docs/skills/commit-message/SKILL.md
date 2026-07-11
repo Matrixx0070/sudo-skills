@@ -1,7 +1,7 @@
 ---
 name: commit-message
 version: 1.0.0
-description: Write a conventional-commit message from a description or diff summary - honest subject, wrapped body explaining why, no invented scope or claims.
+description: Turn a diff or plain description into a conventional-commit message - honest type and scope, a why-focused body, breaking changes flagged, nothing invented.
 triggers:
   - commit message
   - write a commit message
@@ -19,30 +19,18 @@ inputs:
 
 # Commit Message
 
-## Purpose
-Produce the commit message a maintainer thanks you for two years later: what changed, why, and what to watch out for.
+## When to use
+Use this when you have a change - a diff, a summary, or a spoken description - and need the commit message a maintainer will thank you for two years later: what changed, why, and what to watch for.
 
-## Hard rules
-1. **Subject ≤ 72 chars, imperative, no period.** `fix(parser): handle empty input` not `Fixed some parser issues.`
-2. **Type and scope must be honest.** `fix` only for behavior corrections; `feat` only for new capability; `refactor` must not change behavior. If the change mixes types, pick the dominant one and mention the rest in the body.
-3. **Body explains WHY, not a line-by-line WHAT.** The diff already shows what; the message records the reasoning, the bug's cause, or the constraint that forced this design.
-4. **State breaking changes and side effects explicitly** (`BREAKING CHANGE:` footer when the convention supports it).
-5. **Never invent.** No ticket numbers, benchmarks, or reviewer names that were not provided. If the change description is too thin to know WHY, say so and write the best honest subject possible.
+**Not for:** PR descriptions or changelogs (those summarize many commits and address users, not future maintainers); release notes; or squashing unrelated changes into one message. If the change does several unrelated things, that is a signal to split the commit, not to write one vague message.
 
-## Workflow
-1. Identify the single dominant intent of the change.
-2. Draft subject: `type(scope): imperative summary`.
-3. Body (wrapped ~72 cols): 1-3 short paragraphs - the problem, the cause or reasoning, anything reviewers/operators must know.
-4. Footers: breaking changes, ticket refs (only if given).
-
-## Output format
-```
-type(scope): subject
-
-<why-focused body>
-
-<footers if any>
-```
+## Method
+1. **Find the single dominant intent.** One change, one reason. If you cannot name it in a phrase, the commit is probably two commits.
+2. **Pick the type honestly.** `fix` = behavior correction; `feat` = new capability; `refactor` = no behavior change; `docs`, `test`, `chore` as they say. *Decision point:* if the change mixes types, choose the dominant one and mention the rest in the body - never label a refactor `fix` to look productive.
+3. **Set the scope from the actual area touched** (`parser`, `auth`). Omit it rather than invent one when the change is broad.
+4. **Write the subject:** `type(scope): imperative summary`, 72 chars max, no trailing period.
+5. **Write the body (wrap ~72 cols).** Explain WHY: the bug's cause, the constraint, the reasoning. The diff already shows what. *Decision point:* if the description is too thin to know why, say so plainly rather than inventing a rationale.
+6. **Add footers.** `BREAKING CHANGE:` for incompatible changes; ticket refs only if given.
 
 ## Example
 **Input:** "we stopped caching user avatars because stale images showed after profile updates, now they get a cache-busting hash in the url"
@@ -57,4 +45,22 @@ hash makes every new upload a new URL, so caches stay hot for
 unchanged avatars while updates appear immediately.
 
 Old cached URLs remain valid until CDN TTL expiry; no purge needed.
+```
+
+## Pitfalls
+- **Restating the diff.** "Changed line 42 in parser.js" is noise; the diff shows that. Record the reason instead.
+- **Dishonest type.** Tagging a behavior change `refactor`, or a cleanup `fix`, so history lies about what happened.
+- **Inventing metadata.** Ticket numbers, benchmarks, or reviewer names that were never provided.
+- **Silent breaking changes.** Shipping an incompatible change with no `BREAKING CHANGE:` footer, so downstream discovers it in production.
+
+## Output format
+```
+type(scope): imperative subject, <=72 chars, no period
+
+Why this change exists: the problem, its cause or the constraint
+that forced this design. Wrapped at ~72 columns. Omit if the
+subject is genuinely self-explanatory.
+
+BREAKING CHANGE: <what breaks and the migration> (only if true)
+Refs: <ticket> (only if provided)
 ```

@@ -1,30 +1,40 @@
 ---
 name: smb-monday-brief
 version: 1.0.0
-description: Produce a Monday one-page briefing covering cash, sales, pipeline, and the top three to-dos.
+description: Produce a one-page Monday briefing covering cash, sales, pipeline, risks, and the top three to-dos for the week.
 author: matrixx0070
-tags: [small-business, briefing, weekly, cash, pipeline]
+tags: [small-business, briefing, weekly, cash, pipeline, planning]
+capabilities: []
 ---
 
 # Monday Brief
 
 ## When to use
-Use this at the start of the week to give the owner a fast, consistent read on where things stand and what to focus on — a repeatable Monday ritual that keeps cash, sales, and pipeline in view.
+Use this at the start of the week to give the owner a fast, consistent read on where things stand and what to focus on — a repeatable Monday ritual that keeps cash, sales, and pipeline in one view.
 
-## METHOD
-1. **Set the week.** State the week starting date and the prior week for comparison.
-2. **Cash line.** Report cash on hand, change over last week, upcoming known outflows (payroll, rent, bills due this week), and runway.
-3. **Sales line.** Show last week's revenue vs target and vs the prior week, plus deals closed.
-4. **Pipeline line.** Summarize deals expected to close this week, their value, and any that slipped.
-5. **Risks and dates.** Note overdue invoices, deadlines, and anything time-sensitive this week.
-6. **Pick the top 3 to-dos.** Convert the above into the three highest-impact actions for the week, each with why it matters.
+**Not for:** deep monthly close (use smb-month-end-prep); a 30-day cash forecast (use smb-month-heads-up); anything that actually contacts customers or moves money — this brief only recommends.
 
-Keep it to one page. This is an internal briefing; any customer outreach or spending it suggests is for the owner to approve.
+## Method
+1. **Set the frame.** State the week-starting date and the prior week you're comparing against.
+2. **Cash line.** Cash on hand, change vs last week, known outflows due this week (payroll, rent, bills), and runway.
+3. **Sales line.** Last week's revenue vs target and vs prior week, plus deals closed.
+4. **Pipeline line.** Deals expected to close this week with value, and any that slipped. Decision point: if a deal slipped twice, flag it as at-risk rather than "still expected."
+5. **Risks and dates.** Overdue invoices, deadlines, and anything time-sensitive this week.
+6. **Pick the top 3 to-dos.** Convert the above into the three highest-impact actions, each with a one-line why. Decision point: if cash runway is under one payroll cycle, one to-do must address it. Keep it to one page; any outreach or spend it suggests is for the owner to approve.
 
-## OUTPUT FORMAT
+## Example
+Week of Mar 4 (vs Feb 26). Cash $18,400, down $2,100; rent $3,000 due Fri; runway ~6 weeks. Sales last week $9,200 vs $11,000 target (-16%), 3 deals closed. Pipeline: 2 deals ~$7,500 expected to close; the Acme deal slipped a second week — flag at-risk. Risks: Invoice #217 ($4,300) is 22 days overdue. Top 3: (1) Chase #217 today — biggest fast cash lever. (2) Confirm or drop Acme — stop forecasting a ghost. (3) Book two demos to refill a thin pipeline.
+
+## Pitfalls
+- Turning it into a data dump; the value is three decisions, not thirty numbers.
+- Reporting revenue with no target or prior-week anchor — a number alone says nothing.
+- Carrying a perpetually "expected" deal week after week without flagging the slip.
+- Writing vague to-dos ("improve sales"); each must be a concrete action someone can do this week.
+
+## Output format
 - **Week of / vs prior week.**
-- **Cash:** on hand, change, outflows due this week, runway.
-- **Sales:** last week vs target/prior, deals closed.
-- **Pipeline:** closing this week (value), slipped deals.
+- **Cash:** on hand | change | outflows due this week | runway.
+- **Sales:** last week vs target/prior | deals closed.
+- **Pipeline:** closing this week (value) | slipped/at-risk deals.
 - **This week's risks & key dates.**
-- **Top 3 to-dos:** action + why.
+- **Top 3 to-dos:** action + why (owner approves any outreach or spend).

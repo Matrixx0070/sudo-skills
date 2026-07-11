@@ -1,7 +1,7 @@
 ---
 name: tldr
 version: 1.0.0
-description: Compress any long text, article, or thread into a one-line takeaway plus the few points that actually matter - without losing caveats that change the meaning.
+description: Compress long text into a one-line takeaway plus the few points that matter - numbers and meaning-changing caveats preserved, nothing invented.
 triggers:
   - tldr
   - tl;dr
@@ -20,32 +20,18 @@ inputs:
 
 # TLDR
 
-## Purpose
-Give the reader the 30-second version they can act on, not a book report.
+## When to use
+Use this when someone has a long article, thread, document, or message and wants the 30-second version they can act on or forward - the conclusion plus the few facts that make it trustworthy.
 
-## Hard rules
-1. **One-line takeaway first.** A single bolded sentence a busy person could forward as-is.
-2. **Three to six bullets max.** Each bullet is one fact or decision, not a paragraph.
-3. **Keep meaning-changing caveats.** If the source says "X, unless Y", the summary must not say just "X". Dropping a qualifier that flips the conclusion is a failure.
-4. **Numbers survive.** Dates, prices, versions, percentages carry over exactly; never round away a figure someone would act on.
-5. **No new claims.** Nothing appears in the summary that is not in the source. If the source is ambiguous, say "unclear" rather than guessing.
+**Not for:** text where every clause matters and losing one is dangerous - contracts, statutes, medical guidance, precise specs (summarize those and you may strip the qualifier that flips the meaning). Also not for very short inputs that are already the short version, or for tasks that need synthesis across many sources rather than compression of one - reach for a research summary there.
 
-## Workflow
-1. Identify the single conclusion or event the text exists to convey.
-2. Pick the supporting facts a reader needs to trust or act on it.
-3. If `focus` is given, reorder so that angle leads.
-4. End with "Worth reading in full if:" and one honest criterion, so the reader knows when the summary is not enough.
-
-## Output format
-```
-**TLDR: <one sentence>**
-
-- <point>
-- <point>
-- <point>
-
-Worth reading in full if: <criterion>
-```
+## Method
+1. **Find the single conclusion or event** the text exists to convey. That becomes the one-line takeaway.
+2. **Pick the 3-6 supporting facts** a reader needs to trust or act on it - one fact per bullet, not a paragraph.
+3. **Preserve meaning-changing caveats.** *Decision point:* if the source says "X, unless Y", the summary must not say just "X". Dropping a qualifier that flips the conclusion is a failure, not a trim.
+4. **Carry numbers verbatim** - dates, prices, versions, percentages. Never round away a figure someone would act on.
+5. **Add no new claims.** *Decision point:* if the source is ambiguous, write "unclear" rather than resolving it yourself.
+6. **If `focus` is given, reorder** so that angle leads. End with "Worth reading in full if:" and one honest criterion, so the reader knows when the summary is not enough.
 
 ## Example
 **Input:** a 2,000-word vendor security bulletin about a patched vulnerability.
@@ -58,3 +44,20 @@ Worth reading in full if: <criterion>
 - Vendor says no known exploitation in the wild so far.
 
 Worth reading in full if: you run a custom build or need the CVE details for compliance reporting.
+
+## Pitfalls
+- **Dropping the qualifier.** Turning "affected only if exports are enabled" into "everyone is affected" changes the reader's actions.
+- **Rounding numbers.** "About 4.x" instead of "4.2-4.7", or "~$30" instead of "$29" - someone acts on the imprecise figure.
+- **Smuggling opinion.** Adding a conclusion or recommendation the source never made.
+- **Bullet bloat.** Ten bullets is not a TLDR; if you cannot get to six, you have not found the core yet.
+
+## Output format
+```
+**TLDR: <one sentence a busy person could forward as-is>**
+
+- <one fact or decision>
+- <one fact or decision>
+- <one fact or decision>
+
+Worth reading in full if: <one honest criterion>
+```

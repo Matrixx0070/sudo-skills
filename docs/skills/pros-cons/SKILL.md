@@ -1,7 +1,7 @@
 ---
 name: pros-cons
 version: 1.0.0
-description: Structure a decision into weighted pros and cons with a recommendation - steelmanning both sides and separating reversible from irreversible consequences.
+description: Structure a decision into steelmanned, impact-weighted pros and cons - irreversible consequences flagged, the decisive unknown named, and a clear recommendation you can reject.
 triggers:
   - pros and cons
   - help me decide
@@ -20,32 +20,18 @@ inputs:
 
 # Pros / Cons
 
-## Purpose
-Turn "should I...?" into a decision the person can defend: both sides argued properly, consequences sized, and a recommendation they are free to reject.
+## When to use
+Use this when someone faces a real "should I...?" choice with genuine tradeoffs and wants a decision they can defend: both sides argued properly, consequences sized, and a recommendation they are free to override.
 
-## Hard rules
-1. **Steelman both sides.** The strongest argument FOR and the strongest argument AGAINST must both appear, stated as their best advocate would put them - not a strawman padded with filler points.
-2. **Size the consequences.** Mark each point high/medium/low impact. Ten trivial pros do not beat one high-impact con; never present counts as the verdict.
-3. **Flag irreversibility.** Any consequence that cannot be undone (data loss, burned relationship, signed contract, public statement) gets an explicit "one-way door" marker and extra weight.
-4. **Surface the missing fact.** If one unknown would settle the decision, name it before recommending - sometimes the right answer is "find X out first".
-5. **Recommend, do not hedge.** End with a clear recommendation and its single biggest risk. "It depends" without saying on WHAT is banned.
+**Not for:** decisions with an obvious right answer (a pros/cons theater wastes everyone's time), choices that are purely a matter of taste, or situations that are actually blocked on a fact nobody has gathered yet - there the move is "find X out first," which this method surfaces but does not replace. Not a substitute for domain expertise on high-stakes safety, legal, or medical calls.
 
-## Workflow
-1. Restate the decision in one sentence, including the do-nothing option if it exists.
-2. List pros and cons, each tagged (high/med/low) and marked ⛔ if a one-way door.
-3. Note the decisive unknown, if any.
-4. Recommendation: one option, why in two lines, biggest risk in one.
-
-## Output format
-```
-**Decision:** ...
-
-**For** ...
-**Against** ...
-
-**Decisive unknown:** <or "none">
-**Recommendation:** <option> — <why>. Biggest risk: <one line>.
-```
+## Method
+1. **Restate the decision in one sentence,** including the do-nothing option if it is viable - often it is the real baseline.
+2. **Steelman both sides.** *Decision point:* write the strongest argument FOR and the strongest AGAINST as their best advocate would - if one side reads weaker, you have not steelmanned it, you have strawmanned it.
+3. **Size each point high / med / low impact.** Ten trivial pros do not outweigh one high-impact con; never let the count decide.
+4. **Flag irreversibility.** *Decision point:* any consequence that cannot be undone - data loss, burned relationship, signed contract, public statement - gets a "one-way door" marker and extra weight.
+5. **Name the decisive unknown,** if one fact would settle it. Sometimes the honest recommendation is to go learn that fact cheaply first.
+6. **Recommend one option** in two lines, and state its single biggest risk. "It depends" is banned unless you say exactly what it depends on.
 
 ## Example
 **Input:** "should we rewrite the billing service in Go or keep patching the Node one"
@@ -53,8 +39,28 @@ Turn "should I...?" into a decision the person can defend: both sides argued pro
 **Output (abridged):**
 **Decision:** Rewrite billing in Go now, or keep patching Node (do-nothing is viable).
 
-**For rewrite:** (high) chronic memory leaks have caused 3 billing incidents this quarter; (med) team already runs 4 Go services.
-**Against:** (high, ⛔) 2-3 months where bugs land in TWO codebases during migration; (med) the leak might be fixable in days if profiled properly - nobody has actually tried.
+**For rewrite:** (high) chronic memory leaks caused 3 billing incidents this quarter; (med) team already runs 4 Go services.
+**Against:** (high, one-way door) 2-3 months where bugs land in TWO codebases during migration; (med) the leak might be fixable in days if profiled - nobody has tried.
 
 **Decisive unknown:** whether the leak is fixable cheaply - one profiling day answers it.
-**Recommendation:** Spend 2 days profiling before deciding. Biggest risk: the leak looks fixable, gets patched, and the underlying architecture debt resurfaces in 6 months.
+**Recommendation:** Spend 2 days profiling before deciding. Biggest risk: the leak looks fixable, gets patched, and the architecture debt resurfaces in 6 months.
+
+## Pitfalls
+- **Strawmanning the loser.** Writing a weak version of the side you already reject so the "analysis" just confirms your prior.
+- **Counting instead of weighing.** Declaring the side with more bullets the winner regardless of impact.
+- **Missing the one-way door.** Treating an irreversible cost as just another medium con.
+- **Cowardly ending.** Closing with "it depends" and no recommendation, leaving the person exactly where they started.
+
+## Output format
+```
+**Decision:** <one sentence, include the do-nothing option if viable>
+
+**For** <option>
+- (high|med|low)[, one-way door] <steelmanned point>
+
+**Against** <option>
+- (high|med|low)[, one-way door] <steelmanned point>
+
+**Decisive unknown:** <the one fact that would settle it, or "none">
+**Recommendation:** <option> - <why, two lines>. Biggest risk: <one line>.
+```

@@ -1,31 +1,53 @@
 ---
 name: mkt-campaign-plan
 version: 1.0.0
-description: Produce a complete marketing campaign brief covering objectives, audience, channels, calendar, and success metrics.
+description: Produce an execution-ready marketing campaign brief covering objective, audience, positioning, channels, calendar, and success metrics.
 author: matrixx0070
-tags: [marketing, campaign, strategy, planning, brief]
+tags: [marketing, campaign, strategy, planning, brief, gtm]
 capabilities: []
 ---
 
-When to use this skill when you are launching a product, promotion, event, or awareness push and need a single coherent brief that stakeholders can execute against, rather than scattered ideas.
+## When to use
 
-METHOD
+Use this when you are launching a product, promotion, event, or awareness push and need one coherent brief that stakeholders can execute against — not scattered ideas in a thread.
 
-1. Clarify the goal. Establish the primary business objective (awareness, leads, revenue, retention) and one measurable target. If unstated, propose a default and label it an assumption.
-2. Define the audience. Segment the target market, write a primary and secondary persona (pains, triggers, objections), and state the core insight the campaign exploits.
-3. Set positioning. Craft the single big idea, the value proposition, and the primary message with 2-3 supporting proof points.
-4. Select channels. Map each channel to a funnel stage (awareness/consideration/conversion), with rationale and rough budget split.
-5. Build the calendar. Sequence phases (tease, launch, sustain, close) with dates, owners, and deliverables per channel.
-6. Define measurement. Set KPIs per objective, leading and lagging indicators, and a review cadence.
+**Not for:** a single asset (use mkt-draft-content), a month of routine posting (use mkt-content-calendar), or reporting on a campaign that already ran (use mkt-performance-report).
+
+## Method
+
+1. Clarify the goal. Fix the primary business objective (awareness, leads, revenue, retention) and one measurable target. Decision point: if no target is given, propose a default and label it an assumption.
+2. Define the audience. Segment the market, write a primary and secondary persona (pains, triggers, objections), and state the core insight the campaign exploits.
+3. Set positioning. Craft the single big idea, the value proposition, and the primary message with 2-3 proof points.
+4. Select channels. Map each channel to a funnel stage (awareness/consideration/conversion) with rationale and a rough budget split. Decision point: drop any channel you cannot resource properly rather than spreading thin.
+5. Build the calendar. Sequence phases (tease, launch, sustain, close) with dates, owners, and per-channel deliverables.
+6. Define measurement. Set KPIs per objective plus leading and lagging indicators and a review cadence.
 7. Flag risks and dependencies (assets, approvals, budget, timing).
 
-OUTPUT FORMAT
+## Example
 
-- Campaign name and one-line pitch.
-- Objectives and target metric(s).
-- Audience and personas.
-- Positioning and key messages.
-- Channel plan table: Channel | Funnel stage | Goal | Budget % | KPI.
-- Timeline / calendar table: Phase | Dates | Deliverables | Owner.
-- Success metrics and review cadence.
-- Risks and dependencies.
+Objective: 500 trial signups in 6 weeks for a new analytics tool. Insight: mid-market ops leads distrust "AI magic" and want proof. Big idea: "See the math." Channels: LinkedIn thought leadership (awareness, 40%), retargeting ads (consideration, 30%), founder-led webinar + email (conversion, 30%). Phases: tease (wk1), launch webinar (wk2), sustain (wk3-5), close offer (wk6). KPI: signups; leading indicator: webinar registrations.
+
+## Pitfalls
+
+- Vague objectives ("more awareness") with no number to judge success against.
+- Listing every channel instead of the few you can execute well.
+- Positioning that describes the product's features rather than the customer's changed state.
+- A calendar with no owners, so nothing actually ships.
+
+## Output format
+
+```
+Campaign: <name> — <one-line pitch>
+Objective + target metric: <...>
+Audience & personas: <primary / secondary>
+Positioning: <big idea, value prop, key message + proof>
+
+Channel plan:
+| Channel | Funnel stage | Goal | Budget % | KPI |
+
+Timeline:
+| Phase | Dates | Deliverables | Owner |
+
+Success metrics & review cadence: <...>
+Risks & dependencies: <...>
+```

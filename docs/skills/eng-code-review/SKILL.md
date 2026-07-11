@@ -1,26 +1,55 @@
 ---
 name: eng-code-review
 version: 1.0.0
-description: Review a diff or pull request for correctness, security, and performance with specific, actionable, severity-ranked findings.
+description: Review a diff or pull request for correctness, security, and performance, returning specific, severity-ranked, fix-ready findings anchored to file and line.
 author: matrixx0070
-tags: [code-review, security, performance, correctness, quality]
+tags: [code-review, security, performance, correctness, quality, pull-request]
 capabilities: []
 ---
 
-When to use: any time you are handed a diff, PR, or patch to assess before merge. Review the change, not the whole codebase, but read enough surrounding context to judge impact.
+## When to use
 
-METHOD
-1. Understand intent first. Read the description and the diff; restate what the change is supposed to do. If intent is unclear, that is your first finding.
-2. Correctness: trace edge cases — empty/null inputs, off-by-one, timezone/locale, concurrency and race conditions, error paths, partial failure, idempotency.
-3. Security: check for injection (SQL/command/template), missing authz checks, unvalidated input, secrets in code, unsafe deserialization, SSRF, and leaky error messages.
-4. Performance: hunt N+1 queries, unbounded loops/allocations, missing indexes, synchronous work in hot paths, and chatty network calls.
-5. Design & maintainability: naming, duplication, dead code, test coverage of the new logic, and backward compatibility.
-6. Rank each finding Critical / Major / Minor / Nit. Quote the file and line, explain the risk, and propose a concrete fix.
+Any time you are handed a diff, PR, or patch to assess before merge. Review the change, but read enough surrounding context to judge its blast radius.
 
-Be direct but not exhaustive-for-its-own-sake — prioritize findings that would cause bugs, breaches, or outages.
+**Not for:** whole-codebase audits, style bikeshedding a formatter already handles, or rewriting the author's approach when the existing one is correct. Review what changed, not what you'd have written.
 
-OUTPUT FORMAT
-- Summary (1-2 lines: intent + overall verdict)
-- Verdict: Approve / Approve-with-nits / Request-changes / Block
-- Findings (grouped by severity): `path:line` — issue — why it matters — suggested fix
-- Questions for author (if any)
+## Method
+
+1. **Understand intent first.** Read the description and diff; restate what the change should do. If intent is unclear, that is finding #1 — stop and ask.
+2. **Correctness.** Trace edge cases: empty/null inputs, off-by-one, timezone/locale, concurrency and races, error paths, partial failure, idempotency. If the change touches shared state or async flow, escalate scrutiny here.
+3. **Security.** Check injection (SQL/command/template), missing authz, unvalidated input, secrets in code, unsafe deserialization, SSRF, and leaky error messages. If the diff touches an auth or trust boundary, treat every input as hostile.
+4. **Performance.** Hunt N+1 queries, unbounded loops/allocations, missing indexes, synchronous work in hot paths, chatty network calls.
+5. **Design & maintainability.** Naming, duplication, dead code, test coverage of the new logic, backward compatibility.
+6. **Rank each finding** Critical / Major / Minor / Nit. Quote `path:line`, explain the concrete risk, propose a fix.
+7. **Set the verdict from the worst finding**: any Critical or unaddressed Major ⇒ Request-changes or Block; only Nits ⇒ Approve-with-nits.
+
+Prioritize findings that cause bugs, breaches, or outages over stylistic preference.
+
+## Example
+
+```
+Finding (Critical) — src/api/orders.ts:88
+  `db.query("... WHERE id=" + req.params.id)` — SQL injection via `id`.
+  Why: `id` is unvalidated user input concatenated into SQL.
+  Fix: use a parameterized query: db.query("... WHERE id=$1", [id]).
+```
+
+## Pitfalls
+
+- **Approving because it "looks fine"** without tracing the error and concurrency paths.
+- **Vague findings** ("this could be cleaner") with no line, risk, or suggested fix — unactionable noise.
+- **Nit-flooding** that buries the one Critical under twenty style comments.
+- **Missing the diff's blast radius** — a changed shared helper affects every caller; check them.
+
+## Output format
+
+```
+Summary: <1-2 lines: intent + overall verdict>
+Verdict: Approve | Approve-with-nits | Request-changes | Block
+Findings:
+  [Critical] path:line — issue — why it matters — suggested fix
+  [Major]    path:line — ...
+  [Minor]    path:line — ...
+  [Nit]      path:line — ...
+Questions for author: <blocking unknowns, if any>
+```

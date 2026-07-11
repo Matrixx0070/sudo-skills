@@ -1,15 +1,14 @@
 ---
 name: email-polish
 version: 1.0.0
-description: Rewrite the owner's raw email drafts into a warm, friendly-but-professional tone without changing intent, facts, names, dates, or requests.
+description: Rewrite a blunt or rough email draft into a warm, friendly-but-professional version - tone and clarity improved, intent, facts, names, dates, and requests preserved exactly.
 triggers:
   - polish this email
   - email-polish
   - make this email sound better
   - rewrite my email
   - friendly professional email
-capabilities:
-  - fs.read
+capabilities: []
 inputs:
   - name: raw_email
     required: true
@@ -24,56 +23,48 @@ inputs:
 
 # Email Polish
 
-## Purpose
-Take a rough or blunt email draft and return a version that reads as **friendly but professional** — warm, clear, and respectful — while preserving the original meaning exactly.
+## When to use
+Use this when you have a rough, blunt, terse, or frustrated email draft and want it to read as friendly but professional - warm, clear, respectful - without changing what it actually says.
 
-## Hard rules (never break)
-1. **Preserve intent.** Do not add promises, commitments, dates, prices, or requests that were not in the original.
-2. **Preserve facts.** Keep every name, date, number, link, and specific detail unchanged.
-3. **No invented content.** If a detail is missing (e.g. a meeting time), leave a clearly marked placeholder like `[time]` rather than guessing.
-4. **Keep it the owner's message.** Improve tone and flow, not the substance or the decision.
-5. **Match length sensibly.** A short note stays short. Don't pad a two-line email into five paragraphs.
+**Not for:** writing an email from scratch when there is no draft or intent to work from (you would have to invent the content); translating between languages; or softening a message whose whole point is to be firm and formal, such as a legal notice or final warning - there, over-warming the tone defeats the purpose. Do not use it to add commitments, dates, or promises the owner did not make.
 
-## Tone target
-- Warm opening, but not gushing. One friendly line max before the point.
-- Direct and clear in the middle — say what's needed without hedging.
-- Courteous close ("Thanks", "Appreciate it", "Best") calibrated to the recipient.
-- Contractions are fine (it's, I'll). Avoid corporate filler ("per my last email", "circling back", "synergy").
-- Never passive-aggressive. If the draft is frustrated, soften the edge while keeping the point firm.
+## Method
+1. **Read the draft and extract three things:** the core ask, the key facts (names, dates, numbers, links), and the emotional register.
+2. **Calibrate formality from the recipient.** *Decision point:* unknown / senior / external -> "Hi Dr. Lee," and no slang; known colleague -> "Hey Sam," relaxed close; recipient unknown -> default to a safe friendly-professional register.
+3. **Rewrite paragraph by paragraph,** keeping the original structure unless it is genuinely unclear. Warm opening (one friendly line, not gushing), direct middle, courteous close.
+4. **Preserve every fact verbatim.** Names, dates, numbers, links, requests carry over unchanged. *Decision point:* if a needed detail is missing (a meeting time), insert a clear placeholder like `[time]` rather than guessing.
+5. **Fix grammar, spelling, and awkward phrasing.** Cut corporate filler ("per my last email", "circling back"). Never let the tone turn passive-aggressive; keep a frustrated draft firm but not sharp.
+6. **Ensure a subject line exists;** propose one if absent. Match length to the original - a two-liner stays short.
 
-## Formality calibration
-- **Unknown / senior / external recipient** → slightly more formal: full greeting ("Hi Dr. Lee,"), no slang.
-- **Known colleague / friendly** → relaxed: "Hey Sam," casual sign-off.
-- If `recipient` is not provided, default to a safe, universally-appropriate friendly-professional register.
+## Example
+**Input (raw):** hey need the report by friday its late again. send it.
 
-## Workflow
-1. Read `raw_email`. Identify: the core ask, key facts, and the emotional register.
-2. Rewrite paragraph by paragraph, keeping structure unless it's genuinely unclear.
-3. Fix grammar, spelling, and awkward phrasing.
-4. Ensure a clear subject line exists — if none, propose one prefixed with `Subject:`.
-5. Return the polished email only. If any placeholder was inserted, list them in a short `Notes:` line below.
+**Output:**
+```
+Subject: Report - Friday deadline
+
+Hi [name],
+
+Hope you're doing well. Quick note - could you get the report over to
+me by Friday? It's slipped a couple of times now, so I want to make
+sure we stay on track this week.
+
+Thanks a lot,
+[Your name]
+```
+
+## Pitfalls
+- **Scope creep.** Adding a promise, apology, or deadline the owner never wrote turns a polish into a fabrication.
+- **Padding.** Inflating a two-line note into five paragraphs of pleasantries wastes the reader's time.
+- **Guessing missing facts.** Inventing a time or name instead of leaving a marked placeholder.
+- **Buried point.** So much warmth up front that the actual ask disappears; keep the middle direct.
 
 ## Output format
 ```
 Subject: <line>
 
-<polished email body>
+<polished email body: warm open, direct middle, courteous close>
 
-Notes: <only if placeholders or judgment calls were made; omit otherwise>
-```
-
-## Example
-**Input (raw):**
-> hey need the report by friday its late again. send it.
-
-**Output:**
-```
-Subject: Report — Friday deadline
-
-Hi [name],
-
-Hope you're doing well. Just a quick note — could you get the report over to me by Friday? It's slipped a couple of times now, so I want to make sure we stay on track this week.
-
-Thanks a lot,
-[Your name]
+Notes: <only if placeholders were inserted or a judgment call was
+made; omit this line entirely otherwise>
 ```
