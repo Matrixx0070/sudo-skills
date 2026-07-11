@@ -2,7 +2,7 @@
   "registry": "sudo-plugins",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T18:30:00Z",
+  "updated": "2026-07-11T19:30:00Z",
   "plugins": [
     {
       "name": "engineering",
@@ -509,6 +509,128 @@
         "devops",
         "platform",
         "infra"
+      ]
+    },
+    {
+      "name": "ai-engineering",
+      "displayName": "AI Engineering",
+      "category": "development",
+      "description": "Build LLM-powered apps \u2014 prompt design, RAG pipelines, eval harnesses, agent design, guardrails, fine-tune decisions, cost/latency. A SUDO-only role Claude has no first-party bundle for.",
+      "skills": [
+        "ai-prompt-design",
+        "ai-rag-pipeline",
+        "ai-eval-harness",
+        "ai-agent-design",
+        "ai-guardrails",
+        "ai-fine-tune-plan",
+        "ai-cost-latency"
+      ],
+      "connectors": [
+        "langfuse",
+        "github"
+      ],
+      "tags": [
+        "ai",
+        "llm",
+        "rag",
+        "agents"
+      ]
+    },
+    {
+      "name": "personal-assistant",
+      "displayName": "Personal Assistant",
+      "category": "personal",
+      "description": "Life-admin for a digital life form \u2014 inbox triage, schedule optimization, travel, reminders, bills, gifts, daily digest. Confirms before spending or messaging. SUDO-only.",
+      "skills": [
+        "pa-inbox-triage",
+        "pa-schedule-optimizer",
+        "pa-travel-planner",
+        "pa-reminder-system",
+        "pa-bill-tracker",
+        "pa-gift-finder",
+        "pa-daily-digest"
+      ],
+      "connectors": [
+        "gmail",
+        "google-calendar",
+        "todoist"
+      ],
+      "tags": [
+        "personal",
+        "assistant",
+        "life-admin"
+      ]
+    },
+    {
+      "name": "growth",
+      "displayName": "Growth",
+      "category": "data",
+      "description": "Growth & product analytics \u2014 funnels, A/B tests, retention/churn, activation, referral loops, experiments, cohorts. Distinct from marketing. SUDO-only.",
+      "skills": [
+        "gro-funnel-analysis",
+        "gro-ab-test-design",
+        "gro-retention-analysis",
+        "gro-activation-optimize",
+        "gro-referral-loop",
+        "gro-growth-experiment",
+        "gro-cohort-analysis"
+      ],
+      "connectors": [
+        "posthog",
+        "amplitude",
+        "google-analytics"
+      ],
+      "tags": [
+        "growth",
+        "experiments",
+        "analytics"
+      ]
+    },
+    {
+      "name": "content-creator",
+      "displayName": "Content Creator",
+      "category": "communication",
+      "description": "Creator-economy workflows \u2014 video scripts, thumbnails, high-CTR titles, newsletters, short-form, audience growth, repurposing. SUDO-only.",
+      "skills": [
+        "cc-video-script",
+        "cc-thumbnail-brief",
+        "cc-title-hooks",
+        "cc-newsletter",
+        "cc-short-form",
+        "cc-audience-growth",
+        "cc-repurpose"
+      ],
+      "connectors": [
+        "youtube",
+        "canva"
+      ],
+      "tags": [
+        "creator",
+        "video",
+        "content"
+      ]
+    },
+    {
+      "name": "education",
+      "displayName": "Education",
+      "category": "learning",
+      "description": "Learning design & tutoring \u2014 curriculum, lesson plans, quizzes, explainers, study plans, rubrics, Socratic tutoring. SUDO-only.",
+      "skills": [
+        "edu-curriculum-design",
+        "edu-lesson-plan",
+        "edu-quiz-builder",
+        "edu-explainer",
+        "edu-study-plan",
+        "edu-rubric-design",
+        "edu-tutor-session"
+      ],
+      "connectors": [
+        "notion"
+      ],
+      "tags": [
+        "education",
+        "learning",
+        "tutoring"
       ]
     }
   ]

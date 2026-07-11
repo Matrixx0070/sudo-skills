@@ -2,54 +2,676 @@
   "registry": "sudo-connectors",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T18:00:00Z",
+  "updated": "2026-07-11T19:30:00Z",
   "connectors": [
-    { "name": "github", "displayName": "GitHub", "description": "GitHub's official MCP server. Repos, issues, PRs, code search, Actions/CI over Streamable HTTP.", "category": "development", "transport": "http", "url": "https://api.githubcopilot.com/mcp/", "authEnvKey": "GITHUB_MCP_PAT", "verified": true, "live": true, "tags": ["git", "code", "ci", "issues"] },
-    { "name": "playwright", "displayName": "Playwright", "description": "Browser automation — navigate, click, type, screenshot, scrape via headless Chromium.", "category": "development", "transport": "stdio", "command": "npx", "args": ["-y", "@playwright/mcp@latest"], "verified": true, "live": true, "tags": ["browser", "automation", "scraping"] },
-    { "name": "filesystem", "displayName": "Filesystem", "description": "Local filesystem access scoped to a workspace directory — read, write, list.", "category": "productivity", "transport": "stdio", "command": "npx", "args": ["-y", "@modelcontextprotocol/server-filesystem", "/root/sudo-ai-v4/workspace"], "verified": true, "live": true, "tags": ["files", "local"] },
-    { "name": "memory", "displayName": "Knowledge Graph Memory", "description": "Persistent knowledge-graph memory (entities, relations, observations).", "category": "productivity", "transport": "stdio", "command": "npx", "args": ["-y", "@modelcontextprotocol/server-memory"], "verified": true, "live": true, "tags": ["memory", "notes"] },
-    { "name": "sequentialthinking", "displayName": "Sequential Thinking", "description": "Structured step-by-step reasoning and problem decomposition.", "category": "productivity", "transport": "stdio", "command": "npx", "args": ["-y", "@modelcontextprotocol/server-sequentialthinking"], "verified": true, "live": true, "tags": ["reasoning", "planning"] },
-    { "name": "git", "displayName": "Git", "description": "Local git repository operations — status, diff, log, commit, branches.", "category": "development", "transport": "stdio", "command": "uvx", "args": ["mcp-server-git"], "verified": true, "live": true, "tags": ["git", "vcs"] },
-    { "name": "pdf", "displayName": "PDF Viewer", "description": "Interactive PDF viewer — annotate, highlight, stamp, fill forms, place signatures.", "category": "productivity", "transport": "stdio", "command": "npx", "args": ["-y", "@modelcontextprotocol/server-pdf", "--stdio"], "verified": true, "live": true, "tags": ["pdf", "documents", "signature"] },
-    { "name": "fetch", "displayName": "Fetch", "description": "Fetch a URL and return its content as markdown for the model to read.", "category": "development", "transport": "stdio", "command": "uvx", "args": ["mcp-server-fetch"], "verified": true, "live": true, "tags": ["web", "fetch"] },
-    { "name": "time", "displayName": "Time", "description": "Time and timezone utilities — current time, conversions.", "category": "productivity", "transport": "stdio", "command": "uvx", "args": ["mcp-server-time"], "verified": true, "live": true, "tags": ["time", "timezone"] },
-
-    { "name": "slack", "displayName": "Slack", "description": "Read/post messages, list channels, search a Slack workspace. Requires Slack OAuth.", "category": "communication", "requiresOAuth": true, "live": false, "tags": ["chat", "team"] },
-    { "name": "gmail", "displayName": "Gmail", "description": "Read, search, and send email in Gmail. Requires Google OAuth.", "category": "communication", "requiresOAuth": true, "live": false, "tags": ["email", "google"] },
-    { "name": "google-drive", "displayName": "Google Drive", "description": "Search and read files in Google Drive. Requires Google OAuth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["files", "google"] },
-    { "name": "google-calendar", "displayName": "Google Calendar", "description": "Read and manage calendar events. Requires Google OAuth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["calendar", "google"] },
-    { "name": "notion", "displayName": "Notion", "description": "Read and update Notion pages and databases. Requires a Notion token.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["docs", "wiki"] },
-    { "name": "linear", "displayName": "Linear", "description": "Manage Linear issues, projects, and cycles. Requires Linear OAuth.", "category": "development", "requiresOAuth": true, "live": false, "tags": ["issues", "pm"] },
-    { "name": "atlassian", "displayName": "Jira / Confluence", "description": "Atlassian Jira issues and Confluence pages. Requires Atlassian OAuth.", "category": "development", "requiresOAuth": true, "live": false, "tags": ["issues", "wiki"] },
-    { "name": "asana", "displayName": "Asana", "description": "Manage Asana tasks and projects. Requires Asana OAuth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["tasks", "pm"] },
-    { "name": "monday", "displayName": "monday.com", "description": "Manage monday.com boards and items. Requires monday OAuth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["pm", "boards"] },
-    { "name": "clickup", "displayName": "ClickUp", "description": "Manage ClickUp tasks, docs, and spaces. Requires ClickUp OAuth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["tasks", "pm"] },
-    { "name": "hubspot", "displayName": "HubSpot", "description": "CRM contacts, deals, and pipeline in HubSpot. Requires HubSpot OAuth.", "category": "sales", "requiresOAuth": true, "live": false, "tags": ["crm", "sales"] },
-    { "name": "salesforce", "displayName": "Salesforce", "description": "Salesforce CRM records, opportunities, and reports. Requires Salesforce OAuth.", "category": "sales", "requiresOAuth": true, "live": false, "tags": ["crm", "sales"] },
-    { "name": "apollo", "displayName": "Apollo.io", "description": "Prospect, enrich leads, and load outreach sequences. Requires Apollo API key.", "category": "sales", "requiresOAuth": true, "live": false, "tags": ["prospecting", "sales"] },
-    { "name": "zoominfo", "displayName": "ZoomInfo", "description": "Company/contact search, lead enrichment, lookalikes. Requires ZoomInfo auth.", "category": "sales", "requiresOAuth": true, "live": false, "tags": ["enrichment", "sales"] },
-    { "name": "intercom", "displayName": "Intercom", "description": "Customer conversations, tickets, and help content. Requires Intercom OAuth.", "category": "communication", "requiresOAuth": true, "live": false, "tags": ["support", "chat"] },
-    { "name": "zendesk", "displayName": "Zendesk", "description": "Support tickets and knowledge base in Zendesk. Requires Zendesk OAuth.", "category": "communication", "requiresOAuth": true, "live": false, "tags": ["support", "tickets"] },
-    { "name": "guru", "displayName": "Guru", "description": "Company knowledge cards and verification in Guru. Requires Guru auth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["knowledge", "wiki"] },
-    { "name": "snowflake", "displayName": "Snowflake", "description": "Query the Snowflake data warehouse. Requires Snowflake auth.", "category": "data", "requiresOAuth": true, "live": false, "tags": ["warehouse", "sql"] },
-    { "name": "databricks", "displayName": "Databricks", "description": "Query Databricks lakehouse and run notebooks. Requires Databricks auth.", "category": "data", "requiresOAuth": true, "live": false, "tags": ["lakehouse", "sql"] },
-    { "name": "bigquery", "displayName": "BigQuery", "description": "Query Google BigQuery datasets. Requires Google OAuth.", "category": "data", "requiresOAuth": true, "live": false, "tags": ["warehouse", "sql"] },
-    { "name": "amplitude", "displayName": "Amplitude", "description": "Product analytics events and charts. Requires Amplitude auth.", "category": "data", "requiresOAuth": true, "live": false, "tags": ["analytics", "product"] },
-    { "name": "quickbooks", "displayName": "QuickBooks", "description": "Accounting — invoices, ledger, reports in QuickBooks. Requires Intuit OAuth.", "category": "finance", "requiresOAuth": true, "live": false, "tags": ["accounting", "finance"] },
-    { "name": "stripe", "displayName": "Stripe", "description": "Payments, customers, and payouts in Stripe. Requires Stripe API key.", "category": "finance", "requiresOAuth": true, "live": false, "tags": ["payments", "finance"] },
-    { "name": "paypal", "displayName": "PayPal", "description": "Payments, invoices, and disputes in PayPal. Requires PayPal OAuth.", "category": "finance", "requiresOAuth": true, "live": false, "tags": ["payments", "finance"] },
-    { "name": "square", "displayName": "Square", "description": "Point-of-sale, payments, and catalog in Square. Requires Square OAuth.", "category": "finance", "requiresOAuth": true, "live": false, "tags": ["payments", "pos"] },
-    { "name": "docusign", "displayName": "DocuSign", "description": "Send, sign, and track e-signature envelopes. Requires DocuSign OAuth.", "category": "legal", "requiresOAuth": true, "live": false, "tags": ["esignature", "legal"] },
-    { "name": "figma", "displayName": "Figma", "description": "Read design context and generate diagrams from Figma. Requires Figma token.", "category": "design", "requiresOAuth": true, "live": false, "tags": ["design", "diagrams"] },
-    { "name": "canva", "displayName": "Canva", "description": "Search, create, autofill, and export Canva designs. Requires Canva OAuth.", "category": "design", "requiresOAuth": true, "live": false, "tags": ["design", "content"] },
-    { "name": "miro", "displayName": "Miro", "description": "Read and create Miro boards and diagrams. Requires Miro OAuth.", "category": "design", "requiresOAuth": true, "live": false, "tags": ["whiteboard", "diagrams"] },
-    { "name": "sentry", "displayName": "Sentry", "description": "Query Sentry issues and events for error monitoring. Requires Sentry token.", "category": "monitoring", "requiresOAuth": true, "live": false, "tags": ["errors", "observability"] },
-    { "name": "datadog", "displayName": "Datadog", "description": "Metrics, logs, monitors, and dashboards in Datadog. Requires Datadog keys.", "category": "monitoring", "requiresOAuth": true, "live": false, "tags": ["observability", "metrics"] },
-    { "name": "pagerduty", "displayName": "PagerDuty", "description": "On-call schedules, incidents, and escalations. Requires PagerDuty token.", "category": "monitoring", "requiresOAuth": true, "live": false, "tags": ["oncall", "incidents"] },
-    { "name": "vanta", "displayName": "Vanta", "description": "Security and compliance posture (SOC2/ISO). Requires Vanta OAuth.", "category": "monitoring", "requiresOAuth": true, "live": false, "tags": ["compliance", "security"] },
-    { "name": "zoom", "displayName": "Zoom", "description": "Meetings, recordings, and transcripts in Zoom. Requires Zoom OAuth.", "category": "communication", "requiresOAuth": true, "live": false, "tags": ["meetings", "video"] },
-    { "name": "box", "displayName": "Box", "description": "Enterprise file storage and content in Box. Requires Box OAuth.", "category": "productivity", "requiresOAuth": true, "live": false, "tags": ["files", "storage"] },
-    { "name": "tavily", "displayName": "Tavily", "description": "Real-time web search, extract, and crawl for AI apps. Requires Tavily API key.", "category": "development", "requiresOAuth": true, "live": false, "tags": ["web", "search", "research"] },
-    { "name": "pubmed", "displayName": "PubMed", "description": "Biomedical literature search over PubMed. Requires configured access.", "category": "learning", "requiresOAuth": true, "live": false, "tags": ["research", "biomed"] }
+    {
+      "name": "github",
+      "displayName": "GitHub",
+      "description": "GitHub's official MCP server. Repos, issues, PRs, code search, Actions/CI over Streamable HTTP.",
+      "category": "development",
+      "transport": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "authEnvKey": "GITHUB_MCP_PAT",
+      "verified": true,
+      "live": true,
+      "tags": [
+        "git",
+        "code",
+        "ci",
+        "issues"
+      ]
+    },
+    {
+      "name": "playwright",
+      "displayName": "Playwright",
+      "description": "Browser automation \u2014 navigate, click, type, screenshot, scrape via headless Chromium.",
+      "category": "development",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "browser",
+        "automation",
+        "scraping"
+      ]
+    },
+    {
+      "name": "filesystem",
+      "displayName": "Filesystem",
+      "description": "Local filesystem access scoped to a workspace directory \u2014 read, write, list.",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/root/sudo-ai-v4/workspace"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "files",
+        "local"
+      ]
+    },
+    {
+      "name": "memory",
+      "displayName": "Knowledge Graph Memory",
+      "description": "Persistent knowledge-graph memory (entities, relations, observations).",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "memory",
+        "notes"
+      ]
+    },
+    {
+      "name": "sequentialthinking",
+      "displayName": "Sequential Thinking",
+      "description": "Structured step-by-step reasoning and problem decomposition.",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequentialthinking"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "reasoning",
+        "planning"
+      ]
+    },
+    {
+      "name": "git",
+      "displayName": "Git",
+      "description": "Local git repository operations \u2014 status, diff, log, commit, branches.",
+      "category": "development",
+      "transport": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-git"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "git",
+        "vcs"
+      ]
+    },
+    {
+      "name": "pdf",
+      "displayName": "PDF Viewer",
+      "description": "Interactive PDF viewer \u2014 annotate, highlight, stamp, fill forms, place signatures.",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-pdf",
+        "--stdio"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "pdf",
+        "documents",
+        "signature"
+      ]
+    },
+    {
+      "name": "fetch",
+      "displayName": "Fetch",
+      "description": "Fetch a URL and return its content as markdown for the model to read.",
+      "category": "development",
+      "transport": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "web",
+        "fetch"
+      ]
+    },
+    {
+      "name": "time",
+      "displayName": "Time",
+      "description": "Time and timezone utilities \u2014 current time, conversions.",
+      "category": "productivity",
+      "transport": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-time"
+      ],
+      "verified": true,
+      "live": true,
+      "tags": [
+        "time",
+        "timezone"
+      ]
+    },
+    {
+      "name": "slack",
+      "displayName": "Slack",
+      "description": "Read/post messages, list channels, search a Slack workspace. Requires Slack OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "chat",
+        "team"
+      ]
+    },
+    {
+      "name": "gmail",
+      "displayName": "Gmail",
+      "description": "Read, search, and send email in Gmail. Requires Google OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "email",
+        "google"
+      ]
+    },
+    {
+      "name": "google-drive",
+      "displayName": "Google Drive",
+      "description": "Search and read files in Google Drive. Requires Google OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "files",
+        "google"
+      ]
+    },
+    {
+      "name": "google-calendar",
+      "displayName": "Google Calendar",
+      "description": "Read and manage calendar events. Requires Google OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "calendar",
+        "google"
+      ]
+    },
+    {
+      "name": "notion",
+      "displayName": "Notion",
+      "description": "Read and update Notion pages and databases. Requires a Notion token.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "docs",
+        "wiki"
+      ]
+    },
+    {
+      "name": "linear",
+      "displayName": "Linear",
+      "description": "Manage Linear issues, projects, and cycles. Requires Linear OAuth.",
+      "category": "development",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "issues",
+        "pm"
+      ]
+    },
+    {
+      "name": "atlassian",
+      "displayName": "Jira / Confluence",
+      "description": "Atlassian Jira issues and Confluence pages. Requires Atlassian OAuth.",
+      "category": "development",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "issues",
+        "wiki"
+      ]
+    },
+    {
+      "name": "asana",
+      "displayName": "Asana",
+      "description": "Manage Asana tasks and projects. Requires Asana OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "tasks",
+        "pm"
+      ]
+    },
+    {
+      "name": "monday",
+      "displayName": "monday.com",
+      "description": "Manage monday.com boards and items. Requires monday OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "pm",
+        "boards"
+      ]
+    },
+    {
+      "name": "clickup",
+      "displayName": "ClickUp",
+      "description": "Manage ClickUp tasks, docs, and spaces. Requires ClickUp OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "tasks",
+        "pm"
+      ]
+    },
+    {
+      "name": "hubspot",
+      "displayName": "HubSpot",
+      "description": "CRM contacts, deals, and pipeline in HubSpot. Requires HubSpot OAuth.",
+      "category": "sales",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "crm",
+        "sales"
+      ]
+    },
+    {
+      "name": "salesforce",
+      "displayName": "Salesforce",
+      "description": "Salesforce CRM records, opportunities, and reports. Requires Salesforce OAuth.",
+      "category": "sales",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "crm",
+        "sales"
+      ]
+    },
+    {
+      "name": "apollo",
+      "displayName": "Apollo.io",
+      "description": "Prospect, enrich leads, and load outreach sequences. Requires Apollo API key.",
+      "category": "sales",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "prospecting",
+        "sales"
+      ]
+    },
+    {
+      "name": "zoominfo",
+      "displayName": "ZoomInfo",
+      "description": "Company/contact search, lead enrichment, lookalikes. Requires ZoomInfo auth.",
+      "category": "sales",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "enrichment",
+        "sales"
+      ]
+    },
+    {
+      "name": "intercom",
+      "displayName": "Intercom",
+      "description": "Customer conversations, tickets, and help content. Requires Intercom OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "support",
+        "chat"
+      ]
+    },
+    {
+      "name": "zendesk",
+      "displayName": "Zendesk",
+      "description": "Support tickets and knowledge base in Zendesk. Requires Zendesk OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "support",
+        "tickets"
+      ]
+    },
+    {
+      "name": "guru",
+      "displayName": "Guru",
+      "description": "Company knowledge cards and verification in Guru. Requires Guru auth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "knowledge",
+        "wiki"
+      ]
+    },
+    {
+      "name": "snowflake",
+      "displayName": "Snowflake",
+      "description": "Query the Snowflake data warehouse. Requires Snowflake auth.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "warehouse",
+        "sql"
+      ]
+    },
+    {
+      "name": "databricks",
+      "displayName": "Databricks",
+      "description": "Query Databricks lakehouse and run notebooks. Requires Databricks auth.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "lakehouse",
+        "sql"
+      ]
+    },
+    {
+      "name": "bigquery",
+      "displayName": "BigQuery",
+      "description": "Query Google BigQuery datasets. Requires Google OAuth.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "warehouse",
+        "sql"
+      ]
+    },
+    {
+      "name": "amplitude",
+      "displayName": "Amplitude",
+      "description": "Product analytics events and charts. Requires Amplitude auth.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "analytics",
+        "product"
+      ]
+    },
+    {
+      "name": "quickbooks",
+      "displayName": "QuickBooks",
+      "description": "Accounting \u2014 invoices, ledger, reports in QuickBooks. Requires Intuit OAuth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "accounting",
+        "finance"
+      ]
+    },
+    {
+      "name": "stripe",
+      "displayName": "Stripe",
+      "description": "Payments, customers, and payouts in Stripe. Requires Stripe API key.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "payments",
+        "finance"
+      ]
+    },
+    {
+      "name": "paypal",
+      "displayName": "PayPal",
+      "description": "Payments, invoices, and disputes in PayPal. Requires PayPal OAuth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "payments",
+        "finance"
+      ]
+    },
+    {
+      "name": "square",
+      "displayName": "Square",
+      "description": "Point-of-sale, payments, and catalog in Square. Requires Square OAuth.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "payments",
+        "pos"
+      ]
+    },
+    {
+      "name": "docusign",
+      "displayName": "DocuSign",
+      "description": "Send, sign, and track e-signature envelopes. Requires DocuSign OAuth.",
+      "category": "legal",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "esignature",
+        "legal"
+      ]
+    },
+    {
+      "name": "figma",
+      "displayName": "Figma",
+      "description": "Read design context and generate diagrams from Figma. Requires Figma token.",
+      "category": "design",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "design",
+        "diagrams"
+      ]
+    },
+    {
+      "name": "canva",
+      "displayName": "Canva",
+      "description": "Search, create, autofill, and export Canva designs. Requires Canva OAuth.",
+      "category": "design",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "design",
+        "content"
+      ]
+    },
+    {
+      "name": "miro",
+      "displayName": "Miro",
+      "description": "Read and create Miro boards and diagrams. Requires Miro OAuth.",
+      "category": "design",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "whiteboard",
+        "diagrams"
+      ]
+    },
+    {
+      "name": "sentry",
+      "displayName": "Sentry",
+      "description": "Query Sentry issues and events for error monitoring. Requires Sentry token.",
+      "category": "monitoring",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "errors",
+        "observability"
+      ]
+    },
+    {
+      "name": "datadog",
+      "displayName": "Datadog",
+      "description": "Metrics, logs, monitors, and dashboards in Datadog. Requires Datadog keys.",
+      "category": "monitoring",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "observability",
+        "metrics"
+      ]
+    },
+    {
+      "name": "pagerduty",
+      "displayName": "PagerDuty",
+      "description": "On-call schedules, incidents, and escalations. Requires PagerDuty token.",
+      "category": "monitoring",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "oncall",
+        "incidents"
+      ]
+    },
+    {
+      "name": "vanta",
+      "displayName": "Vanta",
+      "description": "Security and compliance posture (SOC2/ISO). Requires Vanta OAuth.",
+      "category": "monitoring",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "compliance",
+        "security"
+      ]
+    },
+    {
+      "name": "zoom",
+      "displayName": "Zoom",
+      "description": "Meetings, recordings, and transcripts in Zoom. Requires Zoom OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "meetings",
+        "video"
+      ]
+    },
+    {
+      "name": "box",
+      "displayName": "Box",
+      "description": "Enterprise file storage and content in Box. Requires Box OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "files",
+        "storage"
+      ]
+    },
+    {
+      "name": "tavily",
+      "displayName": "Tavily",
+      "description": "Real-time web search, extract, and crawl for AI apps. Requires Tavily API key.",
+      "category": "development",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "web",
+        "search",
+        "research"
+      ]
+    },
+    {
+      "name": "pubmed",
+      "displayName": "PubMed",
+      "description": "Biomedical literature search over PubMed. Requires configured access.",
+      "category": "learning",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "research",
+        "biomed"
+      ]
+    },
+    {
+      "name": "google-analytics",
+      "displayName": "Google Analytics",
+      "description": "Web/app analytics \u2014 traffic, funnels, conversions in GA4. Requires Google OAuth.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "analytics",
+        "growth"
+      ]
+    },
+    {
+      "name": "posthog",
+      "displayName": "PostHog",
+      "description": "Product analytics, funnels, session replay, feature flags. Requires PostHog API key.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "analytics",
+        "product",
+        "growth"
+      ]
+    },
+    {
+      "name": "youtube",
+      "displayName": "YouTube",
+      "description": "Channel analytics, video metadata, and uploads. Requires Google OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "video",
+        "creator"
+      ]
+    },
+    {
+      "name": "langfuse",
+      "displayName": "Langfuse",
+      "description": "LLM observability \u2014 traces, evals, prompt management. Requires Langfuse keys.",
+      "category": "monitoring",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "llm",
+        "observability",
+        "ai"
+      ]
+    },
+    {
+      "name": "todoist",
+      "displayName": "Todoist",
+      "description": "Personal tasks, projects, and reminders. Requires Todoist OAuth.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "tasks",
+        "personal"
+      ]
+    }
   ]
 }

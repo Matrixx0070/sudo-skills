@@ -2,8 +2,120 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T19:05:00Z",
+  "updated": "2026-07-11T19:30:00Z",
   "skills": [
+    {
+      "name": "ai-agent-design",
+      "version": "1.0.0",
+      "description": "Design a tool-using LLM agent with clean tool schemas, a control loop, explicit stop conditions, and guardrails.",
+      "author": "matrixx0070",
+      "path": "skills/ai-agent-design/SKILL.md",
+      "sha256": "68922690d910fa50460b1eb06df0bced64a0469786bfe99ba3ff48c783be9ac4",
+      "capabilities": [],
+      "tags": [
+        "agents",
+        "tool-use",
+        "control-loop",
+        "guardrails",
+        "planning"
+      ]
+    },
+    {
+      "name": "ai-cost-latency",
+      "version": "1.0.0",
+      "description": "Optimize an LLM app for cost and latency via model routing, caching, batching, and token budgets without losing quality.",
+      "author": "matrixx0070",
+      "path": "skills/ai-cost-latency/SKILL.md",
+      "sha256": "494943c528acbdc80c91f2fd5dba8ebe92651d8e5136fc4c3a35a493a1fb2972",
+      "capabilities": [],
+      "tags": [
+        "cost",
+        "latency",
+        "caching",
+        "routing",
+        "tokens"
+      ]
+    },
+    {
+      "name": "ai-eval-harness",
+      "version": "1.0.0",
+      "description": "Build an eval suite for an LLM feature with datasets, graders, and regression gates that block bad releases.",
+      "author": "matrixx0070",
+      "path": "skills/ai-eval-harness/SKILL.md",
+      "sha256": "94c89d2a0bd8a55e22a878124374f471c56d6576d87851f13212effc7291e088",
+      "capabilities": [],
+      "tags": [
+        "eval",
+        "testing",
+        "llm-judge",
+        "regression",
+        "ci"
+      ]
+    },
+    {
+      "name": "ai-fine-tune-plan",
+      "version": "1.0.0",
+      "description": "Decide whether to fine-tune, prompt, or use RAG for an LLM task, and plan the fine-tuning dataset if it is the answer.",
+      "author": "matrixx0070",
+      "path": "skills/ai-fine-tune-plan/SKILL.md",
+      "sha256": "79801158d4ccdb7a6c56d97e61570f14567b88b78adcef7b188e2805065fe7b7",
+      "capabilities": [],
+      "tags": [
+        "fine-tuning",
+        "dataset",
+        "decision",
+        "rag",
+        "prompting"
+      ]
+    },
+    {
+      "name": "ai-guardrails",
+      "version": "1.0.0",
+      "description": "Add safety guardrails to an LLM app \u2014 prompt-injection defense, output validation, PII handling, and a clear refusal policy.",
+      "author": "matrixx0070",
+      "path": "skills/ai-guardrails/SKILL.md",
+      "sha256": "7fde7b2fce4b60f84224d215914c4477904864692a37ad21e01157954c06c463",
+      "capabilities": [],
+      "tags": [
+        "safety",
+        "prompt-injection",
+        "pii",
+        "validation",
+        "refusal"
+      ]
+    },
+    {
+      "name": "ai-prompt-design",
+      "version": "1.0.0",
+      "description": "Design and iterate a production LLM prompt with clear structure, few-shot examples, a strict output contract, and failure handling.",
+      "author": "matrixx0070",
+      "path": "skills/ai-prompt-design/SKILL.md",
+      "sha256": "987e8ee3e5bec1436719cde105e25889a22cd2207a9e2a25ba060bd315643f23",
+      "capabilities": [],
+      "tags": [
+        "prompting",
+        "llm",
+        "output-contract",
+        "few-shot",
+        "reliability"
+      ]
+    },
+    {
+      "name": "ai-rag-pipeline",
+      "version": "1.0.0",
+      "description": "Design a retrieval-augmented generation pipeline covering chunking, embeddings, hybrid search, reranking, and retrieval evaluation.",
+      "author": "matrixx0070",
+      "path": "skills/ai-rag-pipeline/SKILL.md",
+      "sha256": "d0a31388a80328737df7af73f4de792d06bb031c597b725afcc31457ccf6c992",
+      "capabilities": [],
+      "tags": [
+        "rag",
+        "retrieval",
+        "embeddings",
+        "reranking",
+        "eval"
+      ]
+    },
     {
       "name": "bio-experiment-design",
       "version": "1.0.0",
@@ -104,6 +216,118 @@
         "genetics",
         "prioritization",
         "scoring"
+      ]
+    },
+    {
+      "name": "cc-audience-growth",
+      "version": "1.0.0",
+      "description": "Build a 90-day audience-growth plan for a channel or niche with positioning, content pillars, cadence, and metrics.",
+      "author": "matrixx0070",
+      "path": "skills/cc-audience-growth/SKILL.md",
+      "sha256": "e98617e4fc51e189162d826c884f3ad2032a5c501031161e5b307d077d624b4a",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "growth",
+        "strategy",
+        "audience",
+        "planning"
+      ]
+    },
+    {
+      "name": "cc-newsletter",
+      "version": "1.0.0",
+      "description": "Write a newsletter issue built around one core idea, with a subject line, tight structure, and a single CTA.",
+      "author": "matrixx0070",
+      "path": "skills/cc-newsletter/SKILL.md",
+      "sha256": "8900a77545a7cc8f73f8b95126e8186d7e35c95ae0b6c9174210c7c69c986bf8",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "newsletter",
+        "email",
+        "writing",
+        "copywriting"
+      ]
+    },
+    {
+      "name": "cc-repurpose",
+      "version": "1.0.0",
+      "description": "Repurpose one piece of content into platform-native formats across short-form, social, and email without copy-pasting.",
+      "author": "matrixx0070",
+      "path": "skills/cc-repurpose/SKILL.md",
+      "sha256": "b0b244c617a0c737ea4af905e157ccb793b32a77ebf082dbec7694b4ba2b4a6b",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "repurpose",
+        "distribution",
+        "multi-platform",
+        "workflow"
+      ]
+    },
+    {
+      "name": "cc-short-form",
+      "version": "1.0.0",
+      "description": "Script a short-form vertical video with a 2-second hook, tight pacing, and on-screen text cues.",
+      "author": "matrixx0070",
+      "path": "skills/cc-short-form/SKILL.md",
+      "sha256": "3488fbb0cdd72f0b5d0f5032851d8dab940f7530921e1baed438dcd122d8f064",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "shorts",
+        "tiktok",
+        "reels",
+        "short-form"
+      ]
+    },
+    {
+      "name": "cc-thumbnail-brief",
+      "version": "1.0.0",
+      "description": "Design a thumbnail concept brief with visual direction, on-image text, and A/B variants.",
+      "author": "matrixx0070",
+      "path": "skills/cc-thumbnail-brief/SKILL.md",
+      "sha256": "96ed92338b60be4cbccc806881ae4327cb3e6a84f22c9b395cd04f62e3c44fdf",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "thumbnail",
+        "youtube",
+        "design",
+        "ab-testing"
+      ]
+    },
+    {
+      "name": "cc-title-hooks",
+      "version": "1.0.0",
+      "description": "Generate high-CTR titles and opening hooks for a piece of content and score them against clarity and curiosity.",
+      "author": "matrixx0070",
+      "path": "skills/cc-title-hooks/SKILL.md",
+      "sha256": "2b26d780ec19474ed2f2a40d586f15b21064614ea64fe76ba0aebd6f5c3130bd",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "titles",
+        "hooks",
+        "copywriting",
+        "ctr"
+      ]
+    },
+    {
+      "name": "cc-video-script",
+      "version": "1.0.0",
+      "description": "Write a long-form video script with a hook, retention beats, and a clear call to action.",
+      "author": "matrixx0070",
+      "path": "skills/cc-video-script/SKILL.md",
+      "sha256": "954808c168294062253884f13a820d912715dc1de9d7cd2f00aead1f3883f0d1",
+      "capabilities": [],
+      "tags": [
+        "content",
+        "video",
+        "youtube",
+        "script",
+        "retention"
       ]
     },
     {
@@ -610,6 +834,118 @@
       ]
     },
     {
+      "name": "edu-curriculum-design",
+      "version": "1.0.0",
+      "description": "Design a course curriculum with measurable learning objectives, a logical unit sequence, and aligned assessments.",
+      "author": "matrixx0070",
+      "path": "skills/edu-curriculum-design/SKILL.md",
+      "sha256": "5d308c02fc92fac071fc1664049fd6cf4fd380f3f6d7676d4837c3fa810c8297",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "curriculum",
+        "instructional-design",
+        "objectives",
+        "sequencing"
+      ]
+    },
+    {
+      "name": "edu-explainer",
+      "version": "1.0.0",
+      "description": "Explain a hard concept at a target level using a concrete analogy and a check for understanding.",
+      "author": "matrixx0070",
+      "path": "skills/edu-explainer/SKILL.md",
+      "sha256": "1c31e6fc3460ce0c17bfc254fde617e2dbe69e66ac12b5c9d195b4112dfce2af",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "explanation",
+        "analogy",
+        "comprehension",
+        "tutoring"
+      ]
+    },
+    {
+      "name": "edu-lesson-plan",
+      "version": "1.0.0",
+      "description": "Write a single lesson plan with objectives, timed activities, materials, and an aligned assessment.",
+      "author": "matrixx0070",
+      "path": "skills/edu-lesson-plan/SKILL.md",
+      "sha256": "43f2860a3e7d071ba059fb2fcc7be2b88fc4fb72b9a77a50b86366d75c90c124",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "lesson-plan",
+        "instruction",
+        "activities",
+        "assessment"
+      ]
+    },
+    {
+      "name": "edu-quiz-builder",
+      "version": "1.0.0",
+      "description": "Build a quiz or assessment with an answer key, deliberate difficulty spread, and objective alignment.",
+      "author": "matrixx0070",
+      "path": "skills/edu-quiz-builder/SKILL.md",
+      "sha256": "e5c5e9c3e9dc8cee9b809b32272f593fb3a41c906d4e729a52c6ba19ffc1e1f2",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "assessment",
+        "quiz",
+        "answer-key",
+        "difficulty"
+      ]
+    },
+    {
+      "name": "edu-rubric-design",
+      "version": "1.0.0",
+      "description": "Design a grading rubric with clear criteria and distinct performance-level descriptors.",
+      "author": "matrixx0070",
+      "path": "skills/edu-rubric-design/SKILL.md",
+      "sha256": "2f56b8d12ee9f4ede7b0ee3691ceb427170dd190c00a53c47263d91161cb3962",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "rubric",
+        "grading",
+        "assessment",
+        "criteria"
+      ]
+    },
+    {
+      "name": "edu-study-plan",
+      "version": "1.0.0",
+      "description": "Build a personalized study plan with spaced-repetition scheduling toward a deadline and goal.",
+      "author": "matrixx0070",
+      "path": "skills/edu-study-plan/SKILL.md",
+      "sha256": "f14419a165fdc69e996364187db0a3ab4924cd6e22a8594513ec4f123f495318",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "study-plan",
+        "spaced-repetition",
+        "scheduling",
+        "retention"
+      ]
+    },
+    {
+      "name": "edu-tutor-session",
+      "version": "1.0.0",
+      "description": "Run a Socratic tutoring session that diagnoses gaps and adapts questioning to the learner in real time.",
+      "author": "matrixx0070",
+      "path": "skills/edu-tutor-session/SKILL.md",
+      "sha256": "bc95174f304c334208a0c6dce36aba4d24fd5b16d3bf3abf28016a638f6fd06a",
+      "capabilities": [],
+      "tags": [
+        "education",
+        "tutoring",
+        "socratic",
+        "adaptive",
+        "questioning"
+      ]
+    },
+    {
       "name": "eli5",
       "version": "1.0.0",
       "description": "Explain any concept in plain words with one concrete analogy - clear enough for a smart child or a busy outsider, never condescending, never wrong.",
@@ -985,6 +1321,118 @@
         "budget",
         "bridge",
         "waterfall"
+      ]
+    },
+    {
+      "name": "gro-ab-test-design",
+      "version": "1.0.0",
+      "description": "Design a rigorous A/B test with a falsifiable hypothesis, one primary metric, MDE, sample size, and guardrails.",
+      "author": "matrixx0070",
+      "path": "skills/gro-ab-test-design/SKILL.md",
+      "sha256": "652dc708037027086576d58dba76c86075b36313f922f2a1a00e03969277cdbd",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "experimentation",
+        "ab-testing",
+        "statistics",
+        "causal"
+      ]
+    },
+    {
+      "name": "gro-activation-optimize",
+      "version": "1.0.0",
+      "description": "Find the aha-moment and improve activation by getting more new users to first value faster.",
+      "author": "matrixx0070",
+      "path": "skills/gro-activation-optimize/SKILL.md",
+      "sha256": "6a26c6aeaeb43ed619d707c5bc1b17dc49380142a6f563c69fec5437c42e5074",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "activation",
+        "onboarding",
+        "aha-moment",
+        "conversion"
+      ]
+    },
+    {
+      "name": "gro-cohort-analysis",
+      "version": "1.0.0",
+      "description": "Build and read a cohort table to see how grouped users behave over time and whether the product is improving.",
+      "author": "matrixx0070",
+      "path": "skills/gro-cohort-analysis/SKILL.md",
+      "sha256": "1ae22bc56135cca6c06d3777a76bad037622e2fada760dd01a0a7948f39bc6ff",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "cohorts",
+        "analytics",
+        "behavior",
+        "trends"
+      ]
+    },
+    {
+      "name": "gro-funnel-analysis",
+      "version": "1.0.0",
+      "description": "Analyze a conversion funnel end-to-end, locate the biggest drop-off, and prescribe the highest-leverage fix.",
+      "author": "matrixx0070",
+      "path": "skills/gro-funnel-analysis/SKILL.md",
+      "sha256": "5874a9333505ea68acd4d416bb00ce2d71e0766fe90ed19da774c75d2102c783",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "funnel",
+        "conversion",
+        "analytics",
+        "optimization"
+      ]
+    },
+    {
+      "name": "gro-growth-experiment",
+      "version": "1.0.0",
+      "description": "Run the ICE prioritization and experiment-spec process to pick and fully specify the next growth test.",
+      "author": "matrixx0070",
+      "path": "skills/gro-growth-experiment/SKILL.md",
+      "sha256": "97e276599455837ca65091fc43374aca7d6aae26c4d6ccaeaf08057d3f7f793b",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "experimentation",
+        "ice",
+        "prioritization",
+        "process"
+      ]
+    },
+    {
+      "name": "gro-referral-loop",
+      "version": "1.0.0",
+      "description": "Design a referral or viral loop and compute its k-factor, cycle time, and amplification honestly.",
+      "author": "matrixx0070",
+      "path": "skills/gro-referral-loop/SKILL.md",
+      "sha256": "0f92b22435a444e442e50cfc259ff42e71943d1ee2737cd092abb725dc109fc6",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "referral",
+        "viral",
+        "k-factor",
+        "loops"
+      ]
+    },
+    {
+      "name": "gro-retention-analysis",
+      "version": "1.0.0",
+      "description": "Analyze retention and churn cohorts to find the flattening point and the single strongest retention lever.",
+      "author": "matrixx0070",
+      "path": "skills/gro-retention-analysis/SKILL.md",
+      "sha256": "24edc8c7639f41d9f7197ad0c02a9918a872332c2000a3179a86677669a48cb5",
+      "capabilities": [],
+      "tags": [
+        "growth",
+        "retention",
+        "churn",
+        "cohorts",
+        "engagement"
       ]
     },
     {
@@ -1595,6 +2043,118 @@
         "tco",
         "risk",
         "scorecard"
+      ]
+    },
+    {
+      "name": "pa-bill-tracker",
+      "version": "1.0.0",
+      "description": "Track recurring bills and subscriptions, flag upcoming renewals, price hikes, and cancel candidates.",
+      "author": "matrixx0070",
+      "path": "skills/pa-bill-tracker/SKILL.md",
+      "sha256": "6a4a42f2c2adf5850c3098a85a50bcd70652bdd80ffc8dd0c8130dd6b0048be5",
+      "capabilities": [],
+      "tags": [
+        "bills",
+        "subscriptions",
+        "finance",
+        "renewals",
+        "personal-assistant"
+      ]
+    },
+    {
+      "name": "pa-daily-digest",
+      "version": "1.0.0",
+      "description": "Produce a concise personal daily digest \u2014 calendar, tasks, weather, and the emails that need attention.",
+      "author": "matrixx0070",
+      "path": "skills/pa-daily-digest/SKILL.md",
+      "sha256": "c8a7209751b4fe3f0952a1692f402ca644726b365450b3b8a5a9eaf2166f0d87",
+      "capabilities": [],
+      "tags": [
+        "digest",
+        "daily",
+        "calendar",
+        "briefing",
+        "personal-assistant"
+      ]
+    },
+    {
+      "name": "pa-gift-finder",
+      "version": "1.0.0",
+      "description": "Find a thoughtful, well-matched gift given a person, an occasion, and a budget.",
+      "author": "matrixx0070",
+      "path": "skills/pa-gift-finder/SKILL.md",
+      "sha256": "55ad73517395621a6d36815b1f163ce66d4f75460734516f23673dffd68d9e46",
+      "capabilities": [],
+      "tags": [
+        "gifts",
+        "shopping",
+        "occasions",
+        "recommendations",
+        "personal-assistant"
+      ]
+    },
+    {
+      "name": "pa-inbox-triage",
+      "version": "1.0.0",
+      "description": "Triage a personal inbox into act, defer, delegate, or archive and draft replies for the owner to send.",
+      "author": "matrixx0070",
+      "path": "skills/pa-inbox-triage/SKILL.md",
+      "sha256": "e7bf9200793d8fc3e0da8198154f8133171a641a9ec04f496b935dc1fadc8efc",
+      "capabilities": [],
+      "tags": [
+        "inbox",
+        "email",
+        "triage",
+        "productivity",
+        "personal-assistant"
+      ]
+    },
+    {
+      "name": "pa-reminder-system",
+      "version": "1.0.0",
+      "description": "Set up a reliable reminder and follow-up system for the owner's commitments and deadlines.",
+      "author": "matrixx0070",
+      "path": "skills/pa-reminder-system/SKILL.md",
+      "sha256": "7a71a4196f7712da8b7d11fd23c0ff50875eb7b833152c27fa4f036d6338d772",
+      "capabilities": [],
+      "tags": [
+        "reminders",
+        "follow-up",
+        "deadlines",
+        "commitments",
+        "personal-assistant"
+      ]
+    },
+    {
+      "name": "pa-schedule-optimizer",
+      "version": "1.0.0",
+      "description": "Plan and optimize a day or week around the owner's priorities, energy rhythms, and fixed meetings.",
+      "author": "matrixx0070",
+      "path": "skills/pa-schedule-optimizer/SKILL.md",
+      "sha256": "494c28f694ad43df7e59a38e60347a899063b38db82f5dddf01f9add7c63ca8b",
+      "capabilities": [],
+      "tags": [
+        "scheduling",
+        "calendar",
+        "planning",
+        "productivity",
+        "personal-assistant"
+      ]
+    },
+    {
+      "name": "pa-travel-planner",
+      "version": "1.0.0",
+      "description": "Plan a trip end to end \u2014 itinerary, ranked options, and budget \u2014 with booking only on explicit approval.",
+      "author": "matrixx0070",
+      "path": "skills/pa-travel-planner/SKILL.md",
+      "sha256": "6ba313f2097d882c2c62fdc8285c06d45e60dd94e4394bc9b9092b9bf6842420",
+      "capabilities": [],
+      "tags": [
+        "travel",
+        "itinerary",
+        "budget",
+        "planning",
+        "personal-assistant"
       ]
     },
     {
