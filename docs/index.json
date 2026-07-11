@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T22:00:00Z",
+  "updated": "2026-07-11T22:30:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -1125,7 +1125,7 @@
       "description": "Audit a screen, flow, or component against WCAG 2.1 AA - contrast, keyboard operability, target sizes, and screen-reader semantics - and return prioritized, fixable findings with cited success criteria.",
       "author": "matrixx0070",
       "path": "skills/dsn-accessibility-review/SKILL.md",
-      "sha256": "869bca45e84ccde69bb377c26ab7a070998be806d11ae741087c57c55f1a5db9",
+      "sha256": "8bd8ba9332bd503899b13deadb5ecc3f58f7c15f942272e1c06dda9948f6440b",
       "capabilities": [],
       "tags": [
         "design",
@@ -2442,7 +2442,7 @@
       "description": "Audit a page or site across keywords, on-page, content gaps, and technical health, then return a prioritized impact/effort action list.",
       "author": "matrixx0070",
       "path": "skills/mkt-seo-audit/SKILL.md",
-      "sha256": "7ad8e250bc60433868da22971aefa9941df04de642dda0297296ccf90eb144d9",
+      "sha256": "eb62fae8ef96c23ae5791e26b55ad025df7e2e03287801b289b21f51f9e6197e",
       "capabilities": [],
       "tags": [
         "marketing",

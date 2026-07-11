@@ -40,3 +40,31 @@ A "Delete account" button is `#9AA0A6` text on `#FFFFFF` (2.9:1) and only reacha
 **Passed:** <what already conforms>
 ```
 Cite the specific success criterion (e.g. 1.4.3 Contrast) and give a concrete, one-line fix per finding.
+
+## Reference
+
+### Highest-frequency real-world failures (check these first)
+1. Inputs with no programmatic label (placeholder ≠ label) — 3.3.2 / 1.3.1.
+2. Focus not visible or removed via `outline:none` — 2.4.7.
+3. Error announced but **focus not moved** to it — user stranded (see below).
+4. Contrast < 4.5:1 on body text / < 3:1 on UI borders — 1.4.3 / 1.4.11.
+5. Custom widget (dropdown, tabs, modal) missing keyboard + ARIA — 4.1.2.
+
+### Focus management (the #1 multi-step-form dead-end) — 2.4.3
+On a failed submit, move focus to the **first invalid field or an error summary** (`tabindex="-1"` + focus); don't just add `role="alert"`. On a step change, move focus to the new step's heading and update the page `<title>` (2.4.2). Announcing an error without moving focus leaves screen-reader users lost.
+
+### Form grouping & semantics
+- Wrap related radios/checkboxes (shipping method, card type) in `<fieldset>` + `<legend>` — 1.3.1.
+- Set `aria-invalid="true"` on failed fields and tie the message via `aria-describedby`.
+- **Label-in-name (2.5.3):** the accessible name must contain the visible label text so voice-control users can say "click Pay now".
+- **Use of color (1.4.1):** a red border alone can't signal an error — pair with text/icon.
+- Accessible step indicator: mark the current step with `aria-current="step"`.
+
+### Checkout / payment specifics
+- **CAPTCHA (1.1.1):** any image CAPTCHA at payment is a purchase blocker — require an accessible alternative (audio/token).
+- Third-party payment **iframes** (Stripe/Braintree) must be in the tab order and labeled.
+- Card fields that **auto-advance** must not steal focus mid-correction; inputs must accept pasted formatted numbers.
+- Session timeouts (2.2.1) need a warning + extend option; don't wipe entered data.
+
+### Test matrix (rough time per check)
+Keyboard-only pass (~10 min) · screen reader NVDA/VoiceOver (~20 min) · 200% zoom + 320px reflow 1.4.10 (~5 min) · contrast sample (~10 min) · forms/error flow (~15 min).

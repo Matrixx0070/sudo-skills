@@ -50,3 +50,31 @@ Issue table:
 Prioritized action plan: <top items first, quick wins flagged>
 Unverifiable without live crawl / analytics: <...>
 ```
+
+## Reference
+
+### Audit workflow (run in this order)
+1. Crawl the site (Screaming Frog / Sitebulb) for status codes, titles, canonicals, redirects.
+2. Pull Google Search Console: top queries, pages, CTR, coverage/indexing errors.
+3. Run PageSpeed Insights on the **3 templates** (home, a product/feature page, a blog post) — not all 20 pages; templates repeat.
+4. Check `site:domain.com` and branded queries for what's actually indexed.
+
+### P0 catastrophic checks (an audit that skips these can pass a broken site)
+- **JS rendering:** compare rendered vs raw HTML (GSC URL Inspection "view crawled page"). SaaS sites on React/Next/Webflow often serve content only after JS — Google may see an empty `<div>`. This invalidates every downstream finding.
+- **Accidental noindex / robots block** on production pages.
+- **Staging/dev subdomain leak:** `site:staging.` / `site:dev.` — non-prod environments getting indexed (add noindex + auth).
+
+### Core Web Vitals thresholds (good)
+LCP < 2.5s · INP < 200ms · CLS < 0.1 · TTFB < 0.8s. Report each as good / needs-improvement / poor per template.
+
+### On-page patterns
+- Title: `Primary Keyword | Benefit — Brand` (≤ ~60 chars). Meta description ≤ ~155 chars with the keyword + a CTA.
+- One H1 per page, keyword-bearing. **Anti-pattern:** generic H1s like "Welcome" or "Simple plans for everyone" that carry no query.
+- Add OpenGraph + Twitter card tags (CTR in social/SERP snippets).
+- SaaS-specific: build comparison / "vs" / alternatives pages — highest commercial-intent pipeline lever.
+
+### Prioritization quadrant
+Score each fix Impact (H/M/L) × Effort (H/M/L):
+- High-impact / low-effort → **do now** (quick wins).
+- High-impact / high-effort → **plan** (e.g. rendering fixes, content builds).
+- Low-impact → backlog. **Backlinks** are the longest-lead-time lever — start early even though results lag.
