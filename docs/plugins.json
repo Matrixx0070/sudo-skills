@@ -1,0 +1,62 @@
+{
+  "registry": "sudo-plugins",
+  "schema": 1,
+  "homepage": "https://sudoapi.shop",
+  "updated": "2026-07-11T17:00:00Z",
+  "plugins": [
+    {
+      "name": "engineering",
+      "displayName": "Engineering",
+      "description": "Role bundle for software engineering — commit hygiene, incident postmortems, plus GitHub and browser-automation connectors.",
+      "category": "development",
+      "skills": ["commit-message", "incident-postmortem"],
+      "connectors": ["github", "playwright"],
+      "tags": ["dev", "code", "git"]
+    },
+    {
+      "name": "productivity",
+      "displayName": "Productivity",
+      "description": "Plan your day and capture work — meeting notes, standups, TL;DRs, with local filesystem and knowledge-graph memory.",
+      "category": "productivity",
+      "skills": ["meeting-notes", "standup-summary", "tldr"],
+      "connectors": ["filesystem", "memory"],
+      "tags": ["notes", "planning"]
+    },
+    {
+      "name": "writing",
+      "displayName": "Writing & Comms",
+      "description": "Sharpen written communication — polish emails, explain simply (ELI5), and summarize long text.",
+      "category": "communication",
+      "skills": ["email-polish", "eli5", "tldr"],
+      "connectors": [],
+      "tags": ["writing", "email", "summary"]
+    },
+    {
+      "name": "product-management",
+      "displayName": "Product Management",
+      "description": "PM workflows — weigh trade-offs, run meetings, keep stakeholders updated, tied to GitHub and Linear.",
+      "category": "productivity",
+      "skills": ["pros-cons", "meeting-notes", "standup-summary"],
+      "connectors": ["github", "linear"],
+      "tags": ["product", "roadmap"]
+    },
+    {
+      "name": "support",
+      "displayName": "Customer Support",
+      "description": "Triage and resolve — incident postmortems and crisp summaries, wired to Sentry for error context.",
+      "category": "communication",
+      "skills": ["incident-postmortem", "tldr"],
+      "connectors": ["sentry"],
+      "tags": ["support", "tickets"]
+    },
+    {
+      "name": "research",
+      "displayName": "Research",
+      "description": "Structured investigation — step-by-step reasoning and knowledge-graph memory with summarize + pros/cons skills.",
+      "category": "learning",
+      "skills": ["tldr", "pros-cons"],
+      "connectors": ["sequentialthinking", "memory"],
+      "tags": ["research", "analysis"]
+    }
+  ]
+}
