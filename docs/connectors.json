@@ -2,7 +2,7 @@
   "registry": "sudo-connectors",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T19:30:00Z",
+  "updated": "2026-07-11T20:00:00Z",
   "connectors": [
     {
       "name": "github",
@@ -671,6 +671,53 @@
       "tags": [
         "tasks",
         "personal"
+      ]
+    },
+    {
+      "name": "plaid",
+      "displayName": "Plaid",
+      "description": "Connect bank/financial accounts for balances and transactions. Requires Plaid credentials.",
+      "category": "finance",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "personal-finance",
+        "banking"
+      ]
+    },
+    {
+      "name": "arxiv",
+      "displayName": "arXiv",
+      "description": "Search and fetch academic preprints from arXiv.",
+      "category": "learning",
+      "live": false,
+      "tags": [
+        "research",
+        "papers"
+      ]
+    },
+    {
+      "name": "airtable",
+      "displayName": "Airtable",
+      "description": "Read/write Airtable bases and records. Requires Airtable token.",
+      "category": "productivity",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "database",
+        "tables"
+      ]
+    },
+    {
+      "name": "dbt",
+      "displayName": "dbt",
+      "description": "dbt project metadata, models, and runs. Requires dbt Cloud token.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "data-engineering",
+        "transform"
       ]
     }
   ]

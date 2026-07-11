@@ -2,7 +2,7 @@
   "registry": "sudo-plugins",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T19:30:00Z",
+  "updated": "2026-07-11T20:00:00Z",
   "plugins": [
     {
       "name": "engineering",
@@ -631,6 +631,182 @@
         "education",
         "learning",
         "tutoring"
+      ]
+    },
+    {
+      "name": "research",
+      "displayName": "Research",
+      "category": "learning",
+      "description": "General deep-research & analysis \u2014 multi-source deep dives, source evaluation, literature mapping, fact-checking, synthesis, decision briefs. SUDO-only.",
+      "skills": [
+        "rsr-deep-dive",
+        "rsr-source-eval",
+        "rsr-literature-map",
+        "rsr-fact-check",
+        "rsr-synthesis",
+        "rsr-brief"
+      ],
+      "connectors": [
+        "arxiv",
+        "tavily",
+        "fetch"
+      ],
+      "tags": [
+        "research",
+        "analysis"
+      ]
+    },
+    {
+      "name": "data-engineering",
+      "displayName": "Data Engineering",
+      "category": "data",
+      "description": "Pipelines & warehouses \u2014 ETL/ELT design, dimensional modeling, dbt, data quality, orchestration, migrations. Distinct from analytics/devops. SUDO-only.",
+      "skills": [
+        "de-pipeline-design",
+        "de-data-modeling",
+        "de-dbt-transform",
+        "de-data-quality",
+        "de-orchestration",
+        "de-warehouse-migrate"
+      ],
+      "connectors": [
+        "dbt",
+        "snowflake",
+        "bigquery",
+        "databricks"
+      ],
+      "tags": [
+        "data",
+        "etl",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "qa-testing",
+      "displayName": "QA & Testing",
+      "category": "development",
+      "description": "Dedicated QA \u2014 test plans, reproducible bug reports, exploratory charters, automation strategy, regression suites, release sign-off. SUDO-only.",
+      "skills": [
+        "qa-test-plan",
+        "qa-bug-report",
+        "qa-exploratory-charter",
+        "qa-automation-strategy",
+        "qa-regression-suite",
+        "qa-release-signoff"
+      ],
+      "connectors": [
+        "playwright",
+        "github",
+        "linear"
+      ],
+      "tags": [
+        "qa",
+        "testing",
+        "quality"
+      ]
+    },
+    {
+      "name": "customer-success",
+      "displayName": "Customer Success",
+      "category": "communication",
+      "description": "Proactive retention & expansion \u2014 onboarding to value, health scores, QBRs, churn saves, upsell, renewals. Distinct from support/sales. SUDO-only.",
+      "skills": [
+        "csm-onboarding-plan",
+        "csm-health-score",
+        "csm-qbr",
+        "csm-churn-save",
+        "csm-expansion-play",
+        "csm-renewal-prep"
+      ],
+      "connectors": [
+        "hubspot",
+        "salesforce",
+        "intercom"
+      ],
+      "tags": [
+        "success",
+        "retention"
+      ]
+    },
+    {
+      "name": "personal-finance",
+      "displayName": "Personal Finance",
+      "category": "finance",
+      "description": "Individual money management (educational, not advice) \u2014 budgeting, debt payoff, allocation frameworks, personal tax prep, big-purchase decisions, retirement. SUDO-only.",
+      "skills": [
+        "pf-budget",
+        "pf-debt-payoff",
+        "pf-investment-allocation",
+        "pf-tax-personal",
+        "pf-big-purchase",
+        "pf-retirement-plan"
+      ],
+      "connectors": [
+        "plaid"
+      ],
+      "tags": [
+        "personal-finance",
+        "budget"
+      ]
+    },
+    {
+      "name": "health-wellness",
+      "displayName": "Health & Wellness",
+      "category": "personal",
+      "description": "General wellness (not medical advice) \u2014 meal plans, workout plans, sleep, habits, and organizing info for a clinician. SUDO-only.",
+      "skills": [
+        "hw-meal-plan",
+        "hw-workout-plan",
+        "hw-sleep-optimize",
+        "hw-habit-builder",
+        "hw-doctor-prep"
+      ],
+      "connectors": [
+        "todoist"
+      ],
+      "tags": [
+        "health",
+        "wellness",
+        "fitness"
+      ]
+    },
+    {
+      "name": "creative-writing",
+      "displayName": "Creative Writing",
+      "category": "communication",
+      "description": "Fiction & narrative craft \u2014 story outlines, characters, scenes, worldbuilding, dialogue, developmental + line edits. Distinct from comms writing. SUDO-only.",
+      "skills": [
+        "cw-story-outline",
+        "cw-character",
+        "cw-scene",
+        "cw-worldbuilding",
+        "cw-dialogue",
+        "cw-edit-pass"
+      ],
+      "connectors": [],
+      "tags": [
+        "fiction",
+        "writing",
+        "story"
+      ]
+    },
+    {
+      "name": "translation",
+      "displayName": "Translation & Localization",
+      "category": "communication",
+      "description": "Translate and localize \u2014 faithful translation, locale adaptation, terminology glossaries, tone adaptation, subtitling. SUDO-only.",
+      "skills": [
+        "i18n-translate",
+        "i18n-localize",
+        "i18n-glossary",
+        "i18n-tone-adapt",
+        "i18n-subtitle"
+      ],
+      "connectors": [],
+      "tags": [
+        "translation",
+        "localization",
+        "i18n"
       ]
     }
   ]

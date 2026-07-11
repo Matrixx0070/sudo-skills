@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T19:30:00Z",
+  "updated": "2026-07-11T20:00:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -443,6 +443,198 @@
       ]
     },
     {
+      "name": "csm-churn-save",
+      "version": "1.0.0",
+      "description": "Run a structured churn-save play for an at-risk account to diagnose root cause and reverse the decision.",
+      "author": "matrixx0070",
+      "path": "skills/csm-churn-save/SKILL.md",
+      "sha256": "f0e3fdee51f7a98714c5dd731bf9b3a3234330ebb78bd5fded7a27291b8f9d57",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "churn",
+        "retention",
+        "risk",
+        "save-play"
+      ]
+    },
+    {
+      "name": "csm-expansion-play",
+      "version": "1.0.0",
+      "description": "Identify and pitch an upsell or cross-sell expansion grounded in realized value and account signals.",
+      "author": "matrixx0070",
+      "path": "skills/csm-expansion-play/SKILL.md",
+      "sha256": "f14474ace56e31d50295b673ea8a6d1745aeee9a62dccc9a0ff713d2f13e615a",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "expansion",
+        "upsell",
+        "cross-sell",
+        "growth"
+      ]
+    },
+    {
+      "name": "csm-health-score",
+      "version": "1.0.0",
+      "description": "Define and compute an account health score with weighted risk signals and a clear action threshold.",
+      "author": "matrixx0070",
+      "path": "skills/csm-health-score/SKILL.md",
+      "sha256": "580c6231df6193cc5773816914d5b0b75748b2252d113e130fd8d65c074dee56",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "health-score",
+        "risk",
+        "retention",
+        "analytics"
+      ]
+    },
+    {
+      "name": "csm-onboarding-plan",
+      "version": "1.0.0",
+      "description": "Build a customer onboarding plan that drives a new account to its first measurable value.",
+      "author": "matrixx0070",
+      "path": "skills/csm-onboarding-plan/SKILL.md",
+      "sha256": "065d905138db16254f76700bed5c231c273355e6ee055249ff9200a47a1deef7",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "onboarding",
+        "time-to-value",
+        "retention",
+        "adoption"
+      ]
+    },
+    {
+      "name": "csm-qbr",
+      "version": "1.0.0",
+      "description": "Prepare a Quarterly Business Review deck and narrative that proves value and sets the next quarter's plan.",
+      "author": "matrixx0070",
+      "path": "skills/csm-qbr/SKILL.md",
+      "sha256": "0a4edbda930441f3fbc01dc8faf934805ba5a2b3bfcebec1bc3a07fb8bd10c90",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "qbr",
+        "value-realization",
+        "executive",
+        "retention"
+      ]
+    },
+    {
+      "name": "csm-renewal-prep",
+      "version": "1.0.0",
+      "description": "Prepare an account renewal with a value recap, risk assessment, and a clear negotiation posture.",
+      "author": "matrixx0070",
+      "path": "skills/csm-renewal-prep/SKILL.md",
+      "sha256": "c67b10be5bdd58730835ae0f15fe9f939172e7becb7c6a44950547bc97ff04d3",
+      "capabilities": [],
+      "tags": [
+        "customer-success",
+        "renewal",
+        "retention",
+        "negotiation",
+        "value"
+      ]
+    },
+    {
+      "name": "cw-character",
+      "version": "1.0.0",
+      "description": "Build a character with a clear want, need, flaw, distinct voice, and arc.",
+      "author": "matrixx0070",
+      "path": "skills/cw-character/SKILL.md",
+      "sha256": "bf7a1ef770b3e102215a5a82f3b50b3e27dfaa6c55111fecb1dfb8bb13b70608",
+      "capabilities": [],
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "character",
+        "voice",
+        "arc"
+      ]
+    },
+    {
+      "name": "cw-dialogue",
+      "version": "1.0.0",
+      "description": "Write natural, subtext-rich dialogue that sounds distinct per character.",
+      "author": "matrixx0070",
+      "path": "skills/cw-dialogue/SKILL.md",
+      "sha256": "86d9f57196331c1fd4726f139ab9ef3cc639fea73ac85e47f21ee7d772769e7e",
+      "capabilities": [],
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "dialogue",
+        "subtext",
+        "voice"
+      ]
+    },
+    {
+      "name": "cw-edit-pass",
+      "version": "1.0.0",
+      "description": "Run a developmental then line-edit pass on a fiction draft, big issues before small.",
+      "author": "matrixx0070",
+      "path": "skills/cw-edit-pass/SKILL.md",
+      "sha256": "5724e58be11583d1ac113ebac2cacaaa349b559740fd7b3817f6fb4038e8c4c3",
+      "capabilities": [],
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "editing",
+        "revision",
+        "line-edit"
+      ]
+    },
+    {
+      "name": "cw-scene",
+      "version": "1.0.0",
+      "description": "Draft or revise a scene on a goal-conflict-disaster spine with sensory grounding.",
+      "author": "matrixx0070",
+      "path": "skills/cw-scene/SKILL.md",
+      "sha256": "021857594a2358ba944a5395499fdb8ce328e6ea3804d1616116769ba3b6c73d",
+      "capabilities": [],
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "scene",
+        "conflict",
+        "sensory"
+      ]
+    },
+    {
+      "name": "cw-story-outline",
+      "version": "1.0.0",
+      "description": "Outline a story from premise through structure, beats, and stakes before drafting.",
+      "author": "matrixx0070",
+      "path": "skills/cw-story-outline/SKILL.md",
+      "sha256": "78c16d7ae278842272e77c886592c16f183f6756050e4dd9cae8f43a10bd80e5",
+      "capabilities": [],
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "outline",
+        "structure",
+        "plot"
+      ]
+    },
+    {
+      "name": "cw-worldbuilding",
+      "version": "1.0.0",
+      "description": "Build a coherent world with consistent rules, culture, and story-driving constraints.",
+      "author": "matrixx0070",
+      "path": "skills/cw-worldbuilding/SKILL.md",
+      "sha256": "dccc91c31400dada974b24de2b21acc662d25bf363bac3c8e7a7d516121ea20a",
+      "capabilities": [],
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "worldbuilding",
+        "setting",
+        "fantasy"
+      ]
+    },
+    {
       "name": "data-analyze",
       "version": "1.0.0",
       "description": "Answer any data question, scaling effort from a one-number lookup to a full stakeholder-ready analysis with a recommendation.",
@@ -593,6 +785,102 @@
         "warehouse",
         "optimization",
         "text-to-sql"
+      ]
+    },
+    {
+      "name": "de-data-modeling",
+      "version": "1.0.0",
+      "description": "Model a warehouse schema \u2014 choose star vs snowflake, declare grain, and design slowly-changing dimensions.",
+      "author": "matrixx0070",
+      "path": "skills/de-data-modeling/SKILL.md",
+      "sha256": "b8760e1fdaa45c3a6da2e218216b77e2d591187aace865b50c09fe0cdf7c9168",
+      "capabilities": [],
+      "tags": [
+        "data-engineering",
+        "data-modeling",
+        "warehouse",
+        "dimensional",
+        "scd"
+      ]
+    },
+    {
+      "name": "de-data-quality",
+      "version": "1.0.0",
+      "description": "Define data-quality checks and a monitoring and alerting plan across a pipeline.",
+      "author": "matrixx0070",
+      "path": "skills/de-data-quality/SKILL.md",
+      "sha256": "76667a76b70dc789214dfb9945c38b5a24a6e107b309a765daac9e219686a342",
+      "capabilities": [],
+      "tags": [
+        "data-engineering",
+        "data-quality",
+        "monitoring",
+        "alerting",
+        "observability"
+      ]
+    },
+    {
+      "name": "de-dbt-transform",
+      "version": "1.0.0",
+      "description": "Structure and write dbt models \u2014 staging to marts layering, tests, and documentation.",
+      "author": "matrixx0070",
+      "path": "skills/de-dbt-transform/SKILL.md",
+      "sha256": "e93a561fc998499d3bb55b148735c09066166cda44c2f023dfae2101f1858bf0",
+      "capabilities": [],
+      "tags": [
+        "data-engineering",
+        "dbt",
+        "transform",
+        "sql",
+        "testing"
+      ]
+    },
+    {
+      "name": "de-orchestration",
+      "version": "1.0.0",
+      "description": "Design an orchestration DAG \u2014 task dependencies, retries, and backfill strategy.",
+      "author": "matrixx0070",
+      "path": "skills/de-orchestration/SKILL.md",
+      "sha256": "1609d2e9eb8b7d69d30c56c08d137a887467fe9da840946db35523b76bb416c6",
+      "capabilities": [],
+      "tags": [
+        "data-engineering",
+        "orchestration",
+        "airflow",
+        "dag",
+        "scheduling"
+      ]
+    },
+    {
+      "name": "de-pipeline-design",
+      "version": "1.0.0",
+      "description": "Design an ETL/ELT data pipeline end to end \u2014 sources, transforms, load pattern, SLAs, and idempotency.",
+      "author": "matrixx0070",
+      "path": "skills/de-pipeline-design/SKILL.md",
+      "sha256": "a912fe908e5deaae77265e4bfaea4373427cb06d99eac1074d1d0b37805eeaf5",
+      "capabilities": [],
+      "tags": [
+        "data-engineering",
+        "pipeline",
+        "etl",
+        "elt",
+        "ingestion"
+      ]
+    },
+    {
+      "name": "de-warehouse-migrate",
+      "version": "1.0.0",
+      "description": "Plan a warehouse or pipeline migration with a phased cutover and a rollback path.",
+      "author": "matrixx0070",
+      "path": "skills/de-warehouse-migrate/SKILL.md",
+      "sha256": "76d8359a48fe4a39f0848e6f1ad412910a866339e8132e6473074b873120454a",
+      "capabilities": [],
+      "tags": [
+        "data-engineering",
+        "migration",
+        "warehouse",
+        "cutover",
+        "rollback"
       ]
     },
     {
@@ -1589,6 +1877,161 @@
       ]
     },
     {
+      "name": "hw-doctor-prep",
+      "version": "1.0.0",
+      "description": "Organize symptoms, history, and questions into a clear summary to bring to a clinician \u2014 no diagnosis.",
+      "author": "matrixx0070",
+      "path": "skills/hw-doctor-prep/SKILL.md",
+      "sha256": "5c589c71c867b058627842f51911ebac5e40e10efd2537f9c7f1c27b36b43720",
+      "capabilities": [],
+      "tags": [
+        "health",
+        "doctor-visit",
+        "symptoms",
+        "preparation",
+        "communication"
+      ]
+    },
+    {
+      "name": "hw-habit-builder",
+      "version": "1.0.0",
+      "description": "Design a durable habit-formation plan using cue-routine-reward loops and simple tracking.",
+      "author": "matrixx0070",
+      "path": "skills/hw-habit-builder/SKILL.md",
+      "sha256": "fbf9530c52e5c66060d222e40866e12fa280dc07272454df60a930dbd97603d8",
+      "capabilities": [],
+      "tags": [
+        "habits",
+        "behavior-change",
+        "wellness",
+        "tracking",
+        "motivation"
+      ]
+    },
+    {
+      "name": "hw-meal-plan",
+      "version": "1.0.0",
+      "description": "Build a balanced, preference-aware meal plan for a stated wellness goal using general nutrition principles.",
+      "author": "matrixx0070",
+      "path": "skills/hw-meal-plan/SKILL.md",
+      "sha256": "ed66f2ebdf06b7d3004b043f1345a896b4b2a8419f7958caf26deb196cb8c5a3",
+      "capabilities": [],
+      "tags": [
+        "nutrition",
+        "meal-plan",
+        "wellness",
+        "diet",
+        "planning"
+      ]
+    },
+    {
+      "name": "hw-sleep-optimize",
+      "version": "1.0.0",
+      "description": "Improve sleep quality with a personalized, evidence-based sleep-hygiene plan.",
+      "author": "matrixx0070",
+      "path": "skills/hw-sleep-optimize/SKILL.md",
+      "sha256": "bf7807b6369eda54c86a9a37500d7b5c806f8643c1f66f7ca343f95b7856ddc5",
+      "capabilities": [],
+      "tags": [
+        "sleep",
+        "wellness",
+        "habits",
+        "circadian",
+        "recovery"
+      ]
+    },
+    {
+      "name": "hw-workout-plan",
+      "version": "1.0.0",
+      "description": "Build a progressive, goal-appropriate workout plan matched to experience level using general fitness principles.",
+      "author": "matrixx0070",
+      "path": "skills/hw-workout-plan/SKILL.md",
+      "sha256": "76da85973c7a2629e4dd91047eb67dd2db2fcb765f7ed20d8df7eae24c194cbc",
+      "capabilities": [],
+      "tags": [
+        "fitness",
+        "workout",
+        "training",
+        "exercise",
+        "progression"
+      ]
+    },
+    {
+      "name": "i18n-glossary",
+      "version": "1.0.0",
+      "description": "Build a bilingual terminology glossary and style guide that enforces consistency across a translation project.",
+      "author": "matrixx0070",
+      "path": "skills/i18n-glossary/SKILL.md",
+      "sha256": "9aff62d50df6517c4d9e8da9e2415500c71c7b9d1f755bab50e4448c7c4d7081",
+      "capabilities": [],
+      "tags": [
+        "glossary",
+        "terminology",
+        "style-guide",
+        "consistency"
+      ]
+    },
+    {
+      "name": "i18n-localize",
+      "version": "1.0.0",
+      "description": "Adapt content for a specific locale \u2014 units, dates, currency, idioms, and cultural fit \u2014 beyond literal translation.",
+      "author": "matrixx0070",
+      "path": "skills/i18n-localize/SKILL.md",
+      "sha256": "554d415bb598f0afb6344344709a2c88da9e048d68368ff3da7a55f7bb639cb0",
+      "capabilities": [],
+      "tags": [
+        "localization",
+        "i18n",
+        "locale",
+        "culture"
+      ]
+    },
+    {
+      "name": "i18n-subtitle",
+      "version": "1.0.0",
+      "description": "Create subtitles or captions with correct timing, line breaks, and reading-speed limits.",
+      "author": "matrixx0070",
+      "path": "skills/i18n-subtitle/SKILL.md",
+      "sha256": "3c8fbd86553913fb6e33d808fd26c968d57648bdae98dce05e0220fec78c1aaa",
+      "capabilities": [],
+      "tags": [
+        "subtitles",
+        "captions",
+        "timing",
+        "srt"
+      ]
+    },
+    {
+      "name": "i18n-tone-adapt",
+      "version": "1.0.0",
+      "description": "Adapt tone and formality across languages so the message fits the target audience and channel.",
+      "author": "matrixx0070",
+      "path": "skills/i18n-tone-adapt/SKILL.md",
+      "sha256": "7589378e24419c4f6c0304ea6b477170103d714f0a8283ce547b615ff8b5f420",
+      "capabilities": [],
+      "tags": [
+        "tone",
+        "formality",
+        "register",
+        "audience"
+      ]
+    },
+    {
+      "name": "i18n-translate",
+      "version": "1.0.0",
+      "description": "Translate text faithfully into a target language while preserving meaning, register, and intent.",
+      "author": "matrixx0070",
+      "path": "skills/i18n-translate/SKILL.md",
+      "sha256": "16aaad9ba24bfe12f1eebe66893c80963c60b504a985e439b38bd58108c3576e",
+      "capabilities": [],
+      "tags": [
+        "translation",
+        "i18n",
+        "language",
+        "fidelity"
+      ]
+    },
+    {
       "name": "incident-postmortem",
       "version": "1.0.0",
       "description": "Turn raw incident notes into a blameless postmortem - quantified impact, gap-honest timeline, a root-cause chain, what worked, and action items that actually block recurrence.",
@@ -2158,6 +2601,102 @@
       ]
     },
     {
+      "name": "pf-big-purchase",
+      "version": "1.0.0",
+      "description": "Decide on a big purchase (rent vs buy, cash vs finance) using a structured cost-and-fit framework.",
+      "author": "matrixx0070",
+      "path": "skills/pf-big-purchase/SKILL.md",
+      "sha256": "a0302e4c7fb699974a4a69d081f441240280c81fe2577c494fd2d8cb3ded36ed",
+      "capabilities": [],
+      "tags": [
+        "big-purchase",
+        "rent-vs-buy",
+        "financing",
+        "affordability",
+        "personal-finance"
+      ]
+    },
+    {
+      "name": "pf-budget",
+      "version": "1.0.0",
+      "description": "Build a personal budget from income and expenses using the 50/30/20 rule or a zero-based plan.",
+      "author": "matrixx0070",
+      "path": "skills/pf-budget/SKILL.md",
+      "sha256": "2a043f547bf2c8fe4a2f46539934b5c1a8565a2518669b064d22c8ff3c967bc8",
+      "capabilities": [],
+      "tags": [
+        "budget",
+        "personal-finance",
+        "cash-flow",
+        "50-30-20",
+        "zero-based"
+      ]
+    },
+    {
+      "name": "pf-debt-payoff",
+      "version": "1.0.0",
+      "description": "Plan a debt payoff using the avalanche or snowball method and produce a month-by-month schedule.",
+      "author": "matrixx0070",
+      "path": "skills/pf-debt-payoff/SKILL.md",
+      "sha256": "6df71af84d8de3b554cd57fdb24e58368af1b77f7af2b3ea28886508cc651dc9",
+      "capabilities": [],
+      "tags": [
+        "debt",
+        "payoff",
+        "avalanche",
+        "snowball",
+        "personal-finance"
+      ]
+    },
+    {
+      "name": "pf-investment-allocation",
+      "version": "1.0.0",
+      "description": "Explain a diversified asset-allocation framework tailored to risk tolerance and time horizon (educational).",
+      "author": "matrixx0070",
+      "path": "skills/pf-investment-allocation/SKILL.md",
+      "sha256": "4291063db5f0a0234ced89722edb8cc09e8452d304a310e3a13109d98c392f36",
+      "capabilities": [],
+      "tags": [
+        "investing",
+        "asset-allocation",
+        "diversification",
+        "risk",
+        "personal-finance"
+      ]
+    },
+    {
+      "name": "pf-retirement-plan",
+      "version": "1.0.0",
+      "description": "Build a personal retirement savings plan and projection from age, savings rate, and target (educational).",
+      "author": "matrixx0070",
+      "path": "skills/pf-retirement-plan/SKILL.md",
+      "sha256": "9fa07c6ee691cd13745b1bfec051dfac82e0d7d5dc530487f0cd1b9c36b636a6",
+      "capabilities": [],
+      "tags": [
+        "retirement",
+        "savings-rate",
+        "compounding",
+        "projection",
+        "personal-finance"
+      ]
+    },
+    {
+      "name": "pf-tax-personal",
+      "version": "1.0.0",
+      "description": "Organize personal tax preparation and surface commonly missed deductions and credits (educational).",
+      "author": "matrixx0070",
+      "path": "skills/pf-tax-personal/SKILL.md",
+      "sha256": "1c7a827eb28abe5102e37844c39683190ff38bf2203dc9821a62ea20a19e47f2",
+      "capabilities": [],
+      "tags": [
+        "taxes",
+        "deductions",
+        "tax-prep",
+        "personal-finance",
+        "recordkeeping"
+      ]
+    },
+    {
       "name": "pm-brainstorming",
       "version": "1.0.0",
       "description": "A candid ideation partner that expands the option space then pressure-tests each idea \u2014 steelman, sharpest objection, riskiest assumption, cheapest test \u2014 and converges on pursue/park/kill.",
@@ -2302,6 +2841,198 @@
       "sha256": "4c5c9fa533238831bb86ec3b72aec4d931282961b936ae938fc60e4aa3dd59b0",
       "capabilities": [],
       "tags": []
+    },
+    {
+      "name": "qa-automation-strategy",
+      "version": "1.0.0",
+      "description": "Decide what to automate versus test manually and shape the test-pyramid mix for a fast, trustworthy automated suite.",
+      "author": "matrixx0070",
+      "path": "skills/qa-automation-strategy/SKILL.md",
+      "sha256": "2dca5c423ec0fa8840a78e3a201e83c1e715868e6ab4983ff6639c2648f697d7",
+      "capabilities": [],
+      "tags": [
+        "qa",
+        "automation",
+        "test-pyramid",
+        "roi",
+        "ci"
+      ]
+    },
+    {
+      "name": "qa-bug-report",
+      "version": "1.0.0",
+      "description": "Write a bug report a developer can reproduce and fix without asking a single follow-up question.",
+      "author": "matrixx0070",
+      "path": "skills/qa-bug-report/SKILL.md",
+      "sha256": "5c407d0e60ae195baacfbb90e27c99b071478197a8747b36df48cf9b7376baca",
+      "capabilities": [],
+      "tags": [
+        "qa",
+        "bug-report",
+        "repro",
+        "severity",
+        "triage"
+      ]
+    },
+    {
+      "name": "qa-exploratory-charter",
+      "version": "1.0.0",
+      "description": "Design a time-boxed exploratory-testing charter with a clear mission, tours, and heuristics to find bugs scripted tests miss.",
+      "author": "matrixx0070",
+      "path": "skills/qa-exploratory-charter/SKILL.md",
+      "sha256": "a75c5f6a6d90226d03fb9cddb8f96e62899e0349bfa36c917a4de508bf762008",
+      "capabilities": [],
+      "tags": [
+        "qa",
+        "exploratory",
+        "charter",
+        "heuristics",
+        "tours"
+      ]
+    },
+    {
+      "name": "qa-regression-suite",
+      "version": "1.0.0",
+      "description": "Design or prune a regression suite by risk and change surface so it catches regressions without bloating runtime.",
+      "author": "matrixx0070",
+      "path": "skills/qa-regression-suite/SKILL.md",
+      "sha256": "50f4b3d0ae02524a032c15cb778d18bc978f71a1edd48679ebab1bc09227d814",
+      "capabilities": [],
+      "tags": [
+        "qa",
+        "regression",
+        "risk",
+        "pruning",
+        "change-surface"
+      ]
+    },
+    {
+      "name": "qa-release-signoff",
+      "version": "1.0.0",
+      "description": "Run a release sign-off checklist that turns test results, open bugs, and risk into a defensible go/no-go call.",
+      "author": "matrixx0070",
+      "path": "skills/qa-release-signoff/SKILL.md",
+      "sha256": "024c749e1154b718bfac7bb8bc948b4e27a3764f3b9121bd2e4b9e8f961d378e",
+      "capabilities": [],
+      "tags": [
+        "qa",
+        "release",
+        "signoff",
+        "go-no-go",
+        "risk"
+      ]
+    },
+    {
+      "name": "qa-test-plan",
+      "version": "1.0.0",
+      "description": "Write a focused test plan that scopes what will be tested, ranks risks, enumerates cases, and sets explicit entry and exit criteria.",
+      "author": "matrixx0070",
+      "path": "skills/qa-test-plan/SKILL.md",
+      "sha256": "a036606a979c9954e8566bb7ddfd45b65f6baff4d05e941608c5451059c0e033",
+      "capabilities": [],
+      "tags": [
+        "qa",
+        "test-plan",
+        "risk",
+        "coverage",
+        "criteria"
+      ]
+    },
+    {
+      "name": "rsr-brief",
+      "version": "1.0.0",
+      "description": "Turn research into a decision-ready brief tailored to a specific stakeholder and decision.",
+      "author": "matrixx0070",
+      "path": "skills/rsr-brief/SKILL.md",
+      "sha256": "b5a5c715c0289db6a05f7e369bb0622ac4050da3efc58b48218dd1e6c585d260",
+      "capabilities": [],
+      "tags": [
+        "research",
+        "brief",
+        "decision-support",
+        "stakeholder",
+        "recommendation"
+      ]
+    },
+    {
+      "name": "rsr-deep-dive",
+      "version": "1.0.0",
+      "description": "Run a structured, multi-source deep-research loop on a question until the answer stops changing.",
+      "author": "matrixx0070",
+      "path": "skills/rsr-deep-dive/SKILL.md",
+      "sha256": "b16f5aa8ff64a3cc639ccc0b2a59dc9ff25c6ed02a082825e402f5ff6987b3bd",
+      "capabilities": [],
+      "tags": [
+        "research",
+        "deep-research",
+        "multi-source",
+        "investigation",
+        "loop"
+      ]
+    },
+    {
+      "name": "rsr-fact-check",
+      "version": "1.0.0",
+      "description": "Verify one specific claim against primary sources and return a verdict with evidence.",
+      "author": "matrixx0070",
+      "path": "skills/rsr-fact-check/SKILL.md",
+      "sha256": "12ccfc96ecb0c08aaef23fe1f0e5b0852af8a2e0c0cd943c0ed4e0c58216f309",
+      "capabilities": [],
+      "tags": [
+        "research",
+        "fact-check",
+        "verification",
+        "claims",
+        "primary-source"
+      ]
+    },
+    {
+      "name": "rsr-literature-map",
+      "version": "1.0.0",
+      "description": "Map the landscape of work and opinions on a topic into labeled clusters with representative sources.",
+      "author": "matrixx0070",
+      "path": "skills/rsr-literature-map/SKILL.md",
+      "sha256": "c5245efb35251b82b3a54b7af98d48a5f9659176ce5b875154616d6bef2f1c6e",
+      "capabilities": [],
+      "tags": [
+        "research",
+        "landscape",
+        "clustering",
+        "literature-review",
+        "positions"
+      ]
+    },
+    {
+      "name": "rsr-source-eval",
+      "version": "1.0.0",
+      "description": "Judge one source's credibility, bias, and recency before you rely on it.",
+      "author": "matrixx0070",
+      "path": "skills/rsr-source-eval/SKILL.md",
+      "sha256": "b15b335db5cc738f7b83310e78ff057c2e66e4f4068e8594963b08397651308f",
+      "capabilities": [],
+      "tags": [
+        "research",
+        "credibility",
+        "bias",
+        "source-evaluation",
+        "provenance"
+      ]
+    },
+    {
+      "name": "rsr-synthesis",
+      "version": "1.0.0",
+      "description": "Merge many sources into one cited, deduplicated answer with per-claim confidence.",
+      "author": "matrixx0070",
+      "path": "skills/rsr-synthesis/SKILL.md",
+      "sha256": "559dfde1876a68eb2cd7fd7fb8fa7d397c0c5b94e2984d8c9f58e9d17ae1e77b",
+      "capabilities": [],
+      "tags": [
+        "research",
+        "synthesis",
+        "citation",
+        "deduplication",
+        "confidence"
+      ]
     },
     {
       "name": "sales-account-research",
