@@ -2,7 +2,7 @@
   "registry": "sudo-connectors",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T20:00:00Z",
+  "updated": "2026-07-11T20:30:00Z",
   "connectors": [
     {
       "name": "github",
@@ -718,6 +718,54 @@
       "tags": [
         "data-engineering",
         "transform"
+      ]
+    },
+    {
+      "name": "mlflow",
+      "displayName": "MLflow",
+      "description": "ML experiment tracking, model registry, and runs. Requires MLflow server.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "ml",
+        "experiments"
+      ]
+    },
+    {
+      "name": "wandb",
+      "displayName": "Weights & Biases",
+      "description": "ML experiment tracking, sweeps, and artifacts. Requires W&B API key.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "ml",
+        "experiments"
+      ]
+    },
+    {
+      "name": "huggingface",
+      "displayName": "Hugging Face",
+      "description": "Models, datasets, and inference from the Hugging Face Hub. Requires HF token.",
+      "category": "data",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "ml",
+        "models"
+      ]
+    },
+    {
+      "name": "linkedin",
+      "displayName": "LinkedIn",
+      "description": "Profile and job data on LinkedIn. Requires LinkedIn OAuth.",
+      "category": "communication",
+      "requiresOAuth": true,
+      "live": false,
+      "tags": [
+        "career",
+        "network"
       ]
     }
   ]

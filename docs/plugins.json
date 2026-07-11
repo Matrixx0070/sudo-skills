@@ -2,7 +2,7 @@
   "registry": "sudo-plugins",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T20:00:00Z",
+  "updated": "2026-07-11T20:30:00Z",
   "plugins": [
     {
       "name": "engineering",
@@ -807,6 +807,79 @@
         "translation",
         "localization",
         "i18n"
+      ]
+    },
+    {
+      "name": "machine-learning",
+      "displayName": "Machine Learning",
+      "category": "data",
+      "description": "Classic ML / data science \u2014 problem framing, feature engineering, model selection, rigorous training+eval, experiment tracking, deployment, monitoring. Distinct from ai-engineering (LLM apps) and data (analytics). SUDO-only.",
+      "skills": [
+        "ml-problem-framing",
+        "ml-feature-engineering",
+        "ml-model-selection",
+        "ml-training-eval",
+        "ml-experiment-tracking",
+        "ml-deployment",
+        "ml-monitoring"
+      ],
+      "connectors": [
+        "mlflow",
+        "wandb",
+        "huggingface"
+      ],
+      "tags": [
+        "ml",
+        "data-science",
+        "models"
+      ]
+    },
+    {
+      "name": "project-management",
+      "displayName": "Project Management",
+      "category": "productivity",
+      "description": "Run projects to delivery \u2014 charter, schedule/critical path, RAID log, dependency mapping, status updates, change control, retrospectives. Distinct from product-management and operations. SUDO-only.",
+      "skills": [
+        "proj-charter",
+        "proj-plan-schedule",
+        "proj-raid-log",
+        "proj-dependency-map",
+        "proj-status-update",
+        "proj-change-control",
+        "proj-retrospective"
+      ],
+      "connectors": [
+        "atlassian",
+        "asana",
+        "monday"
+      ],
+      "tags": [
+        "project",
+        "delivery",
+        "pmo"
+      ]
+    },
+    {
+      "name": "career",
+      "displayName": "Career & Job Search",
+      "category": "personal",
+      "description": "The candidate side of work \u2014 resume, cover letters, interview prep, salary negotiation, LinkedIn, career planning, job-search strategy. Distinct from HR (employer side). SUDO-only.",
+      "skills": [
+        "car-resume",
+        "car-cover-letter",
+        "car-interview-prep",
+        "car-salary-negotiation",
+        "car-linkedin",
+        "car-career-plan",
+        "car-job-search-strategy"
+      ],
+      "connectors": [
+        "linkedin"
+      ],
+      "tags": [
+        "career",
+        "job-search",
+        "resume"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-11T20:00:00Z",
+  "updated": "2026-07-11T20:30:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -216,6 +216,123 @@
         "genetics",
         "prioritization",
         "scoring"
+      ]
+    },
+    {
+      "name": "car-career-plan",
+      "version": "1.0.0",
+      "description": "Build a career development plan with goals, skill-gap analysis, and time-boxed milestones.",
+      "author": "matrixx0070",
+      "path": "skills/car-career-plan/SKILL.md",
+      "sha256": "ea55c1f0207b4a78bd8c5b55a2a1bbc0483d159589cac00dc6623e1ecc7b7ab0",
+      "capabilities": [],
+      "tags": [
+        "career-plan",
+        "goals",
+        "skill-gaps",
+        "milestones",
+        "development",
+        "candidate"
+      ]
+    },
+    {
+      "name": "car-cover-letter",
+      "version": "1.0.0",
+      "description": "Write a targeted cover letter that ties your evidence to a specific role and company, not a generic template.",
+      "author": "matrixx0070",
+      "path": "skills/car-cover-letter/SKILL.md",
+      "sha256": "e9961c06ad9f3603b8246c86c26875dd59c028a2c64b2a200a2cc261370acb19",
+      "capabilities": [],
+      "tags": [
+        "cover-letter",
+        "job-search",
+        "targeting",
+        "storytelling",
+        "candidate"
+      ]
+    },
+    {
+      "name": "car-interview-prep",
+      "version": "1.0.0",
+      "description": "Prepare as the candidate \u2014 STAR stories, company research, and sharp questions to ask each interviewer.",
+      "author": "matrixx0070",
+      "path": "skills/car-interview-prep/SKILL.md",
+      "sha256": "1086489d89a779f2c30ff2a23fb5b3a5f97bcb5a6e26cb214603231c0a4ce9cb",
+      "capabilities": [],
+      "tags": [
+        "interview",
+        "star-stories",
+        "job-search",
+        "company-research",
+        "candidate"
+      ]
+    },
+    {
+      "name": "car-job-search-strategy",
+      "version": "1.0.0",
+      "description": "Design a job-search strategy \u2014 targeting, pipeline, outreach, and tracking \u2014 run like a repeatable funnel.",
+      "author": "matrixx0070",
+      "path": "skills/car-job-search-strategy/SKILL.md",
+      "sha256": "d1d34178f2e709afd951a4e92afe93492755e40d1df7d114d5144fcc0f2dee82",
+      "capabilities": [],
+      "tags": [
+        "job-search",
+        "pipeline",
+        "outreach",
+        "networking",
+        "tracking",
+        "candidate"
+      ]
+    },
+    {
+      "name": "car-linkedin",
+      "version": "1.0.0",
+      "description": "Optimize a LinkedIn profile \u2014 headline, about, experience, and keywords \u2014 for recruiter search and credibility.",
+      "author": "matrixx0070",
+      "path": "skills/car-linkedin/SKILL.md",
+      "sha256": "b184f41ee46304427ab2afd5d02fc7480bf36852e54f053fd02e701bd7f73337",
+      "capabilities": [],
+      "tags": [
+        "linkedin",
+        "personal-brand",
+        "keywords",
+        "job-search",
+        "profile",
+        "candidate"
+      ]
+    },
+    {
+      "name": "car-resume",
+      "version": "1.0.0",
+      "description": "Write or tailor a resume to a specific target role with metric-driven impact bullets that pass ATS and recruiter skim.",
+      "author": "matrixx0070",
+      "path": "skills/car-resume/SKILL.md",
+      "sha256": "8eeb058f5b52e920503607e8d61d39d24a62d86d996c77fc2df51f2da96b2439",
+      "capabilities": [],
+      "tags": [
+        "resume",
+        "job-search",
+        "ats",
+        "impact-bullets",
+        "tailoring",
+        "candidate"
+      ]
+    },
+    {
+      "name": "car-salary-negotiation",
+      "version": "1.0.0",
+      "description": "Prepare a salary and offer negotiation with market data, a BATNA, and ready-to-say scripts.",
+      "author": "matrixx0070",
+      "path": "skills/car-salary-negotiation/SKILL.md",
+      "sha256": "824c94ab4a81b18881021d368f0a72a248b535656d3802b7923525a8288d18b9",
+      "capabilities": [],
+      "tags": [
+        "negotiation",
+        "salary",
+        "offer",
+        "batna",
+        "compensation",
+        "candidate"
       ]
     },
     {
@@ -2336,6 +2453,118 @@
       ]
     },
     {
+      "name": "ml-deployment",
+      "version": "1.0.0",
+      "description": "Deploy a trained model to serving with versioning, shadow or canary rollout, and a tested rollback path.",
+      "author": "matrixx0070",
+      "path": "skills/ml-deployment/SKILL.md",
+      "sha256": "837cb418ea62d3433775a3a00adfb2e700b326d907dd8029f78ff54eec2ad9d1",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "deployment",
+        "serving",
+        "canary",
+        "rollback"
+      ]
+    },
+    {
+      "name": "ml-experiment-tracking",
+      "version": "1.0.0",
+      "description": "Set up reproducible experiment tracking for runs, params, metrics, artifacts, and seeds so any result can be regenerated.",
+      "author": "matrixx0070",
+      "path": "skills/ml-experiment-tracking/SKILL.md",
+      "sha256": "4fd53af4e76d3e2c41b563441934af125c09a151f0b753da93440d5f6c1515ff",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "tracking",
+        "reproducibility",
+        "mlflow",
+        "seeds"
+      ]
+    },
+    {
+      "name": "ml-feature-engineering",
+      "version": "1.0.0",
+      "description": "Design leakage-safe features with correct encoding, scaling, split-aware fitting, and disciplined selection for classic ML.",
+      "author": "matrixx0070",
+      "path": "skills/ml-feature-engineering/SKILL.md",
+      "sha256": "33a1800eaf0715babd75506a138d391510eaa97dd9b791c85f28676b48e31a62",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "features",
+        "encoding",
+        "leakage",
+        "selection"
+      ]
+    },
+    {
+      "name": "ml-model-selection",
+      "version": "1.0.0",
+      "description": "Choose a model family and a hyperparameter search strategy matched to the problem type, data size, and constraints.",
+      "author": "matrixx0070",
+      "path": "skills/ml-model-selection/SKILL.md",
+      "sha256": "66154a470accf137e854e6950af44dca3d8c6567a8a2251213255b044fd5e62f",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "model-selection",
+        "hyperparameters",
+        "tuning",
+        "tradeoffs"
+      ]
+    },
+    {
+      "name": "ml-monitoring",
+      "version": "1.0.0",
+      "description": "Monitor a live model for data quality, input and prediction drift, performance decay, and fire retraining triggers.",
+      "author": "matrixx0070",
+      "path": "skills/ml-monitoring/SKILL.md",
+      "sha256": "fe0d3824a37888d908dcb3676c5ede7f787b1d5b24c1db2ed8a330056a56ef8a",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "monitoring",
+        "drift",
+        "decay",
+        "retraining"
+      ]
+    },
+    {
+      "name": "ml-problem-framing",
+      "version": "1.0.0",
+      "description": "Frame a classic ML problem by fixing target, prediction unit, metric, baseline, feasibility, and leakage risk before any modeling.",
+      "author": "matrixx0070",
+      "path": "skills/ml-problem-framing/SKILL.md",
+      "sha256": "372f6f60f2742ee2cd4f3914fc0ecf2d393395eb3008c2d8b082b7fbd2bc52d7",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "framing",
+        "target",
+        "metric",
+        "baseline"
+      ]
+    },
+    {
+      "name": "ml-training-eval",
+      "version": "1.0.0",
+      "description": "Train and evaluate a model rigorously with proper cross-validation, decision-aligned metrics, calibration, and error analysis.",
+      "author": "matrixx0070",
+      "path": "skills/ml-training-eval/SKILL.md",
+      "sha256": "94bc93db64fe76c0ff4b8f1bc62adf5f096525cfb4374b2cfaf469a018c95e95",
+      "capabilities": [],
+      "tags": [
+        "ml",
+        "cross-validation",
+        "metrics",
+        "calibration",
+        "error-analysis"
+      ]
+    },
+    {
       "name": "ops-capacity-plan",
       "version": "1.0.0",
       "description": "Build a resource capacity plan that turns a demand forecast into add/reallocate/defer decisions with trigger thresholds.",
@@ -2830,6 +3059,118 @@
         "requirements",
         "planning",
         "acceptance-criteria"
+      ]
+    },
+    {
+      "name": "proj-change-control",
+      "version": "1.0.0",
+      "description": "Run change control on a scope, schedule, or budget change \u2014 assess impact, decide, and re-baseline.",
+      "author": "matrixx0070",
+      "path": "skills/proj-change-control/SKILL.md",
+      "sha256": "8e486ef831f07881cf6fa5e2c249cc932e299c919228a17bac59f4f3596a7f58",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "change-control",
+        "scope",
+        "impact",
+        "governance"
+      ]
+    },
+    {
+      "name": "proj-charter",
+      "version": "1.0.0",
+      "description": "Write a project charter that pins down goal, scope, success criteria, and stakeholders before work starts.",
+      "author": "matrixx0070",
+      "path": "skills/proj-charter/SKILL.md",
+      "sha256": "0042315c73c35f0ddbd66d9a560460cc78ff07d1480a4c8aefa01d42ac1bd894",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "charter",
+        "scope",
+        "stakeholders",
+        "kickoff"
+      ]
+    },
+    {
+      "name": "proj-dependency-map",
+      "version": "1.0.0",
+      "description": "Map cross-team dependencies and sequence them so no team is blocked waiting on another.",
+      "author": "matrixx0070",
+      "path": "skills/proj-dependency-map/SKILL.md",
+      "sha256": "d4a60c931adccc3bf448fd3c47eb26b206fae23d1502ec4e14bb1970b9d29576",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "dependencies",
+        "sequencing",
+        "cross-team",
+        "coordination"
+      ]
+    },
+    {
+      "name": "proj-plan-schedule",
+      "version": "1.0.0",
+      "description": "Build a project plan and schedule with milestones, a critical path, and realistic buffers.",
+      "author": "matrixx0070",
+      "path": "skills/proj-plan-schedule/SKILL.md",
+      "sha256": "57c8dbead5f4748442b027f11eebdf03b7668dea4aadcfbb98c8e75da28bfe70",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "scheduling",
+        "critical-path",
+        "milestones",
+        "estimation"
+      ]
+    },
+    {
+      "name": "proj-raid-log",
+      "version": "1.0.0",
+      "description": "Maintain a RAID log tracking risks, assumptions, issues, and dependencies with owners and review cadence.",
+      "author": "matrixx0070",
+      "path": "skills/proj-raid-log/SKILL.md",
+      "sha256": "69f42f69055245d5226aa469923f491678ddfd9a788188f5b23810c85e8b1235",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "raid",
+        "risk",
+        "issues",
+        "tracking"
+      ]
+    },
+    {
+      "name": "proj-retrospective",
+      "version": "1.0.0",
+      "description": "Facilitate a project retrospective and convert it into owned, dated action items.",
+      "author": "matrixx0070",
+      "path": "skills/proj-retrospective/SKILL.md",
+      "sha256": "b5cb3ea39e89e33b91e099f4aee81f5b0d6bd7861883b79215d92ed59a933579",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "retrospective",
+        "lessons-learned",
+        "actions",
+        "facilitation"
+      ]
+    },
+    {
+      "name": "proj-status-update",
+      "version": "1.0.0",
+      "description": "Write a project status update with RAG health, progress against plan, blockers, and specific asks.",
+      "author": "matrixx0070",
+      "path": "skills/proj-status-update/SKILL.md",
+      "sha256": "188927b93a35c3bf4c1afa9f7a4cf7fbf6392b4ecacdcb44589b84af7afe72e3",
+      "capabilities": [],
+      "tags": [
+        "project-management",
+        "status",
+        "reporting",
+        "rag",
+        "communication"
       ]
     },
     {
