@@ -2,7 +2,7 @@
   "registry": "sudo-plugins",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-12T00:00:00Z",
+  "updated": "2026-07-12T01:00:00Z",
   "plugins": [
     {
       "name": "engineering",
@@ -1226,6 +1226,310 @@
       "tags": [
         "legal",
         "prodl"
+      ]
+    },
+    {
+      "name": "investment-banking",
+      "displayName": "Investment Banking",
+      "category": "finance",
+      "description": "Sell-side M&A + IB productivity \u2014 buyer lists, CIM/teaser, merger models, pitch decks, deal tracking. SUDO replica.",
+      "skills": [
+        "ib-buyer-list",
+        "ib-cim-builder",
+        "ib-datapack-builder",
+        "ib-deal-tracker",
+        "ib-merger-model",
+        "ib-pitch-deck",
+        "ib-process-letter",
+        "ib-strip-profile",
+        "ib-teaser"
+      ],
+      "connectors": [
+        "pitchbook",
+        "factset"
+      ],
+      "tags": [
+        "finance",
+        "ib"
+      ]
+    },
+    {
+      "name": "equity-research",
+      "displayName": "Equity Research",
+      "category": "finance",
+      "description": "Earnings analysis, initiating coverage, models, morning notes, thesis tracking (research, not advice). SUDO replica.",
+      "skills": [
+        "eqr-catalyst-calendar",
+        "eqr-earnings-analysis",
+        "eqr-earnings-preview",
+        "eqr-idea-generation",
+        "eqr-initiating-coverage",
+        "eqr-model-update",
+        "eqr-morning-note",
+        "eqr-sector-overview",
+        "eqr-thesis-tracker"
+      ],
+      "connectors": [
+        "factset",
+        "morningstar",
+        "aiera"
+      ],
+      "tags": [
+        "finance",
+        "eqr"
+      ]
+    },
+    {
+      "name": "financial-analysis",
+      "displayName": "Financial Analysis",
+      "category": "finance",
+      "description": "Core modeling \u2014 DCF, comps, LBO, 3-statement, competitive analysis, deck QC, xlsx/pptx authoring. SUDO replica.",
+      "skills": [
+        "fina-3-statement-model",
+        "fina-audit-xls",
+        "fina-clean-data-xls",
+        "fina-competitive-analysis",
+        "fina-comps-analysis",
+        "fina-dcf-model",
+        "fina-deck-refresh",
+        "fina-ib-check-deck",
+        "fina-lbo-model",
+        "fina-ppt-template-creator",
+        "fina-pptx-author",
+        "fina-skill-creator",
+        "fina-xlsx-author"
+      ],
+      "connectors": [
+        "daloopa",
+        "morningstar",
+        "factset",
+        "moodys",
+        "pitchbook",
+        "kensho"
+      ],
+      "tags": [
+        "finance",
+        "fina"
+      ]
+    },
+    {
+      "name": "private-equity",
+      "displayName": "Private Equity",
+      "category": "finance",
+      "description": "Sourcing\u2192diligence\u2192portfolio \u2014 screening, DD, IC memos, returns, unit economics, value creation. SUDO replica.",
+      "skills": [
+        "pe-ai-readiness",
+        "pe-dd-checklist",
+        "pe-dd-meeting-prep",
+        "pe-deal-screening",
+        "pe-deal-sourcing",
+        "pe-ic-memo",
+        "pe-portfolio-monitoring",
+        "pe-returns-analysis",
+        "pe-unit-economics",
+        "pe-value-creation-plan"
+      ],
+      "connectors": [
+        "pitchbook",
+        "chronograph"
+      ],
+      "tags": [
+        "finance",
+        "pe"
+      ]
+    },
+    {
+      "name": "wealth-management",
+      "displayName": "Wealth Management",
+      "category": "finance",
+      "description": "Advisory support \u2014 client reviews, financial plans, proposals, rebalancing, TLH (not personalized advice). SUDO replica.",
+      "skills": [
+        "wm-client-report",
+        "wm-client-review",
+        "wm-financial-plan",
+        "wm-investment-proposal",
+        "wm-portfolio-rebalance",
+        "wm-tax-loss-harvesting"
+      ],
+      "connectors": [
+        "morningstar"
+      ],
+      "tags": [
+        "finance",
+        "wm"
+      ]
+    },
+    {
+      "name": "fund-admin",
+      "displayName": "Fund Administration",
+      "category": "finance",
+      "description": "Fund accounting ops \u2014 GL recon, break tracing, accruals, roll-forwards, NAV tie-out, variance commentary. SUDO replica.",
+      "skills": [
+        "fa-accrual-schedule",
+        "fa-break-trace",
+        "fa-gl-recon",
+        "fa-nav-tieout",
+        "fa-roll-forward",
+        "fa-variance-commentary"
+      ],
+      "connectors": [],
+      "tags": [
+        "finance",
+        "fa"
+      ]
+    },
+    {
+      "name": "finance-operations",
+      "displayName": "Finance Operations (KYC)",
+      "category": "finance",
+      "description": "KYC document parsing and rules-grid evaluation for onboarding/AML. SUDO replica.",
+      "skills": [
+        "finops-kyc-doc-parse",
+        "finops-kyc-rules"
+      ],
+      "connectors": [],
+      "tags": [
+        "finance",
+        "finops"
+      ]
+    },
+    {
+      "name": "lseg",
+      "displayName": "LSEG Markets",
+      "category": "finance",
+      "description": "Quant/markets analytics \u2014 basis, relative value, FX carry, vol, swap curves, rates monitoring. SUDO replica.",
+      "skills": [
+        "lseg-bond-futures-basis",
+        "lseg-bond-relative-value",
+        "lseg-equity-research",
+        "lseg-fixed-income-portfolio",
+        "lseg-fx-carry-trade",
+        "lseg-macro-rates-monitor",
+        "lseg-option-vol-analysis",
+        "lseg-swap-curve-strategy"
+      ],
+      "connectors": [
+        "lseg"
+      ],
+      "tags": [
+        "finance",
+        "lseg"
+      ]
+    },
+    {
+      "name": "spglobal",
+      "displayName": "S&P Global",
+      "category": "finance",
+      "description": "S&P Global / Kensho \u2014 earnings previews, funding digests, tear sheets. SUDO replica.",
+      "skills": [
+        "spg-earnings-preview-beta",
+        "spg-funding-digest",
+        "spg-tear-sheet"
+      ],
+      "connectors": [
+        "kensho"
+      ],
+      "tags": [
+        "finance",
+        "spg"
+      ]
+    },
+    {
+      "name": "twilio",
+      "displayName": "Twilio Developer Kit",
+      "category": "development",
+      "description": "56 skills for building on Twilio + SendGrid \u2014 SMS/WhatsApp/RCS, Voice, AI agents, Verify, compliance, email. SUDO replica.",
+      "skills": [
+        "twilio-account-setup",
+        "twilio-agent-augmentation-architect",
+        "twilio-agent-connect",
+        "twilio-ai-agent-architect",
+        "twilio-call-recordings",
+        "twilio-cli-reference",
+        "twilio-compliance-onboarding",
+        "twilio-compliance-traffic",
+        "twilio-conference-calls",
+        "twilio-content-template-builder",
+        "twilio-conversation-intelligence",
+        "twilio-conversation-memory",
+        "twilio-conversation-orchestrator",
+        "twilio-conversations-classic-api",
+        "twilio-customer-support-architect",
+        "twilio-debugging-observability",
+        "twilio-email-deliverability-advisor",
+        "twilio-email-send",
+        "twilio-enterprise-knowledge",
+        "twilio-iam-auth-setup",
+        "twilio-identity-verification-advisor",
+        "twilio-lookup-phone-intelligence",
+        "twilio-marketing-promotions-advisor",
+        "twilio-messaging-channel-advisor",
+        "twilio-messaging-overview",
+        "twilio-messaging-services",
+        "twilio-messaging-webhooks",
+        "twilio-notifications-alerts-advisor",
+        "twilio-numbers-senders",
+        "twilio-organizations-setup",
+        "twilio-rcs-messaging",
+        "twilio-regulatory-compliance-bundles",
+        "twilio-reliability-patterns",
+        "twilio-security-api-auth",
+        "twilio-security-compliance-hipaa",
+        "twilio-security-hardening",
+        "twilio-send-message",
+        "twilio-sendgrid-account-setup",
+        "twilio-sendgrid-deliverability-advisor",
+        "twilio-sendgrid-email-send",
+        "twilio-sendgrid-email-settings",
+        "twilio-sendgrid-engagement-quality",
+        "twilio-sendgrid-inbound-parse",
+        "twilio-sendgrid-suppressions",
+        "twilio-sendgrid-webhooks",
+        "twilio-sms-isv-setup",
+        "twilio-sms-send-message",
+        "twilio-studio-flows",
+        "twilio-taskrouter-routing",
+        "twilio-verify-send-otp",
+        "twilio-voice-conversation-relay",
+        "twilio-voice-outbound-calls",
+        "twilio-voice-twiml",
+        "twilio-webhook-architecture",
+        "twilio-whatsapp-manage-senders",
+        "twilio-whatsapp-send-message"
+      ],
+      "connectors": [
+        "twilio-docs"
+      ],
+      "tags": [
+        "development",
+        "twilio"
+      ]
+    },
+    {
+      "name": "qt",
+      "displayName": "Qt Development",
+      "category": "development",
+      "description": "Qt6 C++/QML engineering \u2014 code review (lint+agents), docs, CMake, QML tests, Figma\u2192QML, profiling, UI design. SUDO replica.",
+      "skills": [
+        "qt-cmake-project",
+        "qt-cpp-docs",
+        "qt-cpp-review",
+        "qt-figma-component-generation",
+        "qt-figma-token-extraction",
+        "qt-qml",
+        "qt-qml-docs",
+        "qt-qml-profiler",
+        "qt-qml-review",
+        "qt-qml-test",
+        "qt-qml-test-run",
+        "qt-ui-design"
+      ],
+      "connectors": [
+        "qt-docs"
+      ],
+      "tags": [
+        "development",
+        "qt"
       ]
     }
   ]

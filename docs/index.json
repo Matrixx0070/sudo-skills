@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-12T00:05:00Z",
+  "updated": "2026-07-12T01:00:00Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -903,6 +903,38 @@
         "versioning",
         "tracking",
         "terms"
+      ]
+    },
+    {
+      "name": "coml-cold-start-interview",
+      "version": "1.0.0",
+      "description": "Interview a new team to capture the commercial-legal standards, playbook positions, risk tolerance, signing authority, and escalation triggers needed before any contract review can run.",
+      "author": "matrixx0070",
+      "path": "skills/coml-cold-start-interview/SKILL.md",
+      "sha256": "809d711a0c267dd9b7d517896a6a0694e3d35967c30827be8624304a0c3c50d5",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "intake",
+        "playbook",
+        "onboarding",
+        "interview"
+      ]
+    },
+    {
+      "name": "coml-customize",
+      "version": "1.0.0",
+      "description": "Adapt the commercial-legal playbook and its standard / fallback / walk-away positions to a company's risk tolerance, industry, and signing authority, and version the result.",
+      "author": "matrixx0070",
+      "path": "skills/coml-customize/SKILL.md",
+      "sha256": "9ddb1b9bdb818066019406f416c8b4c5c016c095e9be6ccb945b1fdf2c42994b",
+      "capabilities": [],
+      "tags": [
+        "commercial-legal",
+        "playbook",
+        "customization",
+        "positions",
+        "versioning"
       ]
     },
     {
@@ -2655,6 +2687,150 @@
       ]
     },
     {
+      "name": "eqr-catalyst-calendar",
+      "version": "1.0.0",
+      "description": "Build a forward calendar of dated and undated catalysts for a stock or watchlist \u2014 earnings, product, regulatory, and macro events \u2014 ranked by impact and conviction.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-catalyst-calendar/SKILL.md",
+      "sha256": "795e129b526a6666116beba8b8448b95537b756a46e888551f9561bf88a36cc6",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "catalysts",
+        "calendar",
+        "events",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "eqr-earnings-analysis",
+      "version": "1.0.0",
+      "description": "Analyze a company's reported quarter \u2014 beat/miss versus estimates, quality of results, guidance change, and thesis impact \u2014 into a decision-ready post-earnings note.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-earnings-analysis/SKILL.md",
+      "sha256": "a73cfc4a3630fee90d4b1ac051865036efea9119725e4bad43ef8c56acd097da",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "earnings",
+        "results",
+        "quality",
+        "guidance"
+      ]
+    },
+    {
+      "name": "eqr-earnings-preview",
+      "version": "1.0.0",
+      "description": "Set up an upcoming earnings print \u2014 estimates versus consensus, the bar, key debates, scenarios, and what to watch \u2014 into a pre-print preview note.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-earnings-preview/SKILL.md",
+      "sha256": "f5aa66e0e5f6ba39254597e24a74dcb625f8bfd4f987c259926a175ebd240b01",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "earnings",
+        "preview",
+        "estimates",
+        "expectations"
+      ]
+    },
+    {
+      "name": "eqr-idea-generation",
+      "version": "1.0.0",
+      "description": "Generate and pre-screen equity investment ideas from screens, catalysts, and anomalies \u2014 into a ranked shortlist with a one-line variant thesis and a kill test for each.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-idea-generation/SKILL.md",
+      "sha256": "a55668951d4758806414fe87df61bba7f346465ae725fbd4e1fa2b2c763db612",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "idea-generation",
+        "screening",
+        "variant-perception",
+        "pipeline"
+      ]
+    },
+    {
+      "name": "eqr-initiating-coverage",
+      "version": "1.0.0",
+      "description": "Build a full initiation on a stock \u2014 business, thesis, model, valuation, risks, and a rating with target and time horizon \u2014 into a structured coverage-launch note.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-initiating-coverage/SKILL.md",
+      "sha256": "50f12fcddb7883f2b2d1e22002f90f3b2642f0a620acdac9d4ea136f915aeab8",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "initiation",
+        "coverage",
+        "valuation",
+        "thesis"
+      ]
+    },
+    {
+      "name": "eqr-model-update",
+      "version": "1.0.0",
+      "description": "Update a financial model after new information \u2014 reported results, guidance, or revised assumptions \u2014 with a driver-based estimate change, a reconciliation, and target impact.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-model-update/SKILL.md",
+      "sha256": "43d8d77abc5723c2177f21822e7e4c005a3597b3bc3dcec8e634fbe71eb6c104",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "modeling",
+        "estimates",
+        "forecast",
+        "valuation"
+      ]
+    },
+    {
+      "name": "eqr-morning-note",
+      "version": "1.0.0",
+      "description": "Write a concise pre-market morning note \u2014 overnight moves, coverage news, changes, and the day's watch items \u2014 that a busy reader can act on in two minutes.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-morning-note/SKILL.md",
+      "sha256": "c73169fcb4ecff3701f22530f3ec418338b6e8cc34817f3e9eb8e683a17fdab8",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "morning-note",
+        "desk",
+        "summary",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "eqr-sector-overview",
+      "version": "1.0.0",
+      "description": "Map a sector \u2014 structure, drivers, competitive dynamics, key debates, and relative positioning of names \u2014 into a framework note that grounds single-stock work.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-sector-overview/SKILL.md",
+      "sha256": "d910fc15fafbb9f5188c131438f48da2fc3222d1987706244d58978180744781",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "sector",
+        "industry",
+        "framework",
+        "relative-value"
+      ]
+    },
+    {
+      "name": "eqr-thesis-tracker",
+      "version": "1.0.0",
+      "description": "Track a live investment thesis against evidence \u2014 pillars, milestones, disconfirming signals, and a rules-based verdict to hold, revise, or exit.",
+      "author": "matrixx0070",
+      "path": "skills/eqr-thesis-tracker/SKILL.md",
+      "sha256": "956e22e74a3f92d7a000d40236130dcde058dda562af66e83c86d79d7d6a8d0b",
+      "capabilities": [],
+      "tags": [
+        "equity-research",
+        "thesis",
+        "monitoring",
+        "discipline",
+        "exit"
+      ]
+    },
+    {
       "name": "es-digest",
       "version": "1.0.0",
       "description": "Produce a daily or weekly cross-source digest \u2014 mentions, action items, and decisions that need attention, not raw activity.",
@@ -2736,6 +2912,110 @@
         "configuration",
         "onboarding",
         "coverage"
+      ]
+    },
+    {
+      "name": "fa-accrual-schedule",
+      "version": "1.0.0",
+      "description": "Build and maintain fund-level accrual schedules \u2014 management fees, admin and audit fees, and amortized expenses \u2014 so each daily or monthly NAV carries the correct expense and the payment trues up to zero.",
+      "author": "matrixx0070",
+      "path": "skills/fa-accrual-schedule/SKILL.md",
+      "sha256": "01cf0040ec9cae1a9ad1b39a020ffb7e1a983d9922fa2b66c20b6b3a04932968",
+      "capabilities": [],
+      "tags": [
+        "fund-accounting",
+        "accruals",
+        "management-fee",
+        "expense-cap",
+        "nav",
+        "close"
+      ]
+    },
+    {
+      "name": "fa-break-trace",
+      "version": "1.0.0",
+      "description": "Trace a break between two records of the same position or cash \u2014 accounting vs custodian, fund vs prime broker, trade vs settlement \u2014 from the aggregate difference down to the offending transaction, and classify it for clearing.",
+      "author": "matrixx0070",
+      "path": "skills/fa-break-trace/SKILL.md",
+      "sha256": "c0fa0b67f4fcfdf5208e0756edecbc5d128f620ccd59145a448279564f795f2f",
+      "capabilities": [],
+      "tags": [
+        "fund-accounting",
+        "breaks",
+        "reconciliation",
+        "custodian",
+        "position",
+        "cash",
+        "settlement"
+      ]
+    },
+    {
+      "name": "fa-gl-recon",
+      "version": "1.0.0",
+      "description": "Reconcile a fund general-ledger account to its supporting subledger or source \u2014 investments, cash, income, expense, or capital \u2014 prove the bridge, and clear differences before the NAV is struck.",
+      "author": "matrixx0070",
+      "path": "skills/fa-gl-recon/SKILL.md",
+      "sha256": "9e5463be8b7458a14865109808331e09aaf6808230c50c6a8597a9a00e11721d",
+      "capabilities": [],
+      "tags": [
+        "fund-accounting",
+        "gl-reconciliation",
+        "subledger",
+        "trial-balance",
+        "nav",
+        "close"
+      ]
+    },
+    {
+      "name": "fa-nav-tieout",
+      "version": "1.0.0",
+      "description": "Tie out a fund NAV package end to end \u2014 assets, liabilities, capital, and per-share/per-unit price \u2014 proving the accounting equation, the price, and the day-over-day movement before the NAV is released.",
+      "author": "matrixx0070",
+      "path": "skills/fa-nav-tieout/SKILL.md",
+      "sha256": "9da5b89912943eaced37cedccf2eee0873459c4b3285f1ec993a18a5c00786ef",
+      "capabilities": [],
+      "tags": [
+        "fund-accounting",
+        "nav",
+        "tie-out",
+        "net-asset-value",
+        "price-per-share",
+        "close",
+        "review"
+      ]
+    },
+    {
+      "name": "fa-roll-forward",
+      "version": "1.0.0",
+      "description": "Build a roll-forward for a fund balance \u2014 capital, NAV, investment cost, accruals, or a partner's account \u2014 proving beginning balance plus movements equals ending balance and ties to the GL.",
+      "author": "matrixx0070",
+      "path": "skills/fa-roll-forward/SKILL.md",
+      "sha256": "19d9ec5b3fbdb3037e8a2f3ae545793b2b6fa1b4c8f23276d0c5ae1c1ed6af8e",
+      "capabilities": [],
+      "tags": [
+        "fund-accounting",
+        "roll-forward",
+        "capital-account",
+        "nav",
+        "movement",
+        "close"
+      ]
+    },
+    {
+      "name": "fa-variance-commentary",
+      "version": "1.0.0",
+      "description": "Write defensible variance commentary for a fund \u2014 period-over-period or actual-vs-expected moves in NAV, return, income, expenses, or a balance \u2014 attributing each material change to a named driver.",
+      "author": "matrixx0070",
+      "path": "skills/fa-variance-commentary/SKILL.md",
+      "sha256": "6c22d543994b4c13c01bdc826e61e7fd4d980650ce7d86664be23b3bd778c2e4",
+      "capabilities": [],
+      "tags": [
+        "fund-accounting",
+        "variance",
+        "commentary",
+        "attribution",
+        "reporting",
+        "close"
       ]
     },
     {
@@ -2875,6 +3155,291 @@
         "bridge",
         "waterfall",
         "pvm"
+      ]
+    },
+    {
+      "name": "fina-3-statement-model",
+      "version": "1.0.0",
+      "description": "Build a fully integrated three-statement operating model where the income statement, balance sheet, and cash flow flow from shared drivers and tie out every period with a self-balancing balance sheet.",
+      "author": "matrixx0070",
+      "path": "skills/fina-3-statement-model/SKILL.md",
+      "sha256": "cd11011816ba1fe8a10d67b2498f995b5d486365346b2b9208af55896fa8cd60",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "financial-modeling",
+        "three-statement",
+        "fp&a",
+        "excel",
+        "forecasting",
+        "debt-schedule",
+        "working-capital",
+        "circularity"
+      ]
+    },
+    {
+      "name": "fina-audit-xls",
+      "version": "1.0.0",
+      "description": "Audit an existing financial model workbook for correctness (formula tracing, hardcode and error detection, sign and consistency checks, tie-outs, and sensitivity stress) before you rely on its outputs.",
+      "author": "matrixx0070",
+      "path": "skills/fina-audit-xls/SKILL.md",
+      "sha256": "4388b2eeb52b08e89bdc110adabaff306f4f3c20cf878c5700a98f7c7ddfeef9",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "model-audit",
+        "excel",
+        "xlsx",
+        "formula-tracing",
+        "hardcodes",
+        "tie-outs",
+        "sensitivity",
+        "quality-control"
+      ]
+    },
+    {
+      "name": "fina-clean-data-xls",
+      "version": "1.0.0",
+      "description": "Turns a messy raw financial export into a tidy, type-correct, unit-normalized, reconciled spreadsheet table ready to feed a model, with a repeatable cleaning log.",
+      "author": "matrixx0070",
+      "path": "skills/fina-clean-data-xls/SKILL.md",
+      "sha256": "464ae6c32fe534b350305fb0b2bbbebf14a2206ebf9a78b34bb7c04f96fda30a",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "data-cleaning",
+        "excel",
+        "spreadsheet",
+        "etl",
+        "normalization",
+        "reconciliation"
+      ]
+    },
+    {
+      "name": "fina-competitive-analysis",
+      "version": "1.0.0",
+      "description": "Assess a company's competitive position (five forces, market share, moat, KPI benchmarking) and translate it into the forecast drivers and assumptions that feed a financial model.",
+      "author": "matrixx0070",
+      "path": "skills/fina-competitive-analysis/SKILL.md",
+      "sha256": "740a2fd5a7235ec6cd41ff03f58da67d2c44c4fc00ed769a7255aee0d7c6073f",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "competitive-analysis",
+        "porter-five-forces",
+        "moat",
+        "tam-sam-som",
+        "benchmarking",
+        "roic",
+        "rule-of-40",
+        "forecast-drivers"
+      ]
+    },
+    {
+      "name": "fina-comps-analysis",
+      "version": "1.0.0",
+      "description": "Value a company against its peers using trading comparables and precedent transactions, producing calendarized multiples and a football-field valuation range.",
+      "author": "matrixx0070",
+      "path": "skills/fina-comps-analysis/SKILL.md",
+      "sha256": "a9a7df0524224cdc1cbabe1f08c2e7805ffa81d53be2d17bf16a9f71cf96a7fd",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "valuation",
+        "comps",
+        "comparable-companies",
+        "precedent-transactions",
+        "enterprise-value",
+        "multiples",
+        "football-field"
+      ]
+    },
+    {
+      "name": "fina-dcf-model",
+      "version": "1.0.0",
+      "description": "Value a business by discounting unlevered free cash flow at WACC with mid-year convention, a dual-method terminal value, and a full enterprise-to-equity-to-per-share bridge plus WACC-versus-growth sensitivity.",
+      "author": "matrixx0070",
+      "path": "skills/fina-dcf-model/SKILL.md",
+      "sha256": "c56db134583d090448efc92326cff632aaa559e09ee1a29e80cb3719bad66d50",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "dcf",
+        "valuation",
+        "wacc",
+        "terminal-value",
+        "unlevered-fcf",
+        "capm",
+        "sensitivity",
+        "excel"
+      ]
+    },
+    {
+      "name": "fina-deck-refresh",
+      "version": "1.0.0",
+      "description": "Refreshes an existing pitch or board deck to current data, re-pulling financials, market data, and comps, updating every linked number and chart, and producing a redlined change log tied back to the source model.",
+      "author": "matrixx0070",
+      "path": "skills/fina-deck-refresh/SKILL.md",
+      "sha256": "c49a4521abae43e252459973510a47541a2fa83b478eead96ec1bb0c43adbe54",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "investment-banking",
+        "presentation",
+        "powerpoint",
+        "deck-refresh",
+        "version-control",
+        "qc"
+      ]
+    },
+    {
+      "name": "fina-ib-check-deck",
+      "version": "1.0.0",
+      "description": "Runs the classic investment-banking deck-check on a finished presentation, proofing cross-page number consistency, footnote sourcing, units and currency labels, rounding, chart-to-table agreement, math, and brand formatting before it goes out.",
+      "author": "matrixx0070",
+      "path": "skills/fina-ib-check-deck/SKILL.md",
+      "sha256": "fb21943c3d3379c6af729341249fe0d79c470b368493e9a3fcf07246d521dbeb",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "investment-banking",
+        "qc",
+        "proofing",
+        "deck-check",
+        "footnotes",
+        "formatting",
+        "sign-off"
+      ]
+    },
+    {
+      "name": "fina-lbo-model",
+      "version": "1.0.0",
+      "description": "Model a leveraged buyout end to end \u2014 sources and uses, tranche-level debt with amortization and cash sweep, levered free cash flow, and sponsor returns (IRR and MOIC) with returns attribution and credit-stat tracking.",
+      "author": "matrixx0070",
+      "path": "skills/fina-lbo-model/SKILL.md",
+      "sha256": "6f388ed957a2e1102563ac41fca5103aa01002de3f9213dfc1283bfcfc49b71a",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "lbo",
+        "private-equity",
+        "irr",
+        "moic",
+        "leverage",
+        "debt-schedule",
+        "cash-sweep",
+        "returns-attribution",
+        "excel"
+      ]
+    },
+    {
+      "name": "fina-ppt-template-creator",
+      "version": "1.0.0",
+      "description": "Builds a reusable, on-brand PowerPoint master and layout set for finance decks, defining slide layouts, color palette, typography, placeholders, and standardized exhibit zones for tables and charts with accessible contrast.",
+      "author": "matrixx0070",
+      "path": "skills/fina-ppt-template-creator/SKILL.md",
+      "sha256": "58ed22a9b959dd7cd959fdb894c955f3065fd960f50a15e63a9e67171100d1b0",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "powerpoint",
+        "template",
+        "slide-master",
+        "branding",
+        "typography",
+        "accessibility",
+        "exhibits"
+      ]
+    },
+    {
+      "name": "fina-pptx-author",
+      "version": "1.0.0",
+      "description": "Authors a finance presentation from scratch, building the storyline (SCQA / pyramid), writing action-titles that state each slide's takeaway, selecting the right exhibit per message, and sourcing every exhibit into a clean, defensible deck.",
+      "author": "matrixx0070",
+      "path": "skills/fina-pptx-author/SKILL.md",
+      "sha256": "42c12a2131fef1449b84b3a3a7a2645ea048e7aa3d5f2ca26eb01bf4e60832c4",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "investment-banking",
+        "presentation",
+        "storyline",
+        "action-titles",
+        "exhibits",
+        "pptx-author"
+      ]
+    },
+    {
+      "name": "fina-skill-creator",
+      "version": "1.0.0",
+      "description": "Produces a new SKILL.md for the fina- financial-analysis vertical that conforms exactly to the house standard for naming, frontmatter, section order, voice, cross-linking, and pre-publish QC.",
+      "author": "matrixx0070",
+      "path": "skills/fina-skill-creator/SKILL.md",
+      "sha256": "03de193957bdba5ba1934f56b1851a09ad55744ec02b61359b3befa7f35fa409",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "meta",
+        "skill-authoring",
+        "documentation",
+        "standards",
+        "style-guide"
+      ]
+    },
+    {
+      "name": "fina-xlsx-author",
+      "version": "1.0.0",
+      "description": "Produces a clean, auditable Excel financial workbook built from scratch with a standard tab architecture, color conventions, named ranges, consistent row formulas, no hardcodes, and a dedicated checks tab.",
+      "author": "matrixx0070",
+      "path": "skills/fina-xlsx-author/SKILL.md",
+      "sha256": "1e302ed61eb161af51ba3faaa7cb72d5d9ad11b93a11a63f21747a80cc5d27e7",
+      "capabilities": [],
+      "tags": [
+        "finance",
+        "excel",
+        "spreadsheet",
+        "modeling",
+        "workbook",
+        "formatting",
+        "audit-ready"
+      ]
+    },
+    {
+      "name": "finops-kyc-doc-parse",
+      "version": "1.0.0",
+      "description": "Extract and structure identity, entity, and ownership data from KYC/onboarding documents \u2014 IDs, proof of address, incorporation and ownership records \u2014 into verified fields, flagging quality, consistency, and expiry issues.",
+      "author": "matrixx0070",
+      "path": "skills/finops-kyc-doc-parse/SKILL.md",
+      "sha256": "7b7b9c18e60a428fc79a7756e17327774eb0e607e16f80fa49427987addbd1ca",
+      "capabilities": [],
+      "tags": [
+        "kyc",
+        "onboarding",
+        "cdd",
+        "document-verification",
+        "identity",
+        "aml",
+        "operations"
+      ]
+    },
+    {
+      "name": "finops-kyc-rules",
+      "version": "1.0.0",
+      "description": "Apply KYC/AML risk-rating and acceptance rules to a structured customer profile \u2014 score risk factors, set the CDD tier, resolve screening hits, and produce an auditable accept / EDD / reject decision.",
+      "author": "matrixx0070",
+      "path": "skills/finops-kyc-rules/SKILL.md",
+      "sha256": "0913f1b8ec66f0e84c5a650f3607e3c572e6a816ec01e22491183801ff95d6b4",
+      "capabilities": [],
+      "tags": [
+        "kyc",
+        "aml",
+        "risk-rating",
+        "edd",
+        "cdd",
+        "screening",
+        "sanctions",
+        "pep",
+        "operations"
       ]
     },
     {
@@ -3298,6 +3863,150 @@
       ]
     },
     {
+      "name": "ib-buyer-list",
+      "version": "1.0.0",
+      "description": "Build and prioritize the acquirer universe for a sell-side M&A process \u2014 strategic and financial buyers scored on strategic fit, ability to pay, and likelihood to transact.",
+      "author": "matrixx0070",
+      "path": "skills/ib-buyer-list/SKILL.md",
+      "sha256": "cf44d85137792fe507bed0f48ce0d5f6afe23f064831b774e6dd6f57a43764a9",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "sell-side",
+        "buyer-list",
+        "deal-origination"
+      ]
+    },
+    {
+      "name": "ib-cim-builder",
+      "version": "1.0.0",
+      "description": "Structure and draft a Confidential Information Memorandum for a sell-side M&A process \u2014 the disclosed marketing document sent to buyers after they sign an NDA.",
+      "author": "matrixx0070",
+      "path": "skills/ib-cim-builder/SKILL.md",
+      "sha256": "d43ef081a0487d1132e5a54d5436eed9544f5cb55894c8a06d36d43137343d91",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "sell-side",
+        "cim",
+        "deal-marketing"
+      ]
+    },
+    {
+      "name": "ib-datapack-builder",
+      "version": "1.0.0",
+      "description": "Extract and normalize a target's financials into an IC-ready workbook with a documented, auditable assumptions layer that every downstream deal model ties back to.",
+      "author": "matrixx0070",
+      "path": "skills/ib-datapack-builder/SKILL.md",
+      "sha256": "c88b3d24e7c41eabc5550fb3c1d715a3a812f6ddbc67d3ba46054cd5d040389f",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "financial-analysis",
+        "datapack",
+        "normalization"
+      ]
+    },
+    {
+      "name": "ib-deal-tracker",
+      "version": "1.0.0",
+      "description": "Maintain a multi-deal M&A pipeline view \u2014 stage, milestones, next steps, and overdue items \u2014 so the deal team always knows what is moving, what is stuck, and what needs action today.",
+      "author": "matrixx0070",
+      "path": "skills/ib-deal-tracker/SKILL.md",
+      "sha256": "847f6fbcc91917656828a8880778b656944cf8986237bef3580f31099ac4e33f",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "pipeline",
+        "deal-management",
+        "productivity"
+      ]
+    },
+    {
+      "name": "ib-merger-model",
+      "version": "1.0.0",
+      "description": "Build an accretion/dilution merger model \u2014 pro forma EPS, financing mix, synergies, and purchase price allocation \u2014 to test whether an acquisition creates or destroys value for the acquirer's shareholders.",
+      "author": "matrixx0070",
+      "path": "skills/ib-merger-model/SKILL.md",
+      "sha256": "352158beb62e988b19a6e694f19d041738f746937b286a88b8faf284472082ca",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "merger-model",
+        "accretion-dilution",
+        "valuation"
+      ]
+    },
+    {
+      "name": "ib-pitch-deck",
+      "version": "1.0.0",
+      "description": "Populate an investment-banking pitch template from source data \u2014 situation, market, valuation, buyer landscape, and process recommendation \u2014 to win or advise on a mandate.",
+      "author": "matrixx0070",
+      "path": "skills/ib-pitch-deck/SKILL.md",
+      "sha256": "965818d63e3f1e2a7afb9db329ad3ee57f95cf4130c5e2199d74e8e9dc8f4aba",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "pitchbook",
+        "mandate",
+        "valuation",
+        "deal-marketing"
+      ]
+    },
+    {
+      "name": "ib-process-letter",
+      "version": "1.0.0",
+      "description": "Draft the process letter that governs a round of a sell-side auction \u2014 bid instructions (IOI or final offer), what to submit, deadlines, management-meeting logistics, and the seller's rules of engagement.",
+      "author": "matrixx0070",
+      "path": "skills/ib-process-letter/SKILL.md",
+      "sha256": "9d02954f888ed2daf87e191201e9fe17ba721143623568d2f9864f330a89ad20",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "sell-side",
+        "process-letter",
+        "auction"
+      ]
+    },
+    {
+      "name": "ib-strip-profile",
+      "version": "1.0.0",
+      "description": "Build a named 1-4 slide company profile (\"strip profile\") \u2014 business description, key financials, ownership, and a quadrant/positioning layout \u2014 for pitchbooks, buyer screens, and comps.",
+      "author": "matrixx0070",
+      "path": "skills/ib-strip-profile/SKILL.md",
+      "sha256": "a3264a67c1ab151443fd8d0d7a035bc7d1cc798688df1b4b4abc86b57606d038",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "profiles",
+        "pitchbook",
+        "company-analysis",
+        "quadrant"
+      ]
+    },
+    {
+      "name": "ib-teaser",
+      "version": "1.0.0",
+      "description": "Draft an anonymous one-page teaser for a sell-side M&A process \u2014 enough to spark buyer interest without revealing the target's identity before an NDA is signed.",
+      "author": "matrixx0070",
+      "path": "skills/ib-teaser/SKILL.md",
+      "sha256": "5eb894c169db11f4bcb3c1a919cfbefafa9703767427464fd4331d05828f8f68",
+      "capabilities": [],
+      "tags": [
+        "investment-banking",
+        "m&a",
+        "sell-side",
+        "teaser",
+        "buyer-outreach"
+      ]
+    },
+    {
       "name": "incident-postmortem",
       "version": "1.0.0",
       "description": "Turn raw incident notes into a blameless postmortem - quantified impact, gap-honest timeline, a root-cause chain, what worked, and action items that actually block recurrence.",
@@ -3439,7 +4148,7 @@
       "description": "Review the IP-related clauses in a contract to flag ownership traps, overbroad grants, and missing assignments, then propose a redline.",
       "author": "matrixx0070",
       "path": "skills/ipl-ip-clause-review/SKILL.md",
-      "sha256": "fd5b112688de54e8ebda56b78ae87383dbb258738319f2a588d4b1eb83724a49",
+      "sha256": "4c475de9ff69fc81b85f4b82c6d13543878e75b9357c3d7b33fe6d07f749e9a9",
       "capabilities": [],
       "tags": [
         "contracts",
@@ -3475,7 +4184,7 @@
       "description": "Review a codebase or dependency set for open-source license compliance and flag copyleft contamination risk against your distribution model.",
       "author": "matrixx0070",
       "path": "skills/ipl-oss-review/SKILL.md",
-      "sha256": "bf3f101b0b78d0fb4b4febaae74cdee8bd52cc350c251cd53925b416c878bc5a",
+      "sha256": "3abaa12e3fc3dfdd2e5df97ce748a436cf8653562769c5c97ce3aa68b2e89847",
       "capabilities": [],
       "tags": [
         "open-source",
@@ -3511,7 +4220,7 @@
       "description": "Prepare a DMCA 512(c) takedown notice or a 512(g) counter-notice for online copyright infringement with all statutory elements.",
       "author": "matrixx0070",
       "path": "skills/ipl-takedown/SKILL.md",
-      "sha256": "378151ab2cf08ac37e2c0ba6353dcc8461f8c697b9ce578678c91e482bfb4ac4",
+      "sha256": "db735aa6ba21102b2b4ac3024313dd087740bb8c9be39c4159a39f396dc484b6",
       "capabilities": [],
       "tags": [
         "dmca",
@@ -4347,6 +5056,148 @@
       ]
     },
     {
+      "name": "lseg-bond-futures-basis",
+      "version": "1.0.0",
+      "description": "Analyze the basis between a deliverable government bond and its futures contract \u2014 gross basis, net basis, carry, implied repo rate, and the cheapest-to-deliver \u2014 to reason about hedging, roll, and relative richness. Educational quant workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-bond-futures-basis/SKILL.md",
+      "sha256": "ad9c7fa93907fa213fb0d95d85b3d18ce2adb38058f2c824c1fc5f3dcb3ee6a5",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "fixed-income",
+        "futures",
+        "basis",
+        "ctd",
+        "repo",
+        "carry"
+      ]
+    },
+    {
+      "name": "lseg-bond-relative-value",
+      "version": "1.0.0",
+      "description": "Screen individual government and credit bonds for relative value against a fitted curve \u2014 asset-swap spreads, z-spreads, rich/cheap residuals, and butterfly/box structures \u2014 to reason about which bonds are mispriced versus their peers. Educational quant workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-bond-relative-value/SKILL.md",
+      "sha256": "381bc92b8613451279fce0808cead0bbc6881dc75bf75ed333c2f851662649fe",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "fixed-income",
+        "relative-value",
+        "asset-swap",
+        "z-spread",
+        "rich-cheap"
+      ]
+    },
+    {
+      "name": "lseg-equity-research",
+      "version": "1.0.0",
+      "description": "Build a structured equity research read on a single company \u2014 business model, drivers, valuation (multiples + DCF), scenario tree, and risks \u2014 grounded in disclosed financials with explicit assumptions. Educational analytical workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-equity-research/SKILL.md",
+      "sha256": "5f7512a769ae345f6da47a46658183e131f7bc54c12b8c16a4e6600cf91a8e73",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "equity",
+        "research",
+        "valuation",
+        "dcf",
+        "multiples"
+      ]
+    },
+    {
+      "name": "lseg-fixed-income-portfolio",
+      "version": "1.0.0",
+      "description": "Analyze and structure a fixed-income portfolio \u2014 duration, key-rate durations, convexity, spread duration, and benchmark-relative risk \u2014 to reason about positioning versus a benchmark and interest-rate scenarios. Educational quant workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-fixed-income-portfolio/SKILL.md",
+      "sha256": "e71f28949a4b723ccad3f64337cedde688d98d22f142aab01ce9ec811639f01a",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "fixed-income",
+        "portfolio",
+        "duration",
+        "convexity",
+        "key-rate",
+        "benchmark"
+      ]
+    },
+    {
+      "name": "lseg-fx-carry-trade",
+      "version": "1.0.0",
+      "description": "Analyze FX carry \u2014 interest-rate differentials, forward points, hedged vs unhedged returns, carry-to-vol, and crash/skew risk \u2014 to reason about currency-pair carry positioning and its risk. Educational quant workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-fx-carry-trade/SKILL.md",
+      "sha256": "de2383995a195c0f1efe997bc33e89c42d7d8564c36a3533856b78b626b7477f",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "fx",
+        "carry",
+        "forwards",
+        "cip",
+        "carry-to-vol",
+        "risk"
+      ]
+    },
+    {
+      "name": "lseg-macro-rates-monitor",
+      "version": "1.0.0",
+      "description": "Build a structured macro-rates monitor \u2014 growth/inflation/policy dashboard, market-implied policy path vs your own, curve regime, and cross-asset confirmation \u2014 to reason about the interest-rate environment. Educational analytical workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-macro-rates-monitor/SKILL.md",
+      "sha256": "89be378063f36edd08434da3ed5a399beee24819f290f3b35a8ad86e4e08aa7b",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "macro",
+        "rates",
+        "central-bank",
+        "yield-curve",
+        "inflation",
+        "policy"
+      ]
+    },
+    {
+      "name": "lseg-option-vol-analysis",
+      "version": "1.0.0",
+      "description": "Analyze an option volatility surface \u2014 implied vs realized, term structure, skew/smile, and the greeks \u2014 to reason about whether options are rich or cheap and how a position behaves. Educational quant workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-option-vol-analysis/SKILL.md",
+      "sha256": "7252e86e0f20212e7e65d9100c2905caca6548c03b5eb16d7104db161d876511",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "options",
+        "volatility",
+        "skew",
+        "term-structure",
+        "greeks",
+        "vrp"
+      ]
+    },
+    {
+      "name": "lseg-swap-curve-strategy",
+      "version": "1.0.0",
+      "description": "Construct and analyze interest-rate swap curve trades \u2014 outright, steepeners/flatteners, butterflies, and forward-starting/roll-down structures \u2014 with DV01-neutral weighting and carry+roll math. Educational quant workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/lseg-swap-curve-strategy/SKILL.md",
+      "sha256": "240bb4354541808ebb34d5815a76612029f6bf8732ab03c53546158585bb362b",
+      "capabilities": [],
+      "tags": [
+        "lseg",
+        "rates",
+        "swaps",
+        "curve",
+        "steepener",
+        "butterfly",
+        "carry-roll"
+      ]
+    },
+    {
       "name": "meeting-notes",
       "version": "1.0.0",
       "description": "Turn a raw transcript or scribble into decisions, action items with owners and dates, and open questions - so nothing agreed in the room evaporates afterwards.",
@@ -4865,6 +5716,185 @@
         "budget",
         "planning",
         "personal-assistant"
+      ]
+    },
+    {
+      "name": "pe-ai-readiness",
+      "version": "1.0.0",
+      "description": "Assess a target or portfolio company's AI maturity, data assets, and organizational readiness, then identify and ROI-rank the AI-driven value-creation opportunities with build-vs-buy calls for each.",
+      "author": "matrixx0070",
+      "path": "skills/pe-ai-readiness/SKILL.md",
+      "sha256": "4d33f251dff9bd1fc31bc5d7cf5d4a41775ffabafa15d895a9a1897488451c47",
+      "capabilities": [],
+      "tags": [
+        "ai-readiness",
+        "data-maturity",
+        "value-creation",
+        "build-vs-buy",
+        "ai-roi",
+        "use-case-identification",
+        "private-equity"
+      ]
+    },
+    {
+      "name": "pe-dd-checklist",
+      "version": "1.0.0",
+      "description": "Build and run the full private-equity due-diligence checklist across commercial, financial, legal, tax, tech/IT, HR, ESG, and insurance/environmental workstreams, tagging each finding as red-flag or confirmatory with an owner, status, and data-room reference.",
+      "author": "matrixx0070",
+      "path": "skills/pe-dd-checklist/SKILL.md",
+      "sha256": "0ed851566c140606702e5239f136c1c84033404d3ea064839921d8531d1ad997",
+      "capabilities": [],
+      "tags": [
+        "private-equity",
+        "due-diligence",
+        "quality-of-earnings",
+        "commercial-dd",
+        "data-room",
+        "workstreams",
+        "red-flags"
+      ]
+    },
+    {
+      "name": "pe-dd-meeting-prep",
+      "version": "1.0.0",
+      "description": "Prepare the question sets, logistics, and follow-up capture for private-equity diligence meetings \u2014 management presentations, expert-network calls, and customer reference calls \u2014 so each session extracts decision-grade evidence rather than a rehearsed pitch.",
+      "author": "matrixx0070",
+      "path": "skills/pe-dd-meeting-prep/SKILL.md",
+      "sha256": "a74a4e37b8b74a028c2002823b0fb615cdb3282301a7e57ea269d1e9955147db",
+      "capabilities": [],
+      "tags": [
+        "private-equity",
+        "due-diligence",
+        "management-meeting",
+        "expert-calls",
+        "customer-references",
+        "question-bank",
+        "deal-team"
+      ]
+    },
+    {
+      "name": "pe-deal-screening",
+      "version": "1.0.0",
+      "description": "Run a fast, structured go/no-go screen of a single private-equity opportunity against the fund's investment criteria, scoring it across weighted dimensions to a pursue / pass / park decision with the rationale.",
+      "author": "matrixx0070",
+      "path": "skills/pe-deal-screening/SKILL.md",
+      "sha256": "4b6670a623d6b93f7fb0bc96a9536b374ec0b7c9580fa5d10f4f51eb920b5c71",
+      "capabilities": [],
+      "tags": [
+        "deal-screening",
+        "go-no-go",
+        "investment-criteria",
+        "scoring-rubric",
+        "deal-triage",
+        "private-equity"
+      ]
+    },
+    {
+      "name": "pe-deal-sourcing",
+      "version": "1.0.0",
+      "description": "Build a private-equity origination strategy and proprietary deal pipeline \u2014 set the thesis, pick the channel mix, size the funnel, and produce a target list with an outreach and tracking plan.",
+      "author": "matrixx0070",
+      "path": "skills/pe-deal-sourcing/SKILL.md",
+      "sha256": "ea062aa782417892fa890a1f374fb580464663ca1aa1b0e6946b19f5e963e371",
+      "capabilities": [],
+      "tags": [
+        "deal-sourcing",
+        "origination",
+        "deal-pipeline",
+        "thesis-driven",
+        "proprietary-deals",
+        "funnel-math",
+        "private-equity"
+      ]
+    },
+    {
+      "name": "pe-ic-memo",
+      "version": "1.0.0",
+      "description": "Write the private-equity investment committee memo for a deal \u2014 thesis, company and market, financials and QoE, valuation and returns with base/bull/bear MOIC and IRR, value-creation plan, risks and mitigants, structure and financing, sensitivities, and a conditioned recommendation.",
+      "author": "matrixx0070",
+      "path": "skills/pe-ic-memo/SKILL.md",
+      "sha256": "0457329f1b811cd411752dcc18be686b1e6dde05bb4fa59abbcd3c8cbf5c8ed8",
+      "capabilities": [],
+      "tags": [
+        "private-equity",
+        "investment-committee",
+        "ic-memo",
+        "moic-irr",
+        "valuation",
+        "investment-thesis",
+        "deal-recommendation"
+      ]
+    },
+    {
+      "name": "pe-portfolio-monitoring",
+      "version": "1.0.0",
+      "description": "Track a portfolio company post-close \u2014 build the monthly/quarterly KPI pack, covenant compliance (leverage and interest cover), variance against budget and the value-creation plan, early-warning indicators, and the board-reporting cadence, rolled up to a portfolio-level view.",
+      "author": "matrixx0070",
+      "path": "skills/pe-portfolio-monitoring/SKILL.md",
+      "sha256": "75edc70095ec1578d9674dfb6077b6347ebe9191cfe5b1e0187e1b441293f7f3",
+      "capabilities": [],
+      "tags": [
+        "portfolio-monitoring",
+        "kpis",
+        "covenants",
+        "board-reporting",
+        "variance-analysis",
+        "early-warning",
+        "roll-up"
+      ]
+    },
+    {
+      "name": "pe-returns-analysis",
+      "version": "1.0.0",
+      "description": "Model a private-equity deal's returns end to end \u2014 entry and exit enterprise value, leverage, the MOIC/IRR relationship, and a value-creation bridge decomposing return into EBITDA growth, multiple expansion, and debt paydown \u2014 with base/bull/bear cases and sensitivity tables.",
+      "author": "matrixx0070",
+      "path": "skills/pe-returns-analysis/SKILL.md",
+      "sha256": "6932a23815c543350fa5acd3ee099f223e665213a16647ddec48a3f690ec7f9b",
+      "capabilities": [],
+      "tags": [
+        "returns",
+        "moic",
+        "irr",
+        "lbo",
+        "value-creation-bridge",
+        "leverage",
+        "sensitivity"
+      ]
+    },
+    {
+      "name": "pe-unit-economics",
+      "version": "1.0.0",
+      "description": "Analyze a target or portfolio company's unit economics \u2014 contribution margin, LTV, CAC, CAC payback, LTV:CAC, and cohort retention \u2014 to judge whether growth creates or destroys value and where the levers are.",
+      "author": "matrixx0070",
+      "path": "skills/pe-unit-economics/SKILL.md",
+      "sha256": "856b76d90b6a85ba382eef2f3a4778409d9df1b152013086dc6e9228e00408a1",
+      "capabilities": [],
+      "tags": [
+        "unit-economics",
+        "ltv-cac",
+        "contribution-margin",
+        "cohort-analysis",
+        "cac-payback",
+        "retention",
+        "private-equity"
+      ]
+    },
+    {
+      "name": "pe-value-creation-plan",
+      "version": "1.0.0",
+      "description": "Build a portfolio company's value-creation plan \u2014 a sequenced 100-day plan and full-hold roadmap of value levers (commercial growth, margin/cost-out, buy-and-build, pricing, working capital, digital/AI, multiple expansion via de-risking) with owners, milestones, KPIs, and explicit linkage to the returns bridge.",
+      "author": "matrixx0070",
+      "path": "skills/pe-value-creation-plan/SKILL.md",
+      "sha256": "d2d121505faf89da8db8ffa2c04fc0818ab8cbf487f32de12a7afd6d807dc770",
+      "capabilities": [],
+      "tags": [
+        "value-creation",
+        "100-day-plan",
+        "operating-partner",
+        "ebitda-growth",
+        "buy-and-build",
+        "kpis",
+        "returns-bridge"
       ]
     },
     {
@@ -5593,6 +6623,197 @@
         "risk",
         "coverage",
         "criteria"
+      ]
+    },
+    {
+      "name": "qt-cmake-project",
+      "version": "1.0.0",
+      "description": "Set up and maintain a Qt6 CMake project with modern targets, QML modules, resources, and deployment scripts.",
+      "author": "matrixx0070",
+      "path": "skills/qt-cmake-project/SKILL.md",
+      "sha256": "e992fcadc42d961181780dc73055ed5c8483b7d3bf6b0cd920e8566e6ab8bf1e",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "cmake",
+        "qml",
+        "build",
+        "deployment"
+      ]
+    },
+    {
+      "name": "qt-cpp-docs",
+      "version": "1.0.0",
+      "description": "Write QDoc API documentation for Qt6 C++ code, covering classes, properties, signals/slots, enums, and QML-exposed types.",
+      "author": "matrixx0070",
+      "path": "skills/qt-cpp-docs/SKILL.md",
+      "sha256": "950ce073887e723242192488768f5b17d9d44e38766f3cc6d1906aa2ce622ead",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qdoc",
+        "documentation",
+        "api",
+        "cpp"
+      ]
+    },
+    {
+      "name": "qt-cpp-review",
+      "version": "1.0.0",
+      "description": "Review Qt6 C++ code for correctness, memory ownership, and idiomatic use of QObject, signals/slots, and implicit sharing.",
+      "author": "matrixx0070",
+      "path": "skills/qt-cpp-review/SKILL.md",
+      "sha256": "39556147b22f0f827fda80b14f0ebabd5558e6bcf848915d424532207b9b3fe5",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "cpp",
+        "code-review",
+        "memory",
+        "clazy"
+      ]
+    },
+    {
+      "name": "qt-figma-component-generation",
+      "version": "1.0.0",
+      "description": "Generate reusable Qt Quick QML components from Figma frames and components using extracted design tokens.",
+      "author": "matrixx0070",
+      "path": "skills/qt-figma-component-generation/SKILL.md",
+      "sha256": "2f72041ab20b1a714498599559528f7ad565bbc7a3f3147e4ef26080b15aafb6",
+      "capabilities": [],
+      "tags": [
+        "figma",
+        "qml",
+        "codegen",
+        "qt-quick",
+        "components"
+      ]
+    },
+    {
+      "name": "qt-figma-token-extraction",
+      "version": "1.0.0",
+      "description": "Extract design tokens from a Figma file via the REST API and map them into a Qt QML theme singleton.",
+      "author": "matrixx0070",
+      "path": "skills/qt-figma-token-extraction/SKILL.md",
+      "sha256": "edd73ef13d99ca261dc4a0b88ea2349ceade6f297021cee86e22635d7d6e325a",
+      "capabilities": [],
+      "tags": [
+        "figma",
+        "qml",
+        "design-tokens",
+        "theming",
+        "qt6"
+      ]
+    },
+    {
+      "name": "qt-qml",
+      "version": "1.0.0",
+      "description": "Write idiomatic QML for Qt Quick applications with sound property design, bindings, and C++ integration.",
+      "author": "matrixx0070",
+      "path": "skills/qt-qml/SKILL.md",
+      "sha256": "ec001b9d7dbe3767cd3f9c421d93f6f6ac44cdd75184e62a113b5faac45461a4",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qml",
+        "qtquick",
+        "cpp-integration",
+        "bindings"
+      ]
+    },
+    {
+      "name": "qt-qml-docs",
+      "version": "1.0.0",
+      "description": "Document QML types, properties, signals, and modules with QDoc for Qt6 QML modules.",
+      "author": "matrixx0070",
+      "path": "skills/qt-qml-docs/SKILL.md",
+      "sha256": "a9ebc619c10a20655eae0e125600d1ab2c4903deda0461b19d8e03f269cc63f7",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qml",
+        "qdoc",
+        "documentation",
+        "api-docs"
+      ]
+    },
+    {
+      "name": "qt-qml-profiler",
+      "version": "1.0.0",
+      "description": "Profile a Qt Quick app for jank, binding storms, and slow startup using the QML Profiler.",
+      "author": "matrixx0070",
+      "path": "skills/qt-qml-profiler/SKILL.md",
+      "sha256": "6229ef56a9ca86434c73675c97bb82e3af42e3f0f54a03d372b2e61577b9585e",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qml",
+        "profiling",
+        "performance",
+        "scenegraph"
+      ]
+    },
+    {
+      "name": "qt-qml-review",
+      "version": "1.0.0",
+      "description": "Review QML code for correctness, performance, and idiom using qmllint and Qt6 best practices.",
+      "author": "matrixx0070",
+      "path": "skills/qt-qml-review/SKILL.md",
+      "sha256": "2f16179be73eb3440925c96d8cf5b6e10b7038178b3d66c84cbb6d7cc84202f4",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qml",
+        "qmllint",
+        "review",
+        "performance"
+      ]
+    },
+    {
+      "name": "qt-qml-test",
+      "version": "1.0.0",
+      "description": "Write QML unit tests with Qt Quick Test using TestCase, SignalSpy, and data-driven functions.",
+      "author": "matrixx0070",
+      "path": "skills/qt-qml-test/SKILL.md",
+      "sha256": "50cdbadf2ec04398dda99e806ab60db06aea1b0414cf882deed64e2b1828ff02",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qml",
+        "testing",
+        "qtquicktest"
+      ]
+    },
+    {
+      "name": "qt-qml-test-run",
+      "version": "1.0.0",
+      "description": "Run and triage Qt Quick Test and CTest suites, drive them headless in CI, and read failures.",
+      "author": "matrixx0070",
+      "path": "skills/qt-qml-test-run/SKILL.md",
+      "sha256": "6e1b6878d298919a67b3ec84ba8ecad7e295502a9bc4057b0eb0ddf555b15863",
+      "capabilities": [],
+      "tags": [
+        "qt6",
+        "qml",
+        "ctest",
+        "ci",
+        "triage"
+      ]
+    },
+    {
+      "name": "qt-ui-design",
+      "version": "1.0.0",
+      "description": "Design a Qt Quick (QML) user interface with sound layouts, theming, responsiveness, and accessibility.",
+      "author": "matrixx0070",
+      "path": "skills/qt-ui-design/SKILL.md",
+      "sha256": "ac90a9229e33abc65c5bdd823db7870f9002281ece859ef4456a13c924d2251b",
+      "capabilities": [],
+      "tags": [
+        "qml",
+        "qt-quick",
+        "ui-design",
+        "layouts",
+        "theming"
       ]
     },
     {
@@ -6635,6 +7856,60 @@
       ]
     },
     {
+      "name": "spg-earnings-preview-beta",
+      "version": "1.0.0",
+      "description": "Build a fast pre-earnings expectations map for a company \u2014 consensus, whisper, options-implied move, KPIs to watch, and the setup/skew \u2014 so you can read the print in real time. Educational analytical workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/spg-earnings-preview-beta/SKILL.md",
+      "sha256": "e5dc548c7da34341669398b99d196d570d021527104383bf0dadefbf3453b192",
+      "capabilities": [],
+      "tags": [
+        "spg",
+        "equity",
+        "earnings",
+        "consensus",
+        "implied-move",
+        "kpi",
+        "preview"
+      ]
+    },
+    {
+      "name": "spg-funding-digest",
+      "version": "1.0.0",
+      "description": "Compile a short-term funding and money-market digest \u2014 repo/SOFR, bill supply, central-bank facility usage, cross-currency basis, and credit/liquidity stress signals \u2014 into a structured read on funding conditions. Educational analytical workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/spg-funding-digest/SKILL.md",
+      "sha256": "2b4d07527220142927096c47c2b8576e0639e7a16b44241c5ce7794bde77c853",
+      "capabilities": [],
+      "tags": [
+        "spg",
+        "funding",
+        "money-markets",
+        "repo",
+        "sofr",
+        "liquidity",
+        "basis"
+      ]
+    },
+    {
+      "name": "spg-tear-sheet",
+      "version": "1.0.0",
+      "description": "Produce a one-page company tear sheet \u2014 snapshot, financial highlights, valuation multiples, capital structure, and key ratios \u2014 as a consistent, disclosure-grounded reference. Educational analytical workflow, not investment advice.",
+      "author": "matrixx0070",
+      "path": "skills/spg-tear-sheet/SKILL.md",
+      "sha256": "d26e0063c8f9a2884a7800865ea1faec00f13b435fabe7ee03e1c36be605dcca",
+      "capabilities": [],
+      "tags": [
+        "spg",
+        "equity",
+        "tear-sheet",
+        "financials",
+        "multiples",
+        "ratios",
+        "snapshot"
+      ]
+    },
+    {
       "name": "standup-summary",
       "version": "1.0.0",
       "description": "Turn raw notes about recent work into a crisp done / doing / blocked standup - concrete, honest about what actually shipped, with blockers stated so someone can help.",
@@ -6653,6 +7928,1047 @@
       "sha256": "7e84fae7a2c6db7abe322060858647c728d569c2aca43c9dcc9bccd87621b1bd",
       "capabilities": [],
       "tags": []
+    },
+    {
+      "name": "twilio-account-setup",
+      "version": "1.0.0",
+      "description": "Stand up a Twilio account from scratch \u2014 credentials, verified caller ID, buying a number, subaccounts, geo permissions, trial-to-upgrade, and billing basics.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-account-setup/SKILL.md",
+      "sha256": "56ae66fe0a91ec8cc346b8a5ead9997d52af1aba5fcff82ac85851b62360f6cf",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "setup",
+        "onboarding",
+        "phone-numbers",
+        "billing",
+        "credentials"
+      ]
+    },
+    {
+      "name": "twilio-agent-augmentation-architect",
+      "version": "1.0.0",
+      "description": "Design human-in-the-loop augmentation systems that assist live agents with real-time suggestions, knowledge surfacing, and after-call automation rather than replacing them.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-agent-augmentation-architect/SKILL.md",
+      "sha256": "ac0438eedb5ab53f9f038086272998af723643bc4e37ff51466cf0dd5d9ce813",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "augmentation",
+        "agent-assist",
+        "intelligence",
+        "design"
+      ]
+    },
+    {
+      "name": "twilio-agent-connect",
+      "version": "1.0.0",
+      "description": "Attach a Twilio AI Assistant or LLM agent to voice, messaging, and web channels with correct session lifecycle, context passing, and human handoff.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-agent-connect/SKILL.md",
+      "sha256": "f0acdb80047e29594401c58573b57f7d782ae7936b8b6d5c6752ac582c0083fb",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "assistants",
+        "channels",
+        "sessions",
+        "handoff"
+      ]
+    },
+    {
+      "name": "twilio-ai-agent-architect",
+      "version": "1.0.0",
+      "description": "Design a Twilio AI voice and messaging agent end to end \u2014 choosing ConversationRelay vs AI Assistants vs custom, wiring LLM plus tools and knowledge, channels, guardrails, handoff, and observability.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-ai-agent-architect/SKILL.md",
+      "sha256": "11b28a670e25620c8d750949f9d2ac833d9a3846ebf20f4b88fd77f625ba6a00",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "ai",
+        "architecture",
+        "assistants",
+        "agent"
+      ]
+    },
+    {
+      "name": "twilio-call-recordings",
+      "version": "1.0.0",
+      "description": "Record Twilio calls via the <Record> verb, <Dial record>, or the Recordings REST API, with dual-channel capture, transcription, PCI pause/resume, and compliant retrieval.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-call-recordings/SKILL.md",
+      "sha256": "53f68e724562f8622e653d98749df09ba07787869e80bdb6c4165cbb981ccde2",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "recording",
+        "voice",
+        "transcription",
+        "compliance"
+      ]
+    },
+    {
+      "name": "twilio-cli-reference",
+      "version": "1.0.0",
+      "description": "Practical reference for the official twilio CLI \u2014 login, profiles, phone numbers, messages, serverless, and plugins.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-cli-reference/SKILL.md",
+      "sha256": "6afbe3f737b61ecdf9615c40a5d58bd839803069d7ca234271078ac7026fbf37",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "cli",
+        "tooling",
+        "phone-numbers",
+        "serverless",
+        "api"
+      ]
+    },
+    {
+      "name": "twilio-compliance-onboarding",
+      "version": "1.0.0",
+      "description": "Run end-to-end Twilio messaging compliance onboarding \u2014 Trust Hub profile, EIN business verification, use-case selection, campaign vetting, and rejection remediation.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-compliance-onboarding/SKILL.md",
+      "sha256": "1cb3319843f1fe45bc398fd16c6a708c9cf1ec8d31a29dc3adbdd9364f6a08a5",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "compliance",
+        "trust-hub",
+        "onboarding",
+        "a2p-10dlc",
+        "verification"
+      ]
+    },
+    {
+      "name": "twilio-compliance-traffic",
+      "version": "1.0.0",
+      "description": "Make SMS traffic compliant and deliverable \u2014 A2P 10DLC/TCR registration, toll-free verification, STOP/HELP opt-out, SHAFT content rules, and throughput.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-compliance-traffic/SKILL.md",
+      "sha256": "031de8b4bb883958ebe36498c423763028228f412b787eb94a7bd270878c63a0",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "compliance",
+        "a2p-10dlc",
+        "tcpa",
+        "opt-out",
+        "ctia"
+      ]
+    },
+    {
+      "name": "twilio-conference-calls",
+      "version": "1.0.0",
+      "description": "Build and control multi-party Twilio conference calls with TwiML and the Participants REST API, including mute, hold, coaching, wait music, and status callbacks.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-conference-calls/SKILL.md",
+      "sha256": "59617fb8204a050ac02c563b59f412873ba54839c0cc2a9eda577402c60372e5",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "conference",
+        "voice",
+        "participants",
+        "rest"
+      ]
+    },
+    {
+      "name": "twilio-content-template-builder",
+      "version": "1.0.0",
+      "description": "Author reusable Twilio Content API templates with typed content, variable placeholders, and channel approval, then send them by ContentSid across SMS, WhatsApp, and RCS.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-content-template-builder/SKILL.md",
+      "sha256": "a5461a9fcbe17dc7dcf134ac12f21df92546bda3e91511e3d47a9e91d46f9769",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "content-api",
+        "templates",
+        "whatsapp",
+        "variables"
+      ]
+    },
+    {
+      "name": "twilio-conversation-intelligence",
+      "version": "1.0.0",
+      "description": "Run Twilio Conversational Intelligence \u2014 create a Service, attach Language Operators, transcribe recordings, and retrieve summary, sentiment, entity, and PII-redaction results.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-conversation-intelligence/SKILL.md",
+      "sha256": "b1fbb365461ac747e4e0d6a6da5b5370f852fe1a4a5b4858796e0a7304cce156",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "intelligence",
+        "transcripts",
+        "operators",
+        "analytics"
+      ]
+    },
+    {
+      "name": "twilio-conversation-memory",
+      "version": "1.0.0",
+      "description": "Give a Twilio conversational agent durable memory and continuity across sessions and channels by persisting, summarizing, and retrieving conversation state keyed to participant identity.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-conversation-memory/SKILL.md",
+      "sha256": "c0851cd55fd536f3aee263ec69b9613cb2d7f369084b1ca98a8c7ed56ffff438",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "memory",
+        "ai-assistant",
+        "continuity",
+        "rag"
+      ]
+    },
+    {
+      "name": "twilio-conversation-orchestrator",
+      "version": "1.0.0",
+      "description": "Orchestrate multi-turn, multi-channel Twilio Conversations \u2014 routing each turn to AI or human, managing participants, state, tool invocation, and escalation.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-conversation-orchestrator/SKILL.md",
+      "sha256": "d3136058b88853dad0ba6897e9e8a96a4fd54a23ef3ba8a56828816b7ec5da5e",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "conversations",
+        "orchestration",
+        "routing",
+        "escalation"
+      ]
+    },
+    {
+      "name": "twilio-conversations-classic-api",
+      "version": "1.0.0",
+      "description": "Directly operate the Twilio Conversations REST API \u2014 create Conversations, add SMS/WhatsApp/chat participants, post messages, wire webhooks, and manage Conversation Services and autocreation.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-conversations-classic-api/SKILL.md",
+      "sha256": "c50800cf96b0c8e38ef8fb72979669da5e458c6a91cee8a75fa947ce1e91d4d9",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "conversations",
+        "rest-api",
+        "webhooks",
+        "messaging"
+      ]
+    },
+    {
+      "name": "twilio-customer-support-architect",
+      "version": "1.0.0",
+      "description": "Design an AI-powered omnichannel customer support system on Twilio \u2014 deflection with AI Assistant plus Knowledge, Conversations intake, human handoff via Flex/TaskRouter, CSAT, and metrics.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-customer-support-architect/SKILL.md",
+      "sha256": "6f9b8abecef148ad57148153b5a88d32712b6d44607b2b9f07aa3870ff2ac215",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "support",
+        "architecture",
+        "ai-assistant",
+        "handoff"
+      ]
+    },
+    {
+      "name": "twilio-debugging-observability",
+      "version": "1.0.0",
+      "description": "Diagnose Twilio issues using Debugger error logs, Monitor/Alerts API, Event Streams, resource SIDs, and Voice Insights.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-debugging-observability/SKILL.md",
+      "sha256": "6d47e79233919c899375e2e84a205c6b8f4385b4bd0c0eb9b604e91e88421fa2",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "debugging",
+        "observability",
+        "monitor",
+        "event-streams",
+        "error-codes"
+      ]
+    },
+    {
+      "name": "twilio-email-deliverability-advisor",
+      "version": "1.0.0",
+      "description": "Improve SendGrid inbox placement with SPF/DKIM/DMARC, domain authentication, IP warmup, list hygiene, and 2024 bulk-sender rules.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-email-deliverability-advisor/SKILL.md",
+      "sha256": "ba4f957861dd905f53ccc0e862d918c87bcb32cc9ac4fbe7b97e9bedbf9fe3be",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "deliverability",
+        "dkim",
+        "dmarc",
+        "reputation",
+        "compliance"
+      ]
+    },
+    {
+      "name": "twilio-email-send",
+      "version": "1.0.0",
+      "description": "Send email via the Twilio SendGrid v3 Mail Send API with API-key auth, dynamic templates, attachments, and categories.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-email-send/SKILL.md",
+      "sha256": "78fa22eb18d70801bc0153b2b8c0adbb0a54e008b70a72e515724a7c0439e1ed",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "sendgrid",
+        "email",
+        "api",
+        "templates",
+        "mail-send"
+      ]
+    },
+    {
+      "name": "twilio-enterprise-knowledge",
+      "version": "1.0.0",
+      "description": "Build and govern the RAG Knowledge base that grounds Twilio AI Assistants \u2014 ingest sources, chunk and embed, keep content fresh, enforce access control, and evaluate answer quality to prevent hallucination.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-enterprise-knowledge/SKILL.md",
+      "sha256": "ccd6ae0f23323b11ae5a42133050d83f977c4955ef156fa54159ac9309a44472",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "knowledge",
+        "rag",
+        "embeddings",
+        "grounding"
+      ]
+    },
+    {
+      "name": "twilio-iam-auth-setup",
+      "version": "1.0.0",
+      "description": "Set up secure Twilio authentication with API Keys, least-privilege access, secret storage, and safe Auth Token rotation.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-iam-auth-setup/SKILL.md",
+      "sha256": "872d5112821c5baab413ff3f15473c8b29e0ef721432cab075d8f14bdf729836",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "iam",
+        "api-keys",
+        "auth-token",
+        "secrets",
+        "security"
+      ]
+    },
+    {
+      "name": "twilio-identity-verification-advisor",
+      "version": "1.0.0",
+      "description": "Advisory skill that picks the right Twilio identity signal \u2014 Verify OTP, Lookup, or Silent Network Auth \u2014 for a given risk, friction, and KYC context.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-identity-verification-advisor/SKILL.md",
+      "sha256": "9a4a68a94cc9fb522af5f3774355cb923bb3e8fc64b4ab1ac6774d678dd2cbb4",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "identity",
+        "verification",
+        "kyc",
+        "fraud",
+        "advisory"
+      ]
+    },
+    {
+      "name": "twilio-lookup-phone-intelligence",
+      "version": "1.0.0",
+      "description": "Enrich and risk-score a phone number with the Twilio Lookup API v2 \u2014 line type, caller name, SIM-swap, call forwarding, identity match, and reassigned number.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-lookup-phone-intelligence/SKILL.md",
+      "sha256": "51bd47d9dc48680cf81a416c4943ad8675125ca8c4a7019fe9067ccfa46ecccb",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "lookup",
+        "phone",
+        "fraud",
+        "e164",
+        "intelligence"
+      ]
+    },
+    {
+      "name": "twilio-marketing-promotions-advisor",
+      "version": "1.0.0",
+      "description": "Advise on compliant marketing and promotional SMS over Twilio \u2014 TCPA express written consent, A2P 10DLC marketing use-case registration, opt-in capture, quiet hours, frequency, and STOP handling.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-marketing-promotions-advisor/SKILL.md",
+      "sha256": "2df0fb3cd45d4b63ee69ebb8d9c380cbc099b47b287e0d0ce085404b93566013",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "sms",
+        "marketing",
+        "tcpa",
+        "a2p-10dlc",
+        "consent",
+        "opt-in"
+      ]
+    },
+    {
+      "name": "twilio-messaging-channel-advisor",
+      "version": "1.0.0",
+      "description": "Given a use-case \u2014 region, volume, media, interactivity, compliance \u2014 recommend the right Twilio channel and sender type with the tradeoffs made explicit.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-messaging-channel-advisor/SKILL.md",
+      "sha256": "6c2b2edf1660155fbfad8b6d9f1b6ee08d742c97d49234f358b7e5dd1ebadc5a",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "channels",
+        "decision",
+        "whatsapp",
+        "rcs"
+      ]
+    },
+    {
+      "name": "twilio-messaging-overview",
+      "version": "1.0.0",
+      "description": "Orient yourself in Twilio Programmable Messaging and route to the right channel, sender, and sibling skill before you send a single message.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-messaging-overview/SKILL.md",
+      "sha256": "7117fff3c17794a337bbeb35aeaf23b7d10ce5b5ee012ecc4ea237c49aa8e24d",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "messaging",
+        "sms",
+        "overview",
+        "channels"
+      ]
+    },
+    {
+      "name": "twilio-messaging-services",
+      "version": "1.0.0",
+      "description": "Configure and send through a Twilio Messaging Service (MG SID) \u2014 sender pool, sticky sender, geomatch, scaling, opt-out, and fallback.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-messaging-services/SKILL.md",
+      "sha256": "16ecc5387bb99ee55f15dcada4d46a13db6a8cda3e7f03d1d424ef5f199f4f62",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "messaging-service",
+        "sms",
+        "a2p",
+        "scaling"
+      ]
+    },
+    {
+      "name": "twilio-messaging-webhooks",
+      "version": "1.0.0",
+      "description": "Wire Twilio inbound-message and status-callback webhooks \u2014 configure URLs, parse the POST params, validate X-Twilio-Signature, and reply with TwiML.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-messaging-webhooks/SKILL.md",
+      "sha256": "9b01a66c3f530888bc252c4b92838641eca2014f74732cb8ebba40fae5da39ac",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "webhooks",
+        "twiml",
+        "status-callback",
+        "security"
+      ]
+    },
+    {
+      "name": "twilio-notifications-alerts-advisor",
+      "version": "1.0.0",
+      "description": "Design reliable transactional notifications and alerts on Twilio \u2014 channel choice across SMS/WhatsApp/push/email, transactional-vs-promotional consent, delivery guarantees, and fallback chains.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-notifications-alerts-advisor/SKILL.md",
+      "sha256": "060e7798f3f5a795104bff9d4547ad845ec1795604094544ca1792a2d05bb384",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "notifications",
+        "alerts",
+        "transactional",
+        "multichannel",
+        "delivery"
+      ]
+    },
+    {
+      "name": "twilio-numbers-senders",
+      "version": "1.0.0",
+      "description": "Choose and provision the right Twilio sender \u2014 long code, toll-free, short code, alphanumeric sender ID, or WhatsApp \u2014 and pool them in a Messaging Service.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-numbers-senders/SKILL.md",
+      "sha256": "48ce1fbfe91ee287862f0e715c15e0f05a811243cd556c8558acea2a1a0d848e",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "messaging",
+        "phone-numbers",
+        "sender-id",
+        "messaging-service",
+        "whatsapp"
+      ]
+    },
+    {
+      "name": "twilio-organizations-setup",
+      "version": "1.0.0",
+      "description": "Stand up Twilio Organizations to centrally govern multiple Twilio accounts with org-level SSO, roles, and the Organizations Public API.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-organizations-setup/SKILL.md",
+      "sha256": "a33d85e2e1eb048df5bedc3a12c5b1097bf2afb973d3906e7f2013af18980165",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "organizations",
+        "sso",
+        "saml",
+        "governance",
+        "iam"
+      ]
+    },
+    {
+      "name": "twilio-rcs-messaging",
+      "version": "1.0.0",
+      "description": "Send RCS Business Messages through Twilio with rich cards, carousels, and suggested actions, falling back to SMS when RCS is unavailable.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-rcs-messaging/SKILL.md",
+      "sha256": "cc524d7d51a9f5b230cbcb3af091a52cf726271a4377e5914f5d79803b1cbcf2",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "rcs",
+        "messaging",
+        "rbm",
+        "fallback"
+      ]
+    },
+    {
+      "name": "twilio-regulatory-compliance-bundles",
+      "version": "1.0.0",
+      "description": "Assemble and submit Twilio Regulatory Bundles (Trust Hub) so you can buy and keep phone numbers that require country-specific End User identity and address proof.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-regulatory-compliance-bundles/SKILL.md",
+      "sha256": "626fde4eb8ba591fdfa882ef207ef86498d6bce6fcd54e866b39f62d59dbf40a",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "regulatory",
+        "trust-hub",
+        "bundles",
+        "compliance",
+        "phone-numbers"
+      ]
+    },
+    {
+      "name": "twilio-reliability-patterns",
+      "version": "1.0.0",
+      "description": "Build resilient Twilio integrations with idempotency, backoff, error-code handling, Messaging Services, and status reconciliation.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-reliability-patterns/SKILL.md",
+      "sha256": "24dd1924c487bc7fb49fa3c97645a7d9ebf1550861e6555ab771ca1b37c64c70",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "reliability",
+        "retries",
+        "idempotency",
+        "messaging-services",
+        "error-codes"
+      ]
+    },
+    {
+      "name": "twilio-security-api-auth",
+      "version": "1.0.0",
+      "description": "Secure Twilio API authentication \u2014 prefer scoped API Keys over the Auth Token, rotate credentials, isolate subaccounts, enable Public Key Client Validation, and keep secrets off the client.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-security-api-auth/SKILL.md",
+      "sha256": "d607faec5e3080a7743e670e329e6ba80d3f0383178600e63692ab981c3a611d",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "security",
+        "api-keys",
+        "auth-token",
+        "authentication",
+        "subaccounts"
+      ]
+    },
+    {
+      "name": "twilio-security-compliance-hipaa",
+      "version": "1.0.0",
+      "description": "Use Twilio for healthcare communications under HIPAA \u2014 sign the BAA, use only HIPAA-eligible products, keep PHI out of message bodies, and configure redaction and retention.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-security-compliance-hipaa/SKILL.md",
+      "sha256": "c95ae7bdd147da1ec4603c27f960554b64f79360d9384d85dc742c33529c9fcf",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "hipaa",
+        "healthcare",
+        "phi",
+        "baa",
+        "compliance"
+      ]
+    },
+    {
+      "name": "twilio-security-hardening",
+      "version": "1.0.0",
+      "description": "End-to-end Twilio security hardening \u2014 validate inbound webhook signatures, enforce TLS, allowlist and rate-limit, rotate credentials, manage secrets, and audit via Monitor and Event Streams.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-security-hardening/SKILL.md",
+      "sha256": "c4f169c4cd3077eba285ed01d21477a7df362b1560b73c47803b01410d78ceea",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "security",
+        "hardening",
+        "webhook-signature",
+        "rate-limiting",
+        "audit"
+      ]
+    },
+    {
+      "name": "twilio-send-message",
+      "version": "1.0.0",
+      "description": "Send a message over any channel through the Twilio Messages API or a Messaging Service, choosing between raw Body and Content templates.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-send-message/SKILL.md",
+      "sha256": "0c0703fb9deb34601381a08d3b23c16f465913cd5e1a125b40e5e5a099380767",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "messaging",
+        "api",
+        "omnichannel",
+        "content"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-account-setup",
+      "version": "1.0.0",
+      "description": "Stand up a Twilio SendGrid account for sending \u2014 API keys, sender identity, domain authentication (SPF/DKIM/DMARC), and the checks that must pass before you send real mail.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-account-setup/SKILL.md",
+      "sha256": "68198630bb175b4f0db4e57f5c67af6a48daaac29c892a6918135ba037db00db",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "email",
+        "api-key",
+        "domain-authentication",
+        "spf",
+        "dkim",
+        "dmarc",
+        "sender-identity"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-deliverability-advisor",
+      "version": "1.0.0",
+      "description": "Diagnose and improve inbox placement on SendGrid \u2014 authentication alignment, IP/domain reputation, warm-up, bounce/complaint thresholds, and content that trips filters.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-deliverability-advisor/SKILL.md",
+      "sha256": "4dcbabea59072a75a6e57c9939b1b0ee6f3ca308951eb03444523c9e7a0f7208",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "deliverability",
+        "inbox-placement",
+        "reputation",
+        "ip-warmup",
+        "dmarc-alignment",
+        "blocklist"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-email-send",
+      "version": "1.0.0",
+      "description": "Send email through the SendGrid v3 Mail Send API \u2014 personalizations, templates, attachments, categories, and correct handling of the 202 response and error bodies.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-email-send/SKILL.md",
+      "sha256": "8a5447fda33669bdbad683a464ffc44b3c94544cc0687ad88eed6031ffcda7dc",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "mail-send",
+        "email",
+        "dynamic-templates",
+        "personalizations",
+        "attachments",
+        "api"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-email-settings",
+      "version": "1.0.0",
+      "description": "Configure account-wide SendGrid mail behavior \u2014 sandbox mode, footer, click/open tracking, subscription tracking, BCC, spam checker, and the tracking settings that affect deliverability.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-email-settings/SKILL.md",
+      "sha256": "9aac12ba7565904783f3257ce302de7d7ae29a9f1e938ceaec51206707dfddd2",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "mail-settings",
+        "tracking-settings",
+        "sandbox",
+        "subscription-tracking",
+        "click-tracking",
+        "open-tracking"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-engagement-quality",
+      "version": "1.0.0",
+      "description": "Measure and improve email engagement on SendGrid \u2014 opens, clicks, CTR, unsubscribe and complaint rates by segment/category \u2014 and turn the numbers into content and cadence decisions.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-engagement-quality/SKILL.md",
+      "sha256": "41e18cdad907119537878302654333987995efd21cb8deb39ec9dd9f138b04ff",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "engagement",
+        "open-rate",
+        "click-rate",
+        "stats",
+        "categories",
+        "ab-testing",
+        "list-segmentation"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-inbound-parse",
+      "version": "1.0.0",
+      "description": "Receive inbound email with the SendGrid Inbound Parse Webhook \u2014 MX setup, multipart parsing, attachments, spam/SPF fields, and safe handling of untrusted mail.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-inbound-parse/SKILL.md",
+      "sha256": "753051a8051301e634d4794ff3789e8ee38899035222e8ffb6d6ce4c08a28afa",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "inbound-parse",
+        "mx-record",
+        "multipart",
+        "attachments",
+        "reply-handling",
+        "spam-check"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-suppressions",
+      "version": "1.0.0",
+      "description": "Manage SendGrid suppressions \u2014 global unsubscribes, bounces, blocks, spam reports, invalid emails, and unsubscribe groups \u2014 to protect reputation and honor opt-outs.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-suppressions/SKILL.md",
+      "sha256": "ed65daabb326bf81707f3d025beb91189f8d9117e12e41c413c1f546ba71e395",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "suppressions",
+        "unsubscribe-groups",
+        "bounces",
+        "blocks",
+        "spam-reports",
+        "list-hygiene"
+      ]
+    },
+    {
+      "name": "twilio-sendgrid-webhooks",
+      "version": "1.0.0",
+      "description": "Consume the SendGrid Event Webhook \u2014 configure it, verify the ECDSA signature, handle each event type idempotently, and turn delivery/engagement events into reliable state.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sendgrid-webhooks/SKILL.md",
+      "sha256": "1284a1c08c05ef25fdb5a7ca8721971cffd43bcc354ba00795797b55ef3c8970",
+      "capabilities": [],
+      "tags": [
+        "sendgrid",
+        "event-webhook",
+        "signed-webhook",
+        "ecdsa",
+        "delivery-events",
+        "engagement-events",
+        "idempotency"
+      ]
+    },
+    {
+      "name": "twilio-sms-isv-setup",
+      "version": "1.0.0",
+      "description": "Onboard as a Twilio ISV \u2014 register brands and A2P 10DLC campaigns on behalf of client businesses using Trust Hub Secondary Customer Profiles.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sms-isv-setup/SKILL.md",
+      "sha256": "4b3d7d1c708b5f1f730561a5349e9c9642051da00a43135ba4f7e0bf9dba2e4b",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "isv",
+        "trust-hub",
+        "a2p-10dlc",
+        "tcr",
+        "brand-registration"
+      ]
+    },
+    {
+      "name": "twilio-sms-send-message",
+      "version": "1.0.0",
+      "description": "Send SMS and MMS through Twilio with correct sender type, encoding-aware segmentation, and US A2P 10DLC compliance.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-sms-send-message/SKILL.md",
+      "sha256": "5dbf45920e68756585ff70cb2ba24678bd2e71b543907bef2cd1ef84b8270643",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "sms",
+        "mms",
+        "10dlc",
+        "encoding"
+      ]
+    },
+    {
+      "name": "twilio-studio-flows",
+      "version": "1.0.0",
+      "description": "Design and operate Twilio Studio drag-and-drop IVR and messaging flows \u2014 widgets, triggers, and the Execution REST API \u2014 without writing full call/message routing code.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-studio-flows/SKILL.md",
+      "sha256": "40d8cad7f9f310bb441ee757e7d23810cd74acd09689a2c427623b248f25f758",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "studio",
+        "ivr",
+        "flow",
+        "messaging",
+        "automation"
+      ]
+    },
+    {
+      "name": "twilio-taskrouter-routing",
+      "version": "1.0.0",
+      "description": "Design skills-based task distribution with Twilio TaskRouter \u2014 Workspaces, Workflows, TaskQueues, Workers, Activities, and reservation handling.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-taskrouter-routing/SKILL.md",
+      "sha256": "7d9c7cb49627c8c42684ab89706110c1a898fbe08caaad5481f76a6e9aeca5d4",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "taskrouter",
+        "routing",
+        "contact-center",
+        "workflow",
+        "acd"
+      ]
+    },
+    {
+      "name": "twilio-verify-send-otp",
+      "version": "1.0.0",
+      "description": "Send and check one-time passcodes with the Twilio Verify API v2 across SMS, voice, email, and WhatsApp, with fraud and rate-limit handling.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-verify-send-otp/SKILL.md",
+      "sha256": "177bfd8f29ab5a9ecf812f7e144fa2f5e00f074b5aaf3e8459c8c3bd4b11d864",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "verify",
+        "otp",
+        "2fa",
+        "sms",
+        "authentication"
+      ]
+    },
+    {
+      "name": "twilio-voice-conversation-relay",
+      "version": "1.0.0",
+      "description": "Build low-latency voice AI agents on Twilio using ConversationRelay, streaming your own LLM over a WebSocket while Twilio handles STT and TTS.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-voice-conversation-relay/SKILL.md",
+      "sha256": "be4ab703079ef7b946c16da974e205857bae5ee41f8dfc3934e6f33c52ed936c",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "voice",
+        "conversationrelay",
+        "websocket",
+        "ai"
+      ]
+    },
+    {
+      "name": "twilio-voice-outbound-calls",
+      "version": "1.0.0",
+      "description": "Place outbound programmable voice calls with the Twilio Calls API, controlling TwiML, answering-machine detection, status callbacks, recording, and timeouts.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-voice-outbound-calls/SKILL.md",
+      "sha256": "c34080d01c4a712e09e158dfb2806647fbd399315bb5a2da4c84d2771638daae",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "voice",
+        "calls",
+        "amd",
+        "callbacks"
+      ]
+    },
+    {
+      "name": "twilio-voice-twiml",
+      "version": "1.0.0",
+      "description": "Author TwiML to control live voice calls \u2014 speak, play audio, gather DTMF and speech, dial destinations, record, and redirect flow with action callbacks.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-voice-twiml/SKILL.md",
+      "sha256": "eeaf160ba6626ad656e8da920b8dc18ccfa9c5704ef44036123c9abe3620dce4",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "voice",
+        "twiml",
+        "ivr",
+        "dtmf"
+      ]
+    },
+    {
+      "name": "twilio-webhook-architecture",
+      "version": "1.0.0",
+      "description": "Design incoming Twilio webhooks and status callbacks with TwiML responses, signature validation, and idempotency.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-webhook-architecture/SKILL.md",
+      "sha256": "31ebf98e21413a6d79094afdd675ec2ef6d59414eeb3a9e51b187c03b9988d15",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "webhooks",
+        "twiml",
+        "status-callbacks",
+        "security",
+        "signature"
+      ]
+    },
+    {
+      "name": "twilio-whatsapp-manage-senders",
+      "version": "1.0.0",
+      "description": "Onboard and manage Twilio WhatsApp senders \u2014 WABA linkage, phone registration, display name, quality rating, and messaging-tier limits.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-whatsapp-manage-senders/SKILL.md",
+      "sha256": "a1dcfa3191f3636fd0472cefdf419fb3d3976335b9cac9593b85c02f49873f24",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "whatsapp",
+        "senders",
+        "waba",
+        "onboarding"
+      ]
+    },
+    {
+      "name": "twilio-whatsapp-send-message",
+      "version": "1.0.0",
+      "description": "Send WhatsApp messages via Twilio, honoring the 24-hour session window and using approved Content templates when it is closed.",
+      "author": "matrixx0070",
+      "path": "skills/twilio-whatsapp-send-message/SKILL.md",
+      "sha256": "dc1f93a19e6e730109754adbf46c4168b7102bfe72b839e93972f494c79207cd",
+      "capabilities": [],
+      "tags": [
+        "twilio",
+        "whatsapp",
+        "template",
+        "content",
+        "messaging"
+      ]
+    },
+    {
+      "name": "wm-client-report",
+      "version": "1.0.0",
+      "description": "Produce a clear, compliant periodic client statement summarizing account performance, holdings, activity, and fees for an advisory relationship.",
+      "author": "matrixx0070",
+      "path": "skills/wm-client-report/SKILL.md",
+      "sha256": "b65f61a0cc6bff6caa12e24998f0e2a799b6bd44cf142381148f577ca5c2bdc9",
+      "capabilities": [],
+      "tags": [
+        "wealth-management",
+        "client-report",
+        "performance",
+        "reporting",
+        "advisory",
+        "statement"
+      ]
+    },
+    {
+      "name": "wm-client-review",
+      "version": "1.0.0",
+      "description": "Prepare and structure a periodic client review meeting \u2014 agenda, discovery questions, life-change check, and follow-up actions for an advisory relationship.",
+      "author": "matrixx0070",
+      "path": "skills/wm-client-review/SKILL.md",
+      "sha256": "e598d8d4bc1abd6bb1a9d9c3e674ff02636bdf909c7e5c72ad8d2509e02dbafa",
+      "capabilities": [],
+      "tags": [
+        "wealth-management",
+        "client-review",
+        "meeting-prep",
+        "discovery",
+        "advisory",
+        "agenda"
+      ]
+    },
+    {
+      "name": "wm-financial-plan",
+      "version": "1.0.0",
+      "description": "Draft the structure of a comprehensive financial plan \u2014 goals, cash flow, net worth, risk, retirement projection, and scenario stress \u2014 as advisory support.",
+      "author": "matrixx0070",
+      "path": "skills/wm-financial-plan/SKILL.md",
+      "sha256": "0987015e1e0c53dc9b028d2903300774795bc05260da894cd14ad9f7c9becb41",
+      "capabilities": [],
+      "tags": [
+        "wealth-management",
+        "financial-plan",
+        "goals",
+        "cash-flow",
+        "retirement",
+        "projection"
+      ]
+    },
+    {
+      "name": "wm-investment-proposal",
+      "version": "1.0.0",
+      "description": "Structure an investment proposal \u2014 objective, risk profile, proposed allocation, rationale, costs, and suitability notes \u2014 as advisory support for client review.",
+      "author": "matrixx0070",
+      "path": "skills/wm-investment-proposal/SKILL.md",
+      "sha256": "3e06f1cf23a4208089130e667f2c0ef62d7c4e72811f4ed6ca77606857a2cd8a",
+      "capabilities": [],
+      "tags": [
+        "wealth-management",
+        "investment-proposal",
+        "allocation",
+        "suitability",
+        "risk-profile",
+        "advisory"
+      ]
+    },
+    {
+      "name": "wm-portfolio-rebalance",
+      "version": "1.0.0",
+      "description": "Plan a portfolio rebalance back to target weights \u2014 drift analysis, trade list, cost and tax awareness, and cash-flow-first methods \u2014 as advisory support.",
+      "author": "matrixx0070",
+      "path": "skills/wm-portfolio-rebalance/SKILL.md",
+      "sha256": "9138a93a42a50ec288f7d5cca90eee4557d3a60301d8d522270a81a2cc07490a",
+      "capabilities": [],
+      "tags": [
+        "wealth-management",
+        "rebalance",
+        "drift",
+        "allocation",
+        "trade-list",
+        "tax-aware"
+      ]
+    },
+    {
+      "name": "wm-tax-loss-harvesting",
+      "version": "1.0.0",
+      "description": "Structure a tax-loss-harvesting review \u2014 identify loss lots, avoid wash sales, choose replacements, and quantify the benefit \u2014 as educational advisory support.",
+      "author": "matrixx0070",
+      "path": "skills/wm-tax-loss-harvesting/SKILL.md",
+      "sha256": "a8e7b56502575e00c244dc950a452a0017fb298798ee040473702363fcde4f43",
+      "capabilities": [],
+      "tags": [
+        "wealth-management",
+        "tax-loss-harvesting",
+        "wash-sale",
+        "cost-basis",
+        "tax-aware",
+        "advisory"
+      ]
     }
   ]
 }
