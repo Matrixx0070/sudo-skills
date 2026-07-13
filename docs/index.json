@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-13T23:56:32.047Z",
+  "updated": "2026-07-13T23:57:44.128Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -7857,11 +7857,11 @@
     },
     {
       "name": "spec9-proof",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Throwaway proof skill for the Spec 9 publish/update live verification.",
       "path": "skills/spec9-proof/SKILL.md",
-      "sha256": "720687d8cdef2a3199620af4b209c7077c292a1f468711f8f7b404a8c0b37279",
-      "changelog": "Initial proof release."
+      "sha256": "ede84e9330c53046e6c9ee880073de505424be30ec0bc52ad222a1ee217373f4",
+      "changelog": "Adds emphasis to the proof reply."
     },
     {
       "name": "spg-earnings-preview-beta",
