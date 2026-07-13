@@ -2,7 +2,7 @@
   "registry": "sudo-skills",
   "schema": 1,
   "homepage": "https://sudoapi.shop",
-  "updated": "2026-07-12T01:00:00Z",
+  "updated": "2026-07-13T23:56:32.047Z",
   "skills": [
     {
       "name": "ai-agent-design",
@@ -71,7 +71,7 @@
     {
       "name": "ai-guardrails",
       "version": "1.0.0",
-      "description": "Add safety guardrails to an LLM app \u2014 prompt-injection defense, output validation, PII handling, and a clear refusal policy.",
+      "description": "Add safety guardrails to an LLM app — prompt-injection defense, output validation, PII handling, and a clear refusal policy.",
       "author": "matrixx0070",
       "path": "skills/ai-guardrails/SKILL.md",
       "sha256": "7fde7b2fce4b60f84224d215914c4477904864692a37ad21e01157954c06c463",
@@ -119,7 +119,7 @@
     {
       "name": "aigov-ai-inventory",
       "version": "1.0.0",
-      "description": "Build and maintain a defensible inventory of every AI system in use across an organization \u2014 in-house models, vendor AI, embedded features, and shadow AI \u2014 tagged by owner, purpose, data, and risk tier.",
+      "description": "Build and maintain a defensible inventory of every AI system in use across an organization — in-house models, vendor AI, embedded features, and shadow AI — tagged by owner, purpose, data, and risk tier.",
       "author": "matrixx0070",
       "path": "skills/aigov-ai-inventory/SKILL.md",
       "sha256": "f1c536cd7e0ab996f82dbb2076462dc0af654b2e6cd1085d64821d751b502d2c",
@@ -136,7 +136,7 @@
     {
       "name": "aigov-aia-generation",
       "version": "1.0.0",
-      "description": "Generate a structured Algorithmic Impact Assessment for a specific AI use case \u2014 purpose, stakeholders, data provenance, harm taxonomy, mitigations, residual risk, and a go/mitigate/stop recommendation.",
+      "description": "Generate a structured Algorithmic Impact Assessment for a specific AI use case — purpose, stakeholders, data provenance, harm taxonomy, mitigations, residual risk, and a go/mitigate/stop recommendation.",
       "author": "matrixx0070",
       "path": "skills/aigov-aia-generation/SKILL.md",
       "sha256": "555cc05c98d649855a56b1c3c6f6d9bedc3f2b11b0df77bf0d0902c7bd3cb532",
@@ -170,7 +170,7 @@
     {
       "name": "aigov-customize",
       "version": "1.0.0",
-      "description": "Tailor generic AI-governance templates \u2014 policies, AIA forms, triage rubrics, vendor checklists \u2014 to a specific organization's sector, jurisdictions, risk appetite, and roles.",
+      "description": "Tailor generic AI-governance templates — policies, AIA forms, triage rubrics, vendor checklists — to a specific organization's sector, jurisdictions, risk appetite, and roles.",
       "author": "matrixx0070",
       "path": "skills/aigov-customize/SKILL.md",
       "sha256": "c8cf8c07f51794f9f276033fbc02e113034b63ce04d90f3e406f49bcdee9e2d8",
@@ -187,7 +187,7 @@
     {
       "name": "aigov-matter-workspace",
       "version": "1.0.0",
-      "description": "Set up and organize a governance/legal matter workspace for a single AI system review \u2014 a structured, defensible record that ties intake, triage, AIA, vendor terms, gap analysis, decisions, and sign-offs into one auditable container.",
+      "description": "Set up and organize a governance/legal matter workspace for a single AI system review — a structured, defensible record that ties intake, triage, AIA, vendor terms, gap analysis, decisions, and sign-offs into one auditable container.",
       "author": "matrixx0070",
       "path": "skills/aigov-matter-workspace/SKILL.md",
       "sha256": "6854c51afd3b2d9862450f85152f2532999784fae2efc6a8fd0705f6f82e8476",
@@ -221,7 +221,7 @@
     {
       "name": "aigov-policy-starter",
       "version": "1.0.0",
-      "description": "Draft a first-pass internal AI-use policy from scratch \u2014 acceptable use, an approval workflow for new use cases, data-handling rules, human-oversight duties, prohibited uses, vendor/tool approval, disclosure obligations, and roles/accountability.",
+      "description": "Draft a first-pass internal AI-use policy from scratch — acceptable use, an approval workflow for new use cases, data-handling rules, human-oversight duties, prohibited uses, vendor/tool approval, disclosure obligations, and roles/accountability.",
       "author": "matrixx0070",
       "path": "skills/aigov-policy-starter/SKILL.md",
       "sha256": "3278eb1cb0b05f9ed2fa699f6a12ca9caa55ce964f2a972333e90b528d586080",
@@ -424,7 +424,7 @@
     {
       "name": "car-interview-prep",
       "version": "1.0.0",
-      "description": "Prepare as the candidate \u2014 STAR stories, company research, and sharp questions to ask each interviewer.",
+      "description": "Prepare as the candidate — STAR stories, company research, and sharp questions to ask each interviewer.",
       "author": "matrixx0070",
       "path": "skills/car-interview-prep/SKILL.md",
       "sha256": "1086489d89a779f2c30ff2a23fb5b3a5f97bcb5a6e26cb214603231c0a4ce9cb",
@@ -440,7 +440,7 @@
     {
       "name": "car-job-search-strategy",
       "version": "1.0.0",
-      "description": "Design a job-search strategy \u2014 targeting, pipeline, outreach, and tracking \u2014 run like a repeatable funnel.",
+      "description": "Design a job-search strategy — targeting, pipeline, outreach, and tracking — run like a repeatable funnel.",
       "author": "matrixx0070",
       "path": "skills/car-job-search-strategy/SKILL.md",
       "sha256": "d1d34178f2e709afd951a4e92afe93492755e40d1df7d114d5144fcc0f2dee82",
@@ -457,7 +457,7 @@
     {
       "name": "car-linkedin",
       "version": "1.0.0",
-      "description": "Optimize a LinkedIn profile \u2014 headline, about, experience, and keywords \u2014 for recruiter search and credibility.",
+      "description": "Optimize a LinkedIn profile — headline, about, experience, and keywords — for recruiter search and credibility.",
       "author": "matrixx0070",
       "path": "skills/car-linkedin/SKILL.md",
       "sha256": "b184f41ee46304427ab2afd5d02fc7480bf36852e54f053fd02e701bd7f73337",
@@ -637,7 +637,7 @@
     {
       "name": "clinic-client-comms-log",
       "version": "1.0.0",
-      "description": "Maintain a dated, factual log of every client communication in a clinic matter file \u2014 who, when, what, and follow-ups, with no unreviewed legal conclusions.",
+      "description": "Maintain a dated, factual log of every client communication in a clinic matter file — who, when, what, and follow-ups, with no unreviewed legal conclusions.",
       "author": "matrixx0070",
       "path": "skills/clinic-client-comms-log/SKILL.md",
       "sha256": "823bd8bf63a6d98303d082e2755cafddd76438a0977640d3c1cca7e6fce6a469",
@@ -654,7 +654,7 @@
     {
       "name": "clinic-client-intake",
       "version": "1.0.0",
-      "description": "Run and document a new-client intake for a legal clinic \u2014 eligibility, conflicts, and scope \u2014 forming no attorney-client relationship until the supervisor approves.",
+      "description": "Run and document a new-client intake for a legal clinic — eligibility, conflicts, and scope — forming no attorney-client relationship until the supervisor approves.",
       "author": "matrixx0070",
       "path": "skills/clinic-client-intake/SKILL.md",
       "sha256": "8d17ec8765ea33d0ba004b5b8cae3a8d1880c133f3f76412c1b998a711ab0a10",
@@ -671,7 +671,7 @@
     {
       "name": "clinic-client-letter",
       "version": "1.0.0",
-      "description": "Draft plain-but-accurate correspondence to a clinic client \u2014 advice, status, or closing letters \u2014 for supervising-attorney review before anything is sent.",
+      "description": "Draft plain-but-accurate correspondence to a clinic client — advice, status, or closing letters — for supervising-attorney review before anything is sent.",
       "author": "matrixx0070",
       "path": "skills/clinic-client-letter/SKILL.md",
       "sha256": "b14048bdb1da4fe0d59ea1c2e14bfb9a6bd6ca4b247c598d80e3718b32626c7d",
@@ -722,7 +722,7 @@
     {
       "name": "clinic-deadlines",
       "version": "1.0.0",
-      "description": "Build and track a docketing calendar for a matter \u2014 limitations periods, filing and response deadlines, and hearing dates \u2014 with double-calendaring and supervisor confirmation.",
+      "description": "Build and track a docketing calendar for a matter — limitations periods, filing and response deadlines, and hearing dates — with double-calendaring and supervisor confirmation.",
       "author": "matrixx0070",
       "path": "skills/clinic-deadlines/SKILL.md",
       "sha256": "044c7ebd7bdcda30aa9c0997e10781373c64662f33612746cfb5d380d7ed5885",
@@ -739,7 +739,7 @@
     {
       "name": "clinic-draft",
       "version": "1.0.0",
-      "description": "Draft a legal document \u2014 a pleading, motion, brief section, or contract clause \u2014 with verified citations, flagged assumptions, and mandatory supervisor review before filing.",
+      "description": "Draft a legal document — a pleading, motion, brief section, or contract clause — with verified citations, flagged assumptions, and mandatory supervisor review before filing.",
       "author": "matrixx0070",
       "path": "skills/clinic-draft/SKILL.md",
       "sha256": "a1df56e6d2a538fb366f470bc937387cc8a44abf1b3f2947ed33e0f2f6a7b376",
@@ -892,7 +892,7 @@
     {
       "name": "coml-amendment-history",
       "version": "1.0.0",
-      "description": "Build and maintain the amendment and version history of a contract \u2014 what changed, when, why, and the current effective terms across the base agreement and all amendments.",
+      "description": "Build and maintain the amendment and version history of a contract — what changed, when, why, and the current effective terms across the base agreement and all amendments.",
       "author": "matrixx0070",
       "path": "skills/coml-amendment-history/SKILL.md",
       "sha256": "2501ad654d4eb0fcf0693fc9b5212a9ceca34fdad5180d6798fa30a8df4dbbcd",
@@ -956,7 +956,7 @@
     {
       "name": "coml-matter-workspace",
       "version": "1.0.0",
-      "description": "Set up and maintain a tracking workspace for a single contract matter \u2014 parties, key dates, documents, review status, and open items with owners.",
+      "description": "Set up and maintain a tracking workspace for a single contract matter — parties, key dates, documents, review status, and open items with owners.",
       "author": "matrixx0070",
       "path": "skills/coml-matter-workspace/SKILL.md",
       "sha256": "81e1a577b9158c157890e67c0e30407b0ae1d6a85931d882c39239c007f17dd2",
@@ -989,7 +989,7 @@
     {
       "name": "coml-renewal-tracker",
       "version": "1.0.0",
-      "description": "Track contract renewal and notice windows so termination and renegotiation deadlines are never missed \u2014 calculate the notice deadline, set reminders, and flag decisions due.",
+      "description": "Track contract renewal and notice windows so termination and renegotiation deadlines are never missed — calculate the notice deadline, set reminders, and flag decisions due.",
       "author": "matrixx0070",
       "path": "skills/coml-renewal-tracker/SKILL.md",
       "sha256": "159eff79d0130130d60f02dbdc45b92ff0442cdb5096429a132f5b41cfe2b217",
@@ -1038,7 +1038,7 @@
     {
       "name": "coml-saas-msa-review",
       "version": "1.0.0",
-      "description": "Review a SaaS agreement or master services agreement against the playbook \u2014 liability, indemnity, data, security, SLA, renewal, and termination \u2014 and return a redline-ready verdict.",
+      "description": "Review a SaaS agreement or master services agreement against the playbook — liability, indemnity, data, security, SLA, renewal, and termination — and return a redline-ready verdict.",
       "author": "matrixx0070",
       "path": "skills/coml-saas-msa-review/SKILL.md",
       "sha256": "0b7dcb663194fe7ac900e6bbafb85db433847457a0eb839a1bc687bd295beae6",
@@ -1056,7 +1056,7 @@
     {
       "name": "coml-stakeholder-summary",
       "version": "1.0.0",
-      "description": "Translate a contract review into a plain-language summary for a business stakeholder \u2014 key risks, the recommendation, and the exact decision they need to make.",
+      "description": "Translate a contract review into a plain-language summary for a business stakeholder — key risks, the recommendation, and the exact decision they need to make.",
       "author": "matrixx0070",
       "path": "skills/coml-stakeholder-summary/SKILL.md",
       "sha256": "64d193404b00eb63ce2408cb8b8935c22ed387e8001525dda132d4aa620b54b0",
@@ -1072,7 +1072,7 @@
     {
       "name": "coml-vendor-agreement-review",
       "version": "1.0.0",
-      "description": "Review a vendor or services agreement against the playbook \u2014 payment, IP in deliverables, insurance, termination, and audit rights \u2014 and return a redline-ready verdict.",
+      "description": "Review a vendor or services agreement against the playbook — payment, IP in deliverables, insurance, termination, and audit rights — and return a redline-ready verdict.",
       "author": "matrixx0070",
       "path": "skills/coml-vendor-agreement-review/SKILL.md",
       "sha256": "61d27d801b9be0a637ef6f58b687a244ede9888bc98840cac16d219558f3c3dc",
@@ -1167,7 +1167,7 @@
     {
       "name": "corpl-customize",
       "version": "1.0.0",
-      "description": "Adapt the corporate-legal skill set to a specific firm, deal, or jurisdiction \u2014 house style, templates, thresholds, and escalation routing.",
+      "description": "Adapt the corporate-legal skill set to a specific firm, deal, or jurisdiction — house style, templates, thresholds, and escalation routing.",
       "author": "matrixx0070",
       "path": "skills/corpl-customize/SKILL.md",
       "sha256": "ebddc37b96adc05f1a46b4a71663331c86902c29f166c7eb8ac8bd7cfdbafc71",
@@ -1184,7 +1184,7 @@
     {
       "name": "corpl-deal-team-summary",
       "version": "1.0.0",
-      "description": "Produce a concise deal-team status summary \u2014 where the transaction stands, open issues, decisions needed, and next steps \u2014 for internal circulation.",
+      "description": "Produce a concise deal-team status summary — where the transaction stands, open issues, decisions needed, and next steps — for internal circulation.",
       "author": "matrixx0070",
       "path": "skills/corpl-deal-team-summary/SKILL.md",
       "sha256": "afd376a4b099246f903ecb66ea0bcdc1c254ce4a953b9c2e13340235c1e53ead",
@@ -1201,7 +1201,7 @@
     {
       "name": "corpl-diligence-issue-extraction",
       "version": "1.0.0",
-      "description": "Read diligence documents and extract material issues \u2014 risks, liabilities, and red flags \u2014 into a prioritized, sourced issues list for counsel.",
+      "description": "Read diligence documents and extract material issues — risks, liabilities, and red flags — into a prioritized, sourced issues list for counsel.",
       "author": "matrixx0070",
       "path": "skills/corpl-diligence-issue-extraction/SKILL.md",
       "sha256": "3071840c11380ac520ac598c3bd3f7bb7fb7d1038c46efee47a6062c527d4ca0",
@@ -1218,7 +1218,7 @@
     {
       "name": "corpl-entity-compliance",
       "version": "1.0.0",
-      "description": "Track and maintain an entity's corporate housekeeping \u2014 good standing, annual reports, registered agent, franchise tax, and minute-book currency.",
+      "description": "Track and maintain an entity's corporate housekeeping — good standing, annual reports, registered agent, franchise tax, and minute-book currency.",
       "author": "matrixx0070",
       "path": "skills/corpl-entity-compliance/SKILL.md",
       "sha256": "9cdc50624fb5bb4afd1cf959240ea119f42009f6958c8bdd3fbb67fe10ffde05",
@@ -1235,7 +1235,7 @@
     {
       "name": "corpl-integration-management",
       "version": "1.0.0",
-      "description": "Organize post-closing legal integration \u2014 entity consolidation, contract assignment, governance alignment, and the covenants that survive the deal.",
+      "description": "Organize post-closing legal integration — entity consolidation, contract assignment, governance alignment, and the covenants that survive the deal.",
       "author": "matrixx0070",
       "path": "skills/corpl-integration-management/SKILL.md",
       "sha256": "31a98c9ed4ed77a1cd9553c6ad79e9cf6622d5b1c196aa2916bd439e87b8e512",
@@ -1252,7 +1252,7 @@
     {
       "name": "corpl-material-contract-schedule",
       "version": "1.0.0",
-      "description": "Build the material-contract schedule for a disclosure schedule or diligence deliverable \u2014 every in-scope agreement with the terms that matter.",
+      "description": "Build the material-contract schedule for a disclosure schedule or diligence deliverable — every in-scope agreement with the terms that matter.",
       "author": "matrixx0070",
       "path": "skills/corpl-material-contract-schedule/SKILL.md",
       "sha256": "c8ff5bb5e4b2bb3aeafc52e063f0bb7b86a0013ddd81f5704bab969b1a8c4b5f",
@@ -1269,7 +1269,7 @@
     {
       "name": "corpl-matter-workspace",
       "version": "1.0.0",
-      "description": "Set up an organized workspace for a corporate/M&A matter \u2014 folder structure, document index, key-dates register, and the contacts and privilege markers.",
+      "description": "Set up an organized workspace for a corporate/M&A matter — folder structure, document index, key-dates register, and the contacts and privilege markers.",
       "author": "matrixx0070",
       "path": "skills/corpl-matter-workspace/SKILL.md",
       "sha256": "43e3c6ad695eb4df289fa6f6a2f5cb428fe11a4c71504392583f45fcd6c7bc6c",
@@ -1286,7 +1286,7 @@
     {
       "name": "corpl-tabular-review",
       "version": "1.0.0",
-      "description": "Review a set of similar documents in a consistent tabular format \u2014 one row per document, one column per attribute \u2014 for fast, comparable diligence.",
+      "description": "Review a set of similar documents in a consistent tabular format — one row per document, one column per attribute — for fast, comparable diligence.",
       "author": "matrixx0070",
       "path": "skills/corpl-tabular-review/SKILL.md",
       "sha256": "f93d87c52760f5b43391795af1afc78222cbcecfa40e2afcb3e8c895ae86371f",
@@ -1303,7 +1303,7 @@
     {
       "name": "corpl-written-consent",
       "version": "1.0.0",
-      "description": "Draft an action by written consent in lieu of a meeting \u2014 board or stockholder \u2014 with correct authority, recitals, resolutions, and signature formalities.",
+      "description": "Draft an action by written consent in lieu of a meeting — board or stockholder — with correct authority, recitals, resolutions, and signature formalities.",
       "author": "matrixx0070",
       "path": "skills/corpl-written-consent/SKILL.md",
       "sha256": "313ff61ea7d794fc5ea9a86aa80d6973b60b14db357a5ce1c57e0f1d0c41c9fe",
@@ -1320,7 +1320,7 @@
     {
       "name": "cs-draft-response",
       "version": "1.0.0",
-      "description": "Draft a professional, empathetic customer reply matched to sentiment and outcome \u2014 acknowledge, answer, next steps \u2014 with a shorter chat variant.",
+      "description": "Draft a professional, empathetic customer reply matched to sentiment and outcome — acknowledge, answer, next steps — with a shorter chat variant.",
       "author": "matrixx0070",
       "path": "skills/cs-draft-response/SKILL.md",
       "sha256": "637e7de1c381f09dd00340366613a90f1a61f2f7107b4e31c028aa2ab2e37a7c",
@@ -1337,7 +1337,7 @@
     {
       "name": "cs-escalation",
       "version": "1.0.0",
-      "description": "Package a customer escalation for engineering, product, or leadership as a decision-ready handoff \u2014 impact, timeline, facts vs. hypotheses, and a specific ask with an owner.",
+      "description": "Package a customer escalation for engineering, product, or leadership as a decision-ready handoff — impact, timeline, facts vs. hypotheses, and a specific ask with an owner.",
       "author": "matrixx0070",
       "path": "skills/cs-escalation/SKILL.md",
       "sha256": "4b1fc233fb3322284407eced7cb6b1ab34b64f34614402c4073f745c56c3c3f0",
@@ -1354,7 +1354,7 @@
     {
       "name": "cs-kb-article",
       "version": "1.0.0",
-      "description": "Turn a resolved support issue into a search-friendly, self-service knowledge-base article that deflects future tickets \u2014 with internal notes kept separate.",
+      "description": "Turn a resolved support issue into a search-friendly, self-service knowledge-base article that deflects future tickets — with internal notes kept separate.",
       "author": "matrixx0070",
       "path": "skills/cs-kb-article/SKILL.md",
       "sha256": "ef3ef8602aa008fc6393865358b04d62f4e8309c081b690281b010985a5c8b05",
@@ -1405,7 +1405,7 @@
     {
       "name": "cs-ticket-triage",
       "version": "1.0.0",
-      "description": "Triage an incoming ticket \u2014 set priority P1-P4 by impact x reach, route it, catch duplicates and known issues, and state the first-response SLA.",
+      "description": "Triage an incoming ticket — set priority P1-P4 by impact x reach, route it, catch duplicates and known issues, and state the first-response SLA.",
       "author": "matrixx0070",
       "path": "skills/cs-ticket-triage/SKILL.md",
       "sha256": "fc027e9c379d0a8f33d1dfb900293284f3b4dc717eb82ed88c8bd864f78b3706",
@@ -1682,7 +1682,7 @@
     {
       "name": "data-explore",
       "version": "1.0.0",
-      "description": "Profile an unfamiliar dataset \u2014 shape, grain, quality, nulls, distributions, and duplicates \u2014 before any analysis is trusted.",
+      "description": "Profile an unfamiliar dataset — shape, grain, quality, nulls, distributions, and duplicates — before any analysis is trusted.",
       "author": "matrixx0070",
       "path": "skills/data-explore/SKILL.md",
       "sha256": "55f02321c58812ca887a3e276c3140a0cfe97b0a1e1d7b8d32825bb4e66906be",
@@ -1767,7 +1767,7 @@
     {
       "name": "de-data-modeling",
       "version": "1.0.0",
-      "description": "Model a warehouse schema \u2014 choose star vs snowflake, declare grain, and design slowly-changing dimensions.",
+      "description": "Model a warehouse schema — choose star vs snowflake, declare grain, and design slowly-changing dimensions.",
       "author": "matrixx0070",
       "path": "skills/de-data-modeling/SKILL.md",
       "sha256": "b8760e1fdaa45c3a6da2e218216b77e2d591187aace865b50c09fe0cdf7c9168",
@@ -1799,7 +1799,7 @@
     {
       "name": "de-dbt-transform",
       "version": "1.0.0",
-      "description": "Structure and write dbt models \u2014 staging to marts layering, tests, and documentation.",
+      "description": "Structure and write dbt models — staging to marts layering, tests, and documentation.",
       "author": "matrixx0070",
       "path": "skills/de-dbt-transform/SKILL.md",
       "sha256": "e93a561fc998499d3bb55b148735c09066166cda44c2f023dfae2101f1858bf0",
@@ -1815,7 +1815,7 @@
     {
       "name": "de-orchestration",
       "version": "1.0.0",
-      "description": "Design an orchestration DAG \u2014 task dependencies, retries, and backfill strategy.",
+      "description": "Design an orchestration DAG — task dependencies, retries, and backfill strategy.",
       "author": "matrixx0070",
       "path": "skills/de-orchestration/SKILL.md",
       "sha256": "1609d2e9eb8b7d69d30c56c08d137a887467fe9da840946db35523b76bb416c6",
@@ -1831,7 +1831,7 @@
     {
       "name": "de-pipeline-design",
       "version": "1.0.0",
-      "description": "Design an ETL/ELT data pipeline end to end \u2014 sources, transforms, load pattern, SLAs, and idempotency.",
+      "description": "Design an ETL/ELT data pipeline end to end — sources, transforms, load pattern, SLAs, and idempotency.",
       "author": "matrixx0070",
       "path": "skills/de-pipeline-design/SKILL.md",
       "sha256": "a912fe908e5deaae77265e4bfaea4373427cb06d99eac1074d1d0b37805eeaf5",
@@ -2265,7 +2265,7 @@
     {
       "name": "emplaw-expansion-kickoff",
       "version": "1.0.0",
-      "description": "Kick off employment-law setup when the org first hires into a new US state \u2014 register as a foreign employer, map the new-state statutes, and stand up required policies and postings.",
+      "description": "Kick off employment-law setup when the org first hires into a new US state — register as a foreign employer, map the new-state statutes, and stand up required policies and postings.",
       "author": "matrixx0070",
       "path": "skills/emplaw-expansion-kickoff/SKILL.md",
       "sha256": "a145208070b7fac7fe5a4ada8a99e1487ac76c684ec54829d3ecb44b39009f6f",
@@ -2345,7 +2345,7 @@
     {
       "name": "emplaw-international-expansion",
       "version": "1.0.0",
-      "description": "Scope the employment-law considerations for hiring in a new country \u2014 local counsel, EOR vs entity, mandatory benefits, and termination rules.",
+      "description": "Scope the employment-law considerations for hiring in a new country — local counsel, EOR vs entity, mandatory benefits, and termination rules.",
       "author": "matrixx0070",
       "path": "skills/emplaw-international-expansion/SKILL.md",
       "sha256": "1e4949ad5ddb50091a9c3a8a9388d44b452c0df1634132fa39b249ed30e0f12d",
@@ -2587,7 +2587,7 @@
     {
       "name": "eng-debug",
       "version": "1.0.0",
-      "description": "Diagnose and fix a bug through a disciplined reproduce, isolate, diagnose, fix, verify loop driven by evidence and one hypothesis at a time \u2014 not guesswork.",
+      "description": "Diagnose and fix a bug through a disciplined reproduce, isolate, diagnose, fix, verify loop driven by evidence and one hypothesis at a time — not guesswork.",
       "author": "matrixx0070",
       "path": "skills/eng-debug/SKILL.md",
       "sha256": "d9703fd3e6d874bfd384b958d12c5397783d666721605af6609e8990d21b6577",
@@ -2638,7 +2638,7 @@
     {
       "name": "eng-tech-debt",
       "version": "1.0.0",
-      "description": "Identify, categorize, and prioritize technical debt into a ranked, defensible backlog that ties each remediation to impact and effort \u2014 a register, not a wish list.",
+      "description": "Identify, categorize, and prioritize technical debt into a ranked, defensible backlog that ties each remediation to impact and effort — a register, not a wish list.",
       "author": "matrixx0070",
       "path": "skills/eng-tech-debt/SKILL.md",
       "sha256": "61fcb16db3126175498047cc18017432a31d980068a4b5c4c1a3e4b5bd800d35",
@@ -2655,7 +2655,7 @@
     {
       "name": "eng-tech-docs",
       "version": "1.0.0",
-      "description": "Write or maintain technical documentation \u2014 READMEs, runbooks, API references, architecture docs \u2014 that a specific reader can act on without asking follow-ups.",
+      "description": "Write or maintain technical documentation — READMEs, runbooks, API references, architecture docs — that a specific reader can act on without asking follow-ups.",
       "author": "matrixx0070",
       "path": "skills/eng-tech-docs/SKILL.md",
       "sha256": "ddbe5a3e384a4cc8d447b95a0a04cde8bcb40ad528317e30659a69250a9d1523",
@@ -2689,7 +2689,7 @@
     {
       "name": "eqr-catalyst-calendar",
       "version": "1.0.0",
-      "description": "Build a forward calendar of dated and undated catalysts for a stock or watchlist \u2014 earnings, product, regulatory, and macro events \u2014 ranked by impact and conviction.",
+      "description": "Build a forward calendar of dated and undated catalysts for a stock or watchlist — earnings, product, regulatory, and macro events — ranked by impact and conviction.",
       "author": "matrixx0070",
       "path": "skills/eqr-catalyst-calendar/SKILL.md",
       "sha256": "795e129b526a6666116beba8b8448b95537b756a46e888551f9561bf88a36cc6",
@@ -2705,7 +2705,7 @@
     {
       "name": "eqr-earnings-analysis",
       "version": "1.0.0",
-      "description": "Analyze a company's reported quarter \u2014 beat/miss versus estimates, quality of results, guidance change, and thesis impact \u2014 into a decision-ready post-earnings note.",
+      "description": "Analyze a company's reported quarter — beat/miss versus estimates, quality of results, guidance change, and thesis impact — into a decision-ready post-earnings note.",
       "author": "matrixx0070",
       "path": "skills/eqr-earnings-analysis/SKILL.md",
       "sha256": "a73cfc4a3630fee90d4b1ac051865036efea9119725e4bad43ef8c56acd097da",
@@ -2721,7 +2721,7 @@
     {
       "name": "eqr-earnings-preview",
       "version": "1.0.0",
-      "description": "Set up an upcoming earnings print \u2014 estimates versus consensus, the bar, key debates, scenarios, and what to watch \u2014 into a pre-print preview note.",
+      "description": "Set up an upcoming earnings print — estimates versus consensus, the bar, key debates, scenarios, and what to watch — into a pre-print preview note.",
       "author": "matrixx0070",
       "path": "skills/eqr-earnings-preview/SKILL.md",
       "sha256": "f5aa66e0e5f6ba39254597e24a74dcb625f8bfd4f987c259926a175ebd240b01",
@@ -2737,7 +2737,7 @@
     {
       "name": "eqr-idea-generation",
       "version": "1.0.0",
-      "description": "Generate and pre-screen equity investment ideas from screens, catalysts, and anomalies \u2014 into a ranked shortlist with a one-line variant thesis and a kill test for each.",
+      "description": "Generate and pre-screen equity investment ideas from screens, catalysts, and anomalies — into a ranked shortlist with a one-line variant thesis and a kill test for each.",
       "author": "matrixx0070",
       "path": "skills/eqr-idea-generation/SKILL.md",
       "sha256": "a55668951d4758806414fe87df61bba7f346465ae725fbd4e1fa2b2c763db612",
@@ -2753,7 +2753,7 @@
     {
       "name": "eqr-initiating-coverage",
       "version": "1.0.0",
-      "description": "Build a full initiation on a stock \u2014 business, thesis, model, valuation, risks, and a rating with target and time horizon \u2014 into a structured coverage-launch note.",
+      "description": "Build a full initiation on a stock — business, thesis, model, valuation, risks, and a rating with target and time horizon — into a structured coverage-launch note.",
       "author": "matrixx0070",
       "path": "skills/eqr-initiating-coverage/SKILL.md",
       "sha256": "50f12fcddb7883f2b2d1e22002f90f3b2642f0a620acdac9d4ea136f915aeab8",
@@ -2769,7 +2769,7 @@
     {
       "name": "eqr-model-update",
       "version": "1.0.0",
-      "description": "Update a financial model after new information \u2014 reported results, guidance, or revised assumptions \u2014 with a driver-based estimate change, a reconciliation, and target impact.",
+      "description": "Update a financial model after new information — reported results, guidance, or revised assumptions — with a driver-based estimate change, a reconciliation, and target impact.",
       "author": "matrixx0070",
       "path": "skills/eqr-model-update/SKILL.md",
       "sha256": "43d8d77abc5723c2177f21822e7e4c005a3597b3bc3dcec8e634fbe71eb6c104",
@@ -2785,7 +2785,7 @@
     {
       "name": "eqr-morning-note",
       "version": "1.0.0",
-      "description": "Write a concise pre-market morning note \u2014 overnight moves, coverage news, changes, and the day's watch items \u2014 that a busy reader can act on in two minutes.",
+      "description": "Write a concise pre-market morning note — overnight moves, coverage news, changes, and the day's watch items — that a busy reader can act on in two minutes.",
       "author": "matrixx0070",
       "path": "skills/eqr-morning-note/SKILL.md",
       "sha256": "c73169fcb4ecff3701f22530f3ec418338b6e8cc34817f3e9eb8e683a17fdab8",
@@ -2801,7 +2801,7 @@
     {
       "name": "eqr-sector-overview",
       "version": "1.0.0",
-      "description": "Map a sector \u2014 structure, drivers, competitive dynamics, key debates, and relative positioning of names \u2014 into a framework note that grounds single-stock work.",
+      "description": "Map a sector — structure, drivers, competitive dynamics, key debates, and relative positioning of names — into a framework note that grounds single-stock work.",
       "author": "matrixx0070",
       "path": "skills/eqr-sector-overview/SKILL.md",
       "sha256": "d910fc15fafbb9f5188c131438f48da2fc3222d1987706244d58978180744781",
@@ -2817,7 +2817,7 @@
     {
       "name": "eqr-thesis-tracker",
       "version": "1.0.0",
-      "description": "Track a live investment thesis against evidence \u2014 pillars, milestones, disconfirming signals, and a rules-based verdict to hold, revise, or exit.",
+      "description": "Track a live investment thesis against evidence — pillars, milestones, disconfirming signals, and a rules-based verdict to hold, revise, or exit.",
       "author": "matrixx0070",
       "path": "skills/eqr-thesis-tracker/SKILL.md",
       "sha256": "956e22e74a3f92d7a000d40236130dcde058dda562af66e83c86d79d7d6a8d0b",
@@ -2833,7 +2833,7 @@
     {
       "name": "es-digest",
       "version": "1.0.0",
-      "description": "Produce a daily or weekly cross-source digest \u2014 mentions, action items, and decisions that need attention, not raw activity.",
+      "description": "Produce a daily or weekly cross-source digest — mentions, action items, and decisions that need attention, not raw activity.",
       "author": "matrixx0070",
       "path": "skills/es-digest/SKILL.md",
       "sha256": "f2546e21633fe81b1d231f8eb6d98757bd9000fec93c4661f9d3d76859ba3749",
@@ -2917,7 +2917,7 @@
     {
       "name": "fa-accrual-schedule",
       "version": "1.0.0",
-      "description": "Build and maintain fund-level accrual schedules \u2014 management fees, admin and audit fees, and amortized expenses \u2014 so each daily or monthly NAV carries the correct expense and the payment trues up to zero.",
+      "description": "Build and maintain fund-level accrual schedules — management fees, admin and audit fees, and amortized expenses — so each daily or monthly NAV carries the correct expense and the payment trues up to zero.",
       "author": "matrixx0070",
       "path": "skills/fa-accrual-schedule/SKILL.md",
       "sha256": "01cf0040ec9cae1a9ad1b39a020ffb7e1a983d9922fa2b66c20b6b3a04932968",
@@ -2934,7 +2934,7 @@
     {
       "name": "fa-break-trace",
       "version": "1.0.0",
-      "description": "Trace a break between two records of the same position or cash \u2014 accounting vs custodian, fund vs prime broker, trade vs settlement \u2014 from the aggregate difference down to the offending transaction, and classify it for clearing.",
+      "description": "Trace a break between two records of the same position or cash — accounting vs custodian, fund vs prime broker, trade vs settlement — from the aggregate difference down to the offending transaction, and classify it for clearing.",
       "author": "matrixx0070",
       "path": "skills/fa-break-trace/SKILL.md",
       "sha256": "c0fa0b67f4fcfdf5208e0756edecbc5d128f620ccd59145a448279564f795f2f",
@@ -2952,7 +2952,7 @@
     {
       "name": "fa-gl-recon",
       "version": "1.0.0",
-      "description": "Reconcile a fund general-ledger account to its supporting subledger or source \u2014 investments, cash, income, expense, or capital \u2014 prove the bridge, and clear differences before the NAV is struck.",
+      "description": "Reconcile a fund general-ledger account to its supporting subledger or source — investments, cash, income, expense, or capital — prove the bridge, and clear differences before the NAV is struck.",
       "author": "matrixx0070",
       "path": "skills/fa-gl-recon/SKILL.md",
       "sha256": "9e5463be8b7458a14865109808331e09aaf6808230c50c6a8597a9a00e11721d",
@@ -2969,7 +2969,7 @@
     {
       "name": "fa-nav-tieout",
       "version": "1.0.0",
-      "description": "Tie out a fund NAV package end to end \u2014 assets, liabilities, capital, and per-share/per-unit price \u2014 proving the accounting equation, the price, and the day-over-day movement before the NAV is released.",
+      "description": "Tie out a fund NAV package end to end — assets, liabilities, capital, and per-share/per-unit price — proving the accounting equation, the price, and the day-over-day movement before the NAV is released.",
       "author": "matrixx0070",
       "path": "skills/fa-nav-tieout/SKILL.md",
       "sha256": "9da5b89912943eaced37cedccf2eee0873459c4b3285f1ec993a18a5c00786ef",
@@ -2987,7 +2987,7 @@
     {
       "name": "fa-roll-forward",
       "version": "1.0.0",
-      "description": "Build a roll-forward for a fund balance \u2014 capital, NAV, investment cost, accruals, or a partner's account \u2014 proving beginning balance plus movements equals ending balance and ties to the GL.",
+      "description": "Build a roll-forward for a fund balance — capital, NAV, investment cost, accruals, or a partner's account — proving beginning balance plus movements equals ending balance and ties to the GL.",
       "author": "matrixx0070",
       "path": "skills/fa-roll-forward/SKILL.md",
       "sha256": "19d9ec5b3fbdb3037e8a2f3ae545793b2b6fa1b4c8f23276d0c5ae1c1ed6af8e",
@@ -3004,7 +3004,7 @@
     {
       "name": "fa-variance-commentary",
       "version": "1.0.0",
-      "description": "Write defensible variance commentary for a fund \u2014 period-over-period or actual-vs-expected moves in NAV, return, income, expenses, or a balance \u2014 attributing each material change to a named driver.",
+      "description": "Write defensible variance commentary for a fund — period-over-period or actual-vs-expected moves in NAV, return, income, expenses, or a balance — attributing each material change to a named driver.",
       "author": "matrixx0070",
       "path": "skills/fa-variance-commentary/SKILL.md",
       "sha256": "6c22d543994b4c13c01bdc826e61e7fd4d980650ce7d86664be23b3bd778c2e4",
@@ -3125,7 +3125,7 @@
     {
       "name": "fin-sox-testing",
       "version": "1.0.0",
-      "description": "Execute a SOX control test end to end \u2014 document design, prove population completeness, pull a reproducible sample, and conclude on effectiveness.",
+      "description": "Execute a SOX control test end to end — document design, prove population completeness, pull a reproducible sample, and conclude on effectiveness.",
       "author": "matrixx0070",
       "path": "skills/fin-sox-testing/SKILL.md",
       "sha256": "4372177b5d95567476d0a16e6990705386a4ebd79633a1193bbe6b1c0dbe66c1",
@@ -3314,7 +3314,7 @@
     {
       "name": "fina-lbo-model",
       "version": "1.0.0",
-      "description": "Model a leveraged buyout end to end \u2014 sources and uses, tranche-level debt with amortization and cash sweep, levered free cash flow, and sponsor returns (IRR and MOIC) with returns attribution and credit-stat tracking.",
+      "description": "Model a leveraged buyout end to end — sources and uses, tranche-level debt with amortization and cash sweep, levered free cash flow, and sponsor returns (IRR and MOIC) with returns attribution and credit-stat tracking.",
       "author": "matrixx0070",
       "path": "skills/fina-lbo-model/SKILL.md",
       "sha256": "6f388ed957a2e1102563ac41fca5103aa01002de3f9213dfc1283bfcfc49b71a",
@@ -3407,7 +3407,7 @@
     {
       "name": "finops-kyc-doc-parse",
       "version": "1.0.0",
-      "description": "Extract and structure identity, entity, and ownership data from KYC/onboarding documents \u2014 IDs, proof of address, incorporation and ownership records \u2014 into verified fields, flagging quality, consistency, and expiry issues.",
+      "description": "Extract and structure identity, entity, and ownership data from KYC/onboarding documents — IDs, proof of address, incorporation and ownership records — into verified fields, flagging quality, consistency, and expiry issues.",
       "author": "matrixx0070",
       "path": "skills/finops-kyc-doc-parse/SKILL.md",
       "sha256": "7b7b9c18e60a428fc79a7756e17327774eb0e607e16f80fa49427987addbd1ca",
@@ -3425,7 +3425,7 @@
     {
       "name": "finops-kyc-rules",
       "version": "1.0.0",
-      "description": "Apply KYC/AML risk-rating and acceptance rules to a structured customer profile \u2014 score risk factors, set the CDD tier, resolve screening hits, and produce an auditable accept / EDD / reject decision.",
+      "description": "Apply KYC/AML risk-rating and acceptance rules to a structured customer profile — score risk factors, set the CDD tier, resolve screening hits, and produce an auditable accept / EDD / reject decision.",
       "author": "matrixx0070",
       "path": "skills/finops-kyc-rules/SKILL.md",
       "sha256": "0913f1b8ec66f0e84c5a650f3607e3c572e6a816ec01e22491183801ff95d6b4",
@@ -3574,7 +3574,7 @@
     {
       "name": "hr-draft-offer",
       "version": "1.0.0",
-      "description": "Draft a clear, complete, ready-to-send offer letter with compensation, terms, and contingencies \u2014 flagging every unconfirmed figure.",
+      "description": "Draft a clear, complete, ready-to-send offer letter with compensation, terms, and contingencies — flagging every unconfirmed figure.",
       "author": "matrixx0070",
       "path": "skills/hr-draft-offer/SKILL.md",
       "sha256": "be6551c27489ec4fe7aea27f044f4c693d8c5358ac3b754676466aa45f55baa9",
@@ -3591,7 +3591,7 @@
     {
       "name": "hr-interview-prep",
       "version": "1.0.0",
-      "description": "Build a structured, bias-resistant interview loop \u2014 competencies mapped to interviewers, calibrated questions, and 1/3/5 scorecards.",
+      "description": "Build a structured, bias-resistant interview loop — competencies mapped to interviewers, calibrated questions, and 1/3/5 scorecards.",
       "author": "matrixx0070",
       "path": "skills/hr-interview-prep/SKILL.md",
       "sha256": "d9173491752b8b547deb977e2a89a9ede8186b2e4f86afe5a10d6022e852fae2",
@@ -3608,7 +3608,7 @@
     {
       "name": "hr-onboarding",
       "version": "1.0.0",
-      "description": "Produce a ready-to-run onboarding plan \u2014 pre-boarding checklist, day-1 agenda, first-week plan, and 30/60/90 ramp milestones with owners.",
+      "description": "Produce a ready-to-run onboarding plan — pre-boarding checklist, day-1 agenda, first-week plan, and 30/60/90 ramp milestones with owners.",
       "author": "matrixx0070",
       "path": "skills/hr-onboarding/SKILL.md",
       "sha256": "725cafec89881502f6240da7d7eda4d866233e3aced3185a45ec43e8a6b61851",
@@ -3625,7 +3625,7 @@
     {
       "name": "hr-org-planning",
       "version": "1.0.0",
-      "description": "Plan headcount, design org structure, and shape team topology against goals and budget \u2014 every role tied to an outcome and a cost.",
+      "description": "Plan headcount, design org structure, and shape team topology against goals and budget — every role tied to an outcome and a cost.",
       "author": "matrixx0070",
       "path": "skills/hr-org-planning/SKILL.md",
       "sha256": "2bbe7909b6aca2d4d34c623008f3b03e2883149faa168b5dcf08c5e42894c088",
@@ -3642,7 +3642,7 @@
     {
       "name": "hr-people-report",
       "version": "1.0.0",
-      "description": "Build headcount, attrition, diversity, and org-health reports \u2014 every metric defined, small-n protected, insight before data dump.",
+      "description": "Build headcount, attrition, diversity, and org-health reports — every metric defined, small-n protected, insight before data dump.",
       "author": "matrixx0070",
       "path": "skills/hr-people-report/SKILL.md",
       "sha256": "e2f5113d3e6dd89227450d9c76b8e986c76c399092533b83e11050af0a05bf70",
@@ -3659,7 +3659,7 @@
     {
       "name": "hr-performance-review",
       "version": "1.0.0",
-      "description": "Structure a fair performance review \u2014 self-assessment, evidence-based manager template, and calibration guidance tied to level expectations.",
+      "description": "Structure a fair performance review — self-assessment, evidence-based manager template, and calibration guidance tied to level expectations.",
       "author": "matrixx0070",
       "path": "skills/hr-performance-review/SKILL.md",
       "sha256": "9f6444b8f4edecefd994ac4ba97f54d36da36c6e90114d720fd5fc128275c021",
@@ -3676,7 +3676,7 @@
     {
       "name": "hr-policy-lookup",
       "version": "1.0.0",
-      "description": "Find the governing company policy and explain it accurately in plain language \u2014 cite the source, never fabricate, flag when to escalate.",
+      "description": "Find the governing company policy and explain it accurately in plain language — cite the source, never fabricate, flag when to escalate.",
       "author": "matrixx0070",
       "path": "skills/hr-policy-lookup/SKILL.md",
       "sha256": "f97d5131274fe90ca433c5e2620582e247309a04c320e6856e7cc5ca2e7df344",
@@ -3710,7 +3710,7 @@
     {
       "name": "hw-doctor-prep",
       "version": "1.0.0",
-      "description": "Organize symptoms, history, and questions into a clear summary to bring to a clinician \u2014 no diagnosis.",
+      "description": "Organize symptoms, history, and questions into a clear summary to bring to a clinician — no diagnosis.",
       "author": "matrixx0070",
       "path": "skills/hw-doctor-prep/SKILL.md",
       "sha256": "5c589c71c867b058627842f51911ebac5e40e10efd2537f9c7f1c27b36b43720",
@@ -3805,7 +3805,7 @@
     {
       "name": "i18n-localize",
       "version": "1.0.0",
-      "description": "Adapt content for a specific locale \u2014 units, dates, currency, idioms, and cultural fit \u2014 beyond literal translation.",
+      "description": "Adapt content for a specific locale — units, dates, currency, idioms, and cultural fit — beyond literal translation.",
       "author": "matrixx0070",
       "path": "skills/i18n-localize/SKILL.md",
       "sha256": "554d415bb598f0afb6344344709a2c88da9e048d68368ff3da7a55f7bb639cb0",
@@ -3865,7 +3865,7 @@
     {
       "name": "ib-buyer-list",
       "version": "1.0.0",
-      "description": "Build and prioritize the acquirer universe for a sell-side M&A process \u2014 strategic and financial buyers scored on strategic fit, ability to pay, and likelihood to transact.",
+      "description": "Build and prioritize the acquirer universe for a sell-side M&A process — strategic and financial buyers scored on strategic fit, ability to pay, and likelihood to transact.",
       "author": "matrixx0070",
       "path": "skills/ib-buyer-list/SKILL.md",
       "sha256": "cf44d85137792fe507bed0f48ce0d5f6afe23f064831b774e6dd6f57a43764a9",
@@ -3881,7 +3881,7 @@
     {
       "name": "ib-cim-builder",
       "version": "1.0.0",
-      "description": "Structure and draft a Confidential Information Memorandum for a sell-side M&A process \u2014 the disclosed marketing document sent to buyers after they sign an NDA.",
+      "description": "Structure and draft a Confidential Information Memorandum for a sell-side M&A process — the disclosed marketing document sent to buyers after they sign an NDA.",
       "author": "matrixx0070",
       "path": "skills/ib-cim-builder/SKILL.md",
       "sha256": "d43ef081a0487d1132e5a54d5436eed9544f5cb55894c8a06d36d43137343d91",
@@ -3913,7 +3913,7 @@
     {
       "name": "ib-deal-tracker",
       "version": "1.0.0",
-      "description": "Maintain a multi-deal M&A pipeline view \u2014 stage, milestones, next steps, and overdue items \u2014 so the deal team always knows what is moving, what is stuck, and what needs action today.",
+      "description": "Maintain a multi-deal M&A pipeline view — stage, milestones, next steps, and overdue items — so the deal team always knows what is moving, what is stuck, and what needs action today.",
       "author": "matrixx0070",
       "path": "skills/ib-deal-tracker/SKILL.md",
       "sha256": "847f6fbcc91917656828a8880778b656944cf8986237bef3580f31099ac4e33f",
@@ -3929,7 +3929,7 @@
     {
       "name": "ib-merger-model",
       "version": "1.0.0",
-      "description": "Build an accretion/dilution merger model \u2014 pro forma EPS, financing mix, synergies, and purchase price allocation \u2014 to test whether an acquisition creates or destroys value for the acquirer's shareholders.",
+      "description": "Build an accretion/dilution merger model — pro forma EPS, financing mix, synergies, and purchase price allocation — to test whether an acquisition creates or destroys value for the acquirer's shareholders.",
       "author": "matrixx0070",
       "path": "skills/ib-merger-model/SKILL.md",
       "sha256": "352158beb62e988b19a6e694f19d041738f746937b286a88b8faf284472082ca",
@@ -3945,7 +3945,7 @@
     {
       "name": "ib-pitch-deck",
       "version": "1.0.0",
-      "description": "Populate an investment-banking pitch template from source data \u2014 situation, market, valuation, buyer landscape, and process recommendation \u2014 to win or advise on a mandate.",
+      "description": "Populate an investment-banking pitch template from source data — situation, market, valuation, buyer landscape, and process recommendation — to win or advise on a mandate.",
       "author": "matrixx0070",
       "path": "skills/ib-pitch-deck/SKILL.md",
       "sha256": "965818d63e3f1e2a7afb9db329ad3ee57f95cf4130c5e2199d74e8e9dc8f4aba",
@@ -3961,7 +3961,7 @@
     {
       "name": "ib-process-letter",
       "version": "1.0.0",
-      "description": "Draft the process letter that governs a round of a sell-side auction \u2014 bid instructions (IOI or final offer), what to submit, deadlines, management-meeting logistics, and the seller's rules of engagement.",
+      "description": "Draft the process letter that governs a round of a sell-side auction — bid instructions (IOI or final offer), what to submit, deadlines, management-meeting logistics, and the seller's rules of engagement.",
       "author": "matrixx0070",
       "path": "skills/ib-process-letter/SKILL.md",
       "sha256": "9d02954f888ed2daf87e191201e9fe17ba721143623568d2f9864f330a89ad20",
@@ -3977,7 +3977,7 @@
     {
       "name": "ib-strip-profile",
       "version": "1.0.0",
-      "description": "Build a named 1-4 slide company profile (\"strip profile\") \u2014 business description, key financials, ownership, and a quadrant/positioning layout \u2014 for pitchbooks, buyer screens, and comps.",
+      "description": "Build a named 1-4 slide company profile (\"strip profile\") — business description, key financials, ownership, and a quadrant/positioning layout — for pitchbooks, buyer screens, and comps.",
       "author": "matrixx0070",
       "path": "skills/ib-strip-profile/SKILL.md",
       "sha256": "a3264a67c1ab151443fd8d0d7a035bc7d1cc798688df1b4b4abc86b57606d038",
@@ -3993,7 +3993,7 @@
     {
       "name": "ib-teaser",
       "version": "1.0.0",
-      "description": "Draft an anonymous one-page teaser for a sell-side M&A process \u2014 enough to spark buyer interest without revealing the target's identity before an NDA is signed.",
+      "description": "Draft an anonymous one-page teaser for a sell-side M&A process — enough to spark buyer interest without revealing the target's identity before an NDA is signed.",
       "author": "matrixx0070",
       "path": "skills/ib-teaser/SKILL.md",
       "sha256": "5eb894c169db11f4bcb3c1a919cfbefafa9703767427464fd4331d05828f8f68",
@@ -4199,7 +4199,7 @@
     {
       "name": "ipl-portfolio",
       "version": "1.0.0",
-      "description": "Review and manage an IP portfolio across trademarks, patents, copyrights, and domains \u2014 docketing assets, deadlines, coverage gaps, and prune-vs-maintain decisions.",
+      "description": "Review and manage an IP portfolio across trademarks, patents, copyrights, and domains — docketing assets, deadlines, coverage gaps, and prune-vs-maintain decisions.",
       "author": "matrixx0070",
       "path": "skills/ipl-portfolio/SKILL.md",
       "sha256": "9ec0d4bef83d91afae42e46dbad93c0b3bf074ff6b9753624691307356234d3e",
@@ -4235,7 +4235,7 @@
     {
       "name": "lawstu-bar-prep-questions",
       "version": "1.0.0",
-      "description": "Drill bar-style questions \u2014 MBE multiple choice and essay prompts with structured feedback on why each distractor is wrong.",
+      "description": "Drill bar-style questions — MBE multiple choice and essay prompts with structured feedback on why each distractor is wrong.",
       "author": "matrixx0070",
       "path": "skills/lawstu-bar-prep-questions/SKILL.md",
       "sha256": "d0f9efe4307876773a773986aac60667dccc7155e7b3bf6166a0f25ea388d3eb",
@@ -4251,7 +4251,7 @@
     {
       "name": "lawstu-case-brief",
       "version": "1.0.0",
-      "description": "Brief a judicial opinion yourself \u2014 extract facts, issue, holding, and reasoning into a tight case brief you can defend in class.",
+      "description": "Brief a judicial opinion yourself — extract facts, issue, holding, and reasoning into a tight case brief you can defend in class.",
       "author": "matrixx0070",
       "path": "skills/lawstu-case-brief/SKILL.md",
       "sha256": "409bf279d8889100eb77dfae7e7afa4452aef7e23d6ff0bde213e505bed9f139",
@@ -4267,7 +4267,7 @@
     {
       "name": "lawstu-cold-call-prep",
       "version": "1.0.0",
-      "description": "Prepare for a Socratic cold call \u2014 anticipate the professor's chain of questions on assigned cases and rehearse crisp answers.",
+      "description": "Prepare for a Socratic cold call — anticipate the professor's chain of questions on assigned cases and rehearse crisp answers.",
       "author": "matrixx0070",
       "path": "skills/lawstu-cold-call-prep/SKILL.md",
       "sha256": "d7f640dc20630f1e0daf8f8dcbf6e89d6764f18eaeeb988d34f0049596634a38",
@@ -4283,7 +4283,7 @@
     {
       "name": "lawstu-cold-start-interview",
       "version": "1.0.0",
-      "description": "Onboarding interview for a new law student \u2014 capture school, year, courses, professors, and goals to tailor every other lawstu skill.",
+      "description": "Onboarding interview for a new law student — capture school, year, courses, professors, and goals to tailor every other lawstu skill.",
       "author": "matrixx0070",
       "path": "skills/lawstu-cold-start-interview/SKILL.md",
       "sha256": "0128461850b74d6a8604ca5c7beb7345c9cc046c73543c59b5a82cce4b372757",
@@ -4299,7 +4299,7 @@
     {
       "name": "lawstu-customize",
       "version": "1.0.0",
-      "description": "Tune how the lawstu skills behave \u2014 Socratic intensity, feedback depth, jurisdiction, and output format \u2014 without editing the skills.",
+      "description": "Tune how the lawstu skills behave — Socratic intensity, feedback depth, jurisdiction, and output format — without editing the skills.",
       "author": "matrixx0070",
       "path": "skills/lawstu-customize/SKILL.md",
       "sha256": "31302abc727f81a6b8ebe35607401599c59c66ba6e146d31f425a2a55aeaaf15",
@@ -4315,7 +4315,7 @@
     {
       "name": "lawstu-exam-forecast",
       "version": "1.0.0",
-      "description": "Forecast likely exam issues from the syllabus, professor emphasis, and past exams \u2014 then build a timed self-simulation plan.",
+      "description": "Forecast likely exam issues from the syllabus, professor emphasis, and past exams — then build a timed self-simulation plan.",
       "author": "matrixx0070",
       "path": "skills/lawstu-exam-forecast/SKILL.md",
       "sha256": "b73726d02d24292bee97be19d2aba6f1edf0ce9dcfda2aa16725e1e9c5cbb866",
@@ -4331,7 +4331,7 @@
     {
       "name": "lawstu-flashcards",
       "version": "1.0.0",
-      "description": "Build active-recall flashcards for rules, elements, and case holdings \u2014 atomic cards with clean prompts for spaced repetition.",
+      "description": "Build active-recall flashcards for rules, elements, and case holdings — atomic cards with clean prompts for spaced repetition.",
       "author": "matrixx0070",
       "path": "skills/lawstu-flashcards/SKILL.md",
       "sha256": "598e6a4c2c0d2ee521c687b1075f04ebd81cedb7d412d4c90b4582f230817150",
@@ -4347,7 +4347,7 @@
     {
       "name": "lawstu-irac-practice",
       "version": "1.0.0",
-      "description": "Drill IRAC on hypotheticals \u2014 you write each element, the skill critiques structure, rule accuracy, and application depth.",
+      "description": "Drill IRAC on hypotheticals — you write each element, the skill critiques structure, rule accuracy, and application depth.",
       "author": "matrixx0070",
       "path": "skills/lawstu-irac-practice/SKILL.md",
       "sha256": "507f366ff64e89abc229bfb1bdf1b765e9d701d15b922ae94fbe9d3c42ce2d28",
@@ -4363,7 +4363,7 @@
     {
       "name": "lawstu-legal-writing",
       "version": "1.0.0",
-      "description": "Coach your legal writing \u2014 memos and briefs \u2014 on CREAC structure, rule synthesis, and citation, critiquing your draft without rewriting it.",
+      "description": "Coach your legal writing — memos and briefs — on CREAC structure, rule synthesis, and citation, critiquing your draft without rewriting it.",
       "author": "matrixx0070",
       "path": "skills/lawstu-legal-writing/SKILL.md",
       "sha256": "4b77ac91c4eda353817f388cd91c7ac7723d1d223971faae6f1ee82a38799aac",
@@ -4379,7 +4379,7 @@
     {
       "name": "lawstu-outline-builder",
       "version": "1.0.0",
-      "description": "Build your own course outline \u2014 the skill scaffolds structure and quizzes you so the outline captures your understanding, not a download.",
+      "description": "Build your own course outline — the skill scaffolds structure and quizzes you so the outline captures your understanding, not a download.",
       "author": "matrixx0070",
       "path": "skills/lawstu-outline-builder/SKILL.md",
       "sha256": "f3e653af3f5396dfbcb962e531c9d09d7c35b348e2d58d9cdec2262432016b63",
@@ -4395,7 +4395,7 @@
     {
       "name": "lawstu-session",
       "version": "1.0.0",
-      "description": "Run a focused study session \u2014 set a goal, pick the right drill, work in timed blocks, and close with a recall check and next step.",
+      "description": "Run a focused study session — set a goal, pick the right drill, work in timed blocks, and close with a recall check and next step.",
       "author": "matrixx0070",
       "path": "skills/lawstu-session/SKILL.md",
       "sha256": "beef6e6e7c201d2bc41305ec850a04cb33f1f1d4796281cd86517172a74427fd",
@@ -4411,7 +4411,7 @@
     {
       "name": "lawstu-socratic-drill",
       "version": "1.0.0",
-      "description": "Run a live Socratic drill \u2014 the skill questions you relentlessly on a doctrine until you find the rule's edges yourself.",
+      "description": "Run a live Socratic drill — the skill questions you relentlessly on a doctrine until you find the rule's edges yourself.",
       "author": "matrixx0070",
       "path": "skills/lawstu-socratic-drill/SKILL.md",
       "sha256": "bcfab41d5924b0086ae0bb37a1fed621460e1198dbf755a5970d9a98fe827965",
@@ -4427,7 +4427,7 @@
     {
       "name": "lawstu-study-plan",
       "version": "1.0.0",
-      "description": "Build a realistic semester or bar-review study plan \u2014 backward-planned from exams, balanced across courses, with spaced review baked in.",
+      "description": "Build a realistic semester or bar-review study plan — backward-planned from exams, balanced across courses, with spaced review baked in.",
       "author": "matrixx0070",
       "path": "skills/lawstu-study-plan/SKILL.md",
       "sha256": "0663b9b0a003f54d930a488f769a8630bb3fe754e18c9fdb7ee5409b839b5562",
@@ -4443,7 +4443,7 @@
     {
       "name": "lbh-auto-updater",
       "version": "1.0.0",
-      "description": "Update an installed legal skill to a newer version safely \u2014 re-run the security gate on the new version, diff behavior, and keep a rollback point.",
+      "description": "Update an installed legal skill to a newer version safely — re-run the security gate on the new version, diff behavior, and keep a rollback point.",
       "author": "matrixx0070",
       "path": "skills/lbh-auto-updater/SKILL.md",
       "sha256": "bdfa114823bea7651b4b648433f4e36a7cae3af0ff23754f54163cac97c6d7fb",
@@ -4475,7 +4475,7 @@
     {
       "name": "lbh-customize",
       "version": "1.0.0",
-      "description": "Customize an installed legal skill's settings \u2014 jurisdiction defaults, tone, autonomy, and enforced conditions \u2014 without weakening its security posture.",
+      "description": "Customize an installed legal skill's settings — jurisdiction defaults, tone, autonomy, and enforced conditions — without weakening its security posture.",
       "author": "matrixx0070",
       "path": "skills/lbh-customize/SKILL.md",
       "sha256": "b7c99293562f4e22960ceeb6e2889acd948f5d05fd3a87aad63c629db8769079",
@@ -4491,7 +4491,7 @@
     {
       "name": "lbh-disable",
       "version": "1.0.0",
-      "description": "Disable an installed legal skill without uninstalling it \u2014 make it inert and unfireable while preserving its version, config, and provenance.",
+      "description": "Disable an installed legal skill without uninstalling it — make it inert and unfireable while preserving its version, config, and provenance.",
       "author": "matrixx0070",
       "path": "skills/lbh-disable/SKILL.md",
       "sha256": "618013b37bf0fcaa17b93409c130d229aef3595df78b6feb823cfb3d7d74e9ff",
@@ -4507,7 +4507,7 @@
     {
       "name": "lbh-registry-browser",
       "version": "1.0.0",
-      "description": "Browse the community legal-skills registry \u2014 search, filter, and shortlist candidate skills before any evaluation or install.",
+      "description": "Browse the community legal-skills registry — search, filter, and shortlist candidate skills before any evaluation or install.",
       "author": "matrixx0070",
       "path": "skills/lbh-registry-browser/SKILL.md",
       "sha256": "5c9a93021e4be33a1133757d33da0c4496b7f4464bff139bc7a3e08c92f88fba",
@@ -4523,7 +4523,7 @@
     {
       "name": "lbh-related-skills-surfacer",
       "version": "1.0.0",
-      "description": "Surface legal skills related to what a user already installed or is viewing \u2014 complements, prerequisites, and safer alternatives \u2014 as a vetting-first shortlist.",
+      "description": "Surface legal skills related to what a user already installed or is viewing — complements, prerequisites, and safer alternatives — as a vetting-first shortlist.",
       "author": "matrixx0070",
       "path": "skills/lbh-related-skills-surfacer/SKILL.md",
       "sha256": "92829be05dbb27a257bce04651b2e945f190fe5bbf38f44811895427f3803028",
@@ -4539,7 +4539,7 @@
     {
       "name": "lbh-skill-installer",
       "version": "1.0.0",
-      "description": "Install a legal skill that has cleared the security gate \u2014 verify the pinned version, confirm integrity, record provenance, and enable it safely.",
+      "description": "Install a legal skill that has cleared the security gate — verify the pinned version, confirm integrity, record provenance, and enable it safely.",
       "author": "matrixx0070",
       "path": "skills/lbh-skill-installer/SKILL.md",
       "sha256": "14675b96358b6ab7aabf7be7699275465d0bef0741c91674a4217cfafeec1c99",
@@ -4555,7 +4555,7 @@
     {
       "name": "lbh-skill-manager",
       "version": "1.0.0",
-      "description": "Manage the installed set of legal skills \u2014 list, inspect status, resolve conflicts, and route to enable/disable/update/uninstall actions.",
+      "description": "Manage the installed set of legal skills — list, inspect status, resolve conflicts, and route to enable/disable/update/uninstall actions.",
       "author": "matrixx0070",
       "path": "skills/lbh-skill-manager/SKILL.md",
       "sha256": "0d5360536294728337a07ce329bc84490fa806fbef939be1a60dd141d6be06ab",
@@ -4571,7 +4571,7 @@
     {
       "name": "lbh-skills-qa",
       "version": "1.0.0",
-      "description": "Run the Legal Builder Hub security-review gate on a candidate legal skill \u2014 inspect its manifest and body for unsafe behavior before any install is allowed.",
+      "description": "Run the Legal Builder Hub security-review gate on a candidate legal skill — inspect its manifest and body for unsafe behavior before any install is allowed.",
       "author": "matrixx0070",
       "path": "skills/lbh-skills-qa/SKILL.md",
       "sha256": "9552b136c6bed981a6b440a3d97d4a5d7d9828871392b7c417bc74cf226cd6c3",
@@ -4588,7 +4588,7 @@
     {
       "name": "lbh-uninstall",
       "version": "1.0.0",
-      "description": "Remove an installed legal skill cleanly \u2014 check dependents, purge artifact and config, and preserve an audit record plus reinstall coordinates.",
+      "description": "Remove an installed legal skill cleanly — check dependents, purge artifact and config, and preserve an audit record plus reinstall coordinates.",
       "author": "matrixx0070",
       "path": "skills/lbh-uninstall/SKILL.md",
       "sha256": "5e069deedbe43224b8d3f19adeabec473c9d0dd4ad4729444ea9f2fe872e4762",
@@ -4604,7 +4604,7 @@
     {
       "name": "legal-brief",
       "version": "1.0.0",
-      "description": "Produce a decision-ready legal briefing \u2014 daily digest, topic research, or incident write-up \u2014 scoped to what a non-lawyer stakeholder needs to decide or act on.",
+      "description": "Produce a decision-ready legal briefing — daily digest, topic research, or incident write-up — scoped to what a non-lawyer stakeholder needs to decide or act on.",
       "author": "matrixx0070",
       "path": "skills/legal-brief/SKILL.md",
       "sha256": "1c2098ca601b8e5afadc6c8729116e8906fc8de0e1b436a2733e566fd99c1a31",
@@ -4754,7 +4754,7 @@
     {
       "name": "litig-brief-section-drafter",
       "version": "1.0.0",
-      "description": "Draft a section of a legal brief \u2014 statement of facts, argument, or standard of review \u2014 with proper structure and disciplined citation.",
+      "description": "Draft a section of a legal brief — statement of facts, argument, or standard of review — with proper structure and disciplined citation.",
       "author": "matrixx0070",
       "path": "skills/litig-brief-section-drafter/SKILL.md",
       "sha256": "4d23262aebdb9874f673c6a7bba27cec7b63f8eebc4f619f12228dc1d3dc0c3d",
@@ -4930,7 +4930,7 @@
     {
       "name": "litig-matter-close",
       "version": "1.0.0",
-      "description": "Close out a concluded litigation matter \u2014 final disposition, file retention, client wrap-up, and litigation-hold release.",
+      "description": "Close out a concluded litigation matter — final disposition, file retention, client wrap-up, and litigation-hold release.",
       "author": "matrixx0070",
       "path": "skills/litig-matter-close/SKILL.md",
       "sha256": "486e22bc238afabd61fe6eb85d8c3abd294e2e36e95557bb4d68da60c5d8c44a",
@@ -4978,7 +4978,7 @@
     {
       "name": "litig-matter-workspace",
       "version": "1.0.0",
-      "description": "Set up the folder and document workspace structure for a litigation matter \u2014 pleadings, discovery, correspondence, and research.",
+      "description": "Set up the folder and document workspace structure for a litigation matter — pleadings, discovery, correspondence, and research.",
       "author": "matrixx0070",
       "path": "skills/litig-matter-workspace/SKILL.md",
       "sha256": "137324436989261d109861e8ae756631018ff7a9f4ae83d8c19afd52fe6b969c",
@@ -5042,7 +5042,7 @@
     {
       "name": "litig-subpoena-triage",
       "version": "1.0.0",
-      "description": "Triage a subpoena your client received \u2014 check validity, scope, and deadlines, then plan objections, meet-and-confer, and compliance versus a motion to quash.",
+      "description": "Triage a subpoena your client received — check validity, scope, and deadlines, then plan objections, meet-and-confer, and compliance versus a motion to quash.",
       "author": "matrixx0070",
       "path": "skills/litig-subpoena-triage/SKILL.md",
       "sha256": "3c4670bfb370f2ce03d941ca51c08b4e92ab7208cbf009e6e00915970a88fa73",
@@ -5058,7 +5058,7 @@
     {
       "name": "lseg-bond-futures-basis",
       "version": "1.0.0",
-      "description": "Analyze the basis between a deliverable government bond and its futures contract \u2014 gross basis, net basis, carry, implied repo rate, and the cheapest-to-deliver \u2014 to reason about hedging, roll, and relative richness. Educational quant workflow, not investment advice.",
+      "description": "Analyze the basis between a deliverable government bond and its futures contract — gross basis, net basis, carry, implied repo rate, and the cheapest-to-deliver — to reason about hedging, roll, and relative richness. Educational quant workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-bond-futures-basis/SKILL.md",
       "sha256": "ad9c7fa93907fa213fb0d95d85b3d18ce2adb38058f2c824c1fc5f3dcb3ee6a5",
@@ -5076,7 +5076,7 @@
     {
       "name": "lseg-bond-relative-value",
       "version": "1.0.0",
-      "description": "Screen individual government and credit bonds for relative value against a fitted curve \u2014 asset-swap spreads, z-spreads, rich/cheap residuals, and butterfly/box structures \u2014 to reason about which bonds are mispriced versus their peers. Educational quant workflow, not investment advice.",
+      "description": "Screen individual government and credit bonds for relative value against a fitted curve — asset-swap spreads, z-spreads, rich/cheap residuals, and butterfly/box structures — to reason about which bonds are mispriced versus their peers. Educational quant workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-bond-relative-value/SKILL.md",
       "sha256": "381bc92b8613451279fce0808cead0bbc6881dc75bf75ed333c2f851662649fe",
@@ -5093,7 +5093,7 @@
     {
       "name": "lseg-equity-research",
       "version": "1.0.0",
-      "description": "Build a structured equity research read on a single company \u2014 business model, drivers, valuation (multiples + DCF), scenario tree, and risks \u2014 grounded in disclosed financials with explicit assumptions. Educational analytical workflow, not investment advice.",
+      "description": "Build a structured equity research read on a single company — business model, drivers, valuation (multiples + DCF), scenario tree, and risks — grounded in disclosed financials with explicit assumptions. Educational analytical workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-equity-research/SKILL.md",
       "sha256": "5f7512a769ae345f6da47a46658183e131f7bc54c12b8c16a4e6600cf91a8e73",
@@ -5110,7 +5110,7 @@
     {
       "name": "lseg-fixed-income-portfolio",
       "version": "1.0.0",
-      "description": "Analyze and structure a fixed-income portfolio \u2014 duration, key-rate durations, convexity, spread duration, and benchmark-relative risk \u2014 to reason about positioning versus a benchmark and interest-rate scenarios. Educational quant workflow, not investment advice.",
+      "description": "Analyze and structure a fixed-income portfolio — duration, key-rate durations, convexity, spread duration, and benchmark-relative risk — to reason about positioning versus a benchmark and interest-rate scenarios. Educational quant workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-fixed-income-portfolio/SKILL.md",
       "sha256": "e71f28949a4b723ccad3f64337cedde688d98d22f142aab01ce9ec811639f01a",
@@ -5128,7 +5128,7 @@
     {
       "name": "lseg-fx-carry-trade",
       "version": "1.0.0",
-      "description": "Analyze FX carry \u2014 interest-rate differentials, forward points, hedged vs unhedged returns, carry-to-vol, and crash/skew risk \u2014 to reason about currency-pair carry positioning and its risk. Educational quant workflow, not investment advice.",
+      "description": "Analyze FX carry — interest-rate differentials, forward points, hedged vs unhedged returns, carry-to-vol, and crash/skew risk — to reason about currency-pair carry positioning and its risk. Educational quant workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-fx-carry-trade/SKILL.md",
       "sha256": "de2383995a195c0f1efe997bc33e89c42d7d8564c36a3533856b78b626b7477f",
@@ -5146,7 +5146,7 @@
     {
       "name": "lseg-macro-rates-monitor",
       "version": "1.0.0",
-      "description": "Build a structured macro-rates monitor \u2014 growth/inflation/policy dashboard, market-implied policy path vs your own, curve regime, and cross-asset confirmation \u2014 to reason about the interest-rate environment. Educational analytical workflow, not investment advice.",
+      "description": "Build a structured macro-rates monitor — growth/inflation/policy dashboard, market-implied policy path vs your own, curve regime, and cross-asset confirmation — to reason about the interest-rate environment. Educational analytical workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-macro-rates-monitor/SKILL.md",
       "sha256": "89be378063f36edd08434da3ed5a399beee24819f290f3b35a8ad86e4e08aa7b",
@@ -5164,7 +5164,7 @@
     {
       "name": "lseg-option-vol-analysis",
       "version": "1.0.0",
-      "description": "Analyze an option volatility surface \u2014 implied vs realized, term structure, skew/smile, and the greeks \u2014 to reason about whether options are rich or cheap and how a position behaves. Educational quant workflow, not investment advice.",
+      "description": "Analyze an option volatility surface — implied vs realized, term structure, skew/smile, and the greeks — to reason about whether options are rich or cheap and how a position behaves. Educational quant workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-option-vol-analysis/SKILL.md",
       "sha256": "7252e86e0f20212e7e65d9100c2905caca6548c03b5eb16d7104db161d876511",
@@ -5182,7 +5182,7 @@
     {
       "name": "lseg-swap-curve-strategy",
       "version": "1.0.0",
-      "description": "Construct and analyze interest-rate swap curve trades \u2014 outright, steepeners/flatteners, butterflies, and forward-starting/roll-down structures \u2014 with DV01-neutral weighting and carry+roll math. Educational quant workflow, not investment advice.",
+      "description": "Construct and analyze interest-rate swap curve trades — outright, steepeners/flatteners, butterflies, and forward-starting/roll-down structures — with DV01-neutral weighting and carry+roll math. Educational quant workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/lseg-swap-curve-strategy/SKILL.md",
       "sha256": "240bb4354541808ebb34d5815a76612029f6bf8732ab03c53546158585bb362b",
@@ -5625,7 +5625,7 @@
     {
       "name": "pa-daily-digest",
       "version": "1.0.0",
-      "description": "Produce a concise personal daily digest \u2014 calendar, tasks, weather, and the emails that need attention.",
+      "description": "Produce a concise personal daily digest — calendar, tasks, weather, and the emails that need attention.",
       "author": "matrixx0070",
       "path": "skills/pa-daily-digest/SKILL.md",
       "sha256": "c8a7209751b4fe3f0952a1692f402ca644726b365450b3b8a5a9eaf2166f0d87",
@@ -5705,7 +5705,7 @@
     {
       "name": "pa-travel-planner",
       "version": "1.0.0",
-      "description": "Plan a trip end to end \u2014 itinerary, ranked options, and budget \u2014 with booking only on explicit approval.",
+      "description": "Plan a trip end to end — itinerary, ranked options, and budget — with booking only on explicit approval.",
       "author": "matrixx0070",
       "path": "skills/pa-travel-planner/SKILL.md",
       "sha256": "6ba313f2097d882c2c62fdc8285c06d45e60dd94e4394bc9b9092b9bf6842420",
@@ -5757,7 +5757,7 @@
     {
       "name": "pe-dd-meeting-prep",
       "version": "1.0.0",
-      "description": "Prepare the question sets, logistics, and follow-up capture for private-equity diligence meetings \u2014 management presentations, expert-network calls, and customer reference calls \u2014 so each session extracts decision-grade evidence rather than a rehearsed pitch.",
+      "description": "Prepare the question sets, logistics, and follow-up capture for private-equity diligence meetings — management presentations, expert-network calls, and customer reference calls — so each session extracts decision-grade evidence rather than a rehearsed pitch.",
       "author": "matrixx0070",
       "path": "skills/pe-dd-meeting-prep/SKILL.md",
       "sha256": "a74a4e37b8b74a028c2002823b0fb615cdb3282301a7e57ea269d1e9955147db",
@@ -5792,7 +5792,7 @@
     {
       "name": "pe-deal-sourcing",
       "version": "1.0.0",
-      "description": "Build a private-equity origination strategy and proprietary deal pipeline \u2014 set the thesis, pick the channel mix, size the funnel, and produce a target list with an outreach and tracking plan.",
+      "description": "Build a private-equity origination strategy and proprietary deal pipeline — set the thesis, pick the channel mix, size the funnel, and produce a target list with an outreach and tracking plan.",
       "author": "matrixx0070",
       "path": "skills/pe-deal-sourcing/SKILL.md",
       "sha256": "ea062aa782417892fa890a1f374fb580464663ca1aa1b0e6946b19f5e963e371",
@@ -5810,7 +5810,7 @@
     {
       "name": "pe-ic-memo",
       "version": "1.0.0",
-      "description": "Write the private-equity investment committee memo for a deal \u2014 thesis, company and market, financials and QoE, valuation and returns with base/bull/bear MOIC and IRR, value-creation plan, risks and mitigants, structure and financing, sensitivities, and a conditioned recommendation.",
+      "description": "Write the private-equity investment committee memo for a deal — thesis, company and market, financials and QoE, valuation and returns with base/bull/bear MOIC and IRR, value-creation plan, risks and mitigants, structure and financing, sensitivities, and a conditioned recommendation.",
       "author": "matrixx0070",
       "path": "skills/pe-ic-memo/SKILL.md",
       "sha256": "0457329f1b811cd411752dcc18be686b1e6dde05bb4fa59abbcd3c8cbf5c8ed8",
@@ -5828,7 +5828,7 @@
     {
       "name": "pe-portfolio-monitoring",
       "version": "1.0.0",
-      "description": "Track a portfolio company post-close \u2014 build the monthly/quarterly KPI pack, covenant compliance (leverage and interest cover), variance against budget and the value-creation plan, early-warning indicators, and the board-reporting cadence, rolled up to a portfolio-level view.",
+      "description": "Track a portfolio company post-close — build the monthly/quarterly KPI pack, covenant compliance (leverage and interest cover), variance against budget and the value-creation plan, early-warning indicators, and the board-reporting cadence, rolled up to a portfolio-level view.",
       "author": "matrixx0070",
       "path": "skills/pe-portfolio-monitoring/SKILL.md",
       "sha256": "75edc70095ec1578d9674dfb6077b6347ebe9191cfe5b1e0187e1b441293f7f3",
@@ -5846,7 +5846,7 @@
     {
       "name": "pe-returns-analysis",
       "version": "1.0.0",
-      "description": "Model a private-equity deal's returns end to end \u2014 entry and exit enterprise value, leverage, the MOIC/IRR relationship, and a value-creation bridge decomposing return into EBITDA growth, multiple expansion, and debt paydown \u2014 with base/bull/bear cases and sensitivity tables.",
+      "description": "Model a private-equity deal's returns end to end — entry and exit enterprise value, leverage, the MOIC/IRR relationship, and a value-creation bridge decomposing return into EBITDA growth, multiple expansion, and debt paydown — with base/bull/bear cases and sensitivity tables.",
       "author": "matrixx0070",
       "path": "skills/pe-returns-analysis/SKILL.md",
       "sha256": "6932a23815c543350fa5acd3ee099f223e665213a16647ddec48a3f690ec7f9b",
@@ -5864,7 +5864,7 @@
     {
       "name": "pe-unit-economics",
       "version": "1.0.0",
-      "description": "Analyze a target or portfolio company's unit economics \u2014 contribution margin, LTV, CAC, CAC payback, LTV:CAC, and cohort retention \u2014 to judge whether growth creates or destroys value and where the levers are.",
+      "description": "Analyze a target or portfolio company's unit economics — contribution margin, LTV, CAC, CAC payback, LTV:CAC, and cohort retention — to judge whether growth creates or destroys value and where the levers are.",
       "author": "matrixx0070",
       "path": "skills/pe-unit-economics/SKILL.md",
       "sha256": "856b76d90b6a85ba382eef2f3a4778409d9df1b152013086dc6e9228e00408a1",
@@ -5882,7 +5882,7 @@
     {
       "name": "pe-value-creation-plan",
       "version": "1.0.0",
-      "description": "Build a portfolio company's value-creation plan \u2014 a sequenced 100-day plan and full-hold roadmap of value levers (commercial growth, margin/cost-out, buy-and-build, pricing, working capital, digital/AI, multiple expansion via de-risking) with owners, milestones, KPIs, and explicit linkage to the returns bridge.",
+      "description": "Build a portfolio company's value-creation plan — a sequenced 100-day plan and full-hold roadmap of value levers (commercial growth, margin/cost-out, buy-and-build, pricing, working capital, digital/AI, multiple expansion via de-risking) with owners, milestones, KPIs, and explicit linkage to the returns bridge.",
       "author": "matrixx0070",
       "path": "skills/pe-value-creation-plan/SKILL.md",
       "sha256": "d2d121505faf89da8db8ffa2c04fc0818ab8cbf487f32de12a7afd6d807dc770",
@@ -5996,7 +5996,7 @@
     {
       "name": "pm-brainstorming",
       "version": "1.0.0",
-      "description": "A candid ideation partner that expands the option space then pressure-tests each idea \u2014 steelman, sharpest objection, riskiest assumption, cheapest test \u2014 and converges on pursue/park/kill.",
+      "description": "A candid ideation partner that expands the option space then pressure-tests each idea — steelman, sharpest objection, riskiest assumption, cheapest test — and converges on pursue/park/kill.",
       "author": "matrixx0070",
       "path": "skills/pm-brainstorming/SKILL.md",
       "sha256": "3b8df5ce2040e9c2f6f87c3a2f25a9013a16512b2fcb65f985674e193b6c1526",
@@ -6030,7 +6030,7 @@
     {
       "name": "pm-metrics-review",
       "version": "1.0.0",
-      "description": "Turn a dashboard or data export into a decision-grade metrics review \u2014 trend, decomposition, ranked insights, and owned next steps, not restated numbers.",
+      "description": "Turn a dashboard or data export into a decision-grade metrics review — trend, decomposition, ranked insights, and owned next steps, not restated numbers.",
       "author": "matrixx0070",
       "path": "skills/pm-metrics-review/SKILL.md",
       "sha256": "701b6c9ced80d345ccd7dece798577d59d64369985c9f2546d6a30b23805c93e",
@@ -6047,7 +6047,7 @@
     {
       "name": "pm-roadmap-update",
       "version": "1.0.0",
-      "description": "Re-prioritize a Now/Next/Later roadmap against goals, capacity, and new signals \u2014 with traceable changes, explicit tradeoffs, and a clear line between committed and aspirational.",
+      "description": "Re-prioritize a Now/Next/Later roadmap against goals, capacity, and new signals — with traceable changes, explicit tradeoffs, and a clear line between committed and aspirational.",
       "author": "matrixx0070",
       "path": "skills/pm-roadmap-update/SKILL.md",
       "sha256": "3356cd9a5958e271e51c22498589b5a383ed9fb5df4cb877bf0e5de4a0bd128f",
@@ -6064,7 +6064,7 @@
     {
       "name": "pm-sprint-planning",
       "version": "1.0.0",
-      "description": "Plan a sprint the team can actually commit to \u2014 one goal, honest buffered capacity, P0 commitments vs stretch, readiness-checked items, and named slip risk.",
+      "description": "Plan a sprint the team can actually commit to — one goal, honest buffered capacity, P0 commitments vs stretch, readiness-checked items, and named slip risk.",
       "author": "matrixx0070",
       "path": "skills/pm-sprint-planning/SKILL.md",
       "sha256": "c1439558b749e085835ad7e9c7ad131c72023624f979fbc738b0b4b4e98efe86",
@@ -6081,7 +6081,7 @@
     {
       "name": "pm-stakeholder-update",
       "version": "1.0.0",
-      "description": "Write an audience-tailored stakeholder update \u2014 headline first, honest status, evidence sized to the reader, and a specific ask with owner and deadline.",
+      "description": "Write an audience-tailored stakeholder update — headline first, honest status, evidence sized to the reader, and a specific ask with owner and deadline.",
       "author": "matrixx0070",
       "path": "skills/pm-stakeholder-update/SKILL.md",
       "sha256": "8817b1738b15d205d7d1d656539d22471c0a6d680edcad7146e85d40c0529654",
@@ -6098,7 +6098,7 @@
     {
       "name": "pm-synthesize-research",
       "version": "1.0.0",
-      "description": "Turn raw qualitative input \u2014 interviews, surveys, tickets, sales notes \u2014 into ranked, evidence-backed themes with source counts, quotes, and confidence-rated implications.",
+      "description": "Turn raw qualitative input — interviews, surveys, tickets, sales notes — into ranked, evidence-backed themes with source counts, quotes, and confidence-rated implications.",
       "author": "matrixx0070",
       "path": "skills/pm-synthesize-research/SKILL.md",
       "sha256": "f474de05a2aaae4d747fb288a273cabc3d0fa29e9b2b0b2d4733e7ca00881a67",
@@ -6115,7 +6115,7 @@
     {
       "name": "pm-write-spec",
       "version": "1.0.0",
-      "description": "Write a PRD or feature spec that aligns design and engineering \u2014 problem with evidence, explicit non-goals, measurable success metrics, and testable acceptance criteria.",
+      "description": "Write a PRD or feature spec that aligns design and engineering — problem with evidence, explicit non-goals, measurable success metrics, and testable acceptance criteria.",
       "author": "matrixx0070",
       "path": "skills/pm-write-spec/SKILL.md",
       "sha256": "e4eeb34488ea1e1d5484dd02b84d3f3917446fe4a9842af449ce04f0100aed0e",
@@ -6132,7 +6132,7 @@
     {
       "name": "privl-cold-start-interview",
       "version": "1.0.0",
-      "description": "Run a structured intake interview to build a first data-processing picture for an org with no privacy program \u2014 surface data flows, systems, vendors, and legal bases from zero.",
+      "description": "Run a structured intake interview to build a first data-processing picture for an org with no privacy program — surface data flows, systems, vendors, and legal bases from zero.",
       "author": "matrixx0070",
       "path": "skills/privl-cold-start-interview/SKILL.md",
       "sha256": "d5584ec4231aa1f7c3b5c32b57653b502b336d9a4448a23e5923b26b8d88364b",
@@ -6150,7 +6150,7 @@
     {
       "name": "privl-customize",
       "version": "1.0.0",
-      "description": "Tailor the privacy-legal skill set to a specific organization \u2014 capture its regimes, roles, risk appetite, and escalation rules so every privl- skill runs against the right context.",
+      "description": "Tailor the privacy-legal skill set to a specific organization — capture its regimes, roles, risk appetite, and escalation rules so every privl- skill runs against the right context.",
       "author": "matrixx0070",
       "path": "skills/privl-customize/SKILL.md",
       "sha256": "85e83461cdcc46dea8661a437811da2dcdcf7f0a289e35e88acd9f41f12364fc",
@@ -6185,7 +6185,7 @@
     {
       "name": "privl-dsar-response",
       "version": "1.0.0",
-      "description": "Handle a data-subject / consumer rights request end to end \u2014 verify identity, scope the right, apply exemptions, meet the statutory clock, and draft the response.",
+      "description": "Handle a data-subject / consumer rights request end to end — verify identity, scope the right, apply exemptions, meet the statutory clock, and draft the response.",
       "author": "matrixx0070",
       "path": "skills/privl-dsar-response/SKILL.md",
       "sha256": "24cba78dd7d5bd9649665aa9f5fb6cce59908a36fbdeb8073c994798e5ae3b7c",
@@ -6203,7 +6203,7 @@
     {
       "name": "privl-matter-workspace",
       "version": "1.0.0",
-      "description": "Set up and run a privacy matter workspace \u2014 organize intake, artifacts, deadlines, and decision log for a discrete privacy matter so nothing is lost or missed.",
+      "description": "Set up and run a privacy matter workspace — organize intake, artifacts, deadlines, and decision log for a discrete privacy matter so nothing is lost or missed.",
       "author": "matrixx0070",
       "path": "skills/privl-matter-workspace/SKILL.md",
       "sha256": "d7cde4b19d989951295f0f1263ea330c6e73806284b53388a50203b157d504af",
@@ -6220,7 +6220,7 @@
     {
       "name": "privl-pia-generation",
       "version": "1.0.0",
-      "description": "Generate a Privacy/Data Protection Impact Assessment \u2014 describe the processing, test necessity and proportionality, assess risks to individuals, and specify mitigations.",
+      "description": "Generate a Privacy/Data Protection Impact Assessment — describe the processing, test necessity and proportionality, assess risks to individuals, and specify mitigations.",
       "author": "matrixx0070",
       "path": "skills/privl-pia-generation/SKILL.md",
       "sha256": "298129383abf21200b136d6c323d759183813800216ff419f49a4184121f2b64",
@@ -6238,7 +6238,7 @@
     {
       "name": "privl-policy-monitor",
       "version": "1.0.0",
-      "description": "Detect policy drift \u2014 compare a published privacy policy against actual data practices and regulatory changes, and flag the divergences that create exposure.",
+      "description": "Detect policy drift — compare a published privacy policy against actual data practices and regulatory changes, and flag the divergences that create exposure.",
       "author": "matrixx0070",
       "path": "skills/privl-policy-monitor/SKILL.md",
       "sha256": "6c21a6fb2cf1d12c807e9a12775a1e45d1a0149d679364a5dd683bc6fdedb2b0",
@@ -6255,7 +6255,7 @@
     {
       "name": "privl-reg-gap-analysis",
       "version": "1.0.0",
-      "description": "Assess an existing privacy program against applicable regulations \u2014 map obligations to current controls, rate each gap by risk, and produce a prioritized remediation plan.",
+      "description": "Assess an existing privacy program against applicable regulations — map obligations to current controls, rate each gap by risk, and produce a prioritized remediation plan.",
       "author": "matrixx0070",
       "path": "skills/privl-reg-gap-analysis/SKILL.md",
       "sha256": "8f2cf7810e90541b9baa26429c0267811df0e74a5f88220dc5ad539a2c348454",
@@ -6273,7 +6273,7 @@
     {
       "name": "privl-use-case-triage",
       "version": "1.0.0",
-      "description": "Triage a proposed data-processing use case \u2014 classify the data, name a lawful basis, flag high-risk signals, and decide whether a full PIA or attorney review is required.",
+      "description": "Triage a proposed data-processing use case — classify the data, name a lawful basis, flag high-risk signals, and decide whether a full PIA or attorney review is required.",
       "author": "matrixx0070",
       "path": "skills/privl-use-case-triage/SKILL.md",
       "sha256": "6d3367336681906ad256e11ab2cfb05670da5e2b64cbe59ca1db6af2a36c8307",
@@ -6410,7 +6410,7 @@
     {
       "name": "proj-change-control",
       "version": "1.0.0",
-      "description": "Run change control on a scope, schedule, or budget change \u2014 assess impact, decide, and re-baseline.",
+      "description": "Run change control on a scope, schedule, or budget change — assess impact, decide, and re-baseline.",
       "author": "matrixx0070",
       "path": "skills/proj-change-control/SKILL.md",
       "sha256": "8e486ef831f07881cf6fa5e2c249cc932e299c919228a17bac59f4f3596a7f58",
@@ -6853,7 +6853,7 @@
     {
       "name": "regl-customize",
       "version": "1.0.0",
-      "description": "Tune an existing regulatory-monitoring setup \u2014 adjust watchlists, cadence, digest scope, and escalation thresholds as the business and its exposure change.",
+      "description": "Tune an existing regulatory-monitoring setup — adjust watchlists, cadence, digest scope, and escalation thresholds as the business and its exposure change.",
       "author": "matrixx0070",
       "path": "skills/regl-customize/SKILL.md",
       "sha256": "67ae2da5294fccbbc7a14cabfb5a969218476fe1e54872fa473abbe7a0536728",
@@ -6870,7 +6870,7 @@
     {
       "name": "regl-gap-surfacer",
       "version": "1.0.0",
-      "description": "Proactively hunt for latent compliance gaps \u2014 obligations you already carry but do not yet meet \u2014 before a regulator or auditor finds them.",
+      "description": "Proactively hunt for latent compliance gaps — obligations you already carry but do not yet meet — before a regulator or auditor finds them.",
       "author": "matrixx0070",
       "path": "skills/regl-gap-surfacer/SKILL.md",
       "sha256": "7adc0545e13d98596b3726ef77fda02d57d0c37cd422fbbc4e1d2ad717605b2c",
@@ -6887,7 +6887,7 @@
     {
       "name": "regl-gaps",
       "version": "1.0.0",
-      "description": "Produce the weekly regulatory digest \u2014 a prioritized rollup of new rules, open comment deadlines, and compliance gaps across every tracked matter.",
+      "description": "Produce the weekly regulatory digest — a prioritized rollup of new rules, open comment deadlines, and compliance gaps across every tracked matter.",
       "author": "matrixx0070",
       "path": "skills/regl-gaps/SKILL.md",
       "sha256": "7e88a42fbb5e654fc14ccd38ed8e9cac3b76bdfd8abd1dad12b004c82a71be1e",
@@ -6938,7 +6938,7 @@
     {
       "name": "regl-policy-redraft",
       "version": "1.0.0",
-      "description": "Redraft an internal policy to close identified gaps and align it with a new rule \u2014 precise, traceable edits with rationale, not a wholesale rewrite.",
+      "description": "Redraft an internal policy to close identified gaps and align it with a new rule — precise, traceable edits with rationale, not a wholesale rewrite.",
       "author": "matrixx0070",
       "path": "skills/regl-policy-redraft/SKILL.md",
       "sha256": "2c9e0f53b29f6724d9c8fe49e8a7ee96fc9612eab913afbf1fca2db5705cfc82",
@@ -7068,7 +7068,7 @@
     {
       "name": "sales-account-research",
       "version": "1.0.0",
-      "description": "Research a company or contact and produce decision-grade sales intelligence \u2014 triggers, buying signals, and a value hypothesis a rep can act on today.",
+      "description": "Research a company or contact and produce decision-grade sales intelligence — triggers, buying signals, and a value hypothesis a rep can act on today.",
       "author": "matrixx0070",
       "path": "skills/sales-account-research/SKILL.md",
       "sha256": "21a16ad43b26a64bad6ad4c1d119350f35af22a153c6724d44b2da909bd08ce5",
@@ -7084,7 +7084,7 @@
     {
       "name": "sales-call-prep",
       "version": "1.0.0",
-      "description": "Prep for a sales call in minutes \u2014 objective, attendee angles, anticipated objections, a time-boxed agenda, and the specific ask to close on.",
+      "description": "Prep for a sales call in minutes — objective, attendee angles, anticipated objections, a time-boxed agenda, and the specific ask to close on.",
       "author": "matrixx0070",
       "path": "skills/sales-call-prep/SKILL.md",
       "sha256": "f8de5c2e9622ca0bffea00cade9c47261eb18c55639d6e34770b565a561d0b06",
@@ -7116,7 +7116,7 @@
     {
       "name": "sales-competitive-intel",
       "version": "1.0.0",
-      "description": "Build a per-competitor battlecard \u2014 comparison matrix, honest win/loss lines, objection reframes, and landmine questions to plant.",
+      "description": "Build a per-competitor battlecard — comparison matrix, honest win/loss lines, objection reframes, and landmine questions to plant.",
       "author": "matrixx0070",
       "path": "skills/sales-competitive-intel/SKILL.md",
       "sha256": "9913a5a18ebfe3bc6e9ca55d502f39ba89f230ef63512b8ba20c327f20872468",
@@ -7132,7 +7132,7 @@
     {
       "name": "sales-create-asset",
       "version": "1.0.0",
-      "description": "Generate a deal-specific sales asset \u2014 one-pager, deck outline, ROI summary, or mutual action plan \u2014 anchored to the prospect's own words and numbers.",
+      "description": "Generate a deal-specific sales asset — one-pager, deck outline, ROI summary, or mutual action plan — anchored to the prospect's own words and numbers.",
       "author": "matrixx0070",
       "path": "skills/sales-create-asset/SKILL.md",
       "sha256": "0d7410b9f48628db2d684c068a916ad18ba8b018ea645fd4fd6cc137d729f92a",
@@ -7149,7 +7149,7 @@
     {
       "name": "sales-daily-briefing",
       "version": "1.0.0",
-      "description": "Produce a ranked daily sales briefing \u2014 top priorities, meeting prep, at-risk deals, and owed follow-ups \u2014 so a rep works the highest-leverage actions first.",
+      "description": "Produce a ranked daily sales briefing — top priorities, meeting prep, at-risk deals, and owed follow-ups — so a rep works the highest-leverage actions first.",
       "author": "matrixx0070",
       "path": "skills/sales-daily-briefing/SKILL.md",
       "sha256": "450dc0fcd68e33fec37ece7527036678d4be66ccb868a4ac073fc278b10ae46f",
@@ -7165,7 +7165,7 @@
     {
       "name": "sales-draft-outreach",
       "version": "1.0.0",
-      "description": "Research a prospect then draft short, personalized outreach grounded in a real hook \u2014 plus a channel variant and a follow-up sequence that earns a reply.",
+      "description": "Research a prospect then draft short, personalized outreach grounded in a real hook — plus a channel variant and a follow-up sequence that earns a reply.",
       "author": "matrixx0070",
       "path": "skills/sales-draft-outreach/SKILL.md",
       "sha256": "fca359869fcb4b730171b83646d4fce5a63449d8a6151120b2f51931c9190621",
@@ -7181,7 +7181,7 @@
     {
       "name": "sales-forecast",
       "version": "1.0.0",
-      "description": "Build a defensible weighted forecast \u2014 worst/likely/best scenarios, commit vs. upside, weighted total, and the gap-to-target with what must convert.",
+      "description": "Build a defensible weighted forecast — worst/likely/best scenarios, commit vs. upside, weighted total, and the gap-to-target with what must convert.",
       "author": "matrixx0070",
       "path": "skills/sales-forecast/SKILL.md",
       "sha256": "ab639b078af65be5e6a10d32f4fa09e32fb7722c54b138965900129ec6c81a44",
@@ -7197,7 +7197,7 @@
     {
       "name": "sales-pipeline-review",
       "version": "1.0.0",
-      "description": "Inspect pipeline health \u2014 coverage, stage distribution, hygiene, and per-deal risk \u2014 and prescribe one specific corrective move per priority and at-risk deal.",
+      "description": "Inspect pipeline health — coverage, stage distribution, hygiene, and per-deal risk — and prescribe one specific corrective move per priority and at-risk deal.",
       "author": "matrixx0070",
       "path": "skills/sales-pipeline-review/SKILL.md",
       "sha256": "e21a779d42470ed1d8e3733d4cef82a341805a55959d2c93a138c731fda02b26",
@@ -7350,7 +7350,7 @@
     {
       "name": "smb-call-list",
       "version": "1.0.0",
-      "description": "Rank the top-5 leads worth calling today with tailored, history-grounded talking points and proposed calendar blocks \u2014 no auto-send.",
+      "description": "Rank the top-5 leads worth calling today with tailored, history-grounded talking points and proposed calendar blocks — no auto-send.",
       "author": "matrixx0070",
       "path": "skills/smb-call-list/SKILL.md",
       "sha256": "56535e0969587ef4e8c54e0dd56e5d32c0a63b5744a3b6865071a1257f7f0ca3",
@@ -7402,7 +7402,7 @@
     {
       "name": "smb-close-month",
       "version": "1.0.0",
-      "description": "Run a small-business month-end close \u2014 reconcile books against processors and bank, propose adjustments, and produce a plain-English P&L narrative.",
+      "description": "Run a small-business month-end close — reconcile books against processors and bank, propose adjustments, and produce a plain-English P&L narrative.",
       "author": "matrixx0070",
       "path": "skills/smb-close-month/SKILL.md",
       "sha256": "42040449048fcb1ed7c97c75e8499b1070d4cc38498c4594442276ba9fc27b2e",
@@ -7436,7 +7436,7 @@
     {
       "name": "smb-contract-review",
       "version": "1.0.0",
-      "description": "Lightweight NDA, MSA, and vendor-contract first pass that flags non-standard terms in plain English and outputs a redline \u2014 not legal advice.",
+      "description": "Lightweight NDA, MSA, and vendor-contract first pass that flags non-standard terms in plain English and outputs a redline — not legal advice.",
       "author": "matrixx0070",
       "path": "skills/smb-contract-review/SKILL.md",
       "sha256": "a8c92579a9c3e751edf3130fc6536b73136d7974f80287ac86bf7fdb0935708f",
@@ -7470,7 +7470,7 @@
     {
       "name": "smb-crm-maintenance",
       "version": "1.0.0",
-      "description": "Keep the CRM current from email and calendar context \u2014 propose new contacts, deal updates, activity notes, and stale flags for owner approval before writing.",
+      "description": "Keep the CRM current from email and calendar context — propose new contacts, deal updates, activity notes, and stale flags for owner approval before writing.",
       "author": "matrixx0070",
       "path": "skills/smb-crm-maintenance/SKILL.md",
       "sha256": "bffe3f6763118664d7084999e8096cc857010f31be9c91732487e94c907a7961",
@@ -7504,7 +7504,7 @@
     {
       "name": "smb-customer-pulse-check",
       "version": "1.0.0",
-      "description": "Synthesize disputes, tickets, and reviews into a top-3 fixable-issues list, each with root cause and a ready-to-edit response template \u2014 never auto-sent.",
+      "description": "Synthesize disputes, tickets, and reviews into a top-3 fixable-issues list, each with root cause and a ready-to-edit response template — never auto-sent.",
       "author": "matrixx0070",
       "path": "skills/smb-customer-pulse-check/SKILL.md",
       "sha256": "5ce849abe60dac012fcf8e57b931aa4ac2f0926259b4b4bafe0b766bd97209c9",
@@ -7520,7 +7520,7 @@
     {
       "name": "smb-friday-brief",
       "version": "1.0.0",
-      "description": "A read-only Friday end-of-week pulse \u2014 revenue vs prior week, top sellers, and the wins and watches to carry into next week.",
+      "description": "A read-only Friday end-of-week pulse — revenue vs prior week, top sellers, and the wins and watches to carry into next week.",
       "author": "matrixx0070",
       "path": "skills/smb-friday-brief/SKILL.md",
       "sha256": "ce48ad5b3640b14ae2d49a009dfc11dbb13f4b02726d9f2556a2ba8386b595ab",
@@ -7536,7 +7536,7 @@
     {
       "name": "smb-handle-complaint",
       "version": "1.0.0",
-      "description": "Handle a single customer complaint end-to-end \u2014 context, root cause, an owner-approved remedy, a drafted response, and an operational fix.",
+      "description": "Handle a single customer complaint end-to-end — context, root cause, an owner-approved remedy, a drafted response, and an operational fix.",
       "author": "matrixx0070",
       "path": "skills/smb-handle-complaint/SKILL.md",
       "sha256": "2af67ae23041e3437e4dd6bde4b2e00185f49a1956c4dec3ac6ebc7a0e4d3c3f",
@@ -7553,7 +7553,7 @@
     {
       "name": "smb-invoice-chase",
       "version": "1.0.0",
-      "description": "Draft overdue-invoice reminders tuned to each customer's payment history and the right tone, with a cadence plan \u2014 every message owner-approved before send.",
+      "description": "Draft overdue-invoice reminders tuned to each customer's payment history and the right tone, with a cadence plan — every message owner-approved before send.",
       "author": "matrixx0070",
       "path": "skills/smb-invoice-chase/SKILL.md",
       "sha256": "4bcecc5de61d198c2cf0e3f2b5c5e06eb75ca784df312ffad2eecaa1f46d2e8c",
@@ -7570,7 +7570,7 @@
     {
       "name": "smb-job-post-builder",
       "version": "1.0.0",
-      "description": "Build a hiring packet \u2014 an inclusive job post, a structured interview guide with a 1-5 scoring rubric, and an offer-letter template flagged for legal review.",
+      "description": "Build a hiring packet — an inclusive job post, a structured interview guide with a 1-5 scoring rubric, and an offer-letter template flagged for legal review.",
       "author": "matrixx0070",
       "path": "skills/smb-job-post-builder/SKILL.md",
       "sha256": "2c11a3b7a4006af577f4358bfcfd70a49fb5fec78f948604f2036ddbe2ac7cee",
@@ -7586,7 +7586,7 @@
     {
       "name": "smb-lead-triage",
       "version": "1.0.0",
-      "description": "Score raw inbound leads into a \"call these 5 today\" list on fit/intent/value/freshness, with tailored openings and follow-up timing \u2014 outreach owner-approved.",
+      "description": "Score raw inbound leads into a \"call these 5 today\" list on fit/intent/value/freshness, with tailored openings and follow-up timing — outreach owner-approved.",
       "author": "matrixx0070",
       "path": "skills/smb-lead-triage/SKILL.md",
       "sha256": "ecfb1d9bb4e9ba017b74be447eb93378ab18bef9cfb614722a71e25e7ca25f0e",
@@ -7637,7 +7637,7 @@
     {
       "name": "smb-month-end-prep",
       "version": "1.0.0",
-      "description": "Walk the owner through month-end close \u2014 reconcile books against processor payouts, flag discrepancies, and export a review packet.",
+      "description": "Walk the owner through month-end close — reconcile books against processor payouts, flag discrepancies, and export a review packet.",
       "author": "matrixx0070",
       "path": "skills/smb-month-end-prep/SKILL.md",
       "sha256": "84872f0fd8e5bb0897c907461c5e5fd5a6bd8e84872f646b642abad78e719b51",
@@ -7671,7 +7671,7 @@
     {
       "name": "smb-onboard",
       "version": "1.0.0",
-      "description": "Onboard a new small-business owner \u2014 connect their first two tools, run one recipe, interview them, store context, and set a weekly check-in.",
+      "description": "Onboard a new small-business owner — connect their first two tools, run one recipe, interview them, store context, and set a weekly check-in.",
       "author": "matrixx0070",
       "path": "skills/smb-onboard/SKILL.md",
       "sha256": "9849f4fa2d2c1022324262ca1bcfeacb9b3e442aee6aa2e18851c0e209a01445",
@@ -7722,7 +7722,7 @@
     {
       "name": "smb-quarterly-review",
       "version": "1.0.0",
-      "description": "Build a quarterly business review as a presentable deck \u2014 revenue, margin, and customer trends, with next-quarter priorities.",
+      "description": "Build a quarterly business review as a presentable deck — revenue, margin, and customer trends, with next-quarter priorities.",
       "author": "matrixx0070",
       "path": "skills/smb-quarterly-review/SKILL.md",
       "sha256": "692f2d21d2787ae03bf857c889ede9a9bfcfccf4d41a31cbc2fac9a7656fd01d",
@@ -7756,7 +7756,7 @@
     {
       "name": "smb-router",
       "version": "1.0.0",
-      "description": "Front door to the small-business toolkit \u2014 routes a vague or specific request to the best skill and explains what's available.",
+      "description": "Front door to the small-business toolkit — routes a vague or specific request to the best skill and explains what's available.",
       "author": "matrixx0070",
       "path": "skills/smb-router/SKILL.md",
       "sha256": "e01517b7a4f94566e6683001e6d68bb3623448a1ba5312d80b3010a472ea7dfe",
@@ -7773,7 +7773,7 @@
     {
       "name": "smb-run-campaign",
       "version": "1.0.0",
-      "description": "Run an end-to-end marketing campaign \u2014 sales analysis to content brief to assets to CRM send \u2014 with an owner-approval gate at every step.",
+      "description": "Run an end-to-end marketing campaign — sales analysis to content brief to assets to CRM send — with an owner-approval gate at every step.",
       "author": "matrixx0070",
       "path": "skills/smb-run-campaign/SKILL.md",
       "sha256": "eacbc3b7802f1bdfc28a6c1e01070d34bc3fb3335f0f27f66cfdd21d27e11e72",
@@ -7807,7 +7807,7 @@
     {
       "name": "smb-tax-prep",
       "version": "1.0.0",
-      "description": "Assemble tax-season materials \u2014 quarterly estimates or year-end 1099s \u2014 plus an organized accountant packet.",
+      "description": "Assemble tax-season materials — quarterly estimates or year-end 1099s — plus an organized accountant packet.",
       "author": "matrixx0070",
       "path": "skills/smb-tax-prep/SKILL.md",
       "sha256": "0b738fd6f26b448ae10e5278746c6f873ff503927f085af5c73b320d6dac9e30",
@@ -7841,7 +7841,7 @@
     {
       "name": "smb-ticket-deflector",
       "version": "1.0.0",
-      "description": "Read a forwarded customer email or ticket, pull order/refund/history context, and draft a tone-matched reply \u2014 refunds only with owner approval.",
+      "description": "Read a forwarded customer email or ticket, pull order/refund/history context, and draft a tone-matched reply — refunds only with owner approval.",
       "author": "matrixx0070",
       "path": "skills/smb-ticket-deflector/SKILL.md",
       "sha256": "65ac1c61857ffcbac01f2c04a959c084a99c03403192969c5534c63fe44b1da1",
@@ -7856,9 +7856,17 @@
       ]
     },
     {
+      "name": "spec9-proof",
+      "version": "0.1.0",
+      "description": "Throwaway proof skill for the Spec 9 publish/update live verification.",
+      "path": "skills/spec9-proof/SKILL.md",
+      "sha256": "720687d8cdef2a3199620af4b209c7077c292a1f468711f8f7b404a8c0b37279",
+      "changelog": "Initial proof release."
+    },
+    {
       "name": "spg-earnings-preview-beta",
       "version": "1.0.0",
-      "description": "Build a fast pre-earnings expectations map for a company \u2014 consensus, whisper, options-implied move, KPIs to watch, and the setup/skew \u2014 so you can read the print in real time. Educational analytical workflow, not investment advice.",
+      "description": "Build a fast pre-earnings expectations map for a company — consensus, whisper, options-implied move, KPIs to watch, and the setup/skew — so you can read the print in real time. Educational analytical workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/spg-earnings-preview-beta/SKILL.md",
       "sha256": "e5dc548c7da34341669398b99d196d570d021527104383bf0dadefbf3453b192",
@@ -7876,7 +7884,7 @@
     {
       "name": "spg-funding-digest",
       "version": "1.0.0",
-      "description": "Compile a short-term funding and money-market digest \u2014 repo/SOFR, bill supply, central-bank facility usage, cross-currency basis, and credit/liquidity stress signals \u2014 into a structured read on funding conditions. Educational analytical workflow, not investment advice.",
+      "description": "Compile a short-term funding and money-market digest — repo/SOFR, bill supply, central-bank facility usage, cross-currency basis, and credit/liquidity stress signals — into a structured read on funding conditions. Educational analytical workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/spg-funding-digest/SKILL.md",
       "sha256": "2b4d07527220142927096c47c2b8576e0639e7a16b44241c5ce7794bde77c853",
@@ -7894,7 +7902,7 @@
     {
       "name": "spg-tear-sheet",
       "version": "1.0.0",
-      "description": "Produce a one-page company tear sheet \u2014 snapshot, financial highlights, valuation multiples, capital structure, and key ratios \u2014 as a consistent, disclosure-grounded reference. Educational analytical workflow, not investment advice.",
+      "description": "Produce a one-page company tear sheet — snapshot, financial highlights, valuation multiples, capital structure, and key ratios — as a consistent, disclosure-grounded reference. Educational analytical workflow, not investment advice.",
       "author": "matrixx0070",
       "path": "skills/spg-tear-sheet/SKILL.md",
       "sha256": "d26e0063c8f9a2884a7800865ea1faec00f13b435fabe7ee03e1c36be605dcca",
@@ -7932,7 +7940,7 @@
     {
       "name": "twilio-account-setup",
       "version": "1.0.0",
-      "description": "Stand up a Twilio account from scratch \u2014 credentials, verified caller ID, buying a number, subaccounts, geo permissions, trial-to-upgrade, and billing basics.",
+      "description": "Stand up a Twilio account from scratch — credentials, verified caller ID, buying a number, subaccounts, geo permissions, trial-to-upgrade, and billing basics.",
       "author": "matrixx0070",
       "path": "skills/twilio-account-setup/SKILL.md",
       "sha256": "56ae66fe0a91ec8cc346b8a5ead9997d52af1aba5fcff82ac85851b62360f6cf",
@@ -7981,7 +7989,7 @@
     {
       "name": "twilio-ai-agent-architect",
       "version": "1.0.0",
-      "description": "Design a Twilio AI voice and messaging agent end to end \u2014 choosing ConversationRelay vs AI Assistants vs custom, wiring LLM plus tools and knowledge, channels, guardrails, handoff, and observability.",
+      "description": "Design a Twilio AI voice and messaging agent end to end — choosing ConversationRelay vs AI Assistants vs custom, wiring LLM plus tools and knowledge, channels, guardrails, handoff, and observability.",
       "author": "matrixx0070",
       "path": "skills/twilio-ai-agent-architect/SKILL.md",
       "sha256": "11b28a670e25620c8d750949f9d2ac833d9a3846ebf20f4b88fd77f625ba6a00",
@@ -8013,7 +8021,7 @@
     {
       "name": "twilio-cli-reference",
       "version": "1.0.0",
-      "description": "Practical reference for the official twilio CLI \u2014 login, profiles, phone numbers, messages, serverless, and plugins.",
+      "description": "Practical reference for the official twilio CLI — login, profiles, phone numbers, messages, serverless, and plugins.",
       "author": "matrixx0070",
       "path": "skills/twilio-cli-reference/SKILL.md",
       "sha256": "6afbe3f737b61ecdf9615c40a5d58bd839803069d7ca234271078ac7026fbf37",
@@ -8030,7 +8038,7 @@
     {
       "name": "twilio-compliance-onboarding",
       "version": "1.0.0",
-      "description": "Run end-to-end Twilio messaging compliance onboarding \u2014 Trust Hub profile, EIN business verification, use-case selection, campaign vetting, and rejection remediation.",
+      "description": "Run end-to-end Twilio messaging compliance onboarding — Trust Hub profile, EIN business verification, use-case selection, campaign vetting, and rejection remediation.",
       "author": "matrixx0070",
       "path": "skills/twilio-compliance-onboarding/SKILL.md",
       "sha256": "1cb3319843f1fe45bc398fd16c6a708c9cf1ec8d31a29dc3adbdd9364f6a08a5",
@@ -8047,7 +8055,7 @@
     {
       "name": "twilio-compliance-traffic",
       "version": "1.0.0",
-      "description": "Make SMS traffic compliant and deliverable \u2014 A2P 10DLC/TCR registration, toll-free verification, STOP/HELP opt-out, SHAFT content rules, and throughput.",
+      "description": "Make SMS traffic compliant and deliverable — A2P 10DLC/TCR registration, toll-free verification, STOP/HELP opt-out, SHAFT content rules, and throughput.",
       "author": "matrixx0070",
       "path": "skills/twilio-compliance-traffic/SKILL.md",
       "sha256": "031de8b4bb883958ebe36498c423763028228f412b787eb94a7bd270878c63a0",
@@ -8096,7 +8104,7 @@
     {
       "name": "twilio-conversation-intelligence",
       "version": "1.0.0",
-      "description": "Run Twilio Conversational Intelligence \u2014 create a Service, attach Language Operators, transcribe recordings, and retrieve summary, sentiment, entity, and PII-redaction results.",
+      "description": "Run Twilio Conversational Intelligence — create a Service, attach Language Operators, transcribe recordings, and retrieve summary, sentiment, entity, and PII-redaction results.",
       "author": "matrixx0070",
       "path": "skills/twilio-conversation-intelligence/SKILL.md",
       "sha256": "b1fbb365461ac747e4e0d6a6da5b5370f852fe1a4a5b4858796e0a7304cce156",
@@ -8128,7 +8136,7 @@
     {
       "name": "twilio-conversation-orchestrator",
       "version": "1.0.0",
-      "description": "Orchestrate multi-turn, multi-channel Twilio Conversations \u2014 routing each turn to AI or human, managing participants, state, tool invocation, and escalation.",
+      "description": "Orchestrate multi-turn, multi-channel Twilio Conversations — routing each turn to AI or human, managing participants, state, tool invocation, and escalation.",
       "author": "matrixx0070",
       "path": "skills/twilio-conversation-orchestrator/SKILL.md",
       "sha256": "d3136058b88853dad0ba6897e9e8a96a4fd54a23ef3ba8a56828816b7ec5da5e",
@@ -8144,7 +8152,7 @@
     {
       "name": "twilio-conversations-classic-api",
       "version": "1.0.0",
-      "description": "Directly operate the Twilio Conversations REST API \u2014 create Conversations, add SMS/WhatsApp/chat participants, post messages, wire webhooks, and manage Conversation Services and autocreation.",
+      "description": "Directly operate the Twilio Conversations REST API — create Conversations, add SMS/WhatsApp/chat participants, post messages, wire webhooks, and manage Conversation Services and autocreation.",
       "author": "matrixx0070",
       "path": "skills/twilio-conversations-classic-api/SKILL.md",
       "sha256": "c50800cf96b0c8e38ef8fb72979669da5e458c6a91cee8a75fa947ce1e91d4d9",
@@ -8160,7 +8168,7 @@
     {
       "name": "twilio-customer-support-architect",
       "version": "1.0.0",
-      "description": "Design an AI-powered omnichannel customer support system on Twilio \u2014 deflection with AI Assistant plus Knowledge, Conversations intake, human handoff via Flex/TaskRouter, CSAT, and metrics.",
+      "description": "Design an AI-powered omnichannel customer support system on Twilio — deflection with AI Assistant plus Knowledge, Conversations intake, human handoff via Flex/TaskRouter, CSAT, and metrics.",
       "author": "matrixx0070",
       "path": "skills/twilio-customer-support-architect/SKILL.md",
       "sha256": "6f9b8abecef148ad57148153b5a88d32712b6d44607b2b9f07aa3870ff2ac215",
@@ -8227,7 +8235,7 @@
     {
       "name": "twilio-enterprise-knowledge",
       "version": "1.0.0",
-      "description": "Build and govern the RAG Knowledge base that grounds Twilio AI Assistants \u2014 ingest sources, chunk and embed, keep content fresh, enforce access control, and evaluate answer quality to prevent hallucination.",
+      "description": "Build and govern the RAG Knowledge base that grounds Twilio AI Assistants — ingest sources, chunk and embed, keep content fresh, enforce access control, and evaluate answer quality to prevent hallucination.",
       "author": "matrixx0070",
       "path": "skills/twilio-enterprise-knowledge/SKILL.md",
       "sha256": "ccd6ae0f23323b11ae5a42133050d83f977c4955ef156fa54159ac9309a44472",
@@ -8260,7 +8268,7 @@
     {
       "name": "twilio-identity-verification-advisor",
       "version": "1.0.0",
-      "description": "Advisory skill that picks the right Twilio identity signal \u2014 Verify OTP, Lookup, or Silent Network Auth \u2014 for a given risk, friction, and KYC context.",
+      "description": "Advisory skill that picks the right Twilio identity signal — Verify OTP, Lookup, or Silent Network Auth — for a given risk, friction, and KYC context.",
       "author": "matrixx0070",
       "path": "skills/twilio-identity-verification-advisor/SKILL.md",
       "sha256": "9a4a68a94cc9fb522af5f3774355cb923bb3e8fc64b4ab1ac6774d678dd2cbb4",
@@ -8277,7 +8285,7 @@
     {
       "name": "twilio-lookup-phone-intelligence",
       "version": "1.0.0",
-      "description": "Enrich and risk-score a phone number with the Twilio Lookup API v2 \u2014 line type, caller name, SIM-swap, call forwarding, identity match, and reassigned number.",
+      "description": "Enrich and risk-score a phone number with the Twilio Lookup API v2 — line type, caller name, SIM-swap, call forwarding, identity match, and reassigned number.",
       "author": "matrixx0070",
       "path": "skills/twilio-lookup-phone-intelligence/SKILL.md",
       "sha256": "51bd47d9dc48680cf81a416c4943ad8675125ca8c4a7019fe9067ccfa46ecccb",
@@ -8294,7 +8302,7 @@
     {
       "name": "twilio-marketing-promotions-advisor",
       "version": "1.0.0",
-      "description": "Advise on compliant marketing and promotional SMS over Twilio \u2014 TCPA express written consent, A2P 10DLC marketing use-case registration, opt-in capture, quiet hours, frequency, and STOP handling.",
+      "description": "Advise on compliant marketing and promotional SMS over Twilio — TCPA express written consent, A2P 10DLC marketing use-case registration, opt-in capture, quiet hours, frequency, and STOP handling.",
       "author": "matrixx0070",
       "path": "skills/twilio-marketing-promotions-advisor/SKILL.md",
       "sha256": "2df0fb3cd45d4b63ee69ebb8d9c380cbc099b47b287e0d0ce085404b93566013",
@@ -8312,7 +8320,7 @@
     {
       "name": "twilio-messaging-channel-advisor",
       "version": "1.0.0",
-      "description": "Given a use-case \u2014 region, volume, media, interactivity, compliance \u2014 recommend the right Twilio channel and sender type with the tradeoffs made explicit.",
+      "description": "Given a use-case — region, volume, media, interactivity, compliance — recommend the right Twilio channel and sender type with the tradeoffs made explicit.",
       "author": "matrixx0070",
       "path": "skills/twilio-messaging-channel-advisor/SKILL.md",
       "sha256": "6c2b2edf1660155fbfad8b6d9f1b6ee08d742c97d49234f358b7e5dd1ebadc5a",
@@ -8344,7 +8352,7 @@
     {
       "name": "twilio-messaging-services",
       "version": "1.0.0",
-      "description": "Configure and send through a Twilio Messaging Service (MG SID) \u2014 sender pool, sticky sender, geomatch, scaling, opt-out, and fallback.",
+      "description": "Configure and send through a Twilio Messaging Service (MG SID) — sender pool, sticky sender, geomatch, scaling, opt-out, and fallback.",
       "author": "matrixx0070",
       "path": "skills/twilio-messaging-services/SKILL.md",
       "sha256": "16ecc5387bb99ee55f15dcada4d46a13db6a8cda3e7f03d1d424ef5f199f4f62",
@@ -8360,7 +8368,7 @@
     {
       "name": "twilio-messaging-webhooks",
       "version": "1.0.0",
-      "description": "Wire Twilio inbound-message and status-callback webhooks \u2014 configure URLs, parse the POST params, validate X-Twilio-Signature, and reply with TwiML.",
+      "description": "Wire Twilio inbound-message and status-callback webhooks — configure URLs, parse the POST params, validate X-Twilio-Signature, and reply with TwiML.",
       "author": "matrixx0070",
       "path": "skills/twilio-messaging-webhooks/SKILL.md",
       "sha256": "9b01a66c3f530888bc252c4b92838641eca2014f74732cb8ebba40fae5da39ac",
@@ -8376,7 +8384,7 @@
     {
       "name": "twilio-notifications-alerts-advisor",
       "version": "1.0.0",
-      "description": "Design reliable transactional notifications and alerts on Twilio \u2014 channel choice across SMS/WhatsApp/push/email, transactional-vs-promotional consent, delivery guarantees, and fallback chains.",
+      "description": "Design reliable transactional notifications and alerts on Twilio — channel choice across SMS/WhatsApp/push/email, transactional-vs-promotional consent, delivery guarantees, and fallback chains.",
       "author": "matrixx0070",
       "path": "skills/twilio-notifications-alerts-advisor/SKILL.md",
       "sha256": "060e7798f3f5a795104bff9d4547ad845ec1795604094544ca1792a2d05bb384",
@@ -8393,7 +8401,7 @@
     {
       "name": "twilio-numbers-senders",
       "version": "1.0.0",
-      "description": "Choose and provision the right Twilio sender \u2014 long code, toll-free, short code, alphanumeric sender ID, or WhatsApp \u2014 and pool them in a Messaging Service.",
+      "description": "Choose and provision the right Twilio sender — long code, toll-free, short code, alphanumeric sender ID, or WhatsApp — and pool them in a Messaging Service.",
       "author": "matrixx0070",
       "path": "skills/twilio-numbers-senders/SKILL.md",
       "sha256": "48ce1fbfe91ee287862f0e715c15e0f05a811243cd556c8558acea2a1a0d848e",
@@ -8477,7 +8485,7 @@
     {
       "name": "twilio-security-api-auth",
       "version": "1.0.0",
-      "description": "Secure Twilio API authentication \u2014 prefer scoped API Keys over the Auth Token, rotate credentials, isolate subaccounts, enable Public Key Client Validation, and keep secrets off the client.",
+      "description": "Secure Twilio API authentication — prefer scoped API Keys over the Auth Token, rotate credentials, isolate subaccounts, enable Public Key Client Validation, and keep secrets off the client.",
       "author": "matrixx0070",
       "path": "skills/twilio-security-api-auth/SKILL.md",
       "sha256": "d607faec5e3080a7743e670e329e6ba80d3f0383178600e63692ab981c3a611d",
@@ -8494,7 +8502,7 @@
     {
       "name": "twilio-security-compliance-hipaa",
       "version": "1.0.0",
-      "description": "Use Twilio for healthcare communications under HIPAA \u2014 sign the BAA, use only HIPAA-eligible products, keep PHI out of message bodies, and configure redaction and retention.",
+      "description": "Use Twilio for healthcare communications under HIPAA — sign the BAA, use only HIPAA-eligible products, keep PHI out of message bodies, and configure redaction and retention.",
       "author": "matrixx0070",
       "path": "skills/twilio-security-compliance-hipaa/SKILL.md",
       "sha256": "c95ae7bdd147da1ec4603c27f960554b64f79360d9384d85dc742c33529c9fcf",
@@ -8511,7 +8519,7 @@
     {
       "name": "twilio-security-hardening",
       "version": "1.0.0",
-      "description": "End-to-end Twilio security hardening \u2014 validate inbound webhook signatures, enforce TLS, allowlist and rate-limit, rotate credentials, manage secrets, and audit via Monitor and Event Streams.",
+      "description": "End-to-end Twilio security hardening — validate inbound webhook signatures, enforce TLS, allowlist and rate-limit, rotate credentials, manage secrets, and audit via Monitor and Event Streams.",
       "author": "matrixx0070",
       "path": "skills/twilio-security-hardening/SKILL.md",
       "sha256": "c4f169c4cd3077eba285ed01d21477a7df362b1560b73c47803b01410d78ceea",
@@ -8544,7 +8552,7 @@
     {
       "name": "twilio-sendgrid-account-setup",
       "version": "1.0.0",
-      "description": "Stand up a Twilio SendGrid account for sending \u2014 API keys, sender identity, domain authentication (SPF/DKIM/DMARC), and the checks that must pass before you send real mail.",
+      "description": "Stand up a Twilio SendGrid account for sending — API keys, sender identity, domain authentication (SPF/DKIM/DMARC), and the checks that must pass before you send real mail.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-account-setup/SKILL.md",
       "sha256": "68198630bb175b4f0db4e57f5c67af6a48daaac29c892a6918135ba037db00db",
@@ -8563,7 +8571,7 @@
     {
       "name": "twilio-sendgrid-deliverability-advisor",
       "version": "1.0.0",
-      "description": "Diagnose and improve inbox placement on SendGrid \u2014 authentication alignment, IP/domain reputation, warm-up, bounce/complaint thresholds, and content that trips filters.",
+      "description": "Diagnose and improve inbox placement on SendGrid — authentication alignment, IP/domain reputation, warm-up, bounce/complaint thresholds, and content that trips filters.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-deliverability-advisor/SKILL.md",
       "sha256": "4dcbabea59072a75a6e57c9939b1b0ee6f3ca308951eb03444523c9e7a0f7208",
@@ -8581,7 +8589,7 @@
     {
       "name": "twilio-sendgrid-email-send",
       "version": "1.0.0",
-      "description": "Send email through the SendGrid v3 Mail Send API \u2014 personalizations, templates, attachments, categories, and correct handling of the 202 response and error bodies.",
+      "description": "Send email through the SendGrid v3 Mail Send API — personalizations, templates, attachments, categories, and correct handling of the 202 response and error bodies.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-email-send/SKILL.md",
       "sha256": "8a5447fda33669bdbad683a464ffc44b3c94544cc0687ad88eed6031ffcda7dc",
@@ -8599,7 +8607,7 @@
     {
       "name": "twilio-sendgrid-email-settings",
       "version": "1.0.0",
-      "description": "Configure account-wide SendGrid mail behavior \u2014 sandbox mode, footer, click/open tracking, subscription tracking, BCC, spam checker, and the tracking settings that affect deliverability.",
+      "description": "Configure account-wide SendGrid mail behavior — sandbox mode, footer, click/open tracking, subscription tracking, BCC, spam checker, and the tracking settings that affect deliverability.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-email-settings/SKILL.md",
       "sha256": "9aac12ba7565904783f3257ce302de7d7ae29a9f1e938ceaec51206707dfddd2",
@@ -8617,7 +8625,7 @@
     {
       "name": "twilio-sendgrid-engagement-quality",
       "version": "1.0.0",
-      "description": "Measure and improve email engagement on SendGrid \u2014 opens, clicks, CTR, unsubscribe and complaint rates by segment/category \u2014 and turn the numbers into content and cadence decisions.",
+      "description": "Measure and improve email engagement on SendGrid — opens, clicks, CTR, unsubscribe and complaint rates by segment/category — and turn the numbers into content and cadence decisions.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-engagement-quality/SKILL.md",
       "sha256": "41e18cdad907119537878302654333987995efd21cb8deb39ec9dd9f138b04ff",
@@ -8636,7 +8644,7 @@
     {
       "name": "twilio-sendgrid-inbound-parse",
       "version": "1.0.0",
-      "description": "Receive inbound email with the SendGrid Inbound Parse Webhook \u2014 MX setup, multipart parsing, attachments, spam/SPF fields, and safe handling of untrusted mail.",
+      "description": "Receive inbound email with the SendGrid Inbound Parse Webhook — MX setup, multipart parsing, attachments, spam/SPF fields, and safe handling of untrusted mail.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-inbound-parse/SKILL.md",
       "sha256": "753051a8051301e634d4794ff3789e8ee38899035222e8ffb6d6ce4c08a28afa",
@@ -8654,7 +8662,7 @@
     {
       "name": "twilio-sendgrid-suppressions",
       "version": "1.0.0",
-      "description": "Manage SendGrid suppressions \u2014 global unsubscribes, bounces, blocks, spam reports, invalid emails, and unsubscribe groups \u2014 to protect reputation and honor opt-outs.",
+      "description": "Manage SendGrid suppressions — global unsubscribes, bounces, blocks, spam reports, invalid emails, and unsubscribe groups — to protect reputation and honor opt-outs.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-suppressions/SKILL.md",
       "sha256": "ed65daabb326bf81707f3d025beb91189f8d9117e12e41c413c1f546ba71e395",
@@ -8672,7 +8680,7 @@
     {
       "name": "twilio-sendgrid-webhooks",
       "version": "1.0.0",
-      "description": "Consume the SendGrid Event Webhook \u2014 configure it, verify the ECDSA signature, handle each event type idempotently, and turn delivery/engagement events into reliable state.",
+      "description": "Consume the SendGrid Event Webhook — configure it, verify the ECDSA signature, handle each event type idempotently, and turn delivery/engagement events into reliable state.",
       "author": "matrixx0070",
       "path": "skills/twilio-sendgrid-webhooks/SKILL.md",
       "sha256": "1284a1c08c05ef25fdb5a7ca8721971cffd43bcc354ba00795797b55ef3c8970",
@@ -8690,7 +8698,7 @@
     {
       "name": "twilio-sms-isv-setup",
       "version": "1.0.0",
-      "description": "Onboard as a Twilio ISV \u2014 register brands and A2P 10DLC campaigns on behalf of client businesses using Trust Hub Secondary Customer Profiles.",
+      "description": "Onboard as a Twilio ISV — register brands and A2P 10DLC campaigns on behalf of client businesses using Trust Hub Secondary Customer Profiles.",
       "author": "matrixx0070",
       "path": "skills/twilio-sms-isv-setup/SKILL.md",
       "sha256": "4b3d7d1c708b5f1f730561a5349e9c9642051da00a43135ba4f7e0bf9dba2e4b",
@@ -8723,7 +8731,7 @@
     {
       "name": "twilio-studio-flows",
       "version": "1.0.0",
-      "description": "Design and operate Twilio Studio drag-and-drop IVR and messaging flows \u2014 widgets, triggers, and the Execution REST API \u2014 without writing full call/message routing code.",
+      "description": "Design and operate Twilio Studio drag-and-drop IVR and messaging flows — widgets, triggers, and the Execution REST API — without writing full call/message routing code.",
       "author": "matrixx0070",
       "path": "skills/twilio-studio-flows/SKILL.md",
       "sha256": "40d8cad7f9f310bb441ee757e7d23810cd74acd09689a2c427623b248f25f758",
@@ -8740,7 +8748,7 @@
     {
       "name": "twilio-taskrouter-routing",
       "version": "1.0.0",
-      "description": "Design skills-based task distribution with Twilio TaskRouter \u2014 Workspaces, Workflows, TaskQueues, Workers, Activities, and reservation handling.",
+      "description": "Design skills-based task distribution with Twilio TaskRouter — Workspaces, Workflows, TaskQueues, Workers, Activities, and reservation handling.",
       "author": "matrixx0070",
       "path": "skills/twilio-taskrouter-routing/SKILL.md",
       "sha256": "7d9c7cb49627c8c42684ab89706110c1a898fbe08caaad5481f76a6e9aeca5d4",
@@ -8806,7 +8814,7 @@
     {
       "name": "twilio-voice-twiml",
       "version": "1.0.0",
-      "description": "Author TwiML to control live voice calls \u2014 speak, play audio, gather DTMF and speech, dial destinations, record, and redirect flow with action callbacks.",
+      "description": "Author TwiML to control live voice calls — speak, play audio, gather DTMF and speech, dial destinations, record, and redirect flow with action callbacks.",
       "author": "matrixx0070",
       "path": "skills/twilio-voice-twiml/SKILL.md",
       "sha256": "eeaf160ba6626ad656e8da920b8dc18ccfa9c5704ef44036123c9abe3620dce4",
@@ -8839,7 +8847,7 @@
     {
       "name": "twilio-whatsapp-manage-senders",
       "version": "1.0.0",
-      "description": "Onboard and manage Twilio WhatsApp senders \u2014 WABA linkage, phone registration, display name, quality rating, and messaging-tier limits.",
+      "description": "Onboard and manage Twilio WhatsApp senders — WABA linkage, phone registration, display name, quality rating, and messaging-tier limits.",
       "author": "matrixx0070",
       "path": "skills/twilio-whatsapp-manage-senders/SKILL.md",
       "sha256": "a1dcfa3191f3636fd0472cefdf419fb3d3976335b9cac9593b85c02f49873f24",
@@ -8888,7 +8896,7 @@
     {
       "name": "wm-client-review",
       "version": "1.0.0",
-      "description": "Prepare and structure a periodic client review meeting \u2014 agenda, discovery questions, life-change check, and follow-up actions for an advisory relationship.",
+      "description": "Prepare and structure a periodic client review meeting — agenda, discovery questions, life-change check, and follow-up actions for an advisory relationship.",
       "author": "matrixx0070",
       "path": "skills/wm-client-review/SKILL.md",
       "sha256": "e598d8d4bc1abd6bb1a9d9c3e674ff02636bdf909c7e5c72ad8d2509e02dbafa",
@@ -8905,7 +8913,7 @@
     {
       "name": "wm-financial-plan",
       "version": "1.0.0",
-      "description": "Draft the structure of a comprehensive financial plan \u2014 goals, cash flow, net worth, risk, retirement projection, and scenario stress \u2014 as advisory support.",
+      "description": "Draft the structure of a comprehensive financial plan — goals, cash flow, net worth, risk, retirement projection, and scenario stress — as advisory support.",
       "author": "matrixx0070",
       "path": "skills/wm-financial-plan/SKILL.md",
       "sha256": "0987015e1e0c53dc9b028d2903300774795bc05260da894cd14ad9f7c9becb41",
@@ -8922,7 +8930,7 @@
     {
       "name": "wm-investment-proposal",
       "version": "1.0.0",
-      "description": "Structure an investment proposal \u2014 objective, risk profile, proposed allocation, rationale, costs, and suitability notes \u2014 as advisory support for client review.",
+      "description": "Structure an investment proposal — objective, risk profile, proposed allocation, rationale, costs, and suitability notes — as advisory support for client review.",
       "author": "matrixx0070",
       "path": "skills/wm-investment-proposal/SKILL.md",
       "sha256": "3e06f1cf23a4208089130e667f2c0ef62d7c4e72811f4ed6ca77606857a2cd8a",
@@ -8939,7 +8947,7 @@
     {
       "name": "wm-portfolio-rebalance",
       "version": "1.0.0",
-      "description": "Plan a portfolio rebalance back to target weights \u2014 drift analysis, trade list, cost and tax awareness, and cash-flow-first methods \u2014 as advisory support.",
+      "description": "Plan a portfolio rebalance back to target weights — drift analysis, trade list, cost and tax awareness, and cash-flow-first methods — as advisory support.",
       "author": "matrixx0070",
       "path": "skills/wm-portfolio-rebalance/SKILL.md",
       "sha256": "9138a93a42a50ec288f7d5cca90eee4557d3a60301d8d522270a81a2cc07490a",
@@ -8956,7 +8964,7 @@
     {
       "name": "wm-tax-loss-harvesting",
       "version": "1.0.0",
-      "description": "Structure a tax-loss-harvesting review \u2014 identify loss lots, avoid wash sales, choose replacements, and quantify the benefit \u2014 as educational advisory support.",
+      "description": "Structure a tax-loss-harvesting review — identify loss lots, avoid wash sales, choose replacements, and quantify the benefit — as educational advisory support.",
       "author": "matrixx0070",
       "path": "skills/wm-tax-loss-harvesting/SKILL.md",
       "sha256": "a8e7b56502575e00c244dc950a452a0017fb298798ee040473702363fcde4f43",
